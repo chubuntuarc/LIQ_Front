@@ -1,0 +1,205 @@
+﻿Imports Microsoft.Reporting.WinForms
+
+Public Class FO_AMORTIZACION
+#Region "VARIABLES Y CONSTANTES MODULARES"
+
+
+    Public VM_NOMBRE_TABLA As String
+    Public VM_IN_MODO_OPERACION As Integer = 0
+    Public VM_ID_BASE_DE_DATOS As Integer = 0
+
+#End Region
+
+#Region "FUNCIONES_FM"
+
+    Public Function FM_SQL_LISTADO() As String
+        Dim VP_PARAMETROS As String = ""
+
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LI_BUSCAR, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_RAZON_SOCIAL_ACREDITADA, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_RAZON_SOCIAL_BENEFICIADA, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_GRUPO_CREDITO, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_ESTATUS_TABLA_AMORTIZACION, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_BANCO, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_MONEDA, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_TIEMPO_YYYY, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_TIEMPO_MES, False)
+
+        Return VP_PARAMETROS
+    End Function
+
+    Public Function FM_DESC_SELECCIONADO(ByRef PP_LISTADO As DataGridView, ByRef PP_ROW As Integer) As String
+        Dim VP_ID As String = ""
+        VP_ID = Codigo_LI.FG_LI_CELL_READ(PP_LISTADO, PP_ROW, "D_" + VM_NOMBRE_TABLA)
+        Return VP_ID
+    End Function
+
+    Public Function FM_ID_SELECCIONADO(ByRef PP_LISTADO As DataGridView, ByRef PP_ROW As Integer) As String
+        Dim VP_ID As String = ""
+        VP_ID = Codigo_LI.FG_LI_CELL_READ(PP_LISTADO, PP_ROW, "K_" + VM_NOMBRE_TABLA)
+        Return VP_ID
+    End Function
+
+#End Region
+
+#Region "SUB_PM_INIT"
+
+    Public Sub PM_FO_SHOW(ByRef PP_NOMBRE_TABLA As String, ByVal PP_ID_BASE_DE_DATOS As String)
+        VM_NOMBRE_TABLA = PP_NOMBRE_TABLA
+        VM_ID_BASE_DE_DATOS = PP_ID_BASE_DE_DATOS
+        Me.Text = "Catálogo de " + PP_NOMBRE_TABLA.Replace("_", " ")
+        Me.Show()
+    End Sub
+
+    Public Sub PM_CB_INIT()
+        Codigo_FI.PG_FI_CONTROL_DATA_SETUP(VM_ID_BASE_DE_DATOS, Me)
+        Codigo_CB.PG_CB_RAZON_SOCIAL_Load(VM_ID_BASE_DE_DATOS, Me, CB_LI_RAZON_SOCIAL_ACREDITADA, 1, New ComboBox, New ComboBox, VG_USUARIO_ACCION)
+        Codigo_CB.PG_CB_RAZON_SOCIAL_Load(VM_ID_BASE_DE_DATOS, Me, CB_LI_RAZON_SOCIAL_BENEFICIADA, 1, New ComboBox, New ComboBox, VG_USUARIO_ACCION)
+        Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS,Me, CB_LI_GRUPO_CREDITO, "GRUPO_CREDITO")
+        Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS,Me, CB_LI_ESTATUS_TABLA_AMORTIZACION, "ESTATUS_TABLA_AMORTIZACION")
+        Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS,Me, CB_LI_BANCO, "BANCO")
+        Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS,Me, CB_LI_MONEDA, "MONEDA")
+        Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS,Me, CB_LI_TIEMPO_MES, "TIEMPO_MES")
+        Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS,Me, CB_LI_TIEMPO_YYYY, "TIEMPO_YYYY")
+    End Sub
+
+    Public Sub PM_LI_INIT()
+        PM_LI_FORMAT(LI_LISTADO)
+    End Sub
+
+    Private Sub PM_FO_INIT(ByRef PP_FORMA As Object)
+        Codigo_FRM.PG_FRM_INIT(VM_ID_BASE_DE_DATOS, PP_FORMA)
+
+    End Sub
+
+#End Region
+
+#Region "SUBS_PM"
+
+
+    Private Sub PM_LI_FORMAT(ByRef PP_LI_LISTADO As DataGridView)
+        Codigo_LI.PG_LI_FORMAT_SETUP(PP_LI_LISTADO, 8, 16)
+        'PARAMETROS: NOMBRE_DATAGRIDVIEW, NOMBRE_COLUMNA, HEADER_TEXT, TIPO_DATO, 
+        '            ANCHO_CELDA, ALINEACION, SOLO_LECTURA, Visible, FROZEN,FORMATO
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "K_" + VM_NOMBRE_TABLA, "#AMR", GetType(Integer), 80, 2, 0, 1, 1, 0, Color.White, Color.Black, 1)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "D_CREDITO_BANCARIO", "Credito", GetType(String), 180, 1, 0, 1, 1, 0, Nothing, Nothing, 1)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "D_RAZON_SOCIAL_ACREDITADA", "Razón Social Acreditada", GetType(String), 150, 1, 0, 1, 0, 0, Color.DarkOrange, Nothing, 1)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "D_RAZON_SOCIAL_BENEFICIADA", "Razón Social Beneficiada", GetType(String), 150, 1, 0, 1, 0, 0, Color.DarkOrange, Nothing, 1)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "S_ESTATUS_TABLA_AMORTIZACION", "Estatus", GetType(String), 60, 2, 0, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "S_GRUPO_CREDITO", "Grupo", GetType(String), 60, 2, 0, 1, 0, 0)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "S_BANCO", "Banco", GetType(String), 50, 2, 0, 1, 0, 0)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "S_MONEDA", "Moneda", GetType(String), 50, 2, 0, 1, 0, 0)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "N_PERIODO", "Periodo", GetType(Integer), 60, 2, 0, 1, 0, 0)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "F_PERIODO_INICIO", "Inicio de Periodo", GetType(Date), 80, 2, 0, 1, 0, 0)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "F_PERIODO_FIN", "Fin de Periodo", GetType(Date), 80, 2, 0, 1, 0, 0)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "N_DIAS_PERIODO", "Dias X Periodo", GetType(Integer), 60, 2, 0, 1, 0, 0)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "SALDO_INICIAL", "Saldo Inicial", GetType(Decimal), 100, 3, 0, 1, 0, 2)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "INTERESES_GENERADOS", "Intereses", GetType(Decimal), 80, 3, 0, 1, 0, 2)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "COMISIONES_BANCO", "Comisiones", GetType(Decimal), 80, 3, 0, 1, 0, 2)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "AMORTIZACION_PERIODO", "Amortización", GetType(Decimal), 80, 3, 0, 1, 0, 2)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "SALDO_ACTUALIZADO", "Saldo Actualizado", GetType(Decimal), 80, 3, 0, 1, 0, 2)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "PAGO_INTERESES", "Pago Intereses", GetType(Decimal), 80, 3, 0, 1, 0, 2)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "PAGO_COMISIONES", "Pago Comisiones", GetType(Decimal), 80, 3, 0, 1, 0, 2)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "PAGO_AMORTIZACION", "Pago Amortización", GetType(Decimal), 80, 3, 0, 1, 0, 2)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "PAGO_TOTAL", "Pago Total", GetType(Decimal), 80, 3, 0, 1, 0, 2)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "SALDO_FINAL", "Saldo Final", GetType(Decimal), 80, 3, 0, 1, 0, 2)
+        Codigo_FRM.PG_FRM_LI_FORMAT_CONTROL_LOAD(PP_LI_LISTADO, 100, 2, 0, 0, 0, 0)
+
+    End Sub
+
+    Public Sub PM_LI_ROW_WRITE(ByRef PP_LISTADO As DataGridView, ByRef PP_ROW_DATA As DataRow)
+        Dim VP_ROW As Integer
+        Dim VP_COLUMNA As Integer = 0
+
+        VP_ROW = Codigo_LI.FG_LI_MAX_ROW(PP_LISTADO)
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "K_" + VM_NOMBRE_TABLA)
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "D_CREDITO_BANCARIO")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "D_RAZON_SOCIAL_ACREDITADA")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "D_RAZON_SOCIAL_BENEFICIADA")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "S_ESTATUS_TABLA_AMORTIZACION")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "S_GRUPO_CREDITO")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "S_BANCO")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "S_MONEDA")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "N_PERIODO")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL_FECHA(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "F_PERIODO_INICIO")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL_FECHA(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "F_PERIODO_FIN")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "N_DIAS_PERIODO")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "SALDO_INICIAL")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "INTERESES_GENERADOS")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "COMISIONES_BANCO")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "AMORTIZACION_PERIODO")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "SALDO_ACTUALIZADO")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "PAGO_INTERESES")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "PAGO_COMISIONES")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "PAGO_AMORTIZACION")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "PAGO_TOTAL")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "SALDO_FINAL")
+        Codigo_FRM.PG_FRM_LI_DATA_CONTROL_LOAD(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA)
+
+    End Sub
+
+    Public Sub PM_BT_BUSCAR_CLICK(ByRef PP_FORMA As Object, ByVal PP_LISTADO As DataGridView)
+        Codigo_ABC.PG_BT_BUSCAR_CLICK(VM_ID_BASE_DE_DATOS, PP_FORMA, PP_LISTADO)
+    End Sub
+
+    Private Sub PM_BT_SALIR_CLICK(ByRef PP_FORMA As Object)
+        Codigo_ABC.PG_BT_SALIR_CLICK(PP_FORMA)
+    End Sub
+
+    Private Sub PM_BT_EXPORTAR_EXCEL_CLICK(ByRef PP_LISTADO As DataGridView)
+        Codigo_ABC.PG_BT_EXPORTAR_EXCEL_CLICK(PP_LISTADO)
+    End Sub
+
+    Private Sub PM_TI_TICK(ByRef PP_LABEL As Label)
+        Codigo_FRM.PG_TI_TICK(PP_LABEL)
+    End Sub
+
+    Public Sub PM_MODO_AUXILIAR()
+
+    End Sub
+
+    Private Sub PM_ABRIR_SOLICITUD(ByRef PP_LISTADO As DataGridView)
+        Dim VP_ID_ROW As Integer = 0
+        VP_ID_ROW = Codigo_LI.FG_LI_ROW_CURRENT(PP_LISTADO)
+
+        Dim VP_ID As Integer = 0
+        VP_ID = FM_ID_SELECCIONADO(PP_LISTADO, VP_ID_ROW)
+        'Dim VP_PARAMETROS As String = ""
+        'Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_ID, False)
+        'Codigo_CON.PG_SQL_PARAMETROS_CONTROL(VP_PARAMETROS)
+        ''Dim VP_DATASET As New DataSet()
+        'VP_DATASET.Tables.Add(Codigo_CON.FG_SP_EXECUTE_DATATABLE(VG_ID_DB, "[dbo].[PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS]", VP_PARAMETROS))
+        'Dim rds As New DataTable
+        'rds = VP_DATASET.Tables(0)
+        Dim VP_VISULIZADOR As New FO_REPORTE_VISUALIZER(VP_ID)
+        VP_VISULIZADOR.Show() '.PM_FO_SHOW("CREDITO_BANCARIO_AMORTIZACION", VG_ID_DB, VP_ID)
+    End Sub
+
+
+
+#End Region
+
+#Region "EVENTOS"
+
+    Private Sub BT_SALIR_Click(sender As Object, e As EventArgs) Handles BT_SALIR.Click
+        PM_BT_SALIR_CLICK(Me)
+    End Sub
+
+    Private Sub BT_LI_BUSCAR_Click(sender As Object, e As EventArgs) Handles BT_LI_BUSCAR.Click
+        PM_BT_BUSCAR_CLICK(Me, LI_LISTADO)
+    End Sub
+    Private Sub FO_AMORTIZACION_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        PM_FO_INIT(Me)
+    End Sub
+
+    Private Sub BT_SOLICITUD_Click(sender As Object, e As EventArgs) Handles BT_SOLICITUD.Click
+        PM_ABRIR_SOLICITUD(LI_LISTADO)
+    End Sub
+
+    Private Sub BT_EXPORTAR_EXCEL_Click(sender As Object, e As EventArgs) Handles BT_EXPORTAR_EXCEL.Click
+        PM_BT_EXPORTAR_EXCEL_CLICK(LI_LISTADO)
+    End Sub
+
+#End Region
+
+End Class

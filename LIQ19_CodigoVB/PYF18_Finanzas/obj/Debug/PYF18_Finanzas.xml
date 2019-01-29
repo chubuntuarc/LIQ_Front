@@ -1,0 +1,832 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PYF18_Finanzas
+</name>
+</assembly>
+<members>
+<member name="T:PYF18_Finanzas.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.addconc_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.adn_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.agregar_todos_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.agregar_todos_opt1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.agregar_uno_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.AMORTIZACIONES_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.ayer_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.BARCO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.calculopresupesto_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.CANDADO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.check_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.cilindros">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.delconc_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.HOMEISSAC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.hoy_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.images">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.isaac21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.listado">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.LOGINDATA">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.logo_transparente">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.marcmov_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.php3AiLuq_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.php4wrREz_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.php4x8pye_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phpAY4uRL_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phpGBF3Nw_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phphcV2Qt_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phplKlxVt_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phpOoaeGl_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phpRpBI6a_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phprXCMe7_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phpT5WEEo_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phpu9QpvR_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phpw0LqMn_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phpwk4k6N_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.phpZDtfC9_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.pipa_corta">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.prec">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.procesar_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.PROGMPRES_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.programar_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.refineria2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.reprocesar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_1add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_accept">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_autorizar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_export">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_quitar_todos">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_quitar_uno">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_reproceso">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.rsz_subir_datos">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.SENDPDF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.SOLICITD_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.SOLICITUD">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.SOLICITUD1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PYF18_Finanzas.My.Resources.Resources.TRASPASO_opt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_CTRL.PG_CO_DATA_LOAD_GENERICO(System.String,System.Windows.Forms.Control@,System.Data.DataRow,System.String)">
+ <summary>
+ Si PP_NOMBRE_TABLA viene vacio, tomara el nombre del control, de lo contrario lo construira con el PP_NOMBRE_TABLA 
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_CTRL.PG_CO_DATA_LOAD(System.String,System.Windows.Forms.Control@,System.Data.DataRow,System.String)">
+ <summary>
+ Si PP_NOMBRE_TABLA viene vacio, tomara el nombre del control, de lo contrario lo construira con el PP_NOMBRE_TABLA 
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_CTRL.PG_CO_DATA_LOAD_CURRENCY(System.String,System.Windows.Forms.Control@,System.Data.DataRow,System.String)">
+ <summary>
+ Si PP_NOMBRE_TABLA viene vacio, tomara el nombre del control, de lo contrario lo construira con el PP_NOMBRE_TABLA 
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_CTRL.PG_CO_DATA_LOAD(System.String,System.String@,System.Data.DataRow,System.String)">
+ <summary>
+ PARA SACAR EL DATO Y PONERLO EN UN STRING 
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_CELL_VALIDATE(System.Windows.Forms.DataGridViewCell)">
+ <summary>
+ 
+ </summary>
+ <param name="VP_CELL">Represena la celda del grid a evaluar del grid</param>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_ROW_POST_PAINT(System.Object,System.Windows.Forms.DataGridViewRowPostPaintEventArgs)">
+ <summary>
+ PROCEDIMIENTO PARA PONERLE EL INDICE AL ROW
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_ROW_COLOR_CHANGE(System.Windows.Forms.DataGridView@,System.Int32@,System.Drawing.Color)">
+ <summary>
+ cambia el color de fondo del row
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_ROW_VISIBLE(System.Windows.Forms.DataGridView@,System.String,System.Int32@)">
+ <summary>
+ recibe un data grid mas el indice de row y columna 
+ el indice de row para saber que row se pondra como visible 
+ el indice de columna es para verificar su valor, si es 1, el row sera visible
+ si es 0, el row será invisible 
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_ROW_EDIT(System.Windows.Forms.DataGridView@,System.String,System.Int32@)">
+ <summary>
+ verifica si el row en la columna especificada tiene un 1. si es asi, la el row será editable
+ si tiene un 0, el row sera readonly
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_ROW_EDIT(System.Windows.Forms.DataGridView@,System.Int32@,System.Boolean)">
+ <summary>
+ permite o evita la edicion de un row en la grilla
+ </summary>
+ <param name="PP_LISTADO"></param>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_CELL_MOD_WRITE(System.Windows.Forms.DataGridView@,System.Int32,System.Int32)">
+ <summary>
+ 'coloca un 1 a la ultima columna para indicar que ese row se modifico
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_CELL_MOD_COLOR(System.Windows.Forms.DataGridView@,System.Int32,System.Int32)">
+ <summary>
+ le aplica color dorado a la celda
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_CELL_ZERO_FILL(System.Windows.Forms.DataGridView@,System.Int32)">
+ <summary>
+ 'llena la ultima columna con ceros
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_CELL_COLOR_CHANGE(System.Windows.Forms.DataGridView@,System.Int32,System.Int32,System.Drawing.Color)">
+ <summary>
+ 'cambia el color de fondo de la celda
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_COLUMN_FONT_COLOR_CHANGE(System.Windows.Forms.DataGridView@,System.String,System.Drawing.Color)">
+ <summary>
+ 'Cambia el color de la fuente de la columna
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_COLUMN_COLOR_CHANGE(System.Windows.Forms.DataGridView@,System.String,System.Drawing.Color)">
+ <summary>
+ 'cambia el color de fondo de la columna
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.PG_LI_COLUMN_HEAD_CHANGE(System.Windows.Forms.DataGridView@,System.String,System.String)">
+ <summary>
+ 'cambia el titulo de la columna
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_LI.FG_LI_CELL_READ(System.Data.DataTable,System.Int32,System.String)">
+ <summary>
+ Recibe un DataTable, indice de row y el nombre de la columna para retornar el valor contenido
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.Codigo_Message.FG_MENSAJE_DECISION(System.String)">
+ <summary>
+ yes = 1, no= 2, cancel= 3
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.ExtensionMethods.FG_STRING_FORMAT(System.String,System.Int32)">
+ <summary>
+ 1 CONVIERTE LA PRIMERA LETRA DE CADA PALABRA A MAYUSCULA EJ. "el carro verde"--->"El Carro Verde"
+ 2 CONVIERTE TODO A MAYUSCULAS EJ. "CarRo" ---> "CARRO"
+ 3 CONVIERTE TODO A MINUSCULAS EJ "CArRo"--->"carro"
+ 4 CONVIERTE EN TIPO ORACION  EJ. "el carro verde"--->"El carro verde"
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PUNTO_VENTA.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CUENTA_CONTABLE_UO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CUENTA_CONTABLE.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_FACTURAS_GASTO_VIAJE.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_FACTURA_GASTO_VIAJE_CAPTURA_XML.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_GASTO_VIAJE.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_GASTO_VIAJE_CAPTURA.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PRESUPUESTO_VIAJE.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PROVEEDOR_VIATICO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_RECURSO_VIAJE.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_VIAJE.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="T:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCA">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCA.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESASDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCA.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESASRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCA.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESASRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCATableAdapters.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESASTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.UpdateUpdatedRows(PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCA,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.UpdateInsertedRows(PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCA,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.UpdateDeletedRows(PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCA,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.UpdateAll(PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCA)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PYF18_Finanzas.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_ASISTENTE_CEMEC.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_DATA_N1_X_DI_D0M4_CEMEC.PM_LI_FORMAT(System.Windows.Forms.DataGridView@)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_ASISTENTE_POB.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PERFORMANCE_N3_X_ME.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_ALMACEN.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_AUTORIZACION.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_BANCO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CLASIFICACION_GASTO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CUENTA_BANCO_UO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CUENTA_BANCO_UO_AS.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CUENTA.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_DATA_ACCESO_UO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_ROL_ASIGNACION.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_ZONA.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PROVEEDOR.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_ACTA_INGRESOS.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_FACTURA_CXP.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_FACTURA_CXP_XML.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_INSTRUCCIONES.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_LIBRO_INGRESOS.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_MOVIMIENTO_BANCO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PROGRAMACION_PRESUPUESTO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_TRASPASOS.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_DATA_N1_X_DI_D0M4_FLUP.PM_LI_FORMAT(System.Windows.Forms.DataGridView@)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_DOCUMENTO_D0M4_PRESUPUESTO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_DOCUMENTO_D0M4_TRACKING_X_MES.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_ESTIMACION.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PARAMETRO_DOCUMENTO_D0M4.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_DOCUMENTO_D0M4.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PARAMETRO_SUCURSAL.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PARAMETRO_SUCURSAL_D0M4.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PERFORMANCE_N3_XX_ME.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PERFORMANCE_N3_X_TEMP.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PRECIO_COSTO_PERFIL.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_RAZON_SOCIAL.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_GENERICO_T1.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_FLUJO_FIRMA_X_K_USUARIO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_REGISTRO_DACTILAR.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_MONITOREO_AUTORIZACION_FIRMA.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_PERSONAL_ACCESO_ORGANIZACION.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CONTROL_ANUAL.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CONTROL_ANUAL_RAZON_SOCIAL.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CONTROL_ANUAL_UNIDAD_OPERATIVA.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CREDITO_BANCO_AMORTIZACION.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CREDITO_BANCO_ESTADO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CREDITO_BANCO_ESTADO_CUENTA.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_CREDITO_BANCO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.UC_PARAMETRO_POB.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.UC_DOCUMENTO_D0M4_PRESUPUESTO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.UC_DOCUMENTO_D0M4.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.UC_PARAMETRO_DOCUMENTO_D0M4.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.UC_PRECIO_COSTO_PERFIL.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:PYF18_Finanzas.FO_UNIDAD_OPERATIVA.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+</members>
+</doc>

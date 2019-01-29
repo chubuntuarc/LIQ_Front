@@ -1,0 +1,830 @@
+------------------------------------------------------------------------------------------------------------
+---------------------------- Bitácora del Sistema [I S A A C] Versión [0.0.1.6] ----------------------------
+---------------------------------- Creado: viernes, 14 de diciembre de 2018 ----------------------------------
+------------------------------------------------------------------------------------------------------------
+
+
+-- ======================================================================================================= -
+-- 14/12/2018 10:34:48 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 14/12/2018 10:34:49 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 14/12/2018 11:34:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 14/12/2018 11:35:05 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 14/12/2018 11:36:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 17/12/2018 09:30:27 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS]
+(c) Parámetros: 0,0,300,  4645 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:08:18 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:08:23 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:08:24 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA_BANCO_UO_AS' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:11:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:13:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA_BANCO_UO_AS' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:14:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:16:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:20:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:20:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:20:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:20:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:20:59 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:22:28 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:23:36 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:23:53 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:23:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:24:08 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 01:34:56 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se pudo llevar a cabo la resolución de sobrecarga porque no se puede llamar a Public '<>' con estos argumentos: 
+    'Public Shared Operator <>(a As String, b As String) As Boolean':
+        El parámetro 'a' correspondiente al argumento no se puede convertir de 'FO_CUENTA' en 'String'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 18/12/2018 04:48:08 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO_CUENTA_BANCO]
+(c) Parámetros: 0,0,300
+(d) Error : Procedure or function 'PG_IN_CUENTA_BANCO_UO_CUENTA_BANCO' expects parameter '@PP_K_CUENTA_BANCO', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 19/12/2018 01:50:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_SK_CUENTA_BANCO_UO_CUENTA_BANCO]
+(c) Parámetros: 0,0,300,  1 , 1275 
+(d) Error : Could not find stored procedure 'dbo.PG_SK_CUENTA_BANCO_UO_CUENTA_BANCO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 19/12/2018 08:46:06 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO]
+(c) Parámetros: 0,0,300,  1 , 3 , 124 , 1 
+(d) Error : Procedure or function PG_RN_CUENTA_BANCO_UO_EXISTE has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 19/12/2018 08:46:06 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Relacionar] la cuenta de banco con la Planta: 
+La relación ya existe //REL// //INS// ( [#CB.124] )
+
+-- ======================================================================================================= -
+-- 19/12/2018 08:46:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Relacionar] la cuenta de banco con la Planta: 
+La relación ya existe //REL// //INS// ( [#CB.124] )
+
+-- ======================================================================================================= -
+-- 19/12/2018 08:50:16 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO]
+(c) Parámetros: 0,0,300,  1 , 1 , 120 , 1 
+(d) Error : Procedure or function PG_RN_CUENTA_BANCO_UO_EXISTE has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 19/12/2018 08:53:50 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_CUENTA_BANCO_UO]
+(c) Parámetros: 0,0,300,  '' , -1 , -1 , -1 , -1 , -1 , -1 
+(d) Error : Procedure or function 'PG_LI_CUENTA_BANCO_UO' expects parameter '@PP_K_ESTATUS_CUENTA_BANCO', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 19/12/2018 08:55:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_CUENTA_BANCO_UO]
+(c) Parámetros: 0,0,300,  '' , -1 , -1 , -1 , -1 , -1 , -1 
+(d) Error : Procedure or function 'PG_LI_CUENTA_BANCO_UO' expects parameter '@PP_K_ESTATUS_CUENTA_BANCO', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 19/12/2018 08:57:59 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 19/12/2018 09:53:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione un elemento para eliminarlo
+
+-- ======================================================================================================= -
+-- 19/12/2018 10:17:22 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 19/12/2018 10:20:25 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 19/12/2018 10:40:30 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 19/12/2018 11:04:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione un elemento para eliminarlo
+
+-- ======================================================================================================= -
+-- 19/12/2018 11:58:55 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_SK_CUENTA_BANCO_UO]
+(c) Parámetros: 0,0,300, 13
+(d) Error : Procedure or function 'PG_SK_CUENTA_BANCO_UO' expects parameter '@PP_K_CUENTA_BANCO', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 19/12/2018 12:06:10 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : No se encuentra el miembro público 'FM_SAVE_VALIDATE' en el tipo 'FO_CUENTA_BANCO_UO'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 19/12/2018 12:27:05 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Relacionar] la cuenta de banco con la Planta: 
+La relación ya existe //REL// //INS// ( [#CB.41] )
+
+-- ======================================================================================================= -
+-- 19/12/2018 12:30:12 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_ELIMINAR_CLICK
+(b) Error : No se encuentra el miembro público 'FM_DESC_SELECCIONADO' en el tipo 'FO_CUENTA_BANCO_UO'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 19/12/2018 12:37:38 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_ELIMINAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 19/12/2018 12:40:53 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Favor de <Seleccionar> un registro.
+
+-- ======================================================================================================= -
+-- 19/12/2018 12:40:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Favor de <Seleccionar> un registro.
+
+-- ======================================================================================================= -
+-- 19/12/2018 01:52:22 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_ASISTENTE_POB' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 19/12/2018 02:04:40 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: El botón BT_XXXX no existe
+
+-- ======================================================================================================= -
+-- 19/12/2018 02:07:21 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: El botón BT_XXXX no existe
+
+-- ======================================================================================================= -
+-- 19/12/2018 02:07:23 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: El botón GB_GRAFICA no existe
+
+-- ======================================================================================================= -
+-- 19/12/2018 04:16:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: El control BT_XXXX no existe
+
+-- ======================================================================================================= -
+-- 19/12/2018 04:52:41 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: El control BT_XXXX no existe
+
+-- ======================================================================================================= -
+-- 19/12/2018 04:52:43 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: El control GB_GRAFICA no existe
+
+-- ======================================================================================================= -
+-- 19/12/2018 04:53:33 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: El control BT_XXXX no existe
+
+-- ======================================================================================================= -
+-- 19/12/2018 04:53:34 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: El control GB_GRAFICA no existe
+
+-- ======================================================================================================= -
+-- 20/12/2018 08:32:09 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300
+(d) Error : El procedimiento o la función 'PG_LI_PERMISO_MENU_X_K_USUARIO' esperaba el parámetro '@PP_D_MENU', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 20/12/2018 08:32:53 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300, ,''
+(d) Error : Sintaxis incorrecta cerca de ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:40:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:40:59 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Acta de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:02 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Libro de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Conciliación de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Movimientos Banco, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:04 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Traspasos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:04 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gestión de Tesorería, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:05 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Instrucciones, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:06 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:06 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:11 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:12 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedores, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:12 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Cuentas por Pagar, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:13 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas XML, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:13 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Antigüedad de Saldos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Solicitud de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Presupuesto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Captura de Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedor Viático, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Recurso Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:16 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Cuentas Contables, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:16 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:16 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:17 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:41:17 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:46 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Acta de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:47 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Libro de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:48 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Conciliación de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:48 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Movimientos Banco, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:49 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Traspasos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:49 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gestión de Tesorería, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:50 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Instrucciones, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:50 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:51 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:51 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:52 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:52 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedores, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:53 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Cuentas por Pagar, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:53 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas XML, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:54 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Antigüedad de Saldos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:54 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:55 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Solicitud de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:55 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Presupuesto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:56 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:56 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Captura de Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:57 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:57 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedor Viático, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Recurso Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:59 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Cuentas Contables, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:42:59 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:05 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:06 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:06 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Acta de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Libro de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Conciliación de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Movimientos Banco, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:08 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Traspasos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:08 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gestión de Tesorería, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:09 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Instrucciones, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:09 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:10 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:10 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:10 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:11 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedores, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:11 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Cuentas por Pagar, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:12 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas XML, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:12 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Antigüedad de Saldos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:13 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:13 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Solicitud de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Presupuesto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Captura de Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:16 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:16 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedor Viático, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:17 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Recurso Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:17 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Cuentas Contables, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:18 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:19 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:20 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:20 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Acta de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Libro de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:22 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Conciliación de Ingresos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:22 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Movimientos Banco, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:23 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Traspasos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:23 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gestión de Tesorería, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:23 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Instrucciones, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:24 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:24 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:24 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:25 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:25 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedores, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:26 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Cuentas por Pagar, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:26 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas XML, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:27 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Antigüedad de Saldos, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:27 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:27 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Solicitud de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:28 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Presupuesto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:28 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:29 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Captura de Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:29 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:30 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:30 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedor Viático, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:31 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Recurso Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 10:43:31 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Cuentas Contables, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 20/12/2018 11:29:54 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Error de conversión al convertir el valor varchar 'VP_MENU_FLUJO' al tipo de datos int.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 20/12/2018 11:33:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 21/12/2018 09:28:56 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 21/12/2018 09:38:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: El control BT_AGREGAR no existe
+
+-- ======================================================================================================= -
+-- 21/12/2018 09:38:26 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: El control BT_EDITAR no existe
+
+-- ======================================================================================================= -
+-- 21/12/2018 09:38:27 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: El control BT_ELIMINAR no existe
+
+-- ======================================================================================================= -
+-- 21/12/2018 09:39:20 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 22/12/2018 08:55:36 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 22/12/2018 09:01:25 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 22/12/2018 09:05:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 22/12/2018 09:08:17 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 22/12/2018 09:19:09 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 22/12/2018 09:29:52 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 22/12/2018 11:49:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 22/12/2018 11:52:20 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 22/12/2018 12:29:13 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 22/12/2018 12:29:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] la [Razón Social]: Ya existen [Razones Sociales] con ese [RFC(N/D)]. //UNI// ( [#RZS.0] )

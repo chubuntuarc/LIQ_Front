@@ -1,0 +1,15 @@
+------------------------------------------------------------------------------------------------------------
+---------------------------- Bitácora del Sistema [I S A A C] Versión [0.0.1.5] ----------------------------
+---------------------------------- Creado: jueves, 13 de diciembre de 2018 ----------------------------------
+------------------------------------------------------------------------------------------------------------
+
+
+-- ======================================================================================================= -
+-- 13/12/2018 12:03:55 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS]
+(c) Parámetros: 0,0,300,  4643 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS'.
+
+¿Desea Reejecutar la Operación?

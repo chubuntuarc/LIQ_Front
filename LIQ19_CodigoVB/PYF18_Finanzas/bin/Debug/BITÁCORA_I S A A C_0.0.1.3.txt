@@ -1,0 +1,2049 @@
+------------------------------------------------------------------------------------------------------------
+---------------------------- Bitácora del Sistema [I S A A C] Versión [0.0.1.3] ----------------------------
+---------------------------------- Creado: lunes, 19 de noviembre de 2018 ----------------------------------
+------------------------------------------------------------------------------------------------------------
+
+
+-- ======================================================================================================= -
+-- 19/11/2018 11:56:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_DL_CUENTA_BANCO]
+(c) Parámetros: 0,0,300, 1271
+(d) Error : El procedimiento o la función 'PG_RN_CUENTA_BANCO_ACTIVA' esperaba el parámetro '@PP_K_CUENTA_BANCO', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 19/11/2018 11:56:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 19/11/2018 11:56:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_ELIMINAR_CLICK
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 19/11/2018 11:57:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_DL_CUENTA_BANCO]
+(c) Parámetros: 0,0,300, 903
+(d) Error : El procedimiento o la función 'PG_RN_CUENTA_BANCO_ACTIVA' esperaba el parámetro '@PP_K_CUENTA_BANCO', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 19/11/2018 11:57:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 19/11/2018 11:57:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_ELIMINAR_CLICK
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 19/11/2018 01:50:06 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Se ha enviado el correo exitosamente.
+
+-- ======================================================================================================= -
+-- 19/11/2018 01:51:47 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Se ha enviado el correo exitosamente.
+
+-- ======================================================================================================= -
+-- 19/11/2018 01:57:16 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Se ha enviado el correo exitosamente.
+
+-- ======================================================================================================= -
+-- 19/11/2018 01:59:38 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Se ha enviado el correo exitosamente.
+
+-- ======================================================================================================= -
+-- 20/11/2018 12:27:07 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PRESUPUESTO_GENERAR]
+(c) Parámetros: 0,0,300,  1 
+(d) Error : El procedimiento o la función 'PG_PR_PRESUPUESTO_GENERAR' esperaba el parámetro '@PP_K_MM', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 20/11/2018 12:27:07 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:29:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible completar la operación, seleccione un año y temporada válidos
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:30:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: LISTO
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:34:10 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:34:14 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: LISTO
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:34:30 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: 
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:38:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PLAN_PRESUPUESTO_X_UNO]
+(c) Parámetros: 0,0,300,  68 , 2018 , 1 
+(d) Error : Instrucción DELETE en conflicto con la restricción REFERENCE 'FK_PARTIDA_PLAN_PRESUPUESTO_01'. El conflicto ha aparecido en la base de datos 'PYF18_Finanzas_V0038_R0', tabla 'dbo.PARTIDA_PLAN_PRESUPUESTO', column 'K_PLAN_PRESUPUESTO'.
+Se terminó la instrucción.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:38:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:38:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: LISTO
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:56:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:56:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione una Zona, Razón Social o Unidad Operativa validos
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:57:09 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:57:30 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:57:36 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:57:43 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:57:50 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:57:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:58:26 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 20/11/2018 01:58:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 20/11/2018 04:48:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PM_LI_SAVE
+(b) Error : No se pudo encontrar la columna denominada D_CALCULO_PARTIDA_PRESUPUESTO.
+Nombre del parámetro: columnName
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 20/11/2018 05:05:00 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] la [Rubro/Presupuesto]: Este renglón no es editable. ( [#RUB.80] )
+
+-- ======================================================================================================= -
+-- 21/11/2018 05:28:24 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 21/11/2018 05:38:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 21/11/2018 06:14:12 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 21/11/2018 06:14:15 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 21/11/2018 06:16:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [TRASPASO]: El Monto a Aplicar[22000.0000] es mayor al Remanente del presupuesto[20300.2200] para:
+ - [UNO#15]
+ - Año 2018
+ - Mes 1. ( [#Li.31804104] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 09:04:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [TRASPASO]: El rubro para el [TRASPASO] no es correcto. ( [#Li.31804105] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 09:10:20 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [TRASPASO]: El <Rubro> no es válido (seleccionó una etiqueta). ( [#Li.31804105] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 09:13:11 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [TRASPASO]: El <Rubro> no es válido (seleccionó una etiqueta). ( [#Li.31804106] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 10:40:46 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible completar la operación, seleccione un año y temporada válidos
+
+-- ======================================================================================================= -
+-- 23/11/2018 10:40:54 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 23/11/2018 11:30:51 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Favor de <Seleccionar> un registro.
+
+-- ======================================================================================================= -
+-- 23/11/2018 11:31:26 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar[40000.0000] es mayor al Remanente del presupuesto[34190.6300] para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1. ( [#TRA.31804106] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 11:34:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar[40000.0000] es mayor al Remanente del presupuesto[34190.6300] para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1. ( [#TRA.31804106] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 11:35:08 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar[40000.00] es mayor al Remanente del presupuesto[34190.6300] para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1. ( [#TRA.31804106] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 11:37:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar ($40000.00) es mayor al Remanente del presupuesto ($34190.63) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1. ( [#TRA.31804106] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 11:38:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar ($40000.00) es mayor al presupuesto disponible ($34190.63) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804106] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 11:40:09 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar ($34191.00) es mayor al presupuesto disponible ($34190.63) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804106] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 11:47:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar ($10000.00) es mayor al presupuesto disponible ($9042.77) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804107] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 11:48:36 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar ($10000.00) es mayor al presupuesto disponible ($9042.77) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804107] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 11:49:23 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Traspaso]: El Monto a Aplicar ($9043.77) es mayor al presupuesto disponible ($9042.77) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804107] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:10:29 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Se requiere un valor numérico mayor a cero en [TB_MONTO_APLICAR]
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:10:42 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Se requiere un valor numérico mayor a cero en [TB_MONTO_APLICAR]
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:10:47 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Se requiere un valor numérico mayor a cero en [TB_MONTO_APLICAR]
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:10:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Se requiere un valor numérico mayor a cero en [TB_MONTO_APLICAR]
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:39:27 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Traspaso]: El Monto a Aplicar ($89800.00) es mayor al presupuesto disponible ($89248.97) para:
+ - [UNO#7]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804103] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:39:31 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Traspaso]: El Monto a Aplicar ($89800.00) es mayor al presupuesto disponible ($89248.97) para:
+ - [UNO#7]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804103] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:40:12 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Traspaso]: El Monto a Aplicar ($89900.00) es mayor al presupuesto disponible ($89248.97) para:
+ - [UNO#7]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804103] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:40:59 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Traspaso]: El Monto a Aplicar ($89900.00) es mayor al presupuesto disponible ($89248.97) para:
+ - [UNO#7]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804103] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:50:23 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar ($10000.00) es mayor al presupuesto disponible ($951.46) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804109] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:51:04 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar ($10000.00) es mayor al presupuesto disponible ($951.46) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804109] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:52:43 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar ($10000.00) es mayor al presupuesto disponible ($951.46) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804109] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 12:58:16 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Traspaso]: El Monto a Aplicar ($9000.00) es mayor al presupuesto disponible ($951.46) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804109] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 01:01:59 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Traspaso]: El Monto a Aplicar ($9000.00) es mayor al presupuesto disponible ($951.46) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804109] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 01:10:32 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Traspaso]: El Monto a Aplicar ($200000.00) es mayor al presupuesto disponible ($951.46) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804109] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 01:21:17 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar ($14912.54) es mayor al presupuesto disponible ($7240.71) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804110] )
+
+-- ======================================================================================================= -
+-- 23/11/2018 05:20:34 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El Monto a Aplicar ($1500.00) es mayor al presupuesto disponible ($0.00) para:
+ - [UNO#12]
+ - Año 2018
+ - Mes 1.
+ ( [#TRA.31804111] )
+
+-- ======================================================================================================= -
+-- 24/11/2018 09:23:54 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Traspaso]: El <Traspaso> no se puede editar por ser de tipo <Extraordinario>  //UPD// ( [#TRA.31804113] )
+
+-- ======================================================================================================= -
+-- 24/11/2018 09:34:32 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Traspaso]: El tipo <Extraordinario>  no permite ediciones. //UPD// ( [#TRA.31804111] )
+
+-- ======================================================================================================= -
+-- 24/11/2018 10:06:05 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Crear] el [Traspaso]: El <Traspaso> del tipo <Extraordinario> requiere una justificación, favor de ingresarla en el campo de [Comentarios] del Traspaso. ( [#TRA.31804114] )
+
+-- ======================================================================================================= -
+-- 24/11/2018 10:38:56 a. m.  -Usuario: CHI > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_FLUJO_FIRMA_X_K_USUARIO]
+(c) Parámetros: 0,0,301,  1 , 1 
+(d) Error : El procedimiento o la función 'PG_LI_FLUJO_FIRMA_X_K_USUARIO' esperaba el parámetro '@PP_K_ESTATUS_FIRMA', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 24/11/2018 10:39:03 a. m.  -Usuario: CHI > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_FLUJO_FIRMA_X_K_USUARIO]
+(c) Parámetros: 0,0,301,  1 , 1 
+(d) Error : El procedimiento o la función 'PG_LI_FLUJO_FIRMA_X_K_USUARIO' esperaba el parámetro '@PP_K_ESTATUS_FIRMA', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 24/11/2018 11:48:05 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_AUTORIZACION_FIRMA]
+(c) Parámetros: 0,0,300,  '' , -1 , -1 , -1 , -1 , -1 , -1 , NULL , NULL , 0 
+(d) Error : Conflicto de tipos de operandos: int es incompatible con date
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 24/11/2018 11:54:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_AUTORIZACION_FIRMA]
+(c) Parámetros: 0,0,300,  '' , -1 , -1 , -1 , -1 , -1 , -1 , NULL , NULL , 0 
+(d) Error : Conflicto de tipos de operandos: int es incompatible con date
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/11/2018 8:50:16  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 26/11/2018 8:50:17  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 26/11/2018 8:50:17  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SQL_EJECUTAR_ACCION
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 26/11/2018 09:56:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_RP_001_ANTIGUEDAD_SALDOS]
+(c) Parámetros: 0,0,300,  2 , '' , -1 , -1 , 2018-11-19 , 2018-11-26 , NULL 
+(d) Error : Sintaxis incorrecta cerca de '-'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/11/2018 01:57:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 26/11/2018 01:57:05 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 26/11/2018 01:58:44 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_BITACORA_WRITE
+(b) Stored Procedure: 
+(c) Parámetros: EXECUTE PG_OP_CREDITO_AMORTIZACION_SIMULACION 0,0,300,  92 , '2' , '15663329.9200' , '10.5' , '60' , '2018-05-24' 
+(d) Error : Error al convertir el tipo de datos varchar a int.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/11/2018 01:58:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_OP_CREDITO_AMORTIZACION_SIMULACION
+(c) Parámetros: 0,0,300,  92 , '2' , '15663329.9200' , '10.5' , '60' , '2018-05-24' 
+(d) Error : Error al convertir el tipo de datos varchar a int.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/11/2018 01:58:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 26/11/2018 01:58:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 26/11/2018 02:02:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] la [TablaAmortización]: El [Estatus#3-PAGADO] de la [Amortización #4538] no lo permite. //UPD// ( [#Am.4538] )
+
+-- ======================================================================================================= -
+-- 26/11/2018 04:41:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : No se encontró el procedimiento almacenado 'EXECUTEPG_RN_FLUJO_FIRMA_PENDIENTES_AUTORIZAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/11/2018 05:12:05 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Usuario y/o contraseña invalidos. Por favor verifique.
+
+-- ======================================================================================================= -
+-- 26/11/2018 05:20:48 p. m.  -Usuario: A.DELAROSA  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_RN_FLUJO_FIRMA_PENDIENTES_AUTORIZAR
+(c) Parámetros: 0,0,177
+(d) Error : No se encontró el procedimiento almacenado 'PG_RN_FLUJO_FIRMA_PENDIENTES_AUTORIZAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/11/2018 05:30:12 p. m.  -Usuario: A.DELAROSA  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_RN_FLUJO_FIRMA_PENDIENTES_AUTORIZAR
+(c) Parámetros: 0,0,177
+(d) Error : No se encontró el procedimiento almacenado 'PG_RN_FLUJO_FIRMA_PENDIENTES_AUTORIZAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/11/2018 17:41:00  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 26/11/2018 17:41:01  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 26/11/2018 17:41:03  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 26/11/2018 17:41:03  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SQL_EJECUTAR_ACCION
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/11/2018 10:31:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_OP_CREDITO_AMORTIZACION_SIMULACION
+(c) Parámetros: 0,0,300,  11 , '3' , '10187000.0000' , '7.6' , '48' , '2016-07-28' 
+(d) Error : Error al convertir el tipo de datos varchar a int.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 27/11/2018 10:31:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/11/2018 10:31:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/11/2018 10:35:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_OP_CREDITO_AMORTIZACION_SIMULACION
+(c) Parámetros: 0,0,300,  11 , 3 , 10187000.0000 , 7.6 , 48 , '2016-07-28' 
+(d) Error : Error al convertir el tipo de datos varchar a int.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 27/11/2018 10:35:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/11/2018 10:35:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/11/2018 11:04:19 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 11:04:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 11:32:06 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 11:32:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 11:34:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 11:34:02 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 12:17:54 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 12:17:55 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 12:18:27 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 12:18:29 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 12:22:44 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 12:22:46 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 12:38:27 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 12:38:28 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 01:35:42 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 01:35:44 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 04:06:19 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 04:06:20 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/11/2018 05:45:10 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PM_LI_SAVE
+(b) Error : No se pudo encontrar la columna denominada K_UNIDAD_OPERATIVA.
+Nombre del parámetro: columnName
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 28/11/2018 10:18:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_TABLA_AMORTIZACION_X_K_CREDITO_BANCARIO]
+(c) Parámetros: 0,0,300,  73 
+(d) Error : Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 28/11/2018 11:49:11 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 28/11/2018 12:06:22 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 28/11/2018 12:06:40 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 28/11/2018 12:06:42 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 28/11/2018 12:06:43 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 28/11/2018 12:06:43 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 28/11/2018 12:06:44 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 28/11/2018 12:06:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 28/11/2018 12:06:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 28/11/2018 01:48:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 29/11/2018 09:48:10 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 29/11/2018 09:49:02 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 29/11/2018 09:55:02 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 29/11/2018 09:56:23 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 29/11/2018 10:06:53 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_CEMEC_FLUP_MASIVO]
+(c) Parámetros: 0,0,300,  -1 , -1 , 11 , 2018 , 7 
+(d) Error : Error de conversión al convertir el valor varchar 'C3M3 - [CHI] ASCENSION 2018/7' al tipo de datos int.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/11/2018 10:06:54 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 29/11/2018 10:08:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 29/11/2018 10:10:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 29/11/2018 10:29:37 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 29/11/2018 10:31:41 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 29/11/2018 12:50:10 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 29/11/2018 12:53:40 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Reproceso Cédula/Flujo> de Compromiso de Ventas finalizado
+
+-- ======================================================================================================= -
+-- 29/11/2018 06:03:20 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_UP_CEMEC_PARAMETROS_VARIACION]
+(c) Parámetros: 0,0,300,  103098 , 1.5100 , 10 , 94.0000 , 9.4500 , 47.6800 , 52.3200 , 23 , 26 , 50 , 85150000.0000 , 84000000.0000 , 25.0000 , 11.0000 , 21.0000 , 31.0000 , 41.0000 , 51.0000 , 20 , 20 , 40.0000 , 32.0000 , 22.0000 , 12.0000 , 52.0000 , 12.0000 , 5.0000 , 13.0000 , 33.0000 , 33.0000 , 23.0000 , 23.0000 , 10 , 0.0000 
+(d) Error : La función o el procedimiento PG_UP_CEMEC_PARAMETROS_VARIACION tiene demasiados argumentos.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/11/2018 06:10:23 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_UP_CEMEC_PARAMETROS_VARIACION]
+(c) Parámetros: 0,0,300,  103098 , 1.5100 , 10 , 9.4500 , 47.6800 , 23 , 26 , 85150000.0000 , 84000000.0000 , 25.0000 , 11.0000 , 21.0000 , 31.0000 , 41.0000 , 51.0000 , 20 , 20 , 40.0000 , 32.0000 , 22.0000 , 12.0000 , 52.0000 , 100 , 100 , 13.0000 , 33.0000 , 33.0000 , 23.0000 , 23.0000 , 15 , 0.0000 
+(d) Error : El procedimiento o la función 'PG_UP_CEMEC_PARAMETROS_VARIACION' esperaba el parámetro '@PP_K_DIVISOR', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/11/2018 08:35:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Reproceso Cédula/Flujo> de Compromiso de Ventas finalizado
+
+-- ======================================================================================================= -
+-- 30/11/2018 12:05:14 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Reproceso Cédula/Flujo> de Compromiso de Ventas finalizado
+
+-- ======================================================================================================= -
+-- 30/11/2018 12:10:14 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 30/11/2018 12:18:41 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 03/12/2018 01:38:50 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PM_LI_SAVE
+(b) Error : La conversión del tipo 'DBNull' en el tipo 'String' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 03/12/2018 01:39:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PM_LI_SAVE
+(b) Error : La conversión del tipo 'DBNull' en el tipo 'String' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 03/12/2018 01:41:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PM_LI_SAVE
+(b) Error : La conversión del tipo 'DBNull' en el tipo 'String' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 03/12/2018 01:41:37 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Rubro/Presupuesto]: Este renglón no es editable. ( [#RUB.400] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:14:42 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:46:37 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:47:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PRESUPUESTO_GENERAR]
+(c) Parámetros: 0,0,300,  78 , 8 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_RN_PRESUPUESTO_GENERAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:47:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:47:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PRESUPUESTO_GENERAR]
+(c) Parámetros: 0,0,300,  78 , 5 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_RN_PRESUPUESTO_GENERAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:47:41 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PRESUPUESTO_GENERAR]
+(c) Parámetros: 0,0,300,  78 , 5 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_RN_PRESUPUESTO_GENERAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:47:41 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:49:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PRESUPUESTO_GENERAR]
+(c) Parámetros: 0,0,300,  78 , 5 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_RN_PRESUPUESTO_GENERAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:49:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:49:13 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PRESUPUESTO_GENERAR]
+(c) Parámetros: 0,0,300,  78 , 5 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_RN_PRESUPUESTO_GENERAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:49:13 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:51:09 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Generar] la [Programación/Semanal]: El Control de Operación no permite [Programar] el [Presupuesto] de [RZS#21/UNO#29] para el Año 2017  y el Mes 8 ( [#PR.27] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:52:55 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:54:55 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 11:58:57 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 12:08:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PRESUPUESTO_GENERAR]
+(c) Parámetros: 0,0,300,  33 , 1 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_RN_PRESUPUESTO_GENERAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 12:15:39 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 12:21:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PRESUPUESTO_GENERAR]
+(c) Parámetros: 0,0,300,  78 , 8 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_RN_PRESUPUESTO_GENERAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 12:22:41 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PRESUPUESTO_GENERAR]
+(c) Parámetros: 0,0,300,  78 , 8 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_RN_PRESUPUESTO_GENERAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 12:22:52 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PRESUPUESTO_GENERAR]
+(c) Parámetros: 0,0,300,  78 , 8 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_RN_PRESUPUESTO_GENERAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 13:30:20  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:30:26 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:30:40 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:30:41 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:30:42 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:30:43 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:30:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:04 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:07 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:09 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:11 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:13 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:15 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:16 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:18 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:20 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:22 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:29 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:31 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:33 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:34 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:31:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:33:52 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:33:52 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Control de Operación no permite [Generar] el [Presupuesto] de [RZS#28/UNO#7] para el Año 2018 y el Mes 3.
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:34:07 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:34:08 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:34:13 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:34:23 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:34:24 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:34:30 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:36:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PRESUPUESTO_GENERAR]
+(c) Parámetros: 0,0,300,  12 , 3 
+(d) Error : Could not find stored procedure 'dbo.PG_RN_PRESUPUESTO_GENERAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:36:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Control de Operación no permite [Generar] el [Presupuesto] de [RZS#28/UNO#7] para el Año 2018 y el Mes 3.
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:36:14 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:36:23 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:36:24 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:36:29 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:36:29 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Estatus [#5-CANCELADO] del Plan de Gasto [#12] no permite generar el Presupuesto.
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:37:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:37:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:37:40 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:37:42 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:37:44 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:37:46 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:37:47 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:38:47 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Could not find stored procedure 'PG_IN_BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:38:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : La conexión no se cerró. El estado actual de la conexión es abierta.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:39:33 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Invalid object name 'BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:39:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Invalid object name 'BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:40:10 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Invalid object name 'BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:40:10 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:40:13 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Invalid object name 'BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:40:41 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Invalid object name 'BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:40:53 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Invalid object name 'BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:41:02 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Invalid object name 'BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:41:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Invalid object name 'BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 01:41:07 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Invalid object name 'BITACORA_SQL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 05:14:09 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 05:15:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 05:16:56 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 05:30:21 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Favor de <Seleccionar> un registro.
+
+-- ======================================================================================================= -
+-- 05/12/2018 05:36:27 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 05:37:05 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 05:37:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar los Traspasos.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:41:46 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:42:35 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:42:41 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:45:13 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804161] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:46 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804160] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:53 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804159] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:54 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804158] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:54 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804157] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:55 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804156] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:55 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804155] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:56 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804154] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804153] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804152] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804151] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804150] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804149] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:59 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804148] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:46:59 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804147] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:00 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804146] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:00 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804145] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:00 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804144] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804143] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804142] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804140] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:02 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804141] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:02 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804139] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:02 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804138] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804137] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804136] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:04 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804113] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:04 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Hubo algunos errores en la generación de la Instrucción.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:47:40 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804148] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:49:30 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804161] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:49:34 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Hubo algunos errores en la generación de la Instrucción.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:49:39 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione el o los Traspasos para generar la Instrucción.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:49:44 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804161] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:50:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804160' , '21/04/2017' 
+(d) Error : Conflicto de tipos de operandos: date es incompatible con int
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:50:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804161] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:50:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804159' , '21/04/2017' 
+(d) Error : Conflicto de tipos de operandos: date es incompatible con int
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:50:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804161] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:50:52 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Hubo algunos errores en la generación de la Instrucción.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:50:55 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione el o los Traspasos para generar la Instrucción.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:51:07 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804161' , '21/04/2017' 
+(d) Error : Conflicto de tipos de operandos: date es incompatible con int
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:51:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804160' , '21/04/2017' 
+(d) Error : Conflicto de tipos de operandos: date es incompatible con int
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:51:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:52:43 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804156' , '21/04/2017' 
+(d) Error : Conflicto de tipos de operandos: date es incompatible con int
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:52:43 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804155] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:52:44 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Hubo algunos errores en la generación de la Instrucción.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:52:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804142] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:53:30 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804141' , '21/04/2017' 
+(d) Error : Conflicto de tipos de operandos: date es incompatible con int
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:53:30 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): del Traspaso no tiene una Cuenta Bancaria asociada.  //INS// ( [#TRA.31804142] )
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:53:31 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Hubo algunos errores en la generación de la Instrucción.
+
+-- ======================================================================================================= -
+-- 05/12/2018 06:53:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804146' , '21/04/2017' 
+(d) Error : Conflicto de tipos de operandos: date es incompatible con int
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/12/2018 10:12:56 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_CUENTA_CONTABLE_UO]
+(c) Parámetros: 0,0,300,  11 , 1 , 0 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_LI_CUENTA_CONTABLE_UO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/12/2018 10:13:10 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_CUENTA_CONTABLE_UO]
+(c) Parámetros: 0,0,300,  11 , 1 , 0 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_LI_CUENTA_CONTABLE_UO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/12/2018 11:07:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_UP_CUENTA_CONTABLE_UO_X_UNO]
+(c) Parámetros: 0,0,300,  0 , 504 , 11 , 1 , 5040 ,  
+(d) Error : Sintaxis incorrecta cerca de ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/12/2018 11:07:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 11:39:45  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 11:40:30 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Se ha enviado el correo exitosamente.
+
+-- ======================================================================================================= -
+-- 06/12/2018 11:47:04 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_ENVIAR_CORREO
+(b) Error : Error al enviar correo.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 11:49:22 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_ENVIAR_CORREO
+(b) Error : Se excedió el tiempo de espera de la operación.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 11:51:18 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_ENVIAR_CORREO
+(b) Error : El servidor SMTP requiere una conexión segura o el cliente no se autenticó. La respuesta del servidor fue: 5.5.1 Authentication Required. Learn more at
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 11:55:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_ENVIAR_CORREO
+(b) Error : El servidor SMTP requiere una conexión segura o el cliente no se autenticó. La respuesta del servidor fue: 5.5.1 Authentication Required. Learn more at
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 12:00:31 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_ENVIAR_CORREO
+(b) Error : El servidor SMTP requiere una conexión segura o el cliente no se autenticó. La respuesta del servidor fue: 5.7.0 Must issue a STARTTLS command first. t12sm1048417otk.61 - gsmtp
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 12:00:40 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_ENVIAR_CORREO
+(b) Error : El servidor SMTP requiere una conexión segura o el cliente no se autenticó. La respuesta del servidor fue: 5.7.0 Must issue a STARTTLS command first. 102sm554916otj.65 - gsmtp
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 12:03:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_ENVIAR_CORREO
+(b) Error : Error al enviar correo.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 12:08:29 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Se ha enviado el correo exitosamente.
+
+-- ======================================================================================================= -
+-- 06/12/2018 12:17:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IU_CUENTA_CONTABLE_UO_X_UNO]
+(c) Parámetros: 0,0,300,  0 , 504 , 11 , 1 , 5040 , 1 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_IU_CUENTA_CONTABLE_UO_X_UNO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/12/2018 12:17:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 04:28:31 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Autorizado> exitosamente.
+
+-- ======================================================================================================= -
+-- 06/12/2018 04:56:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 04:58:33 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:01:14 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:03:32 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:18:19 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_MG_MENSAJE_GET
+(b) Error : No hay ninguna fila en la posición 0.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:33:27 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:37:19 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:38:40 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#1-BASE] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.84] )
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:40:17 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#1-BASE] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.84] )
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:42:47 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Autorizado> exitosamente.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:43:11 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:45:30 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:45:47 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:48:10 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#16/UNO#33] para el Año 2017  y el Mes 11  //INS// ( [#TRA.31804183] )
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:48:16 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#16/UNO#33] para el Año 2017  y el Mes 11  //INS// ( [#TRA.31804182] )
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:48:17 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#16/UNO#33] para el Año 2017  y el Mes 11  //INS// ( [#TRA.31804181] )
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:48:18 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#16/UNO#33] para el Año 2017  y el Mes 11  //INS// ( [#TRA.31804180] )
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:48:18 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Hubo algunos errores en la generación de la Instrucción.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:49:20 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione el o los Traspasos para generar la Instrucción.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:49:32 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente.
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:56:36 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 06/12/2018 05:57:37 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Autorizado> exitosamente.
+
+-- ======================================================================================================= -
+-- 06/12/2018 06:00:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 07/12/2018 05:22:37 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [REPORTES].[PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS]
+(c) Parámetros: 7503
+(d) Error : No se encontró el procedimiento almacenado 'REPORTES.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 07/12/2018 05:22:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [REPORTES].[PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS]
+(c) Parámetros: 7503
+(d) Error : No se encontró el procedimiento almacenado 'REPORTES.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 07/12/2018 05:22:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [REPORTES].[PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS]
+(c) Parámetros: 7503
+(d) Error : No se encontró el procedimiento almacenado 'REPORTES.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 07/12/2018 05:22:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [REPORTES].[PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS]
+(c) Parámetros: 7503
+(d) Error : No se encontró el procedimiento almacenado 'REPORTES.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 07/12/2018 05:22:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [REPORTES].[PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS]
+(c) Parámetros: 7503
+(d) Error : No se encontró el procedimiento almacenado 'REPORTES.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESAS'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 11/12/2018 17:09:12  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0041_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/12/2018 17:09:14  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0041_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/12/2018 17:09:15  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SQL_EJECUTAR_ACCION
+(b) Error : La conversión de la cadena "" en el tipo 'Boolean' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/12/2018 17:10:01  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0040_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/12/2018 17:10:10  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0040_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.

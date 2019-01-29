@@ -1,0 +1,587 @@
+------------------------------------------------------------------------------------------------------------
+---------------------------- Bitácora del Sistema [I S A A C] Versión [0.0.1.4] ----------------------------
+---------------------------------- Creado: martes, 11 de diciembre de 2018 ----------------------------------
+------------------------------------------------------------------------------------------------------------
+
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:27:10 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione una Zona, Razón Social o Unidad Operativa validos
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:27:23 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:27:32 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:33:54 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:45:05 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:49:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#1-BASE] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.63] )
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:55:02 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#1-BASE] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.63] )
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:57:21 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Autorizado> exitosamente.
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:57:29 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:58:32 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:58:36 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 11/12/2018 05:59:46 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:06:33 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:13:59 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Control de Operación no permite [Generar] el [Presupuesto] de [RZS#16/UNO#35] para el Año 2017 y el Mes 2.
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:16:05 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Control de Operación no permite [Generar] el [Presupuesto] de [RZS#16/UNO#35] para el Año 2017 y el Mes 6.
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:16:14 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:16:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:16:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:19:42 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#16/UNO#35] para el Año 2017  y el Mes 6  //INS// ( [#TRA.31804125] )
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:19:46 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#16/UNO#35] para el Año 2017  y el Mes 6  //INS// ( [#TRA.31804124] )
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:19:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#16/UNO#35] para el Año 2017  y el Mes 6  //INS// ( [#TRA.31804123] )
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:19:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#16/UNO#35] para el Año 2017  y el Mes 6  //INS// ( [#TRA.31804122] )
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:19:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xTraspaso): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#16/UNO#35] para el Año 2017  y el Mes 6  //INS// ( [#TRA.31804121] )
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:19:48 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Hubo algunos errores en la generación de la Instrucción.
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:20:06 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione el o los Traspasos para generar la Instrucción.
+
+-- ======================================================================================================= -
+-- 11/12/2018 06:20:13 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente.
+
+-- ======================================================================================================= -
+-- 12/12/2018 08:39:04 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Seleccione un año válido.
+Y seleccione la Razón Social a la que se agregará el año.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 08:39:05 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Seleccione un año válido.
+Y seleccione la Razón Social a la que se agregará el año.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 08:39:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Favor de <Seleccionar> un registro.
+
+-- ======================================================================================================= -
+-- 12/12/2018 08:54:39 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Actualizar> el Libro Ingresos / Acta: El Control de Operación no permite [Agregar] [Ingresos] de [RZS#16/UNO#35] para el Año 2018  y el Mes 10 //INS//  //UPD// ( [#LI.0] )
+
+-- ======================================================================================================= -
+-- 12/12/2018 08:57:25 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Se requiere una fecha válida en [F_OPERACION]
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 08:57:26 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Se requiere una fecha válida en [F_OPERACION]
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 08:57:30 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Se requiere una fecha válida en [F_OPERACION]
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 08:57:32 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Se requiere una fecha válida en [F_OPERACION]
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 08:57:41 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Crear> el Libro Ingresos: El Control de Operación no permite [Agregar] [Ingresos] de [RZS#16/UNO#35] para el Año 2018  y el Mes 12 //INS// ( [#LI.0] )
+
+-- ======================================================================================================= -
+-- 12/12/2018 08:58:04 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Crear> el Libro Ingresos: El Control de Operación no permite [Agregar] [Ingresos] de [RZS#16/UNO#35] para el Año 2018  y el Mes 12 //INS// ( [#LI.0] )
+
+-- ======================================================================================================= -
+-- 12/12/2018 09:19:57 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] el [Movimiento Banco]: El [Estatus#1-REPORTADO] del [Movimiento#61] no lo permite.  //UPD// ( [#Mb.61] )
+
+-- ======================================================================================================= -
+-- 12/12/2018 09:21:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Borrar] el [Movimiento Banco]: El [Estatus#1-REPORTADO] del [Movimiento#61] no lo permite.  //DEL// ( [#Mb.61] )
+
+-- ======================================================================================================= -
+-- 12/12/2018 09:33:04 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_TRASPASO]
+(c) Parámetros: 0,0,300,  'kjjoio' , 3 , 0 , 700 , 1 , 35 , 'kghjhkj;l' , 6532632 , '201-12-12' 
+(d) Error : Error al convertir el tipo de datos varchar a date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 09:39:27 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Se requiere una fecha válida en [F_OPERACION]
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 09:39:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Se requiere una fecha válida en [F_OPERACION]
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 09:39:43 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Recalcular> el Ejercicio de la Partida del Presupuesto: No se encontró el [Presupuesto] ( [#Pre.0] )
+
+-- ======================================================================================================= -
+-- 12/12/2018 09:40:23 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Recalcular> el Ejercicio de la Partida del Presupuesto: No se encontró el [Presupuesto] ( [#Pre.0] )
+
+-- ======================================================================================================= -
+-- 12/12/2018 09:46:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_FLUJO_FIRMA_X_K_USUARIO]
+(c) Parámetros: 0,0,300,  1 , 1 
+(d) Error : El procedimiento o la función 'PG_LI_FLUJO_FIRMA_X_K_USUARIO' esperaba el parámetro '@PP_K_ESTATUS_FIRMA', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 09:54:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Actualizar> el Traspaso: El tipo <Extraordinario>  no permite ediciones. //UPD// ( [#TRA.31804127] )
+
+-- ======================================================================================================= -
+-- 12/12/2018 11:06:39 a. m.  -Usuario: CHI > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_FLUJO_FIRMA_X_K_USUARIO]
+(c) Parámetros: 0,0,301,  1 , 1 
+(d) Error : El procedimiento o la función 'PG_LI_FLUJO_FIRMA_X_K_USUARIO' esperaba el parámetro '@PP_K_ESTATUS_FIRMA', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 11:33:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_CUENTA_BANCO_Load]
+(c) Parámetros: 0,0,300, 1, -1, -1, -1, -1, -1, -1
+(d) Error : El procedimiento o la función 'PG_CB_CUENTA_BANCO_Load' esperaba el parámetro '@PP_K_ESTADO', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 12:18:03 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_RUBRO_PRESUPUESTO]
+(c) Parámetros: 0,0,302,  '' , -1 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_LI_RUBRO_PRESUPUESTO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 12:20:13 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 12:20:14 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 12:59:30 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_CUENTA_BANCO_Load]
+(c) Parámetros: 0,0,300, 1, -1, -1, -1, -1, -1, -1
+(d) Error : El procedimiento o la función 'PG_CB_CUENTA_BANCO_Load' esperaba el parámetro '@PP_K_ESTADO', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 01:53:36 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO_CUENTA_BANCO]
+(c) Parámetros: 0,0,302,  41 , 57 
+(d) Error : No se puede insertar el valor NULL en la columna 'K_CUENTA_BANCO_UO', tabla 'PYF18_Finanzas_V0041_R0.dbo.CUENTA_BANCO_UO'. La columna no admite valores NULL. Error de INSERT.
+Se terminó la instrucción.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 01:53:38 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO_CUENTA_BANCO]
+(c) Parámetros: 0,0,302,  41 , 56 
+(d) Error : No se puede insertar el valor NULL en la columna 'K_CUENTA_BANCO_UO', tabla 'PYF18_Finanzas_V0041_R0.dbo.CUENTA_BANCO_UO'. La columna no admite valores NULL. Error de INSERT.
+Se terminó la instrucción.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 01:53:38 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO_CUENTA_BANCO]
+(c) Parámetros: 0,0,302,  41 , 75 
+(d) Error : No se puede insertar el valor NULL en la columna 'K_CUENTA_BANCO_UO', tabla 'PYF18_Finanzas_V0041_R0.dbo.CUENTA_BANCO_UO'. La columna no admite valores NULL. Error de INSERT.
+Se terminó la instrucción.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 01:53:39 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO_CUENTA_BANCO]
+(c) Parámetros: 0,0,302,  41 , 80 
+(d) Error : No se puede insertar el valor NULL en la columna 'K_CUENTA_BANCO_UO', tabla 'PYF18_Finanzas_V0041_R0.dbo.CUENTA_BANCO_UO'. La columna no admite valores NULL. Error de INSERT.
+Se terminó la instrucción.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 01:53:40 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO_CUENTA_BANCO]
+(c) Parámetros: 0,0,302,  41 , 70 
+(d) Error : No se puede insertar el valor NULL en la columna 'K_CUENTA_BANCO_UO', tabla 'PYF18_Finanzas_V0041_R0.dbo.CUENTA_BANCO_UO'. La columna no admite valores NULL. Error de INSERT.
+Se terminó la instrucción.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 01:53:40 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO_CUENTA_BANCO]
+(c) Parámetros: 0,0,302,  41 , 10010 
+(d) Error : No se puede insertar el valor NULL en la columna 'K_CUENTA_BANCO_UO', tabla 'PYF18_Finanzas_V0041_R0.dbo.CUENTA_BANCO_UO'. La columna no admite valores NULL. Error de INSERT.
+Se terminó la instrucción.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 01:53:41 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO_CUENTA_BANCO]
+(c) Parámetros: 0,0,302,  41 , 10065 
+(d) Error : No se puede insertar el valor NULL en la columna 'K_CUENTA_BANCO_UO', tabla 'PYF18_Finanzas_V0041_R0.dbo.CUENTA_BANCO_UO'. La columna no admite valores NULL. Error de INSERT.
+Se terminó la instrucción.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 01:53:41 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO_CUENTA_BANCO]
+(c) Parámetros: 0,0,302,  41 , 10049 
+(d) Error : No se puede insertar el valor NULL en la columna 'K_CUENTA_BANCO_UO', tabla 'PYF18_Finanzas_V0041_R0.dbo.CUENTA_BANCO_UO'. La columna no admite valores NULL. Error de INSERT.
+Se terminó la instrucción.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 01:53:42 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO_CUENTA_BANCO]
+(c) Parámetros: 0,0,302,  41 , 77 
+(d) Error : No se puede insertar el valor NULL en la columna 'K_CUENTA_BANCO_UO', tabla 'PYF18_Finanzas_V0041_R0.dbo.CUENTA_BANCO_UO'. La columna no admite valores NULL. Error de INSERT.
+Se terminó la instrucción.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 05:03:37 p. m.  -Usuario: JAL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente.
+
+-- ======================================================================================================= -
+-- 12/12/2018 05:12:06 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_SK_CUENTA_CONTABLE_UO]
+(c) Parámetros: 0,0,300, 506
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_SK_CUENTA_CONTABLE_UO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 05:16:18 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'ESTATUS_REGISTRO_DACTILAR', 1,1
+(d) Error : El nombre de objeto 'ESTATUS_REGISTRO_DACTILAR' no es válido.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 05:16:26 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_REGISTRO_DACTILAR]
+(c) Parámetros: 0,0,300,  '' , -1 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_LI_REGISTRO_DACTILAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 05:18:27 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : La columna 'S_ZONA_UO' no pertenece a la tabla .
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 12/12/2018 05:39:23 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_UP_PRECIO_COSTO_PERFIL]
+(c) Parámetros: 0,0,300,  1028 , 120 , 1 , 28 , 2018 , 3 , 17.1300 , 2.3200 , 0.7160 , 0.4910 , 0.1685 , 0.1900 , 0.2800 , 0.3024 , 0.0000 , 0.0000 , 0.6466 
+(d) Error : El procedimiento o la función 'PG_UP_PRECIO_COSTO_PERFIL' esperaba el parámetro '@PP_ASPTA', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 05:45:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_UP_PRECIO_COSTO_PERFIL]
+(c) Parámetros: 0,0,300,  1032 , 80 , 1 , 32 , 2018 , 3 , 15.2200 , 2.3100 , 0.7160 , 0.3136 , 0.0000 , 0.0000 , 0.0000 , 0.8564 , 0.0000 , 0.0000 , 0.0000 
+(d) Error : El procedimiento o la función 'PG_UP_PRECIO_COSTO_PERFIL' esperaba el parámetro '@PP_ASPTA', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 06:06:16 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 06:06:17 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 12/12/2018 06:07:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 12/12/2018 06:07:52 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Reproceso Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 12/12/2018 06:18:07 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Reproceso Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 12/12/2018 06:18:14 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Reproceso Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 12/12/2018 06:19:17 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 12/12/2018 06:47:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_UP_CEMEC_PARAMETROS_VARIACION]
+(c) Parámetros: 0,0,300,  103084 , 2 , 6.0000 , 9.4500 , 47.6800 , 1570 , 85150000.0000 , 84000000.0000 , 25.0000 , 11.0000 , 21.0000 , 31.0000 , 41.0000 , 51.0000 , 6.0000 , 7.0000 , 40.0000 , 32.0000 , 22.0000 , 12.0000 , 52.0000 , 12.0000 , 5.0000 , 13.0000 , 33.0000 , 33.0000 , 23.0000 , 23.0000 , 0.0000 , 0.0000 , 1000 
+(d) Error : No se encontró el procedimiento almacenado 'PG_UP_CEMEC_PARAMETROS_VARIACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 12/12/2018 06:48:06 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Reproceso Cédula/Flujo> de Compromiso de Ventas finalizado
+
+-- ======================================================================================================= -
+-- 12/12/2018 07:01:36 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Reproceso Cédula/Flujo> de Compromiso de Ventas finalizado
+
+-- ======================================================================================================= -
+-- 13/12/2018 08:23:10 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_RUBRO_PRESUPUESTO]
+(c) Parámetros: 0,0,300,  '' , -1 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_LI_RUBRO_PRESUPUESTO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 13/12/2018 09:00:13 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 13/12/2018 09:00:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 13/12/2018 09:47:26 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.111] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 09:48:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.111] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 09:50:47 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.111] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:08:53 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.111] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:25:50 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.111] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:25:55 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.111] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:25:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Favor de <Seleccionar> un registro.
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:26:51 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_DATA_ACCESO_UO_USUARIO]
+(c) Parámetros: 0,0,300,  0 ,  
+(d) Error : Sintaxis incorrecta cerca de ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:27:28 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_DATA_ACCESO_UO_USUARIO]
+(c) Parámetros: 0,0,300,  0 ,  
+(d) Error : Sintaxis incorrecta cerca de ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:28:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.0] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:28:50 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_DATA_ACCESO_UO_USUARIO]
+(c) Parámetros: 0,0,300,  169 ,  
+(d) Error : Sintaxis incorrecta cerca de ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:28:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.169] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:29:02 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.169] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:29:08 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.169] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:29:12 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.169] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:38:06 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione una Unidad Operativa
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:38:20 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Asociar] la [Unidad Operativa]: 
+La relación ya existe //REL// //INS// ( [#Ca.0] )
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:50:49 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:52:41 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 13/12/2018 10:58:24 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 13/12/2018 11:00:23 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.

@@ -1,0 +1,499 @@
+------------------------------------------------------------------------------------------------------------
+---------------------------- Bitácora del Sistema [I S A A C] Versión [0.0.1.9] ----------------------------
+---------------------------------- Creado: lunes, 14 de enero de 2019 ----------------------------------
+------------------------------------------------------------------------------------------------------------
+
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:38:59 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:02 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:02 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:05 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:37 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:39 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:39 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:41 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:42 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Solicitud de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:43 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Presupuesto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:43 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Captura de Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedor Viático, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:46 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Recurso Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:41 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:42 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:48 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:48 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:52 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Solicitud de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:56 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Presupuesto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:57 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:57 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Captura de Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:59 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedor Viático, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:42:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Recurso Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:24 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:28 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:30 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Solicitud de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:35 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Presupuesto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:36 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:37 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Captura de Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:39 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedor Viático, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:39 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Recurso Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:48:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:50:17 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:23 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:28 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:29 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SQL_EJECUTAR_ACCION
+(b) Error : La conversión de la cadena "" en el tipo 'Boolean' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:38 p. m.  -Usuario: 0  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:40 p. m.  -Usuario: 0  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:40 p. m.  -Usuario: 0  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SQL_EJECUTAR_ACCION
+(b) Error : La conversión de la cadena "" en el tipo 'Boolean' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:38:22 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:38:24 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:23 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:33 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:52 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'ESTATUS_RAZON_SOCIAL', 0,1
+(d) Error : Invalid object name 'ESTATUS_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:53 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'ESTATUS_RAZON_SOCIAL', 1,1
+(d) Error : Invalid object name 'ESTATUS_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:54 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_RAZON_SOCIAL', 1,1
+(d) Error : Invalid object name 'TIPO_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:54 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_RAZON_SOCIAL', 0,1
+(d) Error : Invalid object name 'TIPO_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:56 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_RAZON_SOCIAL' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:08 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:10 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:15 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'ESTATUS_RAZON_SOCIAL', 0,1
+(d) Error : Invalid object name 'ESTATUS_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:15 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'ESTATUS_RAZON_SOCIAL', 1,1
+(d) Error : Invalid object name 'ESTATUS_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:16 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_RAZON_SOCIAL', 1,1
+(d) Error : Invalid object name 'TIPO_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:16 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_RAZON_SOCIAL', 0,1
+(d) Error : Invalid object name 'TIPO_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:18 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:17 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:19 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:24 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_UO', 1,1
+(d) Error : Invalid object name 'TIPO_UO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_UO', 0,1
+(d) Error : Invalid object name 'TIPO_UO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_ZONA_UO_Load]
+(c) Parámetros: 0,0,300, 1
+(d) Error : Could not find stored procedure 'PG_CB_ZONA_UO_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:26 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_ZONA_UO_Load]
+(c) Parámetros: 0,0,300, 0
+(d) Error : Could not find stored procedure 'PG_CB_ZONA_UO_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:26 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'SERVIDOR', 0,1
+(d) Error : Invalid object name 'SERVIDOR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:27 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'SERVIDOR', 1,1
+(d) Error : Invalid object name 'SERVIDOR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:27 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_RAZON_SOCIAL_Load]
+(c) Parámetros: 0,0,300, 0, -1, -1, -1
+(d) Error : Could not find stored procedure 'PG_CB_RAZON_SOCIAL_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:29 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?

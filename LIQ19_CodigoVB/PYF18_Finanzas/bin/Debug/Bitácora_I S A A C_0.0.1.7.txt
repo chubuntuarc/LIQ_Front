@@ -1,0 +1,931 @@
+------------------------------------------------------------------------------------------------------------
+---------------------------- Bitácora del Sistema [I S A A C] Versión [0.0.1.7] ----------------------------
+---------------------------------- Creado: miércoles, 26 de diciembre de 2018 ----------------------------------
+------------------------------------------------------------------------------------------------------------
+
+
+-- ======================================================================================================= -
+-- 26/12/2018 04:36:56 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 26/12/2018 04:38:41 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Crear> el Libro Ingresos: El Control de Operación no permite [Agregar] [Ingresos] de [RZS#49/UNO#56] para el Año 2018  y el Mes 12 //INS// ( [#LI.0] )
+
+-- ======================================================================================================= -
+-- 26/12/2018 04:45:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 26/12/2018 04:56:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_RUBRO_PRESUPUESTO]
+(c) Parámetros: 0,0,300,  '' , -1 
+(d) Error : No se encontró el procedimiento almacenado 'dbo.PG_LI_RUBRO_PRESUPUESTO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/12/2018 05:03:50 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 26/12/2018 05:04:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_SK_CUENTA_BANCO_UO]
+(c) Parámetros: 0,0,300,  3001 
+(d) Error : El procedimiento o la función 'PG_SK_CUENTA_BANCO_UO' esperaba el parámetro '@PP_K_CUENTA_BANCO', que no se ha especificado.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/12/2018 05:25:31 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 27/12/2018 08:27:27 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 27/12/2018 08:28:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Relacionar] la cuenta de banco con la Planta: 
+La relación ya existe //REL// //INS// ( [#CB.121] )
+
+-- ======================================================================================================= -
+-- 27/12/2018 09:03:20 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Seleccione la Unidad Operativa a la que se agregará el año.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/12/2018 09:03:26 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Seleccione la Unidad Operativa a la que se agregará el año.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/12/2018 09:04:24 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Favor de <Seleccionar> un registro.
+
+-- ======================================================================================================= -
+-- 27/12/2018 09:53:37 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 27/12/2018 09:56:19 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible completar la operación, seleccione un año y temporada válidos
+
+-- ======================================================================================================= -
+-- 27/12/2018 09:56:28 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 27/12/2018 09:58:57 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 27/12/2018 10:33:20 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 27/12/2018 11:07:43 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 27/12/2018 11:08:47 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 27/12/2018 11:20:53 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 27/12/2018 11:21:46 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 27/12/2018 11:22:16 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 27/12/2018 11:31:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 27/12/2018 11:39:54 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 27/12/2018 11:41:09 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 27/12/2018 11:45:08 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#1-BASE] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.75] )
+
+-- ======================================================================================================= -
+-- 27/12/2018 11:45:18 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#1-BASE] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.75] )
+
+-- ======================================================================================================= -
+-- 27/12/2018 11:45:59 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#1-BASE] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.75] )
+
+-- ======================================================================================================= -
+-- 27/12/2018 12:02:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#1-BASE] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.75] )
+
+-- ======================================================================================================= -
+-- 27/12/2018 12:02:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#1-BASE] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.75] )
+
+-- ======================================================================================================= -
+-- 27/12/2018 01:51:30 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 27/12/2018 01:52:41 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 27/12/2018 01:53:21 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Autorizado> exitosamente.
+
+-- ======================================================================================================= -
+-- 27/12/2018 01:53:38 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 27/12/2018 04:22:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Control de Operación no permite [Generar] el [Presupuesto] de [RZS#13/UNO#1] para el Año 2018 y el Mes 11.
+
+-- ======================================================================================================= -
+-- 27/12/2018 04:22:09 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: Existen 1 [Presupuesto(s)] generado(s) para la [UNO#GUADALUPE] del Año #2018, Mes DICIEMBRE con estatus distinto de [Cancelado].
+
+-- ======================================================================================================= -
+-- 27/12/2018 04:22:54 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 27/12/2018 04:24:57 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Escriba un Año válido.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/12/2018 04:24:59 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Escriba un Año válido.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 27/12/2018 04:25:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Para Editar, de doble click en alguna celda del Mes, luego al 
+botón de Editar, cuando la Ficha se encuentre visible.
+
+-- ======================================================================================================= -
+-- 27/12/2018 04:25:32 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 27/12/2018 05:45:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 27/12/2018 05:46:23 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 27/12/2018 05:46:32 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 27/12/2018 05:46:59 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 27/12/2018 05:47:02 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 08:42:17 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 28/12/2018 08:44:06 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Autorizado> exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 08:44:09 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Control de Operación no permite [Generar] el [Presupuesto] de [RZS#13/UNO#1] para el Año 2019 y el Mes 1.
+
+-- ======================================================================================================= -
+-- 28/12/2018 08:45:25 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 08:46:18 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 08:46:23 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 09:10:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Control de Operación no permite [Generar] el [Presupuesto] de [RZS#13/UNO#1] para el Año 2019 y el Mes 2.
+
+-- ======================================================================================================= -
+-- 28/12/2018 09:12:10 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 09:53:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : No se encontró el procedimiento almacenado 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 28/12/2018 09:53:35 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : No se encontró el procedimiento almacenado 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 28/12/2018 09:54:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PROGRAMACION_PRESUPUESTO' 
+(d) Error : No se encontró el procedimiento almacenado 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 28/12/2018 10:11:56 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:28:43 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:29:22 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Control de Operación no permite [Generar] el [Presupuesto] de [RZS#12/UNO#11] para el Año 2017 y el Mes 7.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:29:49 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Estatus [#3-PREVIO] del Plan de Gasto [#79] no permite generar el Presupuesto.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:29:53 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Autorizado> exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:29:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:48:59 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Estatus [#1-BASE] del Plan de Gasto [#64] no permite generar el Presupuesto.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:49:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#1-BASE] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.64] )
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:49:11 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#1-BASE] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.64] )
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:49:46 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:56:27 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:57:10 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Autorizado> exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:57:13 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:57:18 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Autorizado> exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:57:20 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:58:15 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:58:23 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Generar] la [Programación/Semanal]: Las semanas ya fueron programadas ( [#PR.7] )
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:58:26 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:58:37 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 11:58:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 12:47:07 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 12:48:05 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 28/12/2018 12:49:37 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 12:49:53 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 12:50:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Generar] la [Programación/Semanal]: Las semanas ya fueron programadas ( [#PR.8] )
+
+-- ======================================================================================================= -
+-- 28/12/2018 12:50:17 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 28/12/2018 12:58:54 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 28/12/2018 01:00:39 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 28/12/2018 01:55:48 p. m.  -Usuario: CHI > QA/TESO  -Mensaje: El control BT_EXPORTAR_EXCEL no existe
+
+-- ======================================================================================================= -
+-- 28/12/2018 01:55:57 p. m.  -Usuario: CHI > QA/TESO  -Mensaje: El control BT_LI_BUSCAR no existe
+
+-- ======================================================================================================= -
+-- 28/12/2018 01:56:52 p. m.  -Usuario: CHI > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 29/12/2018 08:41:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 29/12/2018 08:41:10 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 29/12/2018 08:41:52 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 29/12/2018 08:42:47 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 29/12/2018 08:48:11 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 29/12/2018 08:50:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 08:55:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 29/12/2018 08:58:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:00:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:09:05 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:10:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:11:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:11:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:11:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:15:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:15:12 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:15:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:17:13 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:17:28 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:25:22 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:25:35 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:25:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:26:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Autorizado> exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:26:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Control de Operación no permite [Generar] el [Presupuesto] de [RZS#13/UNO#3] para el Año 2018 y el Mes 1.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:28:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:28:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:28:47 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:28:51 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:28:55 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:29:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:29:04 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:29:10 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:29:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:29:18 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:29:22 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:29:26 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:30:51 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:31:08 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 09:46:37 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 10:14:30 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 10:14:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 29/12/2018 10:19:25 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente y sin errores.
+
+-- ======================================================================================================= -
+-- 29/12/2018 11:36:46 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 31/12/2018 08:55:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 31/12/2018 08:55:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Cambio de Valores Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 31/12/2018 08:56:41 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Reproceso Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 31/12/2018 09:13:42 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 31/12/2018 09:14:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 31/12/2018 09:21:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 31/12/2018 09:21:12 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 31/12/2018 09:22:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 31/12/2018 12:18:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Cambio de Valores Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 31/12/2018 01:00:19 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 02/01/2019 12:50:46  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Cannot open database "PYF18_Finanzas_V0043_R0" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 02/01/2019 12:50:51  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Cannot open database "PYF18_Finanzas_V0043_R0" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 02/01/2019 12:51:09  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SQL_EJECUTAR_ACCION
+(b) Error : La conversión de la cadena "" en el tipo 'Boolean' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 02/01/2019 12:51:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 02/01/2019 12:51:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 02/01/2019 12:54:15 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Escriba un Año válido.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 02/01/2019 12:54:16 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Escriba un Año válido.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 02/01/2019 01:04:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 02/01/2019 01:04:52 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 02/01/2019 01:56:50 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 02/01/2019 01:57:02 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 02/01/2019 01:57:52 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar el Presupuesto. Causa: El Estatus [#6-EJECUTADO] del Plan de Gasto [#11] no permite generar el Presupuesto.
+
+-- ======================================================================================================= -
+-- 02/01/2019 01:58:14 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#6-EJECUTADO] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.11] )
+
+-- ======================================================================================================= -
+-- 02/01/2019 02:00:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Autorizado> exitosamente.
+
+-- ======================================================================================================= -
+-- 02/01/2019 02:00:04 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto generado exitosamente.
+
+-- ======================================================================================================= -
+-- 02/01/2019 04:17:19 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 02/01/2019 04:17:29 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 02/01/2019 04:23:00 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente y sin errores.
+
+-- ======================================================================================================= -
+-- 02/01/2019 04:50:58 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente y sin errores.
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:13:00 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Borrar] la [Instrucción]: La forma de captura del [Movimiento#2] no lo permite.  //DEL// ( [#INS.2] )
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:13:44 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804021' , '31/05/2018' 
+(d) Error : Error converting data type varchar to date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:13:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804021' , '31/05/2018' 
+(d) Error : Error converting data type varchar to date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:13:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804021' , '31/05/2018' 
+(d) Error : Error converting data type varchar to date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:13:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804021' , '31/05/2018' 
+(d) Error : Error converting data type varchar to date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:13:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804021' , '31/05/2018' 
+(d) Error : Error converting data type varchar to date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:13:46 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804021' , '31/05/2018' 
+(d) Error : Error converting data type varchar to date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:13:46 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente y sin errores.
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:18:08 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804020' , '31/05/2018' 
+(d) Error : Error converting data type varchar to date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:18:09 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente y sin errores.
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:19:11 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804020' , '31/05/2018' 
+(d) Error : Error converting data type varchar to date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:19:13 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804021' , '31/05/2018' 
+(d) Error : Error converting data type varchar to date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:19:13 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente y sin errores.
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:19:56 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  '31804008' , '31/05/2018' 
+(d) Error : Error converting data type varchar to date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:19:56 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente y sin errores.
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:21:26 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_INSTRUCCION_X_K_TRASPASO]
+(c) Parámetros: 0,0,300,  31804004 , '31/05/2018' 
+(d) Error : Error converting data type varchar to date.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:21:26 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente y sin errores.
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:29:33 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente y sin errores.
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:34:15 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:37:08 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Cambio de Valores Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:40:40 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 02/01/2019 05:40:41 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 03/01/2019 08:46:10 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Error en el nivel del transporte al recibir los resultados del servidor. (provider: TCP Provider, error: 0 - Se agotó el tiempo de espera del semáforo.)
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 03/01/2019 08:46:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Error en el nivel del transporte al recibir los resultados del servidor. (provider: TCP Provider, error: 0 - Se agotó el tiempo de espera del semáforo.)
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 03/01/2019 08:48:08 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Error : Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:03:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Presupuesto Semanal generado exitosamente.
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:04:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_TRASPASO_X_PARAMETROS]
+(c) Parámetros: 0,0,300,  3 , 2018 , 7 
+(d) Error : Se agotó el tiempo de espera de ejecución. El período de tiempo de espera transcurrió antes de la finalización de la operación o el servidor no responde.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:04:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Traspasos generados exitosamente.
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:36:53 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:37:36 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:39:11 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:41:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:53:30 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:54:36 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:54:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:54:53 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:55:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:55:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:55:23 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:55:29 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:55:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:55:57 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:56:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:56:23 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:57:06 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:57:47 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:59:09 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 09:59:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 10:00:11 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 10:00:50 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 10:02:13 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 10:02:46 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 03/01/2019 12:14:02 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 03/01/2019 12:14:14 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 03/01/2019 12:14:20 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 03/01/2019 12:14:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 03/01/2019 12:14:31 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 03/01/2019 12:14:37 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 03/01/2019 12:14:43 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 03/01/2019 12:14:50 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 03/01/2019 01:45:50 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_CEMEC_FLUP_MASIVO]
+(c) Parámetros: 0,0,300,  -1 , -1 , 11 , 2018 , 7 
+(d) Error : Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 03/01/2019 05:26:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_CEMEC_FLUP_MASIVO]
+(c) Parámetros: 0,0,300,  -1 , -1 , 16 , 2018 , 7 
+(d) Error : Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+Cannot insert the value NULL into column 'K_USUARIO_ALTA', table 'PYF18_Finanzas_V0043_R0.dbo.DOCUMENTO_D0M4_TRACKING_X_MES'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+The statement has been terminated.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 03/01/2019 05:26:36 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 03/01/2019 05:27:07 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 03/01/2019 05:44:16 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 04/01/2019 05:36:49 p. m.  -Usuario: CHI > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_ROL_ASIGNACION]
+(c) Parámetros: 0,0,301,  '' , -1 , -1 , 30 , -1 , -1 
+(d) Error : Invalid object name 'VI_UN'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 07/01/2019 09:58:49 a. m.  -Usuario: CHI > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_PARTIDA_PLAN_PRESUPUESTO]
+(c) Parámetros: 0,0,301,  '' , 30 , -1 , -1 , -1 , -1 , -1 , -1 , 0 , 0 
+(d) Error : Invalid object name 'VI_UNIDAD_OPERATIVA_'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 07/01/2019 10:00:01 a. m.  -Usuario: CHI > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_PARTIDA_PLAN_PRESUPUESTO]
+(c) Parámetros: 0,0,301,  '' , 30 , -1 , -1 , -1 , -1 , -1 , -1 , 0 , 0 
+(d) Error : Invalid object name 'VI_UNIDAD_OPERATIVA_'.
+
+¿Desea Reejecutar la Operación?

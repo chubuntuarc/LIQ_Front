@@ -1,0 +1,418 @@
+------------------------------------------------------------------------------------------------------------
+---------------------------- Bitácora del Sistema [I S A A C] Versión [0.0.1.8] ----------------------------
+---------------------------------- Creado: lunes, 7 de enero de 2019 ----------------------------------
+------------------------------------------------------------------------------------------------------------
+
+
+-- ======================================================================================================= -
+-- 07/01/2019 05:57:33 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_PR_PLAN_GASTO_MASIVO]
+(c) Parámetros: 0,0,300
+(d) Error : Could not find stored procedure 'PG_PR_PLAN_GASTO_MASIVO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 07/01/2019 05:57:33 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Gasto <Generado> exitosamente.
+
+-- ======================================================================================================= -
+-- 07/01/2019 19:55:34  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Cannot open database "PYF18_Finanzas_V0043_R0" requested by the login. The login failed.
+Login failed for user 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:02:19 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:02:32 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:02:42 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:02:56 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:03:06 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:03:21 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione un [ARCHIVO], el item seleccionado es una [CARPETA]
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:03:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione un [ARCHIVO], el item seleccionado es una [CARPETA]
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:03:27 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione un [ARCHIVO], el item seleccionado es una [CARPETA]
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:03:35 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:03:44 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:05:12 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:05:42 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: [Carga] de archivos [XML] finalizada
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:21:00 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xCXP): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#23/UNO#10023] para el Año 2019  y el Mes 1  //INS// ( [#CXP.99] )
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:21:01 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xCXP): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#23/UNO#10023] para el Año 2019  y el Mes 1  //INS// ( [#CXP.97] )
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:21:02 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xCXP): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#23/UNO#10023] para el Año 2019  y el Mes 1  //INS// ( [#CXP.98] )
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:21:02 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xCXP): El Control de Operación no permite [Agregar] [Instrucciones] de [RZS#23/UNO#10023] para el Año 2019  y el Mes 1  //INS// ( [#CXP.96] )
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:21:08 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar la Instrucción.
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:22:04 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione la o las Facturas para generar la Instrucción.
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:22:32 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xCXP): El [Estatus#0-SIN DEFINIR] de la [Cuenta Bancaria 0] no lo permite.  //INS// ( [#CXP.99] )
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:22:44 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xCXP): El [Estatus#0-SIN DEFINIR] de la [Cuenta Bancaria 0] no lo permite.  //INS// ( [#CXP.98] )
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:22:44 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xCXP): El [Estatus#0-SIN DEFINIR] de la [Cuenta Bancaria 0] no lo permite.  //INS// ( [#CXP.97] )
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:22:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xCXP): El [Estatus#0-SIN DEFINIR] de la [Cuenta Bancaria 0] no lo permite.  //INS// ( [#CXP.96] )
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:22:45 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Generar> la Instrucción (xCXP): El [Estatus#0-SIN DEFINIR] de la [Cuenta Bancaria 0] no lo permite.  //INS// ( [#CXP.95] )
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:22:49 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible generar la Instrucción.
+
+-- ======================================================================================================= -
+-- 07/01/2019 08:28:03 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente y sin errores.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:22:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible [Actualizar] la [Razón Social]: Ya existen [Razones Sociales] con ese [RFC(N/D)]. //UNI// ( [#RZS.34] )
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:33:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:39:46 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:40:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:40:42 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:41:08 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:41:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:42:03 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:42:22 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:42:29 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Cédula> de Compromiso de Ventas y Flujo Proyectado finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:53:17 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:53:24 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:53:31 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:53:39 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:53:46 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:53:52 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:53:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:54:04 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Plan de Presupuesto> Finalizado.
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:57:19 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:57:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:57:37 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:57:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 08/01/2019 08:57:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 08/01/2019 09:01:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 08/01/2019 04:25:51 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_SK_CUENTA_BANCO_UO]
+(c) Parámetros: 0,0,300,  11 , 98 
+(d) Error : Could not find stored procedure 'dbo.PG_SK_CUENTA_BANCO_UO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/01/2019 04:52:15 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_CUENTA_BANCO_UO]
+(c) Parámetros: 0,0,300,  11 , 3 , 98 , 0 
+(d) Error : Procedure or function PG_IN_CUENTA_BANCO_UO has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 09/01/2019 09:17:17 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible <Actualizar> el Traspaso: El tipo <Extraordinario>  no permite ediciones. //UPD// ( [#TRA.31804103] )
+
+-- ======================================================================================================= -
+-- 09/01/2019 09:55:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'ESTATUS_REGISTRO_DACTILAR', 1,1
+(d) Error : Invalid object name 'ESTATUS_REGISTRO_DACTILAR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 09/01/2019 01:51:28 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Usuario y/o contraseña invalidos. Por favor verifique.
+
+-- ======================================================================================================= -
+-- 09/01/2019 04:18:18 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione el o los Movimientos a conciliar o marcar.
+
+-- ======================================================================================================= -
+-- 09/01/2019 04:25:00 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Seleccione el o los Movimientos a conciliar o marcar.
+
+-- ======================================================================================================= -
+-- 09/01/2019 05:14:35 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: La Instrucción fue generada exitosamente y sin errores.
+
+-- ======================================================================================================= -
+-- 10/01/2019 09:20:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: El <Listado> se encuentra vacio, verifique.
+
+-- ======================================================================================================= -
+-- 10/01/2019 09:22:22 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: El <Listado> se encuentra vacio, verifique.
+
+-- ======================================================================================================= -
+-- 10/01/2019 10:51:22 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Plan de Presupuesto <Autorizado> y Plan de Gasto <Generado> exitosamente
+
+-- ======================================================================================================= -
+-- 11/01/2019 08:41:53 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No es posible completar la operación, seleccione una Zona válida
+
+-- ======================================================================================================= -
+-- 11/01/2019 08:42:02 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 11/01/2019 08:42:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Generación Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 11/01/2019 08:43:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Cambio de Valores Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 11/01/2019 08:43:07 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: <Cambio de Valores Proyección> de Objetivo de Ventas Finalizado.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:13 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_UP_PARAMETRO_DOCUMENTO_D0M4]
+(c) Parámetros: 0,0,300,  103086 , 1.5100 , 0.0600 , 0.9400 , 9.4500 , 23840.0000 , 26160.0000 , 85150000.0000 , 84000000.0000 , 0.2500 , 11.0000 , 21.0000 , 31.0000 , 41.0000 , 51.0000 , 6.0000 , 7.0000 , 40.0000 , 32.0000 , 22.0000 , 12.0000 , 52.0000 , 12.0000 , 5.0000 , 13.0000 , 33.0000 , 33.0000 , 23.0000 , 23.0000 , 0.0000 , 0.0000 
+(d) Error : Could not find stored procedure 'dbo.PG_UP_PARAMETRO_DOCUMENTO_D0M4'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:20 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:26 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:27 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:28 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:28 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:29 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:30 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:31 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:32 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:32 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:32 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:32 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 10:23:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : No se puede abrir la base de datos 'PYF18_Finanzas_V0036_R0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'sa'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 11/01/2019 11:28:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No fue posible <Autorizar> el Plan de Gasto. Causa: No es posible [Autorizar] el [PLAN_GASTO]: El [Estatus#6-EJECUTADO] del [PLAN_GASTO] no lo permite. //AUT// ( [#PGA.11] )
