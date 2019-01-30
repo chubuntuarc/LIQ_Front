@@ -56,7 +56,7 @@ Public Class UC_MENU2
         VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_FLUJO, ">Flujo Diario Global", FO_FLUJO_DIARIO, "MOVIMIENTO_FLUJO_DIARIO", "Flujo Diario Global", VG_ID_DB, 2, ">Flujo Diario"))
         VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_FLUJO, ">Flujo Diario por Razón Social", FO_RESUMEN_FLUJO_DIARIO_X_RZS, "", "Flujo Diario por Razón Social", VG_ID_DB, 2, ">Flujo Diario"))
         VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_FLUJO, ">Flujo Diario por Planta", FO_RESUMEN_FLUJO_DIARIO_X_UNO, "", "Flujo Diario por Planta", VG_ID_DB, 2, ">Flujo Diario"))
-        PG_SUBMENU_CHECK_PERMISOS(VP_MENU_FLUJO, "VP_MENU_FLUJO")
+        'PG_SUBMENU_CHECK_PERMISOS(VP_MENU_FLUJO, "VP_MENU_FLUJO")
         PP_SUBMENU_ADD_EVENT(VP_MENU_FLUJO, PB_SUBMENU5)
 
         Dim VP_MENU_GASTOS As New ContextMenuStrip()
@@ -74,7 +74,7 @@ Public Class UC_MENU2
         VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_GASTOS, ">Proveedor Viático", FO_PROVEEDOR_VIATICO, "PROVEEDOR_VIATICO", "Proveedor Viático", VG_ID_DB, 2, ">Viaje"))
         VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_GASTOS, ">Recurso Viaje", FO_RECURSO_VIAJE, "RECURSO_VIAJE", "Recurso Viaje", VG_ID_DB, 2, ">Viaje"))
         VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_GASTOS, ">Cuentas Contables", FO_CUENTA_CONTABLE, "CUENTA_CONTABLE", "Cuentas Contables", VG_ID_DB, 1, ""))
-        PG_SUBMENU_CHECK_PERMISOS(VP_MENU_GASTOS, "VP_MENU_GASTOS")
+        'PG_SUBMENU_CHECK_PERMISOS(VP_MENU_GASTOS, "VP_MENU_GASTOS")
         PP_SUBMENU_ADD_EVENT(VP_MENU_GASTOS, PB_SUBMENU6)
 
         Dim VP_MENU_CONFIGURACION As New ContextMenuStrip()

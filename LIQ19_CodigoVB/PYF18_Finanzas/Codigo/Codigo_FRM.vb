@@ -324,7 +324,7 @@ Public Class Codigo_FRM
         'AddHandler PP_FORMA.l, AddressOf LimpiarCombos
 
         'permisos LOLA
-        Codigo_Permiso.PG_CONSULTAR_PERMISOS(PP_ID_BASE_DE_DATOS, PP_FORMA, VG_USUARIO_ACCION)
+        'Codigo_Permiso.PG_CONSULTAR_PERMISOS(PP_ID_BASE_DE_DATOS, PP_FORMA, VG_USUARIO_ACCION)
         On Error GoTo 0
     End Sub
 

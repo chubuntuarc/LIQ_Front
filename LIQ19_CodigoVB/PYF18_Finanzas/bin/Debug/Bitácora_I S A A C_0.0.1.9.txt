@@ -497,3 +497,133 @@ Notifique a Sistemas.
 (d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
 
 ¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 01:48:40 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 01:48:41 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 01:48:46 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:37:52 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:37:54 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:38:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:49:27 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:54:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_UP_PUNTO_VENTA]
+(c) Parámetros: 0,0,300,  15 , 'BG08' , '' , 'BG8' , 0 , 1 , 1 , 'BIOGAS' , 'N/A' , 'Ejercito Nacional' 
+(d) Error : Procedure or function PG_UP_PUNTO_VENTA has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:58:01 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_]
+(c) Parámetros: 0,0,0,  '' , -1 , -1 , '' , '' , '' 
+(d) Error : Could not find stored procedure 'dbo.PG_LI_'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 12:02:24 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_UP_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  15 , 'BG08' , '' , 'BG8' , 0 , 1 , 1 , 'BIOGAS' , 'N/A' , 'Ejercito Nacional' 
+(d) Error : Procedure or function PG_UP_PUNTO_VENTA has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 12:04:49 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_UP_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  15 , 'BG08' , 'ninguno' , 'BG0' , 0 , 1 , 1 , 'BIOGAS' , 'N/A' , 'Ejercito Nacional' 
+(d) Error : Procedure or function PG_UP_PUNTO_VENTA has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 12:17:58 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'UDG51' , 'U51' , 'Nueva unidad' , 0 , 1 , 3 , 'BIOGAS JRZ' , 'ABC123' , '' 
+(d) Error : Procedure or function PG_IN_PUNTO_VENTA has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 12:18:39 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'UDG51' , 'U51' , '' , 0 , 1 , 3 , 'JUAREZ' , 'ABD321' , 'N/A' 
+(d) Error : Procedure or function PG_IN_PUNTO_VENTA has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
