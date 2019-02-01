@@ -16,8 +16,6 @@
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_TIPO_PUNTO_VENTA, False)
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_ESTATUS_PUNTO_VENTA, False)
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LI_SUCURSAL, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LI_PLACA, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LI_DIRECCION, True)
 
         Return VP_PARAMETROS
     End Function
@@ -35,12 +33,26 @@
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_S_PUNTO_VENTA, True)
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_C_PUNTO_VENTA, True)
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_O_PUNTO_VENTA, False)
+        ''-----------------------------------------------------------------''
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CH_L_PUNTO_VENTA, False)
+        ''-----------------------------------------------------------------''
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_TIPO_PUNTO_VENTA, False)
+        ''-----------------------------------------------------------------''
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_SUCURSAL, True)
-
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_PLACA, True)
+        ''-----------------------------------------------------------------''
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_INICIAL, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_FINAL, False)
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_DIRECCION, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MATRICULA, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MARCA, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MODELO, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_KILOMETRAJE, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_SERIE, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_CAPACIDAD, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_PORCENTAJE, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MEDIDOR, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_TIPO_MEDIDOR, True)
+
 
         Return VP_PARAMETROS
 
@@ -122,14 +134,24 @@
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_C_PUNTO_VENTA, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_S_PUNTO_VENTA, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_O_PUNTO_VENTA, PP_ROW)
-
-        Codigo_CTRL.PG_CO_DATA_LOAD("", CB_TIPO_PUNTO_VENTA, PP_ROW)
-
-        Codigo_CTRL.PG_CO_DATA_LOAD("", CH_L_PUNTO_VENTA, PP_ROW)
-
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_SUCURSAL, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_PLACA, PP_ROW)
+        ''-----------------------------------------------------------------''
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_LECTURA_INICIAL, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_LECTURA_FINAL, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_DIRECCION, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_MATRICULA, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_MARCA, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_MODELO, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_KILOMETRAJE, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_SERIE, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_CAPACIDAD, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_PORCENTAJE, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_MEDIDOR, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_TIPO_MEDIDOR, PP_ROW)
+        ''-----------------------------------------------------------------''
+        Codigo_CTRL.PG_CO_DATA_LOAD("", CB_TIPO_PUNTO_VENTA, PP_ROW)
+        ''-----------------------------------------------------------------''
+        Codigo_CTRL.PG_CO_DATA_LOAD("", CH_L_PUNTO_VENTA, PP_ROW)
 
     End Sub
 

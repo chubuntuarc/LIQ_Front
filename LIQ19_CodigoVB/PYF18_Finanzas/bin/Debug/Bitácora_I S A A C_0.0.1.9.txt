@@ -627,3 +627,37 @@ Notifique a Sistemas.
 (d) Error : Procedure or function PG_IN_PUNTO_VENTA has too many arguments specified.
 
 ¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 31/01/2019 05:18:47 p. m.  -Usuario:   -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 31/01/2019 05:18:49 p. m.  -Usuario:   -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 31/01/2019 05:19:01 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'TEST POS' , 'TEST' , '' , 0 , 1 , 2 , 'BIOGAS' , 0 , 2000 , 'AV LAS TORRES' , '' , '' , '' ,  , '' , 2000 , '90' , 'LITROMETRO' , 'GASPAR TRADICIONAL' 
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 31/01/2019 05:22:45 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'TEST POS' , 'POS' , '' , 0 , 1 , 2 , 'BIOGAS' ,  ,  , 'LAS TORRES' , '' , '' , '' ,  , '' , 2000 , '90' , '' , '' 
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?

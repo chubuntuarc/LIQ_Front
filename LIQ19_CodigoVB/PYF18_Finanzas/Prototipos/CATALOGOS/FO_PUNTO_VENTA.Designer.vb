@@ -23,15 +23,33 @@ Partial Class FO_PUNTO_VENTA
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TI_RELOJ = New System.Windows.Forms.Timer(Me.components)
         Me.GB_FICHA = New System.Windows.Forms.GroupBox()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.TB_MEDIDOR = New System.Windows.Forms.TextBox()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.TB_PORCENTAJE = New System.Windows.Forms.TextBox()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.TB_CAPACIDAD = New System.Windows.Forms.TextBox()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.TB_SERIE = New System.Windows.Forms.TextBox()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.TB_KILOMETRAJE = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.TB_MODELO = New System.Windows.Forms.TextBox()
+        Me.Label18 = New System.Windows.Forms.Label()
+        Me.TB_MARCA = New System.Windows.Forms.TextBox()
+        Me.Label17 = New System.Windows.Forms.Label()
+        Me.TB_LECTURA_FINAL = New System.Windows.Forms.TextBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.TB_LECTURA_INICIAL = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.TB_DIRECCION = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.TB_SUCURSAL = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
-        Me.TB_PLACA = New System.Windows.Forms.TextBox()
+        Me.TB_MATRICULA = New System.Windows.Forms.TextBox()
         Me.CB_USUARIO_CAMBIO = New System.Windows.Forms.ComboBox()
         Me.CB_USUARIO_ALTA = New System.Windows.Forms.ComboBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -54,19 +72,15 @@ Partial Class FO_PUNTO_VENTA
         Me.TB_C_PUNTO_VENTA = New System.Windows.Forms.TextBox()
         Me.TB_D_PUNTO_VENTA = New System.Windows.Forms.TextBox()
         Me.FL_MENU_2 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.BT_LISTADO = New System.Windows.Forms.Button()
+        Me.BT_EXPORTAR_EXCEL = New System.Windows.Forms.Button()
         Me.BT_SALIR = New System.Windows.Forms.Button()
         Me.BT_CANCELAR = New System.Windows.Forms.Button()
         Me.BT_GUARDAR = New System.Windows.Forms.Button()
-        Me.BT_LISTADO = New System.Windows.Forms.Button()
-        Me.BT_EXPORTAR_EXCEL = New System.Windows.Forms.Button()
         Me.GB_FILTROS = New System.Windows.Forms.GroupBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TB_LI_DIRECCION = New System.Windows.Forms.Label()
-        Me.TB_LI_PLACA = New System.Windows.Forms.TextBox()
         Me.TB_LI_SUCURSAL = New System.Windows.Forms.TextBox()
         Me.BT_LI_BUSCAR = New System.Windows.Forms.Button()
         Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label16 = New System.Windows.Forms.Label()
         Me.CB_LI_ESTATUS_PUNTO_VENTA = New System.Windows.Forms.ComboBox()
         Me.CB_LI_TIPO_PUNTO_VENTA = New System.Windows.Forms.ComboBox()
         Me.Label13 = New System.Windows.Forms.Label()
@@ -85,6 +99,8 @@ Partial Class FO_PUNTO_VENTA
         Me.BT_EDITAR = New System.Windows.Forms.Button()
         Me.BT_CLONAR = New System.Windows.Forms.Button()
         Me.BT_ELIMINAR = New System.Windows.Forms.Button()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.TB_TIPO_MEDIDOR = New System.Windows.Forms.TextBox()
         Me.GB_FICHA.SuspendLayout()
         Me.FL_MENU_2.SuspendLayout()
         Me.GB_FILTROS.SuspendLayout()
@@ -102,12 +118,32 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.GB_FICHA.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.GB_FICHA.BackColor = System.Drawing.Color.White
+        Me.GB_FICHA.Controls.Add(Me.Label27)
+        Me.GB_FICHA.Controls.Add(Me.TB_TIPO_MEDIDOR)
+        Me.GB_FICHA.Controls.Add(Me.Label26)
+        Me.GB_FICHA.Controls.Add(Me.TB_MEDIDOR)
+        Me.GB_FICHA.Controls.Add(Me.Label23)
+        Me.GB_FICHA.Controls.Add(Me.TB_PORCENTAJE)
+        Me.GB_FICHA.Controls.Add(Me.Label24)
+        Me.GB_FICHA.Controls.Add(Me.TB_CAPACIDAD)
+        Me.GB_FICHA.Controls.Add(Me.Label25)
+        Me.GB_FICHA.Controls.Add(Me.TB_SERIE)
+        Me.GB_FICHA.Controls.Add(Me.Label22)
+        Me.GB_FICHA.Controls.Add(Me.TB_KILOMETRAJE)
+        Me.GB_FICHA.Controls.Add(Me.Label20)
+        Me.GB_FICHA.Controls.Add(Me.TB_MODELO)
+        Me.GB_FICHA.Controls.Add(Me.Label18)
+        Me.GB_FICHA.Controls.Add(Me.TB_MARCA)
+        Me.GB_FICHA.Controls.Add(Me.Label17)
+        Me.GB_FICHA.Controls.Add(Me.TB_LECTURA_FINAL)
+        Me.GB_FICHA.Controls.Add(Me.Label15)
+        Me.GB_FICHA.Controls.Add(Me.TB_LECTURA_INICIAL)
         Me.GB_FICHA.Controls.Add(Me.Label10)
         Me.GB_FICHA.Controls.Add(Me.TB_DIRECCION)
         Me.GB_FICHA.Controls.Add(Me.Label12)
         Me.GB_FICHA.Controls.Add(Me.TB_SUCURSAL)
         Me.GB_FICHA.Controls.Add(Me.Label19)
-        Me.GB_FICHA.Controls.Add(Me.TB_PLACA)
+        Me.GB_FICHA.Controls.Add(Me.TB_MATRICULA)
         Me.GB_FICHA.Controls.Add(Me.CB_USUARIO_CAMBIO)
         Me.GB_FICHA.Controls.Add(Me.CB_USUARIO_ALTA)
         Me.GB_FICHA.Controls.Add(Me.Label5)
@@ -134,16 +170,220 @@ Partial Class FO_PUNTO_VENTA
         Me.GB_FICHA.Margin = New System.Windows.Forms.Padding(6)
         Me.GB_FICHA.Name = "GB_FICHA"
         Me.GB_FICHA.Padding = New System.Windows.Forms.Padding(6)
-        Me.GB_FICHA.Size = New System.Drawing.Size(1916, 441)
+        Me.GB_FICHA.Size = New System.Drawing.Size(1916, 687)
         Me.GB_FICHA.TabIndex = 40
         Me.GB_FICHA.TabStop = False
         Me.GB_FICHA.Text = "Ficha"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Location = New System.Drawing.Point(981, 225)
+        Me.Label26.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(97, 30)
+        Me.Label26.TabIndex = 146
+        Me.Label26.Text = "Medidor"
+        '
+        'TB_MEDIDOR
+        '
+        Me.TB_MEDIDOR.AccessibleDescription = ""
+        Me.TB_MEDIDOR.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_MEDIDOR.Location = New System.Drawing.Point(971, 256)
+        Me.TB_MEDIDOR.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_MEDIDOR.Name = "TB_MEDIDOR"
+        Me.TB_MEDIDOR.Size = New System.Drawing.Size(426, 36)
+        Me.TB_MEDIDOR.TabIndex = 145
+        Me.TB_MEDIDOR.Tag = ""
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Location = New System.Drawing.Point(1378, 495)
+        Me.Label23.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(114, 30)
+        Me.Label23.TabIndex = 144
+        Me.Label23.Text = "Porcentaje"
+        '
+        'TB_PORCENTAJE
+        '
+        Me.TB_PORCENTAJE.AccessibleDescription = ""
+        Me.TB_PORCENTAJE.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_PORCENTAJE.Location = New System.Drawing.Point(1372, 526)
+        Me.TB_PORCENTAJE.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_PORCENTAJE.Name = "TB_PORCENTAJE"
+        Me.TB_PORCENTAJE.Size = New System.Drawing.Size(468, 36)
+        Me.TB_PORCENTAJE.TabIndex = 143
+        Me.TB_PORCENTAJE.Tag = "1"
+        Me.TB_PORCENTAJE.Text = "0"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Location = New System.Drawing.Point(724, 495)
+        Me.Label24.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(114, 30)
+        Me.Label24.TabIndex = 142
+        Me.Label24.Text = "Capacidad"
+        '
+        'TB_CAPACIDAD
+        '
+        Me.TB_CAPACIDAD.AccessibleDescription = ""
+        Me.TB_CAPACIDAD.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_CAPACIDAD.Location = New System.Drawing.Point(718, 526)
+        Me.TB_CAPACIDAD.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_CAPACIDAD.Name = "TB_CAPACIDAD"
+        Me.TB_CAPACIDAD.Size = New System.Drawing.Size(634, 36)
+        Me.TB_CAPACIDAD.TabIndex = 141
+        Me.TB_CAPACIDAD.Tag = "1"
+        Me.TB_CAPACIDAD.Text = "0"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Location = New System.Drawing.Point(78, 495)
+        Me.Label25.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(62, 30)
+        Me.Label25.TabIndex = 140
+        Me.Label25.Text = "Serie"
+        '
+        'TB_SERIE
+        '
+        Me.TB_SERIE.AccessibleDescription = ""
+        Me.TB_SERIE.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_SERIE.Location = New System.Drawing.Point(72, 526)
+        Me.TB_SERIE.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_SERIE.Name = "TB_SERIE"
+        Me.TB_SERIE.Size = New System.Drawing.Size(634, 36)
+        Me.TB_SERIE.TabIndex = 139
+        Me.TB_SERIE.Tag = ""
+        Me.TB_SERIE.Text = "0"
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Location = New System.Drawing.Point(1378, 401)
+        Me.Label22.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(123, 30)
+        Me.Label22.TabIndex = 138
+        Me.Label22.Text = "Kilometraje"
+        '
+        'TB_KILOMETRAJE
+        '
+        Me.TB_KILOMETRAJE.AccessibleDescription = ""
+        Me.TB_KILOMETRAJE.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_KILOMETRAJE.Location = New System.Drawing.Point(1372, 432)
+        Me.TB_KILOMETRAJE.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_KILOMETRAJE.Name = "TB_KILOMETRAJE"
+        Me.TB_KILOMETRAJE.Size = New System.Drawing.Size(468, 36)
+        Me.TB_KILOMETRAJE.TabIndex = 137
+        Me.TB_KILOMETRAJE.Tag = ""
+        Me.TB_KILOMETRAJE.Text = "0"
+        '
+        'Label20
+        '
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(724, 401)
+        Me.Label20.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(89, 30)
+        Me.Label20.TabIndex = 136
+        Me.Label20.Text = "Modelo"
+        '
+        'TB_MODELO
+        '
+        Me.TB_MODELO.AccessibleDescription = ""
+        Me.TB_MODELO.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_MODELO.Location = New System.Drawing.Point(718, 432)
+        Me.TB_MODELO.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_MODELO.Name = "TB_MODELO"
+        Me.TB_MODELO.Size = New System.Drawing.Size(634, 36)
+        Me.TB_MODELO.TabIndex = 135
+        Me.TB_MODELO.Tag = ""
+        Me.TB_MODELO.Text = " "
+        '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Location = New System.Drawing.Point(78, 401)
+        Me.Label18.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(73, 30)
+        Me.Label18.TabIndex = 134
+        Me.Label18.Text = "Marca"
+        '
+        'TB_MARCA
+        '
+        Me.TB_MARCA.AccessibleDescription = ""
+        Me.TB_MARCA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_MARCA.Location = New System.Drawing.Point(72, 432)
+        Me.TB_MARCA.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_MARCA.Name = "TB_MARCA"
+        Me.TB_MARCA.Size = New System.Drawing.Size(634, 36)
+        Me.TB_MARCA.TabIndex = 133
+        Me.TB_MARCA.Tag = ""
+        Me.TB_MARCA.Text = " "
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Location = New System.Drawing.Point(529, 225)
+        Me.Label17.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(129, 30)
+        Me.Label17.TabIndex = 132
+        Me.Label17.Text = "Lectura final"
+        '
+        'TB_LECTURA_FINAL
+        '
+        Me.TB_LECTURA_FINAL.AccessibleDescription = ""
+        Me.TB_LECTURA_FINAL.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_LECTURA_FINAL.Location = New System.Drawing.Point(523, 256)
+        Me.TB_LECTURA_FINAL.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_LECTURA_FINAL.Name = "TB_LECTURA_FINAL"
+        Me.TB_LECTURA_FINAL.Size = New System.Drawing.Size(426, 36)
+        Me.TB_LECTURA_FINAL.TabIndex = 131
+        Me.TB_LECTURA_FINAL.Tag = ""
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(74, 225)
+        Me.Label15.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(142, 30)
+        Me.Label15.TabIndex = 130
+        Me.Label15.Text = "Lectura inicial"
+        '
+        'TB_LECTURA_INICIAL
+        '
+        Me.TB_LECTURA_INICIAL.AccessibleDescription = ""
+        Me.TB_LECTURA_INICIAL.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_LECTURA_INICIAL.Location = New System.Drawing.Point(68, 256)
+        Me.TB_LECTURA_INICIAL.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_LECTURA_INICIAL.Name = "TB_LECTURA_INICIAL"
+        Me.TB_LECTURA_INICIAL.Size = New System.Drawing.Size(437, 36)
+        Me.TB_LECTURA_INICIAL.TabIndex = 129
+        Me.TB_LECTURA_INICIAL.Tag = ""
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(724, 215)
+        Me.Label10.Location = New System.Drawing.Point(74, 311)
         Me.Label10.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(103, 30)
@@ -154,12 +394,13 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.TB_DIRECCION.AccessibleDescription = ""
         Me.TB_DIRECCION.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_DIRECCION.Location = New System.Drawing.Point(718, 246)
+        Me.TB_DIRECCION.Location = New System.Drawing.Point(68, 342)
         Me.TB_DIRECCION.Margin = New System.Windows.Forms.Padding(6)
         Me.TB_DIRECCION.Name = "TB_DIRECCION"
-        Me.TB_DIRECCION.Size = New System.Drawing.Size(634, 36)
+        Me.TB_DIRECCION.Size = New System.Drawing.Size(802, 36)
         Me.TB_DIRECCION.TabIndex = 127
         Me.TB_DIRECCION.Tag = ""
+        Me.TB_DIRECCION.Text = " "
         '
         'Label12
         '
@@ -181,35 +422,36 @@ Partial Class FO_PUNTO_VENTA
         Me.TB_SUCURSAL.Name = "TB_SUCURSAL"
         Me.TB_SUCURSAL.Size = New System.Drawing.Size(1034, 36)
         Me.TB_SUCURSAL.TabIndex = 125
-        Me.TB_SUCURSAL.Tag = ""
+        Me.TB_SUCURSAL.Tag = "1"
         '
         'Label19
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(74, 215)
+        Me.Label19.Location = New System.Drawing.Point(892, 311)
         Me.Label19.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(62, 30)
+        Me.Label19.Size = New System.Drawing.Size(102, 30)
         Me.Label19.TabIndex = 47
-        Me.Label19.Text = "Placa"
+        Me.Label19.Text = "Matricula"
         '
-        'TB_PLACA
+        'TB_MATRICULA
         '
-        Me.TB_PLACA.AccessibleDescription = ""
-        Me.TB_PLACA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_PLACA.Location = New System.Drawing.Point(68, 246)
-        Me.TB_PLACA.Margin = New System.Windows.Forms.Padding(6)
-        Me.TB_PLACA.Name = "TB_PLACA"
-        Me.TB_PLACA.Size = New System.Drawing.Size(634, 36)
-        Me.TB_PLACA.TabIndex = 46
-        Me.TB_PLACA.Tag = ""
+        Me.TB_MATRICULA.AccessibleDescription = ""
+        Me.TB_MATRICULA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_MATRICULA.Location = New System.Drawing.Point(886, 342)
+        Me.TB_MATRICULA.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_MATRICULA.Name = "TB_MATRICULA"
+        Me.TB_MATRICULA.Size = New System.Drawing.Size(954, 36)
+        Me.TB_MATRICULA.TabIndex = 46
+        Me.TB_MATRICULA.Tag = ""
+        Me.TB_MATRICULA.Text = " "
         '
         'CB_USUARIO_CAMBIO
         '
         Me.CB_USUARIO_CAMBIO.Enabled = False
         Me.CB_USUARIO_CAMBIO.FormattingEnabled = True
-        Me.CB_USUARIO_CAMBIO.Location = New System.Drawing.Point(957, 351)
+        Me.CB_USUARIO_CAMBIO.Location = New System.Drawing.Point(964, 625)
         Me.CB_USUARIO_CAMBIO.Margin = New System.Windows.Forms.Padding(6)
         Me.CB_USUARIO_CAMBIO.Name = "CB_USUARIO_CAMBIO"
         Me.CB_USUARIO_CAMBIO.Size = New System.Drawing.Size(426, 33)
@@ -219,7 +461,7 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.CB_USUARIO_ALTA.Enabled = False
         Me.CB_USUARIO_ALTA.FormattingEnabled = True
-        Me.CB_USUARIO_ALTA.Location = New System.Drawing.Point(65, 349)
+        Me.CB_USUARIO_ALTA.Location = New System.Drawing.Point(72, 623)
         Me.CB_USUARIO_ALTA.Margin = New System.Windows.Forms.Padding(6)
         Me.CB_USUARIO_ALTA.Name = "CB_USUARIO_ALTA"
         Me.CB_USUARIO_ALTA.Size = New System.Drawing.Size(426, 33)
@@ -229,7 +471,7 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(515, 318)
+        Me.Label5.Location = New System.Drawing.Point(522, 592)
         Me.Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(112, 30)
@@ -240,7 +482,7 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(1413, 320)
+        Me.Label9.Location = New System.Drawing.Point(1420, 594)
         Me.Label9.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(204, 30)
@@ -251,7 +493,7 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(963, 320)
+        Me.Label6.Location = New System.Drawing.Point(970, 594)
         Me.Label6.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(315, 30)
@@ -262,7 +504,7 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(71, 320)
+        Me.Label2.Location = New System.Drawing.Point(78, 594)
         Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(129, 30)
@@ -273,7 +515,7 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.TB_F_ALTA.Enabled = False
         Me.TB_F_ALTA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_F_ALTA.Location = New System.Drawing.Point(509, 349)
+        Me.TB_F_ALTA.Location = New System.Drawing.Point(516, 623)
         Me.TB_F_ALTA.Margin = New System.Windows.Forms.Padding(6)
         Me.TB_F_ALTA.Name = "TB_F_ALTA"
         Me.TB_F_ALTA.Size = New System.Drawing.Size(426, 36)
@@ -283,7 +525,7 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.TB_F_CAMBIO.Enabled = False
         Me.TB_F_CAMBIO.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_F_CAMBIO.Location = New System.Drawing.Point(1407, 351)
+        Me.TB_F_CAMBIO.Location = New System.Drawing.Point(1414, 625)
         Me.TB_F_CAMBIO.Margin = New System.Windows.Forms.Padding(6)
         Me.TB_F_CAMBIO.Name = "TB_F_CAMBIO"
         Me.TB_F_CAMBIO.Size = New System.Drawing.Size(426, 36)
@@ -446,6 +688,33 @@ Partial Class FO_PUNTO_VENTA
         Me.FL_MENU_2.Size = New System.Drawing.Size(763, 77)
         Me.FL_MENU_2.TabIndex = 46
         '
+        'BT_LISTADO
+        '
+        Me.BT_LISTADO.BackColor = System.Drawing.Color.White
+        Me.BT_LISTADO.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.BT_LISTADO.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
+        Me.BT_LISTADO.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BT_LISTADO.Image = Global.PYF18_Finanzas.My.Resources.Resources.listado
+        Me.BT_LISTADO.Location = New System.Drawing.Point(617, 12)
+        Me.BT_LISTADO.Margin = New System.Windows.Forms.Padding(6)
+        Me.BT_LISTADO.Name = "BT_LISTADO"
+        Me.BT_LISTADO.Size = New System.Drawing.Size(140, 65)
+        Me.BT_LISTADO.TabIndex = 25
+        Me.BT_LISTADO.UseVisualStyleBackColor = False
+        '
+        'BT_EXPORTAR_EXCEL
+        '
+        Me.BT_EXPORTAR_EXCEL.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.BT_EXPORTAR_EXCEL.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BT_EXPORTAR_EXCEL.Image = Global.PYF18_Finanzas.My.Resources.Resources.rsz_export
+        Me.BT_EXPORTAR_EXCEL.Location = New System.Drawing.Point(465, 12)
+        Me.BT_EXPORTAR_EXCEL.Margin = New System.Windows.Forms.Padding(6)
+        Me.BT_EXPORTAR_EXCEL.Name = "BT_EXPORTAR_EXCEL"
+        Me.BT_EXPORTAR_EXCEL.Size = New System.Drawing.Size(140, 65)
+        Me.BT_EXPORTAR_EXCEL.TabIndex = 28
+        Me.BT_EXPORTAR_EXCEL.Tag = "Copiar al portapapeles"
+        Me.BT_EXPORTAR_EXCEL.UseVisualStyleBackColor = True
+        '
         'BT_SALIR
         '
         Me.BT_SALIR.Anchor = System.Windows.Forms.AnchorStyles.None
@@ -497,45 +766,14 @@ Partial Class FO_PUNTO_VENTA
         Me.BT_GUARDAR.TabIndex = 23
         Me.BT_GUARDAR.UseVisualStyleBackColor = True
         '
-        'BT_LISTADO
-        '
-        Me.BT_LISTADO.BackColor = System.Drawing.Color.White
-        Me.BT_LISTADO.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.BT_LISTADO.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.BT_LISTADO.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BT_LISTADO.Image = Global.PYF18_Finanzas.My.Resources.Resources.listado
-        Me.BT_LISTADO.Location = New System.Drawing.Point(617, 12)
-        Me.BT_LISTADO.Margin = New System.Windows.Forms.Padding(6)
-        Me.BT_LISTADO.Name = "BT_LISTADO"
-        Me.BT_LISTADO.Size = New System.Drawing.Size(140, 65)
-        Me.BT_LISTADO.TabIndex = 25
-        Me.BT_LISTADO.UseVisualStyleBackColor = False
-        '
-        'BT_EXPORTAR_EXCEL
-        '
-        Me.BT_EXPORTAR_EXCEL.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.BT_EXPORTAR_EXCEL.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BT_EXPORTAR_EXCEL.Image = Global.PYF18_Finanzas.My.Resources.Resources.rsz_export
-        Me.BT_EXPORTAR_EXCEL.Location = New System.Drawing.Point(465, 12)
-        Me.BT_EXPORTAR_EXCEL.Margin = New System.Windows.Forms.Padding(6)
-        Me.BT_EXPORTAR_EXCEL.Name = "BT_EXPORTAR_EXCEL"
-        Me.BT_EXPORTAR_EXCEL.Size = New System.Drawing.Size(140, 65)
-        Me.BT_EXPORTAR_EXCEL.TabIndex = 28
-        Me.BT_EXPORTAR_EXCEL.Tag = "Copiar al portapapeles"
-        Me.BT_EXPORTAR_EXCEL.UseVisualStyleBackColor = True
-        '
         'GB_FILTROS
         '
         Me.GB_FILTROS.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GB_FILTROS.BackColor = System.Drawing.Color.White
-        Me.GB_FILTROS.Controls.Add(Me.TextBox1)
-        Me.GB_FILTROS.Controls.Add(Me.TB_LI_DIRECCION)
-        Me.GB_FILTROS.Controls.Add(Me.TB_LI_PLACA)
         Me.GB_FILTROS.Controls.Add(Me.TB_LI_SUCURSAL)
         Me.GB_FILTROS.Controls.Add(Me.BT_LI_BUSCAR)
         Me.GB_FILTROS.Controls.Add(Me.Label21)
-        Me.GB_FILTROS.Controls.Add(Me.Label16)
         Me.GB_FILTROS.Controls.Add(Me.CB_LI_ESTATUS_PUNTO_VENTA)
         Me.GB_FILTROS.Controls.Add(Me.CB_LI_TIPO_PUNTO_VENTA)
         Me.GB_FILTROS.Controls.Add(Me.Label13)
@@ -548,44 +786,15 @@ Partial Class FO_PUNTO_VENTA
         Me.GB_FILTROS.Margin = New System.Windows.Forms.Padding(6)
         Me.GB_FILTROS.Name = "GB_FILTROS"
         Me.GB_FILTROS.Padding = New System.Windows.Forms.Padding(6)
-        Me.GB_FILTROS.Size = New System.Drawing.Size(2056, 202)
+        Me.GB_FILTROS.Size = New System.Drawing.Size(2056, 148)
         Me.GB_FILTROS.TabIndex = 41
         Me.GB_FILTROS.TabStop = False
         Me.GB_FILTROS.Text = "Filtros"
         '
-        'TextBox1
-        '
-        Me.TextBox1.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(774, 143)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(6)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(356, 37)
-        Me.TextBox1.TabIndex = 123
-        '
-        'TB_LI_DIRECCION
-        '
-        Me.TB_LI_DIRECCION.AutoSize = True
-        Me.TB_LI_DIRECCION.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_LI_DIRECCION.Location = New System.Drawing.Point(782, 115)
-        Me.TB_LI_DIRECCION.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
-        Me.TB_LI_DIRECCION.Name = "TB_LI_DIRECCION"
-        Me.TB_LI_DIRECCION.Size = New System.Drawing.Size(103, 26)
-        Me.TB_LI_DIRECCION.TabIndex = 122
-        Me.TB_LI_DIRECCION.Text = "Dirección"
-        '
-        'TB_LI_PLACA
-        '
-        Me.TB_LI_PLACA.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_LI_PLACA.Location = New System.Drawing.Point(396, 143)
-        Me.TB_LI_PLACA.Margin = New System.Windows.Forms.Padding(6)
-        Me.TB_LI_PLACA.Name = "TB_LI_PLACA"
-        Me.TB_LI_PLACA.Size = New System.Drawing.Size(356, 37)
-        Me.TB_LI_PLACA.TabIndex = 121
-        '
         'TB_LI_SUCURSAL
         '
         Me.TB_LI_SUCURSAL.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_LI_SUCURSAL.Location = New System.Drawing.Point(24, 143)
+        Me.TB_LI_SUCURSAL.Location = New System.Drawing.Point(1133, 59)
         Me.TB_LI_SUCURSAL.Margin = New System.Windows.Forms.Padding(6)
         Me.TB_LI_SUCURSAL.Name = "TB_LI_SUCURSAL"
         Me.TB_LI_SUCURSAL.Size = New System.Drawing.Size(356, 37)
@@ -600,7 +809,7 @@ Partial Class FO_PUNTO_VENTA
         Me.BT_LI_BUSCAR.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.BT_LI_BUSCAR.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BT_LI_BUSCAR.Image = Global.PYF18_Finanzas.My.Resources.Resources.rsz_search
-        Me.BT_LI_BUSCAR.Location = New System.Drawing.Point(1685, 62)
+        Me.BT_LI_BUSCAR.Location = New System.Drawing.Point(1685, 35)
         Me.BT_LI_BUSCAR.Margin = New System.Windows.Forms.Padding(0)
         Me.BT_LI_BUSCAR.Name = "BT_LI_BUSCAR"
         Me.BT_LI_BUSCAR.Size = New System.Drawing.Size(140, 65)
@@ -612,23 +821,12 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(30, 115)
+        Me.Label21.Location = New System.Drawing.Point(1139, 31)
         Me.Label21.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(97, 26)
         Me.Label21.TabIndex = 119
         Me.Label21.Text = "Sucursal"
-        '
-        'Label16
-        '
-        Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(404, 115)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
-        Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(67, 26)
-        Me.Label16.TabIndex = 34
-        Me.Label16.Text = "Placa"
         '
         'CB_LI_ESTATUS_PUNTO_VENTA
         '
@@ -698,7 +896,7 @@ Partial Class FO_PUNTO_VENTA
         Me.GB_LISTADO.BackColor = System.Drawing.Color.White
         Me.GB_LISTADO.Controls.Add(Me.LI_LISTADO)
         Me.GB_LISTADO.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GB_LISTADO.Location = New System.Drawing.Point(27, 320)
+        Me.GB_LISTADO.Location = New System.Drawing.Point(27, 269)
         Me.GB_LISTADO.Margin = New System.Windows.Forms.Padding(6)
         Me.GB_LISTADO.Name = "GB_LISTADO"
         Me.GB_LISTADO.Padding = New System.Windows.Forms.Padding(6)
@@ -714,14 +912,14 @@ Partial Class FO_PUNTO_VENTA
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LI_LISTADO.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.LI_LISTADO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.LI_LISTADO.Location = New System.Drawing.Point(24, 50)
         Me.LI_LISTADO.Margin = New System.Windows.Forms.Padding(24, 19, 24, 19)
@@ -736,7 +934,7 @@ Partial Class FO_PUNTO_VENTA
         Me.GB_OPERACION.BackColor = System.Drawing.Color.White
         Me.GB_OPERACION.Controls.Add(Me.LB_RESULTADO)
         Me.GB_OPERACION.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GB_OPERACION.Location = New System.Drawing.Point(27, 1049)
+        Me.GB_OPERACION.Location = New System.Drawing.Point(27, 1004)
         Me.GB_OPERACION.Margin = New System.Windows.Forms.Padding(6)
         Me.GB_OPERACION.Name = "GB_OPERACION"
         Me.GB_OPERACION.Padding = New System.Windows.Forms.Padding(6)
@@ -769,7 +967,7 @@ Partial Class FO_PUNTO_VENTA
         Me.GB_CONTROL.Controls.Add(Me.LB_VERSION)
         Me.GB_CONTROL.Controls.Add(Me.LB_RELOJ)
         Me.GB_CONTROL.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GB_CONTROL.Location = New System.Drawing.Point(1205, 1049)
+        Me.GB_CONTROL.Location = New System.Drawing.Point(1205, 1007)
         Me.GB_CONTROL.Margin = New System.Windows.Forms.Padding(6)
         Me.GB_CONTROL.Name = "GB_CONTROL"
         Me.GB_CONTROL.Padding = New System.Windows.Forms.Padding(6)
@@ -878,6 +1076,28 @@ Partial Class FO_PUNTO_VENTA
         Me.BT_ELIMINAR.TabIndex = 6
         Me.BT_ELIMINAR.UseVisualStyleBackColor = True
         '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(1427, 225)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(145, 30)
+        Me.Label27.TabIndex = 148
+        Me.Label27.Text = "Tipo medidor"
+        '
+        'TB_TIPO_MEDIDOR
+        '
+        Me.TB_TIPO_MEDIDOR.AccessibleDescription = ""
+        Me.TB_TIPO_MEDIDOR.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_TIPO_MEDIDOR.Location = New System.Drawing.Point(1417, 256)
+        Me.TB_TIPO_MEDIDOR.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_TIPO_MEDIDOR.Name = "TB_TIPO_MEDIDOR"
+        Me.TB_TIPO_MEDIDOR.Size = New System.Drawing.Size(426, 36)
+        Me.TB_TIPO_MEDIDOR.TabIndex = 147
+        Me.TB_TIPO_MEDIDOR.Tag = ""
+        '
         'FO_PUNTO_VENTA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
@@ -911,7 +1131,7 @@ Partial Class FO_PUNTO_VENTA
     Public WithEvents TI_RELOJ As Timer
     Public WithEvents GB_FICHA As GroupBox
     Friend WithEvents Label19 As Label
-    Public WithEvents TB_PLACA As TextBox
+    Public WithEvents TB_MATRICULA As TextBox
     Public WithEvents CB_USUARIO_CAMBIO As ComboBox
     Public WithEvents CB_USUARIO_ALTA As ComboBox
     Friend WithEvents Label5 As Label
@@ -941,7 +1161,6 @@ Partial Class FO_PUNTO_VENTA
     Public WithEvents BT_EXPORTAR_EXCEL As Button
     Public WithEvents GB_FILTROS As GroupBox
     Friend WithEvents Label21 As Label
-    Friend WithEvents Label16 As Label
     Public WithEvents CB_LI_ESTATUS_PUNTO_VENTA As ComboBox
     Public WithEvents CB_LI_TIPO_PUNTO_VENTA As ComboBox
     Public WithEvents BT_LI_BUSCAR As Button
@@ -962,11 +1181,28 @@ Partial Class FO_PUNTO_VENTA
     Public WithEvents BT_CLONAR As Button
     Public WithEvents BT_ELIMINAR As Button
     Public WithEvents TB_LI_SUCURSAL As TextBox
-    Public WithEvents TB_LI_PLACA As TextBox
-    Public WithEvents TextBox1 As TextBox
-    Friend WithEvents TB_LI_DIRECCION As Label
     Friend WithEvents Label12 As Label
     Public WithEvents TB_SUCURSAL As TextBox
     Friend WithEvents Label10 As Label
     Public WithEvents TB_DIRECCION As TextBox
+    Friend WithEvents Label17 As Label
+    Public WithEvents TB_LECTURA_FINAL As TextBox
+    Friend WithEvents Label15 As Label
+    Public WithEvents TB_LECTURA_INICIAL As TextBox
+    Friend WithEvents Label26 As Label
+    Public WithEvents TB_MEDIDOR As TextBox
+    Friend WithEvents Label23 As Label
+    Public WithEvents TB_PORCENTAJE As TextBox
+    Friend WithEvents Label24 As Label
+    Public WithEvents TB_CAPACIDAD As TextBox
+    Friend WithEvents Label25 As Label
+    Public WithEvents TB_SERIE As TextBox
+    Friend WithEvents Label22 As Label
+    Public WithEvents TB_KILOMETRAJE As TextBox
+    Friend WithEvents Label20 As Label
+    Public WithEvents TB_MODELO As TextBox
+    Friend WithEvents Label18 As Label
+    Public WithEvents TB_MARCA As TextBox
+    Friend WithEvents Label27 As Label
+    Public WithEvents TB_TIPO_MEDIDOR As TextBox
 End Class
