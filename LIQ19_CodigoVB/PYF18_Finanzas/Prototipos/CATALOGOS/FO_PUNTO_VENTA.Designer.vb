@@ -23,9 +23,11 @@ Partial Class FO_PUNTO_VENTA
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TI_RELOJ = New System.Windows.Forms.Timer(Me.components)
         Me.GB_FICHA = New System.Windows.Forms.GroupBox()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.TB_TIPO_MEDIDOR = New System.Windows.Forms.TextBox()
         Me.Label26 = New System.Windows.Forms.Label()
         Me.TB_MEDIDOR = New System.Windows.Forms.TextBox()
         Me.Label23 = New System.Windows.Forms.Label()
@@ -78,7 +80,6 @@ Partial Class FO_PUNTO_VENTA
         Me.BT_CANCELAR = New System.Windows.Forms.Button()
         Me.BT_GUARDAR = New System.Windows.Forms.Button()
         Me.GB_FILTROS = New System.Windows.Forms.GroupBox()
-        Me.TB_LI_SUCURSAL = New System.Windows.Forms.TextBox()
         Me.BT_LI_BUSCAR = New System.Windows.Forms.Button()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.CB_LI_ESTATUS_PUNTO_VENTA = New System.Windows.Forms.ComboBox()
@@ -99,8 +100,7 @@ Partial Class FO_PUNTO_VENTA
         Me.BT_EDITAR = New System.Windows.Forms.Button()
         Me.BT_CLONAR = New System.Windows.Forms.Button()
         Me.BT_ELIMINAR = New System.Windows.Forms.Button()
-        Me.Label27 = New System.Windows.Forms.Label()
-        Me.TB_TIPO_MEDIDOR = New System.Windows.Forms.TextBox()
+        Me.CB_LI_K_UNIDAD_OPERATIVA = New System.Windows.Forms.ComboBox()
         Me.GB_FICHA.SuspendLayout()
         Me.FL_MENU_2.SuspendLayout()
         Me.GB_FILTROS.SuspendLayout()
@@ -174,6 +174,28 @@ Partial Class FO_PUNTO_VENTA
         Me.GB_FICHA.TabIndex = 40
         Me.GB_FICHA.TabStop = False
         Me.GB_FICHA.Text = "Ficha"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(1427, 225)
+        Me.Label27.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(145, 30)
+        Me.Label27.TabIndex = 148
+        Me.Label27.Text = "Tipo medidor"
+        '
+        'TB_TIPO_MEDIDOR
+        '
+        Me.TB_TIPO_MEDIDOR.AccessibleDescription = ""
+        Me.TB_TIPO_MEDIDOR.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_TIPO_MEDIDOR.Location = New System.Drawing.Point(1417, 256)
+        Me.TB_TIPO_MEDIDOR.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_TIPO_MEDIDOR.Name = "TB_TIPO_MEDIDOR"
+        Me.TB_TIPO_MEDIDOR.Size = New System.Drawing.Size(426, 36)
+        Me.TB_TIPO_MEDIDOR.TabIndex = 147
+        Me.TB_TIPO_MEDIDOR.Tag = ""
         '
         'Label26
         '
@@ -406,7 +428,7 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(724, 127)
+        Me.Label12.Location = New System.Drawing.Point(725, 132)
         Me.Label12.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(92, 30)
@@ -417,7 +439,7 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.TB_SUCURSAL.AccessibleDescription = ""
         Me.TB_SUCURSAL.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_SUCURSAL.Location = New System.Drawing.Point(718, 158)
+        Me.TB_SUCURSAL.Location = New System.Drawing.Point(719, 163)
         Me.TB_SUCURSAL.Margin = New System.Windows.Forms.Padding(6)
         Me.TB_SUCURSAL.Name = "TB_SUCURSAL"
         Me.TB_SUCURSAL.Size = New System.Drawing.Size(1034, 36)
@@ -771,7 +793,7 @@ Partial Class FO_PUNTO_VENTA
         Me.GB_FILTROS.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GB_FILTROS.BackColor = System.Drawing.Color.White
-        Me.GB_FILTROS.Controls.Add(Me.TB_LI_SUCURSAL)
+        Me.GB_FILTROS.Controls.Add(Me.CB_LI_K_UNIDAD_OPERATIVA)
         Me.GB_FILTROS.Controls.Add(Me.BT_LI_BUSCAR)
         Me.GB_FILTROS.Controls.Add(Me.Label21)
         Me.GB_FILTROS.Controls.Add(Me.CB_LI_ESTATUS_PUNTO_VENTA)
@@ -790,15 +812,6 @@ Partial Class FO_PUNTO_VENTA
         Me.GB_FILTROS.TabIndex = 41
         Me.GB_FILTROS.TabStop = False
         Me.GB_FILTROS.Text = "Filtros"
-        '
-        'TB_LI_SUCURSAL
-        '
-        Me.TB_LI_SUCURSAL.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_LI_SUCURSAL.Location = New System.Drawing.Point(1133, 59)
-        Me.TB_LI_SUCURSAL.Margin = New System.Windows.Forms.Padding(6)
-        Me.TB_LI_SUCURSAL.Name = "TB_LI_SUCURSAL"
-        Me.TB_LI_SUCURSAL.Size = New System.Drawing.Size(356, 37)
-        Me.TB_LI_SUCURSAL.TabIndex = 120
         '
         'BT_LI_BUSCAR
         '
@@ -824,9 +837,9 @@ Partial Class FO_PUNTO_VENTA
         Me.Label21.Location = New System.Drawing.Point(1139, 31)
         Me.Label21.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(97, 26)
+        Me.Label21.Size = New System.Drawing.Size(181, 26)
         Me.Label21.TabIndex = 119
-        Me.Label21.Text = "Sucursal"
+        Me.Label21.Text = "Unidad Operativa"
         '
         'CB_LI_ESTATUS_PUNTO_VENTA
         '
@@ -912,14 +925,14 @@ Partial Class FO_PUNTO_VENTA
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LI_LISTADO.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.LI_LISTADO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.LI_LISTADO.Location = New System.Drawing.Point(24, 50)
         Me.LI_LISTADO.Margin = New System.Windows.Forms.Padding(24, 19, 24, 19)
@@ -1076,27 +1089,14 @@ Partial Class FO_PUNTO_VENTA
         Me.BT_ELIMINAR.TabIndex = 6
         Me.BT_ELIMINAR.UseVisualStyleBackColor = True
         '
-        'Label27
+        'CB_LI_K_UNIDAD_OPERATIVA
         '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(1427, 225)
-        Me.Label27.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(145, 30)
-        Me.Label27.TabIndex = 148
-        Me.Label27.Text = "Tipo medidor"
-        '
-        'TB_TIPO_MEDIDOR
-        '
-        Me.TB_TIPO_MEDIDOR.AccessibleDescription = ""
-        Me.TB_TIPO_MEDIDOR.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_TIPO_MEDIDOR.Location = New System.Drawing.Point(1417, 256)
-        Me.TB_TIPO_MEDIDOR.Margin = New System.Windows.Forms.Padding(6)
-        Me.TB_TIPO_MEDIDOR.Name = "TB_TIPO_MEDIDOR"
-        Me.TB_TIPO_MEDIDOR.Size = New System.Drawing.Size(426, 36)
-        Me.TB_TIPO_MEDIDOR.TabIndex = 147
-        Me.TB_TIPO_MEDIDOR.Tag = ""
+        Me.CB_LI_K_UNIDAD_OPERATIVA.FormattingEnabled = True
+        Me.CB_LI_K_UNIDAD_OPERATIVA.Location = New System.Drawing.Point(1133, 62)
+        Me.CB_LI_K_UNIDAD_OPERATIVA.Margin = New System.Windows.Forms.Padding(6)
+        Me.CB_LI_K_UNIDAD_OPERATIVA.Name = "CB_LI_K_UNIDAD_OPERATIVA"
+        Me.CB_LI_K_UNIDAD_OPERATIVA.Size = New System.Drawing.Size(336, 34)
+        Me.CB_LI_K_UNIDAD_OPERATIVA.TabIndex = 120
         '
         'FO_PUNTO_VENTA
         '
@@ -1180,7 +1180,6 @@ Partial Class FO_PUNTO_VENTA
     Public WithEvents BT_EDITAR As Button
     Public WithEvents BT_CLONAR As Button
     Public WithEvents BT_ELIMINAR As Button
-    Public WithEvents TB_LI_SUCURSAL As TextBox
     Friend WithEvents Label12 As Label
     Public WithEvents TB_SUCURSAL As TextBox
     Friend WithEvents Label10 As Label
@@ -1205,4 +1204,5 @@ Partial Class FO_PUNTO_VENTA
     Public WithEvents TB_MARCA As TextBox
     Friend WithEvents Label27 As Label
     Public WithEvents TB_TIPO_MEDIDOR As TextBox
+    Public WithEvents CB_LI_K_UNIDAD_OPERATIVA As ComboBox
 End Class

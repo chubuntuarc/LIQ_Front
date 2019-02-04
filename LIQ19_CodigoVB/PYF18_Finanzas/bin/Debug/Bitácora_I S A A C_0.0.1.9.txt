@@ -661,3 +661,59 @@ Por favor verifique.
 (d) Error : Incorrect syntax near ','.
 
 ¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:10:37 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'K_UNIDAD_OPERATIVA', 1,1
+(d) Error : Invalid object name 'K_UNIDAD_OPERATIVA'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:13:54 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'K_UNIDAD_OPERATIVA', 1,1
+(d) Error : Invalid object name 'K_UNIDAD_OPERATIVA'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:13:54 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_COLUMN_ADD
+(b) Error : La columna no se puede agregar porque está inmovilizada y situada después de una columna que no está inmovilizada.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:15:10 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'K_UNIDAD_OPERATIVA', 1,1
+(d) Error : Invalid object name 'K_UNIDAD_OPERATIVA'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:15:10 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_COLUMN_ADD
+(b) Error : La columna no se puede agregar porque está inmovilizada y situada después de una columna que no está inmovilizada.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:16:08 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'K_UNIDAD_OPERATIVA', 1,1
+(d) Error : Invalid object name 'K_UNIDAD_OPERATIVA'.
+
+¿Desea Reejecutar la Operación?
