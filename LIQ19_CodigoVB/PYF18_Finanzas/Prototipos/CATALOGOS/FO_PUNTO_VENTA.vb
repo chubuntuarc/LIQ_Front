@@ -37,25 +37,18 @@
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CH_L_PUNTO_VENTA, False)
         ''-----------------------------------------------------------------''
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_TIPO_PUNTO_VENTA, False)
-        ''-----------------------------------------------------------------''
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_SUCURSAL, True)
-        ''-----------------------------------------------------------------''
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_INICIAL, False)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_FINAL, False)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_DIRECCION, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MATRICULA, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MARCA, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MODELO, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_KILOMETRAJE, False)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_SERIE, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_CAPACIDAD, False)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_PORCENTAJE, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MEDIDOR, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_TIPO_MEDIDOR, True)
+
+
 
 
         Return VP_PARAMETROS
 
+    End Function
+
+    Public Function FM_TIPO_SELECCIONADO(ByRef PP_LISTADO As DataGridView, ByRef PP_ROW As Integer) As String
+        Dim VP_ID As String = ""
+        VP_ID = Codigo_LI.FG_LI_CELL_READ(PP_LISTADO, PP_ROW, "K_TIPO_PUNTO_VENTA")
+        Return VP_ID
     End Function
 
     Public Function FM_DESC_SELECCIONADO(ByRef PP_LISTADO As DataGridView, ByRef PP_ROW As Integer) As String
@@ -100,6 +93,8 @@
 
         Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_LI_ESTATUS_PUNTO_VENTA, "ESTATUS_PUNTO_VENTA")
         Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_LI_K_UNIDAD_OPERATIVA, "UNIDAD_OPERATIVA")
+
+        Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_UNIDAD_OPERATIVA, "UNIDAD_OPERATIVA")
     End Sub
 
     Public Sub PM_LI_INIT()
@@ -135,24 +130,63 @@
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_C_PUNTO_VENTA, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_S_PUNTO_VENTA, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_O_PUNTO_VENTA, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_SUCURSAL, PP_ROW)
-        ''-----------------------------------------------------------------''
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_LECTURA_INICIAL, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_LECTURA_FINAL, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_DIRECCION, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_MATRICULA, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_MARCA, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_MODELO, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_KILOMETRAJE, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_SERIE, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_CAPACIDAD, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_PORCENTAJE, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_MEDIDOR, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_TIPO_MEDIDOR, PP_ROW)
-        ''-----------------------------------------------------------------''
         Codigo_CTRL.PG_CO_DATA_LOAD("", CB_TIPO_PUNTO_VENTA, PP_ROW)
-        ''-----------------------------------------------------------------''
+        Codigo_CTRL.PG_CO_DATA_LOAD("", CB_UNIDAD_OPERATIVA, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_C_PUNTO_VENTA, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", CH_L_PUNTO_VENTA, PP_ROW)
+        ''-----------------------------------------------------------------''
+
+        Dim VP_TIPO_PUNTO_VENTA = PP_ROW("K_TIPO_PUNTO_VENTA")
+
+        ''//AUTOTANUQES//
+        If VP_TIPO_PUNTO_VENTA = 1 Then
+            GB_AUTOTANQUE.Visible = True
+            GB_ESTACION_CARBURACION.Visible = False
+            GB_PORTATIL.Visible = False
+            ''-----------------------------------------------------------------''
+            Codigo_CTRL.PG_CO_DATA_LOAD("LECTURA_INICIAL", TB_LECTURA_INICIAL_AUT, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("LECTURA_FINAL", TB_LECTURA_FINAL_AUT, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("MARCA", TB_MARCA_AUT, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("MODELO", TB_MODELO_AUT, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("KILOMETRAJE", TB_KILOMETRAJE_AUT, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("SERIE", TB_SERIE_AUT, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("CAPACIDAD", TB_CAPACIDAD_AUT, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("PORCENTAJE", TB_PORCENTAJE_AUT, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("MEDIDOR", TB_MEDIDOR_AUT, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("TIPO_MEDIDOR", TB_TIPO_MEDIDOR_AUT, PP_ROW)
+        End If
+
+
+        ''//ESTACIONES//
+        If VP_TIPO_PUNTO_VENTA = 2 Then
+            GB_AUTOTANQUE.Visible = False
+            GB_ESTACION_CARBURACION.Visible = True
+            GB_PORTATIL.Visible = False
+            ''-----------------------------------------------------------------''
+            Codigo_CTRL.PG_CO_DATA_LOAD("LECTURA_INICIAL", TB_LECTURA_INICIAL_EST, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("LECTURA_FINAL", TB_LECTURA_FINAL_EST, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("DIRECCION", TB_DIRECCION_EST, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("CAPACIDAD", TB_CAPACIDAD_EST, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("PORCENTAJE", TB_PORCENTAJE_EST, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("MEDIDOR", TB_MEDIDOR_EST, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("TIPO_MEDIDOR", TB_TIPO_MEDIDOR_EST, PP_ROW)
+        End If
+
+
+        ''//PORTATILES//
+        If VP_TIPO_PUNTO_VENTA = 3 Then
+            GB_AUTOTANQUE.Visible = False
+            GB_ESTACION_CARBURACION.Visible = False
+            GB_PORTATIL.Visible = True
+            ''-----------------------------------------------------------------''
+            Codigo_CTRL.PG_CO_DATA_LOAD("MATRICULA", TB_MATRICULA_POR, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("MARCA", TB_MARCA_POR, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("MODELO", TB_MODELO_POR, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("KILOMETRAJE", TB_KILOMETRAJE_POR, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("SERIE", TB_SERIE_POR, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("CAPACIDAD", TB_CAPACIDAD_POR, PP_ROW)
+        End If
+
 
     End Sub
 
