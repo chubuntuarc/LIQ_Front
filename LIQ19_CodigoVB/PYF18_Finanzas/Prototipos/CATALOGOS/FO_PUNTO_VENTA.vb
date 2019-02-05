@@ -37,9 +37,85 @@
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CH_L_PUNTO_VENTA, False)
         ''-----------------------------------------------------------------''
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_TIPO_PUNTO_VENTA, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_UNIDAD_OPERATIVA, False)
+        ''-----------------------------------------------------------------''
 
+        ''//AUTOTANUQES//
+        If TB_LECTURA_INICIAL_AUT.Text <> "" Then
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_INICIAL_AUT, False)
+        Else
+            TB_LECTURA_INICIAL_AUT.Text = "0"
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_INICIAL_AUT, False)
+        End If
 
+        If TB_LECTURA_FINAL_AUT.Text <> "" Then
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_FINAL_AUT, False)
+        Else
+            TB_LECTURA_FINAL_AUT.Text = "0"
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_FINAL_AUT, False)
+        End If
 
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MATRICULA_AUT, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MARCA_AUT, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MODELO_AUT, True)
+
+        If TB_KILOMETRAJE_AUT.Text <> "" Then
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_KILOMETRAJE_AUT, False)
+        Else
+            TB_KILOMETRAJE_AUT.Text = "0"
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_KILOMETRAJE_AUT, False)
+        End If
+
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_SERIE_AUT, True)
+
+        If TB_CAPACIDAD_AUT.Text <> "" Then
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_CAPACIDAD_AUT, False)
+        Else
+            TB_CAPACIDAD_AUT.Text = "0"
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_CAPACIDAD_AUT, False)
+        End If
+
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_PORCENTAJE_AUT, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MEDIDOR_AUT, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_TIPO_MEDIDOR_AUT, True)
+        ''-----------------------------------------------------------------''
+
+        ''//ESTACIONES//
+        If TB_LECTURA_INICIAL_EST.Text <> "" Then
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_INICIAL_EST, False)
+        Else
+            TB_LECTURA_INICIAL_EST.Text = "0"
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_INICIAL_EST, False)
+        End If
+
+        If TB_LECTURA_FINAL_EST.Text <> "" Then
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_FINAL_EST, False)
+        Else
+            TB_LECTURA_FINAL_EST.Text = "0"
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_FINAL_EST, False)
+        End If
+
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_DIRECCION_EST, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_CAPACIDAD_EST, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_PORCENTAJE_EST, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MEDIDOR_EST, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_TIPO_MEDIDOR_EST, True)
+        ''-----------------------------------------------------------------''
+
+        ''//PORTATILES//
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MATRICULA_POR, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MARCA_POR, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_MODELO_POR, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_KILOMETRAJE_POR, True)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_SERIE_POR, True)
+        If TB_CAPACIDAD_POR.Text <> "" Then
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_CAPACIDAD_POR, False)
+        Else
+            TB_CAPACIDAD_POR.Text = "0"
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_CAPACIDAD_POR, False)
+        End If
+
+        ''-----------------------------------------------------------------''
 
         Return VP_PARAMETROS
 
@@ -275,6 +351,26 @@
         Codigo_ABC.PG_BT_CLONAR_CLICK(PP_FORMA, PP_LISTADO)
     End Sub
 
+    Private Sub PM_CB_TIPO_PUNTO_VENTA_VALOR_CAMBIA()
+        Dim VP_TIPO_PUNTO_VENTA As String = CB_TIPO_PUNTO_VENTA.SelectedItem.Value.ToString()
+
+        Select Case VP_TIPO_PUNTO_VENTA
+            Case "1"
+                GB_AUTOTANQUE.Visible = True
+                GB_ESTACION_CARBURACION.Visible = False
+                GB_PORTATIL.Visible = False
+            Case "2"
+                GB_AUTOTANQUE.Visible = False
+                GB_ESTACION_CARBURACION.Visible = True
+                GB_PORTATIL.Visible = False
+            Case "3"
+                GB_AUTOTANQUE.Visible = False
+                GB_ESTACION_CARBURACION.Visible = False
+                GB_PORTATIL.Visible = True
+        End Select
+
+    End Sub
+
 #End Region
 
 #Region "EVENTOS"
@@ -331,6 +427,10 @@
 
     Private Sub BT_CLONAR_Click(sender As Object, e As EventArgs) Handles BT_CLONAR.Click
         PM_BT_CLONAR_CLICK(Me, LI_LISTADO)
+    End Sub
+
+    Private Sub CB_TIPO_PUNTO_VENTA_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CB_TIPO_PUNTO_VENTA.SelectedIndexChanged
+        PM_CB_TIPO_PUNTO_VENTA_VALOR_CAMBIA()
     End Sub
 
 
