@@ -853,3 +853,15 @@ Notifique a Sistemas.
 (d) Error : Incorrect syntax near ','.
 
 ¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:57:24 a. m.  -Usuario:   -Mensaje: No es posible [Actualizar] el [DETALLE_ESTACION_CARBURACION]: El [DETALLE_ESTACION_CARBURACION] no existe. //UPD// ( [#PDV.52] )
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:57:32 a. m.  -Usuario:   -Mensaje: No es posible [Actualizar] el [DETALLE_ESTACION_CARBURACION]: El [DETALLE_ESTACION_CARBURACION] no existe. //UPD// ( [#PDV.52] )
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:58:05 a. m.  -Usuario:   -Mensaje: No es posible [Actualizar] el [DETALLE_PORTATIL]: El [DETALLE_PORTATIL] no existe. //UPD// ( [#PDV.53] )
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:58:41 a. m.  -Usuario:   -Mensaje: No es posible [Actualizar] el [DETALLE_PORTATIL]: El [DETALLE_PORTATIL] no existe. //UPD// ( [#PDV.53] )
