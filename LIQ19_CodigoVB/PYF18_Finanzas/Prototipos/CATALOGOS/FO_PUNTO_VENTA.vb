@@ -13,10 +13,9 @@
     Public Function FM_SQL_LISTADO() As String
         Dim VP_PARAMETROS As String = ""
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LI_BUSCAR, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_TIPO_PUNTO_VENTA, False)
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_ESTATUS_PUNTO_VENTA, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_TIPO_PUNTO_VENTA, False)
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_LI_K_UNIDAD_OPERATIVA, False)
-
         Return VP_PARAMETROS
     End Function
 
@@ -38,6 +37,10 @@
         ''-----------------------------------------------------------------''
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_TIPO_PUNTO_VENTA, False)
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_UNIDAD_OPERATIVA, False)
+        ''-----------------------------------------------------------------''
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_OPERADOR, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_AYUDANTE_1, False)
+        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, CB_AYUDANTE_2, False)
         ''-----------------------------------------------------------------''
 
         ''//AUTOTANUQES//
@@ -170,6 +173,10 @@
         Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_LI_ESTATUS_PUNTO_VENTA, "ESTATUS_PUNTO_VENTA")
         Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_LI_K_UNIDAD_OPERATIVA, "UNIDAD_OPERATIVA")
 
+        Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_OPERADOR, "OPERADOR")
+        Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_AYUDANTE_1, "OPERADOR")
+        Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_AYUDANTE_2, "OPERADOR")
+
         Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_UNIDAD_OPERATIVA, "UNIDAD_OPERATIVA")
     End Sub
 
@@ -208,8 +215,11 @@
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_O_PUNTO_VENTA, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", CB_TIPO_PUNTO_VENTA, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", CB_UNIDAD_OPERATIVA, PP_ROW)
-        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_C_PUNTO_VENTA, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", CH_L_PUNTO_VENTA, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", CB_OPERADOR, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", CB_AYUDANTE_1, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", CB_AYUDANTE_2, PP_ROW)
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_C_PUNTO_VENTA, PP_ROW)
         ''-----------------------------------------------------------------''
 
         Dim VP_TIPO_PUNTO_VENTA = PP_ROW("K_TIPO_PUNTO_VENTA")

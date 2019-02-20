@@ -1992,3 +1992,4 @@ D:\2019.Proyectos\LIQ19_Liquidaciones\LIQ19_VB\PYF18_Finanzas\obj\Debug\PYF18_Fi
 D:\2019.Proyectos\LIQ19_Liquidaciones\LIQ19_VB\PYF18_Finanzas\obj\Debug\PYF18_Finanzas.exe
 D:\2019.Proyectos\LIQ19_Liquidaciones\LIQ19_VB\PYF18_Finanzas\obj\Debug\PYF18_Finanzas.xml
 D:\2019.Proyectos\LIQ19_Liquidaciones\LIQ19_VB\PYF18_Finanzas\obj\Debug\PYF18_Finanzas.pdb
+D:\2019.Proyectos\LIQ19_Liquidaciones\LIQ19_VB\PYF18_Finanzas\obj\Debug\PYF18_Finanzas.FO_PRELIQUIDACION.resources

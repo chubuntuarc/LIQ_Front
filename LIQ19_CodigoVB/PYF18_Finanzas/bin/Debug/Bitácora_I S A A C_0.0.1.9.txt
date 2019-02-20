@@ -865,3 +865,151 @@ Notifique a Sistemas.
 
 -- ======================================================================================================= -
 -- 05/02/2019 10:58:41 a. m.  -Usuario:   -Mensaje: No es posible [Actualizar] el [DETALLE_PORTATIL]: El [DETALLE_PORTATIL] no existe. //UPD// ( [#PDV.53] )
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:36:42 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_ZONA_UO_Load]
+(c) Parámetros: 0,0,0, 1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:36:43 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_ZONA_UO_Load]
+(c) Parámetros: 0,0,0, 0
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:36:44 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_RAZON_SOCIAL_Load]
+(c) Parámetros: 0,0,0, 0, -1, -1, -1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:24 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_UNIDAD_OPERATIVA_Load]
+(c) Parámetros: 0,0,0, 1, 0, -1, -1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:25 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_ZONA_UO_Load]
+(c) Parámetros: 0,0,0, 1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:26 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'TIPO_ALMACEN', 1,1
+(d) Error : Invalid object name 'TIPO_ALMACEN'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:26 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'ESTATUS_ALMACEN', 1,1
+(d) Error : Invalid object name 'ESTATUS_ALMACEN'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:27 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_UNIDAD_OPERATIVA_Load]
+(c) Parámetros: 0,0,0, 1, 0, -1, -1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:27 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'TIPO_ALMACEN', 0,1
+(d) Error : Invalid object name 'TIPO_ALMACEN'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:28 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'ESTATUS_ALMACEN', 0,1
+(d) Error : Invalid object name 'ESTATUS_ALMACEN'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:28 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_UNIDAD_OPERATIVA_Load]
+(c) Parámetros: 0,0,0, 0, 0, -1, -1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:31 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_ALMACEN]
+(c) Parámetros: 0,0,0,  '' , -1 , -1 , -1 , -1 , '2019-02-01' , '2019-02-01' 
+(d) Error : Could not find stored procedure 'dbo.PG_LI_ALMACEN'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 20/02/2019 09:28:24 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_PRELIQUIDACION]
+(c) Parámetros: 0,0,0,  '' , -1 , -1 
+(d) Error : Could not find stored procedure 'dbo.PG_LI_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 20/02/2019 10:12:20 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_PRELIQUIDACION]
+(c) Parámetros: 0,0,0,  '' , -1 , -1 
+(d) Error : Could not find stored procedure 'dbo.PG_LI_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 20/02/2019 10:19:54 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_COLUMN_ADD
+(b) Error : La columna no se puede agregar porque está inmovilizada y situada después de una columna que no está inmovilizada.
+
+Notifique a Sistemas.

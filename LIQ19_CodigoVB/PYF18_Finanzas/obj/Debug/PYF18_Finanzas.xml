@@ -443,6 +443,11 @@ PYF18_Finanzas
  4 CONVIERTE EN TIPO ORACION  EJ. "el carro verde"--->"El carro verde"
  </summary>
 </member>
+<member name="M:PYF18_Finanzas.FO_PRELIQUIDACION.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
 <member name="M:PYF18_Finanzas.FO_PUNTO_VENTA.PM_FI_LOAD(System.String)">
  <summary>
  'FUNCION QUE CARGARA LA PARTE DE LA FICHA

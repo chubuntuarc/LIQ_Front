@@ -9,12 +9,13 @@ Public Class UC_MENU2
     Private Sub PM_CARGAR_MENU()
 
         Dim VP_MENU_CATALOGOS As New ContextMenuStrip()
+        VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Preliquidaciones", FO_PRELIQUIDACION, "PRELIQUIDACION", "Preliquidaciones", VG_ID_DB, 1, ""))
         VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Puntos de Venta", FO_PUNTO_VENTA, "PUNTO_VENTA", "Puntos de Venta", VG_ID_DB, 1, ""))
-        VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Razones sociales", FO_RAZON_SOCIAL, "RAZON_SOCIAL", "Razones Sociales", VG_ID_DB, 1, ""))
-        VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Zonas", FO_GENERICO_T1, "ZONA_UO", "Zonas", VG_ID_DB, 1, ""))
-        VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Unidades Operativas", FO_UNIDAD_OPERATIVA, "UNIDAD_OPERATIVA", "Unidades Operativas", VG_ID_DB, 1, ""))
-        VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Almacenes", FO_ALMACEN, "ALMACEN", "Almacenes", VG_ID_DB, 1, ""))
-        VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Parámetros Planta", FO_PARAMETRO_SUCURSAL, "PARAMETRO_SUCURSAL", "Parámetros de Planta", VG_ID_DB, 1, ""))
+        'VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Razones sociales", FO_RAZON_SOCIAL, "RAZON_SOCIAL", "Razones Sociales", VG_ID_DB, 1, ""))
+        'VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Zonas", FO_GENERICO_T1, "ZONA_UO", "Zonas", VG_ID_DB, 1, ""))
+        'VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Unidades Operativas", FO_UNIDAD_OPERATIVA, "UNIDAD_OPERATIVA", "Unidades Operativas", VG_ID_DB, 1, ""))
+        'VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Almacenes", FO_ALMACEN, "ALMACEN", "Almacenes", VG_ID_DB, 1, ""))
+        'VM_DIRECTORIO.Add(New SUBMENU_FUNCION(Me, VP_MENU_CATALOGOS, ">Parámetros Planta", FO_PARAMETRO_SUCURSAL, "PARAMETRO_SUCURSAL", "Parámetros de Planta", VG_ID_DB, 1, ""))
         PP_SUBMENU_ADD_EVENT(VP_MENU_CATALOGOS, PB_SUBMENU1)
 
         Dim VP_MENU_PRESUPUESTOS As New ContextMenuStrip()
@@ -108,7 +109,7 @@ Public Class UC_MENU2
     Private Sub UC_MENU2_Load() Handles MyBase.Load
         LL_MENU.Margin = New Padding(2, 0, 2, 0)
         LL_MENU.AutoSize = True
-        Me.Cursor = Cursors.WaitCursor
+        'Me.Cursor = Cursors.WaitCursor
         PM_INICIALIZAR_PB()
         Timer1.Enabled = True
         Timer1.Start()

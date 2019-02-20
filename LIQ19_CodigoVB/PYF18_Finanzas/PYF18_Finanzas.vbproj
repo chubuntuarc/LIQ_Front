@@ -163,6 +163,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Prototipos\CATALOGOS\FO_PRELIQUIDACION.Designer.vb">
+      <DependentUpon>FO_PRELIQUIDACION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prototipos\CATALOGOS\FO_PRELIQUIDACION.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Prototipos\CATALOGOS\FO_PUNTO_VENTA.Designer.vb">
       <DependentUpon>FO_PUNTO_VENTA.vb</DependentUpon>
     </Compile>
@@ -713,6 +719,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prototipos\CATALOGOS\FO_PRELIQUIDACION.resx">
+      <DependentUpon>FO_PRELIQUIDACION.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Prototipos\CATALOGOS\FO_PUNTO_VENTA.resx">
       <DependentUpon>FO_PUNTO_VENTA.vb</DependentUpon>
