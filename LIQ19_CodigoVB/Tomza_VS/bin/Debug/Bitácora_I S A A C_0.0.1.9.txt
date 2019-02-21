@@ -1,0 +1,1145 @@
+------------------------------------------------------------------------------------------------------------
+---------------------------- Bitácora del Sistema [I S A A C] Versión [0.0.1.9] ----------------------------
+---------------------------------- Creado: lunes, 14 de enero de 2019 ----------------------------------
+------------------------------------------------------------------------------------------------------------
+
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:38:59 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:02 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:02 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:05 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:34 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:37 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:39 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:39 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Control Anual por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:40 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:41 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:42 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Solicitud de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:43 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Presupuesto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:43 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Captura de Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:44 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:45 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedor Viático, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:39:46 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Recurso Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:41 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:42 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:48 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:48 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:52 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Solicitud de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:56 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Presupuesto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:57 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:57 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Captura de Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:58 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:41:59 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedor Viático, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:42:00 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Recurso Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:14 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:24 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario Global, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:28 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Razón Social, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:30 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Flujo Diario por Planta, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Solicitud de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:35 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Presupuesto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:36 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:37 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Captura de Gasto Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Carga de Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:38 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Facturas de Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:39 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Proveedor Viático, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:44:39 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >Recurso Viaje, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:48:33 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 14/01/2019 11:50:17 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: No se encontró el menú >XXXXX, favor de revisar el nombre del permiso
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:23 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:28 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:29 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SQL_EJECUTAR_ACCION
+(b) Error : La conversión de la cadena "" en el tipo 'Boolean' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:38 p. m.  -Usuario: 0  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:40 p. m.  -Usuario: 0  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_CONEXION_CHECK
+(b) Error : Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:35:40 p. m.  -Usuario: 0  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SQL_EJECUTAR_ACCION
+(b) Error : La conversión de la cadena "" en el tipo 'Boolean' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:38:22 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:38:24 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:23 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:33 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:52 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'ESTATUS_RAZON_SOCIAL', 0,1
+(d) Error : Invalid object name 'ESTATUS_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:53 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'ESTATUS_RAZON_SOCIAL', 1,1
+(d) Error : Invalid object name 'ESTATUS_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:54 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_RAZON_SOCIAL', 1,1
+(d) Error : Invalid object name 'TIPO_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:54 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_RAZON_SOCIAL', 0,1
+(d) Error : Invalid object name 'TIPO_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:46:56 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_RAZON_SOCIAL' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:08 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:10 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:15 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'ESTATUS_RAZON_SOCIAL', 0,1
+(d) Error : Invalid object name 'ESTATUS_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:15 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'ESTATUS_RAZON_SOCIAL', 1,1
+(d) Error : Invalid object name 'ESTATUS_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:16 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_RAZON_SOCIAL', 1,1
+(d) Error : Invalid object name 'TIPO_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:16 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_RAZON_SOCIAL', 0,1
+(d) Error : Invalid object name 'TIPO_RAZON_SOCIAL'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:49:18 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:17 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:19 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:24 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_UO', 1,1
+(d) Error : Invalid object name 'TIPO_UO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'TIPO_UO', 0,1
+(d) Error : Invalid object name 'TIPO_UO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:25 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_ZONA_UO_Load]
+(c) Parámetros: 0,0,300, 1
+(d) Error : Could not find stored procedure 'PG_CB_ZONA_UO_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:26 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_ZONA_UO_Load]
+(c) Parámetros: 0,0,300, 0
+(d) Error : Could not find stored procedure 'PG_CB_ZONA_UO_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:26 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'SERVIDOR', 0,1
+(d) Error : Invalid object name 'SERVIDOR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:27 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,300, 'SERVIDOR', 1,1
+(d) Error : Invalid object name 'SERVIDOR'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:27 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_RAZON_SOCIAL_Load]
+(c) Parámetros: 0,0,300, 0, -1, -1, -1
+(d) Error : Could not find stored procedure 'PG_CB_RAZON_SOCIAL_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 12:57:29 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 01:48:40 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 01:48:41 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 29/01/2019 01:48:46 p. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:37:52 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_FLUJO' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:37:54 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_MENU_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'VP_MENU_GASTOS' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_MENU_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:38:01 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:49:27 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PERMISO_FUNCION_X_K_USUARIO
+(c) Parámetros: 0,0,300,  'FO_PUNTO_VENTA' 
+(d) Error : Could not find stored procedure 'PG_LI_PERMISO_FUNCION_X_K_USUARIO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:54:21 a. m.  -Usuario: ALL > QA/TESO  -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_UP_PUNTO_VENTA]
+(c) Parámetros: 0,0,300,  15 , 'BG08' , '' , 'BG8' , 0 , 1 , 1 , 'BIOGAS' , 'N/A' , 'Ejercito Nacional' 
+(d) Error : Procedure or function PG_UP_PUNTO_VENTA has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 11:58:01 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_]
+(c) Parámetros: 0,0,0,  '' , -1 , -1 , '' , '' , '' 
+(d) Error : Could not find stored procedure 'dbo.PG_LI_'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 12:02:24 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_UP_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  15 , 'BG08' , '' , 'BG8' , 0 , 1 , 1 , 'BIOGAS' , 'N/A' , 'Ejercito Nacional' 
+(d) Error : Procedure or function PG_UP_PUNTO_VENTA has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 12:04:49 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_UP_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  15 , 'BG08' , 'ninguno' , 'BG0' , 0 , 1 , 1 , 'BIOGAS' , 'N/A' , 'Ejercito Nacional' 
+(d) Error : Procedure or function PG_UP_PUNTO_VENTA has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 12:17:58 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'UDG51' , 'U51' , 'Nueva unidad' , 0 , 1 , 3 , 'BIOGAS JRZ' , 'ABC123' , '' 
+(d) Error : Procedure or function PG_IN_PUNTO_VENTA has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 30/01/2019 12:18:39 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'UDG51' , 'U51' , '' , 0 , 1 , 3 , 'JUAREZ' , 'ABD321' , 'N/A' 
+(d) Error : Procedure or function PG_IN_PUNTO_VENTA has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 31/01/2019 05:18:47 p. m.  -Usuario:   -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 31/01/2019 05:18:49 p. m.  -Usuario:   -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 31/01/2019 05:19:01 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'TEST POS' , 'TEST' , '' , 0 , 1 , 2 , 'BIOGAS' , 0 , 2000 , 'AV LAS TORRES' , '' , '' , '' ,  , '' , 2000 , '90' , 'LITROMETRO' , 'GASPAR TRADICIONAL' 
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 31/01/2019 05:22:45 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'TEST POS' , 'POS' , '' , 0 , 1 , 2 , 'BIOGAS' ,  ,  , 'LAS TORRES' , '' , '' , '' ,  , '' , 2000 , '90' , '' , '' 
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:10:37 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'K_UNIDAD_OPERATIVA', 1,1
+(d) Error : Invalid object name 'K_UNIDAD_OPERATIVA'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:13:54 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'K_UNIDAD_OPERATIVA', 1,1
+(d) Error : Invalid object name 'K_UNIDAD_OPERATIVA'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:13:54 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_COLUMN_ADD
+(b) Error : La columna no se puede agregar porque está inmovilizada y situada después de una columna que no está inmovilizada.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:15:10 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'K_UNIDAD_OPERATIVA', 1,1
+(d) Error : Invalid object name 'K_UNIDAD_OPERATIVA'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:15:10 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_COLUMN_ADD
+(b) Error : La columna no se puede agregar porque está inmovilizada y situada después de una columna que no está inmovilizada.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 04/02/2019 11:16:08 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'K_UNIDAD_OPERATIVA', 1,1
+(d) Error : Invalid object name 'K_UNIDAD_OPERATIVA'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/02/2019 09:16:26 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : Referencia a objeto no establecida como instancia de un objeto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 05/02/2019 09:16:54 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : Referencia a objeto no establecida como instancia de un objeto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 05/02/2019 09:17:44 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : Referencia a objeto no establecida como instancia de un objeto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 05/02/2019 09:22:06 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : Referencia a objeto no establecida como instancia de un objeto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 05/02/2019 09:25:18 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : Referencia a objeto no establecida como instancia de un objeto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 05/02/2019 09:29:55 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se encontró ningún miembro predeterminado para el tipo 'VB$AnonymousType_0(Of Object,Object)'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 05/02/2019 09:31:28 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : No se encontró ningún miembro predeterminado para el tipo 'VB$AnonymousType_0(Of Object,Object)'.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 05/02/2019 09:37:06 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'TEST AUT ' , 'Comentario de prueba' , 'TAT' , 'Comentario de prueba' , 0 , 1 , 1 , 3 , 0 , 0 , 'Chevrolet' , '2018' , 0 , 'BACFGHTUY176528' , 8000 , '90' , 'LITROMETRO' , 'GASPAR G4S' ,  ,  , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' 
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/02/2019 09:58:41 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'Test tat' , 'tat' , '' , 0 , 1 , 1 , 3 , 1000 , 2000 , '' , 'FORD' , '2006' , 1500.0000 , 'ABCDER1345627' , 2000 , '90' , 'LITROMETRO' , 'GASPAR G4S' ,  ,  , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' ,  
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:05:40 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'TEST AUT' , 'TAU' , '' , 0 , 1 , 1 , 1 , 1000 , 2000 , '' , 'FORD' , '2006' , 1500.0000 , 'ABCDER1345627' , 2000 , '90' , 'LITROMETRO' , 'GASPAR G4S' ,  ,  , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' ,  
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:08:19 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'TEST AUT' , 'TAU' , '' , 0 , 1 , 1 , 1 , 1000 , 2000 , '' , 'FORD' , '2006' , 1500.0000 , 'ABCDER1345627' , 2000 , '90' , 'LITROMETRO' , 'GASPAR G4S' ,  ,  , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' ,  
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:10:56 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'TEST AUT' , 'TAU' , '' , 0 , 1 , 1 , 1 , 1000 , 2000 , '' , 'FORD' , '2006' , 1500.0000 , 'ABCDER1345627' , 2000 , '90' , 'LITROMETRO' , 'GASPAR G4S' ,  ,  , '' , '' , '' , '' , '' , '' , '' , '' , '' , '' , 0 
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:19:07 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'Test est' , 'est' , 'Comentario est' , 0 , 1 , 2 , 3 , 0 , 0 , '' , '' , '' ,  , '' ,  , '' , '' , '' , 1000 , 2000 , 'AV LAS TORRES' , '4000' , '90' , 'MAS ALTO' , 'NINGUNO' , '' , '' , '' , '' , '' , 0 
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:23:26 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'Test port' , 'port' , 'Comentarios port' , 0 , 1 , 3 , 3 , 0 , 0 , '' , '' , '' ,  , '' ,  , '' , '' , '' , 0 , 0 , '' , '' , '' , '' , '' , 'ABC123' , 'CHEVROLET' , '2018' , '2000.0000' , 'CHGBDYT156218' , 4000 
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:27:49 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PUNTO_VENTA]
+(c) Parámetros: 0,0,0,  'Test est' , 'estt' , 'Comentario est' , 0 , 1 , 2 , 3 ,  , 0 , '' , '' , '' , 0 , '' , 0 , '' , '' , '' , 1000 , 2000 , 'AV LAS TORRES' , '4000' , '90' , 'MAS ALTO' , 'NINGUNO' , '' , '' , '' , '' , '' , 0 
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:57:24 a. m.  -Usuario:   -Mensaje: No es posible [Actualizar] el [DETALLE_ESTACION_CARBURACION]: El [DETALLE_ESTACION_CARBURACION] no existe. //UPD// ( [#PDV.52] )
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:57:32 a. m.  -Usuario:   -Mensaje: No es posible [Actualizar] el [DETALLE_ESTACION_CARBURACION]: El [DETALLE_ESTACION_CARBURACION] no existe. //UPD// ( [#PDV.52] )
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:58:05 a. m.  -Usuario:   -Mensaje: No es posible [Actualizar] el [DETALLE_PORTATIL]: El [DETALLE_PORTATIL] no existe. //UPD// ( [#PDV.53] )
+
+-- ======================================================================================================= -
+-- 05/02/2019 10:58:41 a. m.  -Usuario:   -Mensaje: No es posible [Actualizar] el [DETALLE_PORTATIL]: El [DETALLE_PORTATIL] no existe. //UPD// ( [#PDV.53] )
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:36:42 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_ZONA_UO_Load]
+(c) Parámetros: 0,0,0, 1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:36:43 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_ZONA_UO_Load]
+(c) Parámetros: 0,0,0, 0
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:36:44 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_RAZON_SOCIAL_Load]
+(c) Parámetros: 0,0,0, 0, -1, -1, -1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:24 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_UNIDAD_OPERATIVA_Load]
+(c) Parámetros: 0,0,0, 1, 0, -1, -1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:25 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_ZONA_UO_Load]
+(c) Parámetros: 0,0,0, 1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:26 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'TIPO_ALMACEN', 1,1
+(d) Error : Invalid object name 'TIPO_ALMACEN'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:26 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'ESTATUS_ALMACEN', 1,1
+(d) Error : Invalid object name 'ESTATUS_ALMACEN'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:27 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_UNIDAD_OPERATIVA_Load]
+(c) Parámetros: 0,0,0, 1, 0, -1, -1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:27 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'TIPO_ALMACEN', 0,1
+(d) Error : Invalid object name 'TIPO_ALMACEN'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:28 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'ESTATUS_ALMACEN', 0,1
+(d) Error : Invalid object name 'ESTATUS_ALMACEN'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:28 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_UNIDAD_OPERATIVA_Load]
+(c) Parámetros: 0,0,0, 0, 0, -1, -1
+(d) Error : Invalid object name 'PERSONAL_ACCESO_ORGANIZACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 08/02/2019 10:37:31 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_ALMACEN]
+(c) Parámetros: 0,0,0,  '' , -1 , -1 , -1 , -1 , '2019-02-01' , '2019-02-01' 
+(d) Error : Could not find stored procedure 'dbo.PG_LI_ALMACEN'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 20/02/2019 09:28:24 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_PRELIQUIDACION]
+(c) Parámetros: 0,0,0,  '' , -1 , -1 
+(d) Error : Could not find stored procedure 'dbo.PG_LI_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 20/02/2019 10:12:20 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_PRELIQUIDACION]
+(c) Parámetros: 0,0,0,  '' , -1 , -1 
+(d) Error : Could not find stored procedure 'dbo.PG_LI_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 20/02/2019 10:19:54 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_COLUMN_ADD
+(b) Error : La columna no se puede agregar porque está inmovilizada y situada después de una columna que no está inmovilizada.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 21/02/2019 11:08:40 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PRODUCTO
+(c) Parámetros: 0,0,0,  '' , -1 
+(d) Error : Procedure or function 'PG_LI_PRODUCTO' expects parameter '@PP_K_TIPO_PRODUCTO', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 11:31:27 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, '',
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 11:32:52 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, '',
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 11:34:07 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, '',
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 01:14:11 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_UNIDAD_OPERATIVA_Load]
+(c) Parámetros: 0,0,0, 0, 0, -1, -1
+(d) Error : Could not find stored procedure 'PG_CB_UNIDAD_OPERATIVA_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 01:14:12 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_ZONA_UO_Load]
+(c) Parámetros: 0,0,0, 0
+(d) Error : Could not find stored procedure 'PG_CB_ZONA_UO_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 01:14:13 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_UNIDAD_OPERATIVA_Load]
+(c) Parámetros: 0,0,0, 0, 0, -1, -1
+(d) Error : Could not find stored procedure 'PG_CB_UNIDAD_OPERATIVA_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 01:14:14 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_RAZON_SOCIAL_Load]
+(c) Parámetros: 0,0,0, 1, -1, 1, -1
+(d) Error : Could not find stored procedure 'PG_CB_RAZON_SOCIAL_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 01:14:14 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_UNIDAD_OPERATIVA_Load]
+(c) Parámetros: 0,0,0, 0, 0, -1, -1
+(d) Error : Could not find stored procedure 'PG_CB_UNIDAD_OPERATIVA_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 01:14:16 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_SK_LIBRO_INGRESOS_ACTA_X_K_UNIDAD_OPERATIVA]
+(c) Parámetros: 0,0,0,  -1 , '2019-02-21' 
+(d) Error : Could not find stored procedure 'PG_SK_LIBRO_INGRESOS_ACTA_X_K_UNIDAD_OPERATIVA'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 01:14:24 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'ESTATUS_BANCO', 0,1
+(d) Error : Invalid object name 'ESTATUS_BANCO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 01:14:25 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_CB_TABLA_N1_Load]
+(c) Parámetros: 0,0,0, 'ESTATUS_BANCO', 1,1
+(d) Error : Invalid object name 'ESTATUS_BANCO'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 01:14:28 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_LI_BANCO]
+(c) Parámetros: 0,0,0,  '' , -1 , -1 
+(d) Error : Could not find stored procedure 'dbo.PG_LI_BANCO'.
+
+¿Desea Reejecutar la Operación?
