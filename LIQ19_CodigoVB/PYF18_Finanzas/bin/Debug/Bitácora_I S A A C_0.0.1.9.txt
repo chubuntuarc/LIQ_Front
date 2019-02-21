@@ -1013,3 +1013,43 @@ Notifique a Sistemas.
 (b) Error : La columna no se puede agregar porque está inmovilizada y situada después de una columna que no está inmovilizada.
 
 Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 21/02/2019 11:08:40 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PRODUCTO
+(c) Parámetros: 0,0,0,  '' , -1 
+(d) Error : Procedure or function 'PG_LI_PRODUCTO' expects parameter '@PP_K_TIPO_PRODUCTO', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 11:31:27 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, '',
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 11:32:52 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, '',
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 21/02/2019 11:34:07 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, '',
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?

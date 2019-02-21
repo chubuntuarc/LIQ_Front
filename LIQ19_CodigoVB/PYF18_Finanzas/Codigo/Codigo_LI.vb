@@ -92,6 +92,32 @@ Public Class Codigo_LI
 
     End Sub
 
+    Public Shared Sub PG_LI_LOAD_DETALLE(ByRef PP_FORMA As Object, ByRef PP_LISTADO As DataGridView, ByVal PP_DATATABLE As DataTable)
+        Try
+            PG_LI_CLEAR(PP_LISTADO)
+            Dim PP_PB_PROGRESSBAR As BARRA_DE_PROGRESO_PANEL
+            PP_PB_PROGRESSBAR = ProgressBarPanel.FG_PROGRESSBAR_INIT(PP_FORMA, 0, PP_DATATABLE.Rows.Count, "Carga de Registros", Color.DarkOrange)
+            Dim PP_COUNT As Integer = 0
+            Dim VP_LISTADO_NOMBRE = PP_LISTADO.Name
+            PP_LISTADO.Visible = False
+            For Each VP_ROW_DATA As DataRow In PP_DATATABLE.Rows
+                PG_LI_ROW_ADD(PP_LISTADO)
+                PP_FORMA.PM_LI_ROW_WRITE_DETALLE(PP_LISTADO, VP_ROW_DATA)
+                PP_COUNT += 1
+                ProgressBarPanel.PG_PROGRESSBAR_INCREMENT(PP_PB_PROGRESSBAR, PP_COUNT)
+            Next
+            PP_LISTADO.Visible = True
+            ProgressBarPanel.PG_PROGRESSBAR_END(PP_PB_PROGRESSBAR)
+            PP_LISTADO.CurrentCell = Nothing
+            'PP_LISTADO.CurrentCell.Selected = False
+            ' PP_LISTADO.ClearSelection()
+        Catch ex As Exception
+            Codigo_Message.PG_MENSAJE_ERROR_VS("PG_LI_LOAD")
+
+        End Try
+
+    End Sub
+
     Public Shared Sub PG_LI_RESET(ByVal PP_ID_BASE_DE_DATOS As Integer, ByRef PP_FORMA As Object, ByRef PP_LISTADO As DataGridView, ByVal PP_EXITO As Boolean)
         If PP_EXITO Then
             PP_FORMA.VM_IN_MODO_OPERACION = Modo_Operacion.Listado

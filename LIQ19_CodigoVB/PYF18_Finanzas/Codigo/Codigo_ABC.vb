@@ -72,6 +72,45 @@ Public Class Codigo_ABC
         PP_FORMA.Cursor = Cursors.Default
     End Sub
 
+    Public Shared Sub PG_BT_BUSCAR_DETALLE(ByVal PP_ID_BASE_DE_DATOS As Integer, ByRef PP_FORMA As Object, ByRef PP_LISTADO As DataGridView, Optional ByVal PP_SP As String = "", Optional ByVal PP_PARAMETROS As String = "")
+        PP_FORMA.Cursor = Cursors.WaitCursor
+        Try
+
+            Dim VP_PARAMETROS As String
+            If PP_PARAMETROS IsNot "" Then
+                VP_PARAMETROS = PP_PARAMETROS
+            Else
+                VP_PARAMETROS = PP_FORMA.FM_SQL_LISTADO()
+            End If
+
+
+            Codigo_CON.PG_SQL_PARAMETROS_CONTROL(VP_PARAMETROS)
+            Dim VP_STORED_PROCEDURE As String
+
+            If PP_SP = "" Then
+                VP_STORED_PROCEDURE = Codigo_CON.FG_SQL_LIST(PP_FORMA)
+            Else
+                VP_STORED_PROCEDURE = PP_SP
+            End If
+
+            Dim VP_TABLA As Data.DataTable
+            VP_TABLA = Codigo_CON.FG_SP_EXECUTE_DATATABLE(PP_ID_BASE_DE_DATOS, VP_STORED_PROCEDURE, VP_PARAMETROS)
+            If VP_TABLA.Rows.Count > 500 Then
+                If Codigo_Message.FG_MENSAJE_CONFIRMACION("La busqueda arrojó mas de 500 registros." + vbCrLf + "¿Desea mostrarlos?") Then
+                    Codigo_LI.PG_LI_LOAD_DETALLE(PP_FORMA, PP_LISTADO, VP_TABLA)
+                End If
+            Else
+                Codigo_LI.PG_LI_LOAD_DETALLE(PP_FORMA, PP_LISTADO, VP_TABLA)
+            End If
+            Dim VP_REGISTROS As String
+            VP_REGISTROS = VP_TABLA.Rows.Count().ToString()
+            PP_FORMA.LB_RESULTADO.Text = "Resultado de la operación: " + VP_REGISTROS + " registros." + Environment.NewLine + PP_FORMA.LB_RESULTADO.Text
+        Catch ex As Exception
+            Codigo_Message.PG_MENSAJE_ERROR_VS("PG_BT_BUSCAR_CLICK")
+        End Try
+        PP_FORMA.Cursor = Cursors.Default
+    End Sub
+
     Public Shared Sub PG_BT_GUARDAR_CLICK(ByVal PP_ID_BASE_DE_DATOS As Integer, ByRef PP_FORMA As Object, ByRef PP_LISTADO As DataGridView, Optional ByVal PP_SP As String = "")
         Try
             Dim VP_MENSAJE_VALIDACION As String = ""

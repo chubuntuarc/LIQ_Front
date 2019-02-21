@@ -23,8 +23,8 @@ Partial Class FO_PRELIQUIDACION
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.FL_MENU_2 = New System.Windows.Forms.FlowLayoutPanel()
         Me.BT_LISTADO = New System.Windows.Forms.Button()
         Me.BT_EXPORTAR_EXCEL = New System.Windows.Forms.Button()
@@ -45,11 +45,9 @@ Partial Class FO_PRELIQUIDACION
         Me.GB_LISTADO = New System.Windows.Forms.GroupBox()
         Me.GB_FICHA = New System.Windows.Forms.GroupBox()
         Me.LI_PORTATIL = New System.Windows.Forms.GroupBox()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.LI_DETALLE = New System.Windows.Forms.DataGridView()
         Me.CB_UNIDAD_OPERATIVA = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TB_RUTA = New System.Windows.Forms.TextBox()
         Me.CB_USUARIO_CAMBIO = New System.Windows.Forms.ComboBox()
         Me.CB_USUARIO_ALTA = New System.Windows.Forms.ComboBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -80,7 +78,7 @@ Partial Class FO_PRELIQUIDACION
         Me.GB_LISTADO.SuspendLayout()
         Me.GB_FICHA.SuspendLayout()
         Me.LI_PORTATIL.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LI_DETALLE, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LI_LISTADO, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GB_OPERACION.SuspendLayout()
         Me.GB_CONTROL.SuspendLayout()
@@ -350,8 +348,6 @@ Partial Class FO_PRELIQUIDACION
         Me.GB_FICHA.Controls.Add(Me.LI_PORTATIL)
         Me.GB_FICHA.Controls.Add(Me.CB_UNIDAD_OPERATIVA)
         Me.GB_FICHA.Controls.Add(Me.Label7)
-        Me.GB_FICHA.Controls.Add(Me.Label4)
-        Me.GB_FICHA.Controls.Add(Me.TB_RUTA)
         Me.GB_FICHA.Controls.Add(Me.CB_USUARIO_CAMBIO)
         Me.GB_FICHA.Controls.Add(Me.CB_USUARIO_ALTA)
         Me.GB_FICHA.Controls.Add(Me.Label5)
@@ -383,7 +379,7 @@ Partial Class FO_PRELIQUIDACION
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LI_PORTATIL.BackColor = System.Drawing.Color.White
-        Me.LI_PORTATIL.Controls.Add(Me.DataGridView1)
+        Me.LI_PORTATIL.Controls.Add(Me.LI_DETALLE)
         Me.LI_PORTATIL.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LI_PORTATIL.Location = New System.Drawing.Point(350, 85)
         Me.LI_PORTATIL.Name = "LI_PORTATIL"
@@ -392,32 +388,32 @@ Partial Class FO_PRELIQUIDACION
         Me.LI_PORTATIL.TabStop = False
         Me.LI_PORTATIL.Text = "Listado de portatiles"
         '
-        'DataGridView1
+        'LI_DETALLE
         '
-        Me.DataGridView1.AllowUserToAddRows = False
-        Me.DataGridView1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.LI_DETALLE.AllowUserToAddRows = False
+        Me.LI_DETALLE.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.DataGridView1.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 26)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(12, 10, 12, 10)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(543, 134)
-        Me.DataGridView1.TabIndex = 2
+        Me.LI_DETALLE.BackgroundColor = System.Drawing.Color.WhiteSmoke
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.LI_DETALLE.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        Me.LI_DETALLE.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.LI_DETALLE.Location = New System.Drawing.Point(12, 26)
+        Me.LI_DETALLE.Margin = New System.Windows.Forms.Padding(12, 10, 12, 10)
+        Me.LI_DETALLE.Name = "LI_DETALLE"
+        Me.LI_DETALLE.Size = New System.Drawing.Size(543, 134)
+        Me.LI_DETALLE.TabIndex = 2
         '
         'CB_UNIDAD_OPERATIVA
         '
         Me.CB_UNIDAD_OPERATIVA.FormattingEnabled = True
-        Me.CB_UNIDAD_OPERATIVA.Location = New System.Drawing.Point(26, 203)
+        Me.CB_UNIDAD_OPERATIVA.Location = New System.Drawing.Point(26, 157)
         Me.CB_UNIDAD_OPERATIVA.Name = "CB_UNIDAD_OPERATIVA"
         Me.CB_UNIDAD_OPERATIVA.Size = New System.Drawing.Size(215, 21)
         Me.CB_UNIDAD_OPERATIVA.TabIndex = 158
@@ -426,31 +422,11 @@ Partial Class FO_PRELIQUIDACION
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(29, 188)
+        Me.Label7.Location = New System.Drawing.Point(29, 142)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(96, 13)
         Me.Label7.TabIndex = 157
         Me.Label7.Text = "Unidad operativa"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(29, 137)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(31, 13)
-        Me.Label4.TabIndex = 156
-        Me.Label4.Text = "Ruta"
-        '
-        'TB_RUTA
-        '
-        Me.TB_RUTA.AccessibleDescription = ""
-        Me.TB_RUTA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_RUTA.Location = New System.Drawing.Point(26, 153)
-        Me.TB_RUTA.Name = "TB_RUTA"
-        Me.TB_RUTA.Size = New System.Drawing.Size(215, 22)
-        Me.TB_RUTA.TabIndex = 155
-        Me.TB_RUTA.Tag = "1"
         '
         'CB_USUARIO_CAMBIO
         '
@@ -627,14 +603,14 @@ Partial Class FO_PRELIQUIDACION
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LI_LISTADO.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle4.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.LI_LISTADO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.LI_LISTADO.Location = New System.Drawing.Point(12, 26)
         Me.LI_LISTADO.Margin = New System.Windows.Forms.Padding(12, 10, 12, 10)
@@ -730,7 +706,7 @@ Partial Class FO_PRELIQUIDACION
         Me.GB_FICHA.ResumeLayout(False)
         Me.GB_FICHA.PerformLayout()
         Me.LI_PORTATIL.ResumeLayout(False)
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LI_DETALLE, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LI_LISTADO, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GB_OPERACION.ResumeLayout(False)
         Me.GB_OPERACION.PerformLayout()
@@ -782,10 +758,8 @@ Partial Class FO_PRELIQUIDACION
     Public WithEvents TB_D_OPERADOR As TextBox
     Public WithEvents TI_RELOJ As Timer
     Public WithEvents CB_USUARIO_ALTA As ComboBox
-    Friend WithEvents Label4 As Label
-    Public WithEvents TB_RUTA As TextBox
     Public WithEvents CB_UNIDAD_OPERATIVA As ComboBox
     Friend WithEvents Label7 As Label
     Public WithEvents LI_PORTATIL As GroupBox
-    Public WithEvents DataGridView1 As DataGridView
+    Public WithEvents LI_DETALLE As DataGridView
 End Class
