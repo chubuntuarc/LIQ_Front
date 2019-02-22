@@ -23,8 +23,8 @@ Partial Class FO_PRELIQUIDACION
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.FL_MENU_2 = New System.Windows.Forms.FlowLayoutPanel()
         Me.BT_LISTADO = New System.Windows.Forms.Button()
         Me.BT_EXPORTAR_EXCEL = New System.Windows.Forms.Button()
@@ -43,6 +43,13 @@ Partial Class FO_PRELIQUIDACION
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TB_LI_BUSCAR = New System.Windows.Forms.TextBox()
         Me.GB_LISTADO = New System.Windows.Forms.GroupBox()
+        Me.LI_LISTADO = New System.Windows.Forms.DataGridView()
+        Me.GB_OPERACION = New System.Windows.Forms.GroupBox()
+        Me.LB_RESULTADO = New System.Windows.Forms.TextBox()
+        Me.GB_CONTROL = New System.Windows.Forms.GroupBox()
+        Me.LB_VERSION = New System.Windows.Forms.Label()
+        Me.LB_RELOJ = New System.Windows.Forms.Label()
+        Me.TI_RELOJ = New System.Windows.Forms.Timer(Me.components)
         Me.GB_FICHA = New System.Windows.Forms.GroupBox()
         Me.LI_PORTATIL = New System.Windows.Forms.GroupBox()
         Me.LI_DETALLE = New System.Windows.Forms.DataGridView()
@@ -65,23 +72,18 @@ Partial Class FO_PRELIQUIDACION
         Me.Label8 = New System.Windows.Forms.Label()
         Me.TB_D_PUNTO_VENTA = New System.Windows.Forms.TextBox()
         Me.TB_D_OPERADOR = New System.Windows.Forms.TextBox()
-        Me.LI_LISTADO = New System.Windows.Forms.DataGridView()
-        Me.GB_OPERACION = New System.Windows.Forms.GroupBox()
-        Me.LB_RESULTADO = New System.Windows.Forms.TextBox()
-        Me.GB_CONTROL = New System.Windows.Forms.GroupBox()
-        Me.LB_VERSION = New System.Windows.Forms.Label()
-        Me.LB_RELOJ = New System.Windows.Forms.Label()
-        Me.TI_RELOJ = New System.Windows.Forms.Timer(Me.components)
+        Me.TB_K_PRELIQUIDACION = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.FL_MENU_2.SuspendLayout()
         Me.FL_MENU_1.SuspendLayout()
         Me.GB_FILTROS.SuspendLayout()
         Me.GB_LISTADO.SuspendLayout()
-        Me.GB_FICHA.SuspendLayout()
-        Me.LI_PORTATIL.SuspendLayout()
-        CType(Me.LI_DETALLE, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LI_LISTADO, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GB_OPERACION.SuspendLayout()
         Me.GB_CONTROL.SuspendLayout()
+        Me.GB_FICHA.SuspendLayout()
+        Me.LI_PORTATIL.SuspendLayout()
+        CType(Me.LI_DETALLE, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'FL_MENU_2
@@ -331,7 +333,6 @@ Partial Class FO_PRELIQUIDACION
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GB_LISTADO.BackColor = System.Drawing.Color.White
-        Me.GB_LISTADO.Controls.Add(Me.GB_FICHA)
         Me.GB_LISTADO.Controls.Add(Me.LI_LISTADO)
         Me.GB_LISTADO.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GB_LISTADO.Location = New System.Drawing.Point(11, 139)
@@ -341,10 +342,101 @@ Partial Class FO_PRELIQUIDACION
         Me.GB_LISTADO.TabStop = False
         Me.GB_LISTADO.Text = "Listado"
         '
+        'LI_LISTADO
+        '
+        Me.LI_LISTADO.AllowUserToAddRows = False
+        Me.LI_LISTADO.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.LI_LISTADO.BackgroundColor = System.Drawing.Color.WhiteSmoke
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
+        Me.LI_LISTADO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.LI_LISTADO.Location = New System.Drawing.Point(12, 26)
+        Me.LI_LISTADO.Margin = New System.Windows.Forms.Padding(12, 10, 12, 10)
+        Me.LI_LISTADO.Name = "LI_LISTADO"
+        Me.LI_LISTADO.Size = New System.Drawing.Size(1005, 314)
+        Me.LI_LISTADO.TabIndex = 2
+        '
+        'GB_OPERACION
+        '
+        Me.GB_OPERACION.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GB_OPERACION.BackColor = System.Drawing.Color.White
+        Me.GB_OPERACION.Controls.Add(Me.LB_RESULTADO)
+        Me.GB_OPERACION.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GB_OPERACION.Location = New System.Drawing.Point(12, 498)
+        Me.GB_OPERACION.Name = "GB_OPERACION"
+        Me.GB_OPERACION.Size = New System.Drawing.Size(582, 52)
+        Me.GB_OPERACION.TabIndex = 44
+        Me.GB_OPERACION.TabStop = False
+        Me.GB_OPERACION.Text = "Operación"
+        '
+        'LB_RESULTADO
+        '
+        Me.LB_RESULTADO.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.LB_RESULTADO.BackColor = System.Drawing.Color.White
+        Me.LB_RESULTADO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.LB_RESULTADO.Enabled = False
+        Me.LB_RESULTADO.Font = New System.Drawing.Font("Courier New", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LB_RESULTADO.Location = New System.Drawing.Point(6, 15)
+        Me.LB_RESULTADO.Multiline = True
+        Me.LB_RESULTADO.Name = "LB_RESULTADO"
+        Me.LB_RESULTADO.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
+        Me.LB_RESULTADO.Size = New System.Drawing.Size(570, 30)
+        Me.LB_RESULTADO.TabIndex = 4
+        '
+        'GB_CONTROL
+        '
+        Me.GB_CONTROL.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GB_CONTROL.BackColor = System.Drawing.Color.White
+        Me.GB_CONTROL.Controls.Add(Me.LB_VERSION)
+        Me.GB_CONTROL.Controls.Add(Me.LB_RELOJ)
+        Me.GB_CONTROL.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GB_CONTROL.Location = New System.Drawing.Point(599, 498)
+        Me.GB_CONTROL.Name = "GB_CONTROL"
+        Me.GB_CONTROL.Size = New System.Drawing.Size(440, 52)
+        Me.GB_CONTROL.TabIndex = 45
+        Me.GB_CONTROL.TabStop = False
+        Me.GB_CONTROL.Text = "Control"
+        '
+        'LB_VERSION
+        '
+        Me.LB_VERSION.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LB_VERSION.Location = New System.Drawing.Point(6, 34)
+        Me.LB_VERSION.Name = "LB_VERSION"
+        Me.LB_VERSION.Size = New System.Drawing.Size(162, 13)
+        Me.LB_VERSION.TabIndex = 1
+        Me.LB_VERSION.Text = "Label10"
+        Me.LB_VERSION.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'LB_RELOJ
+        '
+        Me.LB_RELOJ.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LB_RELOJ.Location = New System.Drawing.Point(251, 34)
+        Me.LB_RELOJ.Name = "LB_RELOJ"
+        Me.LB_RELOJ.Size = New System.Drawing.Size(177, 13)
+        Me.LB_RELOJ.TabIndex = 0
+        Me.LB_RELOJ.Text = "Label9"
+        Me.LB_RELOJ.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
+        'TI_RELOJ
+        '
+        '
         'GB_FICHA
         '
         Me.GB_FICHA.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.GB_FICHA.BackColor = System.Drawing.Color.White
+        Me.GB_FICHA.Controls.Add(Me.TB_K_PRELIQUIDACION)
+        Me.GB_FICHA.Controls.Add(Me.Label4)
         Me.GB_FICHA.Controls.Add(Me.LI_PORTATIL)
         Me.GB_FICHA.Controls.Add(Me.CB_UNIDAD_OPERATIVA)
         Me.GB_FICHA.Controls.Add(Me.Label7)
@@ -366,10 +458,10 @@ Partial Class FO_PRELIQUIDACION
         Me.GB_FICHA.Controls.Add(Me.TB_D_PUNTO_VENTA)
         Me.GB_FICHA.Controls.Add(Me.TB_D_OPERADOR)
         Me.GB_FICHA.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GB_FICHA.Location = New System.Drawing.Point(36, 19)
+        Me.GB_FICHA.Location = New System.Drawing.Point(49, 116)
         Me.GB_FICHA.Name = "GB_FICHA"
         Me.GB_FICHA.Size = New System.Drawing.Size(958, 321)
-        Me.GB_FICHA.TabIndex = 51
+        Me.GB_FICHA.TabIndex = 52
         Me.GB_FICHA.TabStop = False
         Me.GB_FICHA.Text = "Ficha"
         '
@@ -395,14 +487,14 @@ Partial Class FO_PRELIQUIDACION
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LI_DETALLE.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.LI_DETALLE.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.LI_DETALLE.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
         Me.LI_DETALLE.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.LI_DETALLE.Location = New System.Drawing.Point(12, 26)
         Me.LI_DETALLE.Margin = New System.Windows.Forms.Padding(12, 10, 12, 10)
@@ -521,7 +613,7 @@ Partial Class FO_PRELIQUIDACION
         '
         Me.TB_K_PUNTO_VENTA.Enabled = False
         Me.TB_K_PUNTO_VENTA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_K_PUNTO_VENTA.Location = New System.Drawing.Point(26, 46)
+        Me.TB_K_PUNTO_VENTA.Location = New System.Drawing.Point(74, 46)
         Me.TB_K_PUNTO_VENTA.Name = "TB_K_PUNTO_VENTA"
         Me.TB_K_PUNTO_VENTA.Size = New System.Drawing.Size(42, 22)
         Me.TB_K_PUNTO_VENTA.TabIndex = 21
@@ -530,7 +622,7 @@ Partial Class FO_PRELIQUIDACION
         '
         Me.LB_ID.AutoSize = True
         Me.LB_ID.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_ID.Location = New System.Drawing.Point(29, 28)
+        Me.LB_ID.Location = New System.Drawing.Point(77, 28)
         Me.LB_ID.Name = "LB_ID"
         Me.LB_ID.Size = New System.Drawing.Size(36, 13)
         Me.LB_ID.TabIndex = 19
@@ -540,7 +632,7 @@ Partial Class FO_PRELIQUIDACION
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(82, 30)
+        Me.Label3.Location = New System.Drawing.Point(126, 30)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(67, 13)
         Me.Label3.TabIndex = 12
@@ -580,9 +672,9 @@ Partial Class FO_PRELIQUIDACION
         '
         Me.TB_D_PUNTO_VENTA.AccessibleDescription = ""
         Me.TB_D_PUNTO_VENTA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_D_PUNTO_VENTA.Location = New System.Drawing.Point(78, 46)
+        Me.TB_D_PUNTO_VENTA.Location = New System.Drawing.Point(122, 46)
         Me.TB_D_PUNTO_VENTA.Name = "TB_D_PUNTO_VENTA"
-        Me.TB_D_PUNTO_VENTA.Size = New System.Drawing.Size(163, 22)
+        Me.TB_D_PUNTO_VENTA.Size = New System.Drawing.Size(119, 22)
         Me.TB_D_PUNTO_VENTA.TabIndex = 9
         Me.TB_D_PUNTO_VENTA.Tag = ""
         '
@@ -596,100 +688,31 @@ Partial Class FO_PRELIQUIDACION
         Me.TB_D_OPERADOR.TabIndex = 8
         Me.TB_D_OPERADOR.Tag = "1"
         '
-        'LI_LISTADO
+        'TB_K_PRELIQUIDACION
         '
-        Me.LI_LISTADO.AllowUserToAddRows = False
-        Me.LI_LISTADO.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.LI_LISTADO.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        Me.LI_LISTADO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.LI_LISTADO.Location = New System.Drawing.Point(12, 26)
-        Me.LI_LISTADO.Margin = New System.Windows.Forms.Padding(12, 10, 12, 10)
-        Me.LI_LISTADO.Name = "LI_LISTADO"
-        Me.LI_LISTADO.Size = New System.Drawing.Size(1005, 314)
-        Me.LI_LISTADO.TabIndex = 2
+        Me.TB_K_PRELIQUIDACION.Enabled = False
+        Me.TB_K_PRELIQUIDACION.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_K_PRELIQUIDACION.Location = New System.Drawing.Point(26, 46)
+        Me.TB_K_PRELIQUIDACION.Name = "TB_K_PRELIQUIDACION"
+        Me.TB_K_PRELIQUIDACION.Size = New System.Drawing.Size(42, 22)
+        Me.TB_K_PRELIQUIDACION.TabIndex = 160
         '
-        'GB_OPERACION
+        'Label4
         '
-        Me.GB_OPERACION.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GB_OPERACION.BackColor = System.Drawing.Color.White
-        Me.GB_OPERACION.Controls.Add(Me.LB_RESULTADO)
-        Me.GB_OPERACION.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GB_OPERACION.Location = New System.Drawing.Point(12, 498)
-        Me.GB_OPERACION.Name = "GB_OPERACION"
-        Me.GB_OPERACION.Size = New System.Drawing.Size(582, 52)
-        Me.GB_OPERACION.TabIndex = 44
-        Me.GB_OPERACION.TabStop = False
-        Me.GB_OPERACION.Text = "Operación"
-        '
-        'LB_RESULTADO
-        '
-        Me.LB_RESULTADO.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.LB_RESULTADO.BackColor = System.Drawing.Color.White
-        Me.LB_RESULTADO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.LB_RESULTADO.Enabled = False
-        Me.LB_RESULTADO.Font = New System.Drawing.Font("Courier New", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_RESULTADO.Location = New System.Drawing.Point(6, 15)
-        Me.LB_RESULTADO.Multiline = True
-        Me.LB_RESULTADO.Name = "LB_RESULTADO"
-        Me.LB_RESULTADO.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.LB_RESULTADO.Size = New System.Drawing.Size(570, 30)
-        Me.LB_RESULTADO.TabIndex = 4
-        '
-        'GB_CONTROL
-        '
-        Me.GB_CONTROL.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GB_CONTROL.BackColor = System.Drawing.Color.White
-        Me.GB_CONTROL.Controls.Add(Me.LB_VERSION)
-        Me.GB_CONTROL.Controls.Add(Me.LB_RELOJ)
-        Me.GB_CONTROL.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GB_CONTROL.Location = New System.Drawing.Point(599, 498)
-        Me.GB_CONTROL.Name = "GB_CONTROL"
-        Me.GB_CONTROL.Size = New System.Drawing.Size(440, 52)
-        Me.GB_CONTROL.TabIndex = 45
-        Me.GB_CONTROL.TabStop = False
-        Me.GB_CONTROL.Text = "Control"
-        '
-        'LB_VERSION
-        '
-        Me.LB_VERSION.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_VERSION.Location = New System.Drawing.Point(6, 34)
-        Me.LB_VERSION.Name = "LB_VERSION"
-        Me.LB_VERSION.Size = New System.Drawing.Size(162, 13)
-        Me.LB_VERSION.TabIndex = 1
-        Me.LB_VERSION.Text = "Label10"
-        Me.LB_VERSION.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        '
-        'LB_RELOJ
-        '
-        Me.LB_RELOJ.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_RELOJ.Location = New System.Drawing.Point(251, 34)
-        Me.LB_RELOJ.Name = "LB_RELOJ"
-        Me.LB_RELOJ.Size = New System.Drawing.Size(177, 13)
-        Me.LB_RELOJ.TabIndex = 0
-        Me.LB_RELOJ.Text = "Label9"
-        Me.LB_RELOJ.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        '
-        'TI_RELOJ
-        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(29, 28)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(34, 13)
+        Me.Label4.TabIndex = 159
+        Me.Label4.Text = "#PRE"
         '
         'FO_PRELIQUIDACION
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1056, 552)
+        Me.Controls.Add(Me.GB_FICHA)
         Me.Controls.Add(Me.GB_CONTROL)
         Me.Controls.Add(Me.GB_OPERACION)
         Me.Controls.Add(Me.GB_LISTADO)
@@ -703,14 +726,14 @@ Partial Class FO_PRELIQUIDACION
         Me.GB_FILTROS.ResumeLayout(False)
         Me.GB_FILTROS.PerformLayout()
         Me.GB_LISTADO.ResumeLayout(False)
-        Me.GB_FICHA.ResumeLayout(False)
-        Me.GB_FICHA.PerformLayout()
-        Me.LI_PORTATIL.ResumeLayout(False)
-        CType(Me.LI_DETALLE, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LI_LISTADO, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GB_OPERACION.ResumeLayout(False)
         Me.GB_OPERACION.PerformLayout()
         Me.GB_CONTROL.ResumeLayout(False)
+        Me.GB_FICHA.ResumeLayout(False)
+        Me.GB_FICHA.PerformLayout()
+        Me.LI_PORTATIL.ResumeLayout(False)
+        CType(Me.LI_DETALLE, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -739,10 +762,14 @@ Partial Class FO_PRELIQUIDACION
     Public WithEvents GB_CONTROL As GroupBox
     Public WithEvents LB_VERSION As Label
     Public WithEvents LB_RELOJ As Label
+    Public WithEvents TI_RELOJ As Timer
     Public WithEvents GB_FICHA As GroupBox
-    Friend WithEvents LB_LECTURA_INICIAL_AUT As Label
-    Public WithEvents TB_LECTURA_INICIAL As TextBox
+    Public WithEvents LI_PORTATIL As GroupBox
+    Public WithEvents LI_DETALLE As DataGridView
+    Public WithEvents CB_UNIDAD_OPERATIVA As ComboBox
+    Friend WithEvents Label7 As Label
     Public WithEvents CB_USUARIO_CAMBIO As ComboBox
+    Public WithEvents CB_USUARIO_ALTA As ComboBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Label6 As Label
@@ -753,13 +780,11 @@ Partial Class FO_PRELIQUIDACION
     Public WithEvents TB_K_PUNTO_VENTA As TextBox
     Friend WithEvents LB_ID As Label
     Friend WithEvents Label3 As Label
+    Friend WithEvents LB_LECTURA_INICIAL_AUT As Label
+    Public WithEvents TB_LECTURA_INICIAL As TextBox
     Friend WithEvents Label8 As Label
     Public WithEvents TB_D_PUNTO_VENTA As TextBox
     Public WithEvents TB_D_OPERADOR As TextBox
-    Public WithEvents TI_RELOJ As Timer
-    Public WithEvents CB_USUARIO_ALTA As ComboBox
-    Public WithEvents CB_UNIDAD_OPERATIVA As ComboBox
-    Friend WithEvents Label7 As Label
-    Public WithEvents LI_PORTATIL As GroupBox
-    Public WithEvents LI_DETALLE As DataGridView
+    Public WithEvents TB_K_PRELIQUIDACION As TextBox
+    Friend WithEvents Label4 As Label
 End Class

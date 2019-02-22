@@ -3,8 +3,10 @@
 #Region "VARIABLES Y CONSTANTES MODULARES"
 
     Public VM_NOMBRE_TABLA As String
+    Public VM_CELL_COLOR As Color = Color.Yellow
     Public VM_IN_MODO_OPERACION As Integer = 0
     Public VM_ID_BASE_DE_DATOS As Integer = 0
+    Public VM_TIPO_FICHA As Integer = 0
 
 #End Region
 
@@ -25,13 +27,9 @@
         If TB_K_PUNTO_VENTA.Text <> "" Then
             Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_K_PUNTO_VENTA, False)
             PP_NUEVO = False
-
         End If
 
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_K_PUNTO_VENTA, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_D_PUNTO_VENTA, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_D_OPERADOR, True)
-        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_LECTURA_INICIAL, True)
+        PM_GUARDAR_DETALLE_PRELIQUIDACION(Me, LI_DETALLE)
 
         Return VP_PARAMETROS
 
@@ -102,6 +100,13 @@
     ''' 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
     ''' </summary>
     Public Sub PM_FI_LOAD(ByVal PP_ID As String)
+        If VM_TIPO_FICHA = 0 Then
+            Dim VP_PARAMETROS As String = "'',-1,-1,1"
+            PM_LI_FORMAT_DETALLE(LI_DETALLE) 'Encabezado lista de detalle de preliquidacion
+            Codigo_ABC.PG_BT_BUSCAR_DETALLE(VM_ID_BASE_DE_DATOS, Me, LI_DETALLE, "PG_LI_PRODUCTO", VP_PARAMETROS)
+        End If
+
+
         Codigo_FI.FG_FI_LOAD_X_ID(VM_ID_BASE_DE_DATOS, Me, PP_ID)
         TB_D_OPERADOR.Select()
     End Sub
@@ -113,6 +118,7 @@
             Codigo_FI.PG_FI_CONTROL_DATA_LOAD(Me, PP_ROW)
         End If
 
+        Codigo_CTRL.PG_CO_DATA_LOAD("", TB_K_PRELIQUIDACION, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_D_PUNTO_VENTA, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_D_OPERADOR, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", CB_UNIDAD_OPERATIVA, PP_ROW)
@@ -151,8 +157,14 @@
         Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "K_PRODUCTO", "#PRO", GetType(Integer), 50, 2, 0, 1, 1, 0, Color.White, Color.Black, 1)
         Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "D_PRODUCTO", "Producto", GetType(String), 150, 1, 0, 1, 1, 0, Color.Orange, Nothing, 1)
 
-        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "TANQUE_INICIAL", "Carga inicial", GetType(String), 60, 2, 0, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
-        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "TANQUE_FINAL", "Carga final", GetType(String), 60, 2, 0, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
+        'Revisar si es insert 0 o update 1
+        If VM_TIPO_FICHA = 0 Then
+            Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "O_PRODUCTO", "Carga inicial", GetType(String), 60, 2, 1, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
+            Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "O_PRODUCTO", "Carga inicial", GetType(String), 60, 2, 1, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
+        Else
+            Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "TANQUE_INICIAL", "Carga inicial", GetType(String), 60, 2, 1, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
+            Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "TANQUE_FINAL", "Carga final", GetType(String), 60, 2, 1, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
+        End If
 
         Codigo_FRM.PG_FRM_LI_FORMAT_CONTROL_LOAD(PP_LI_DETALLE, 100, 2, 0, 0, 0, 0)
 
@@ -183,11 +195,70 @@
         Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "K_PRODUCTO")
         Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "D_PRODUCTO")
 
-        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "TANQUE_INICIAL")
-        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "TANQUE_FINAL")
+        'Revisar si es insert 0 o update 1
+        If VM_TIPO_FICHA = 0 Then
+            Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "O_PRODUCTO")
+            Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "O_PRODUCTO")
+        Else
+            Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "TANQUE_INICIAL")
+            Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "TANQUE_FINAL")
+        End If
+
 
         Codigo_FRM.PG_FRM_LI_DATA_CONTROL_LOAD(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA)
 
+    End Sub
+
+    Public Sub PM_GUARDAR_DETALLE_PRELIQUIDACION(ByRef PP_FORMA As Object, ByRef PP_LISTADO As DataGridView)
+
+        'K_PRELIQUIDACION, K_PRODUCTO
+        'LECTURA_INICIAL, LECTURA_FINAL
+        'PESO_INICIAL, PESO_FINAL
+        'NIVEL_INICIAL, NIVEL_FINAL
+        'CARBURACION_INICIAL, CARBURACION_FINAL
+        'TANQUE_INICIAL, TANQUE_FINAL
+
+        Try
+            Dim VP_CONTA As Integer = 0
+            'If VM_RP_K_VIAJE <> "" Then
+            For Each VP_ROW_DATA As DataGridViewRow In PP_LISTADO.Rows
+                    Dim VP_K_TOTALES As String = ""
+                    VP_CONTA = VP_ROW_DATA.Index
+                    VP_K_TOTALES = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "D_RUBRO_VIATICO")
+                    If VP_K_TOTALES <> "Totales" Then
+                        Dim VP_PARAMETROS As String = ""
+                    Dim VP_K_PRELIQUIDACION As String = ""
+                    Dim VP_K_PRODUCTO As String = ""
+                    Dim VP_TANQUE_INICIAL As String = ""
+                    Dim VP_TANQUE_FINAL As String = ""
+
+                    VP_K_PRELIQUIDACION = TB_K_PRELIQUIDACION.Text
+                    VP_K_PRODUCTO = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "K_PRODUCTO")
+                    VP_TANQUE_INICIAL = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "TANQUE_INICIAL")
+                    VP_TANQUE_FINAL = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "TANQUE_FINAL")
+                    'VP_C_PRESUPUESTO_VIAJE = "INS // RUBRO: " + VP_K_RUBRO_VIATICO
+
+                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_K_PRELIQUIDACION, False)
+                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_K_PRODUCTO, False)
+                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_TANQUE_INICIAL, False)
+                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_TANQUE_FINAL, False)
+                    'Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_C_PRESUPUESTO_VIAJE, True)
+
+                    Dim VP_CLAVE As String
+                        Dim VP_MENSAJE As String
+                    Codigo_ABC.PG_BT_EJECUTAR_ACCION_CLICK(VM_ID_BASE_DE_DATOS, PP_FORMA, "IN_DETALLE_PRELIQUIDACION", VP_PARAMETROS, VP_CLAVE, VP_MENSAJE)
+
+                    If VP_MENSAJE = "" Then
+
+                        Else
+                            Codigo_Message.PG_MENSAJE_AVISO(VP_MENSAJE)
+                        End If
+                    End If
+                Next
+            'End If
+        Catch ex As Exception
+            Codigo_Message.PG_MENSAJE_ERROR_VS("PG_BT_GUARDAR_CLICK")
+        End Try
     End Sub
 
     Public Sub PM_BT_BUSCAR_CLICK(ByRef PP_FORMA As Object, ByVal PP_LISTADO As DataGridView)
@@ -248,6 +319,7 @@
 #Region "EVENTOS"
 
     Private Sub BT_AGREGAR_Click(sender As Object, e As EventArgs) Handles BT_AGREGAR.Click
+        VM_TIPO_FICHA = 0
         PM_BT_AGREGAR_CLICK(Me)
     End Sub
 
@@ -272,6 +344,7 @@
     End Sub
 
     Private Sub BT_EDITAR_Click(sender As Object, e As EventArgs) Handles BT_EDITAR.Click
+        VM_TIPO_FICHA = 1
         PM_BT_EDITAR_CLICK(Me, LI_LISTADO)
     End Sub
 
@@ -293,12 +366,90 @@
 
     Private Sub LI_LISTADO_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles LI_LISTADO.CellDoubleClick
         If e.RowIndex <> -1 Then
+            VM_TIPO_FICHA = 1
             Codigo_LI.PG_LI_DOUBLE_CLICK(Me, LI_LISTADO)
         End If
     End Sub
 
     Private Sub BT_CLONAR_Click(sender As Object, e As EventArgs) Handles BT_CLONAR.Click
         PM_BT_CLONAR_CLICK(Me, LI_LISTADO)
+    End Sub
+
+#End Region
+
+#Region "EVENTOS LISTADO"
+
+    Private Sub LI_DETALLE_KeyPress(sender As Object, e As KeyPressEventArgs) Handles LI_DETALLE.KeyPress
+        If Char.IsDigit(e.KeyChar) = False And Char.IsControl(e.KeyChar) = False And Char.IsPunctuation(e.KeyChar) = False Then
+            e.Handled = True
+        Else
+            If Char.IsPunctuation(e.KeyChar) Then
+                If sender.Text.IndexOf(".") > 0 Then
+                    e.Handled = True
+                Else
+                    e.Handled = False
+                End If
+            End If
+        End If
+    End Sub
+
+    Private Sub cellTextBox_KeyDown(
+    ByVal sender As Object,
+    ByVal e As System.Windows.Forms.KeyEventArgs) Handles cellTextBox.KeyDown
+
+    End Sub
+
+    Private Sub cellTextBox_KeyPress(
+    ByVal sender As Object,
+    ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles cellTextBox.KeyPress
+        If Char.IsDigit(e.KeyChar) = False And Char.IsControl(e.KeyChar) = False And Char.IsPunctuation(e.KeyChar) = False Then
+            e.Handled = True
+        Else
+            If Char.IsPunctuation(e.KeyChar) Then
+                If sender.Text.IndexOf(".") > 0 Then
+                    e.Handled = True
+                Else
+                    e.Handled = False
+                End If
+            End If
+        End If
+    End Sub
+
+    Private Sub cellTextBox_KeyUp(
+    ByVal sender As Object,
+    ByVal e As System.Windows.Forms.KeyEventArgs) Handles cellTextBox.KeyUp
+
+    End Sub
+
+    Private Sub DataGridView1_EditingControlShowing(
+                ByVal sender As Object,
+                ByVal e As DataGridViewEditingControlShowingEventArgs) _
+                Handles LI_DETALLE.EditingControlShowing
+
+        ' Este evento se producirá cuando la celda pasa a modo de edición.
+
+        ' Referenciamos el control DataGridViewTextBoxEditingControl actual.
+        '
+        cellTextBox = TryCast(e.Control, DataGridViewTextBoxEditingControl)
+
+        ' Obtenemos el estilo de la celda actual
+        '
+        Dim style As DataGridViewCellStyle = e.CellStyle
+
+        ' Mientras se edita la celda, aumentaremos la fuente
+        ' y rellenaremos el color de fondo de la celda actual.
+        '
+        With style
+            .Font = New Font(style.Font.FontFamily, 10, FontStyle.Bold)
+            .BackColor = Color.Beige
+        End With
+
+    End Sub
+
+    Private WithEvents cellTextBox As DataGridViewTextBoxEditingControl
+
+    Private Sub LI_DETALLE_CellBeginEdit(sender As Object, e As DataGridViewCellCancelEventArgs) Handles LI_DETALLE.CellBeginEdit
+        Codigo_LI.PG_LI_CELL_COLOR_CHANGE(LI_DETALLE, e.RowIndex, e.ColumnIndex, VM_CELL_COLOR)
     End Sub
 
 #End Region

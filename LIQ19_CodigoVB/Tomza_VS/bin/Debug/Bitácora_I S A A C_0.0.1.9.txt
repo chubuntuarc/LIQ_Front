@@ -1143,3 +1143,106 @@ Notifique a Sistemas.
 (d) Error : Could not find stored procedure 'dbo.PG_LI_BANCO'.
 
 ¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 22/02/2019 12:58:43 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : La columna 'TANQUE_INICIAL' no pertenece a la tabla .
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:04:12 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PRODUCTO
+(c) Parámetros: 0,0,0, '',4
+(d) Error : Procedure or function 'PG_LI_PRODUCTO' expects parameter '@PP_K_TIPO_PRODUCTO', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:10:11 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_LI_PRODUCTO
+(c) Parámetros: 0,0,0, '',4
+(d) Error : Procedure or function 'PG_LI_PRODUCTO' expects parameter '@PP_K_TIPO_PRODUCTO', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:23:48 p. m.  -Usuario:   -Mensaje: Favor de <Seleccionar> un registro.
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:32:58 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : La columna 'TANQUE_INICIAL' no pertenece a la tabla .
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:34:53 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : La columna 'TANQUE_INICIAL' no pertenece a la tabla .
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:35:11 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : La columna 'TANQUE_INICIAL' no pertenece a la tabla .
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:37:04 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : La columna 'TANQUE_INICIAL' no pertenece a la tabla .
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:38:15 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : La columna 'TANQUE_INICIAL' no pertenece a la tabla .
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:38:32 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : La columna 'TANQUE_INICIAL' no pertenece a la tabla .
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:39:36 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : La columna 'TANQUE_INICIAL' no pertenece a la tabla .
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:41:42 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : La columna 'TANQUE_INICIAL' no pertenece a la tabla .
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 22/02/2019 01:44:31 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : La columna 'TANQUE_INICIAL' no pertenece a la tabla .
+
+Notifique a Sistemas.
