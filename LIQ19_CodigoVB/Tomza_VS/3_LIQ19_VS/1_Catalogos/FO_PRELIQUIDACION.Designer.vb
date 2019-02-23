@@ -51,6 +51,10 @@ Partial Class FO_PRELIQUIDACION
         Me.LB_RELOJ = New System.Windows.Forms.Label()
         Me.TI_RELOJ = New System.Windows.Forms.Timer(Me.components)
         Me.GB_FICHA = New System.Windows.Forms.GroupBox()
+        Me.CB_K_PUNTO_VENTA = New System.Windows.Forms.ComboBox()
+        Me.CB_K_OPERADOR = New System.Windows.Forms.ComboBox()
+        Me.CB_K_PRELIQUIDACION = New System.Windows.Forms.ComboBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.LI_PORTATIL = New System.Windows.Forms.GroupBox()
         Me.LI_DETALLE = New System.Windows.Forms.DataGridView()
         Me.CB_UNIDAD_OPERATIVA = New System.Windows.Forms.ComboBox()
@@ -66,14 +70,9 @@ Partial Class FO_PRELIQUIDACION
         Me.CH_L_PUNTO_VENTA = New System.Windows.Forms.CheckBox()
         Me.TB_K_PUNTO_VENTA = New System.Windows.Forms.TextBox()
         Me.LB_ID = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.LB_LECTURA_INICIAL_AUT = New System.Windows.Forms.Label()
         Me.TB_LECTURA_INICIAL = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TB_D_PUNTO_VENTA = New System.Windows.Forms.TextBox()
-        Me.TB_D_OPERADOR = New System.Windows.Forms.TextBox()
-        Me.TB_K_PRELIQUIDACION = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.FL_MENU_2.SuspendLayout()
         Me.FL_MENU_1.SuspendLayout()
         Me.GB_FILTROS.SuspendLayout()
@@ -435,7 +434,9 @@ Partial Class FO_PRELIQUIDACION
         '
         Me.GB_FICHA.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.GB_FICHA.BackColor = System.Drawing.Color.White
-        Me.GB_FICHA.Controls.Add(Me.TB_K_PRELIQUIDACION)
+        Me.GB_FICHA.Controls.Add(Me.CB_K_PUNTO_VENTA)
+        Me.GB_FICHA.Controls.Add(Me.CB_K_OPERADOR)
+        Me.GB_FICHA.Controls.Add(Me.CB_K_PRELIQUIDACION)
         Me.GB_FICHA.Controls.Add(Me.Label4)
         Me.GB_FICHA.Controls.Add(Me.LI_PORTATIL)
         Me.GB_FICHA.Controls.Add(Me.CB_UNIDAD_OPERATIVA)
@@ -451,12 +452,9 @@ Partial Class FO_PRELIQUIDACION
         Me.GB_FICHA.Controls.Add(Me.CH_L_PUNTO_VENTA)
         Me.GB_FICHA.Controls.Add(Me.TB_K_PUNTO_VENTA)
         Me.GB_FICHA.Controls.Add(Me.LB_ID)
-        Me.GB_FICHA.Controls.Add(Me.Label3)
         Me.GB_FICHA.Controls.Add(Me.LB_LECTURA_INICIAL_AUT)
         Me.GB_FICHA.Controls.Add(Me.TB_LECTURA_INICIAL)
         Me.GB_FICHA.Controls.Add(Me.Label8)
-        Me.GB_FICHA.Controls.Add(Me.TB_D_PUNTO_VENTA)
-        Me.GB_FICHA.Controls.Add(Me.TB_D_OPERADOR)
         Me.GB_FICHA.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.GB_FICHA.Location = New System.Drawing.Point(49, 116)
         Me.GB_FICHA.Name = "GB_FICHA"
@@ -464,6 +462,41 @@ Partial Class FO_PRELIQUIDACION
         Me.GB_FICHA.TabIndex = 52
         Me.GB_FICHA.TabStop = False
         Me.GB_FICHA.Text = "Ficha"
+        '
+        'CB_K_PUNTO_VENTA
+        '
+        Me.CB_K_PUNTO_VENTA.FormattingEnabled = True
+        Me.CB_K_PUNTO_VENTA.Location = New System.Drawing.Point(160, 45)
+        Me.CB_K_PUNTO_VENTA.Name = "CB_K_PUNTO_VENTA"
+        Me.CB_K_PUNTO_VENTA.Size = New System.Drawing.Size(81, 21)
+        Me.CB_K_PUNTO_VENTA.TabIndex = 163
+        Me.CB_K_PUNTO_VENTA.Tag = ""
+        '
+        'CB_K_OPERADOR
+        '
+        Me.CB_K_OPERADOR.FormattingEnabled = True
+        Me.CB_K_OPERADOR.Location = New System.Drawing.Point(26, 103)
+        Me.CB_K_OPERADOR.Name = "CB_K_OPERADOR"
+        Me.CB_K_OPERADOR.Size = New System.Drawing.Size(215, 21)
+        Me.CB_K_OPERADOR.TabIndex = 162
+        '
+        'CB_K_PRELIQUIDACION
+        '
+        Me.CB_K_PRELIQUIDACION.FormattingEnabled = True
+        Me.CB_K_PRELIQUIDACION.Location = New System.Drawing.Point(26, 45)
+        Me.CB_K_PRELIQUIDACION.Name = "CB_K_PRELIQUIDACION"
+        Me.CB_K_PRELIQUIDACION.Size = New System.Drawing.Size(128, 21)
+        Me.CB_K_PRELIQUIDACION.TabIndex = 161
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(29, 28)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(34, 13)
+        Me.Label4.TabIndex = 159
+        Me.Label4.Text = "#PRE"
         '
         'LI_PORTATIL
         '
@@ -613,30 +646,21 @@ Partial Class FO_PRELIQUIDACION
         '
         Me.TB_K_PUNTO_VENTA.Enabled = False
         Me.TB_K_PUNTO_VENTA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_K_PUNTO_VENTA.Location = New System.Drawing.Point(74, 46)
+        Me.TB_K_PUNTO_VENTA.Location = New System.Drawing.Point(254, 9)
         Me.TB_K_PUNTO_VENTA.Name = "TB_K_PUNTO_VENTA"
-        Me.TB_K_PUNTO_VENTA.Size = New System.Drawing.Size(42, 22)
+        Me.TB_K_PUNTO_VENTA.Size = New System.Drawing.Size(83, 22)
         Me.TB_K_PUNTO_VENTA.TabIndex = 21
+        Me.TB_K_PUNTO_VENTA.Visible = False
         '
         'LB_ID
         '
         Me.LB_ID.AutoSize = True
         Me.LB_ID.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.LB_ID.Location = New System.Drawing.Point(77, 28)
+        Me.LB_ID.Location = New System.Drawing.Point(164, 30)
         Me.LB_ID.Name = "LB_ID"
         Me.LB_ID.Size = New System.Drawing.Size(36, 13)
         Me.LB_ID.TabIndex = 19
         Me.LB_ID.Text = "#PDV"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(126, 30)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(67, 13)
-        Me.Label3.TabIndex = 12
-        Me.Label3.Text = "Descripción"
         '
         'LB_LECTURA_INICIAL_AUT
         '
@@ -667,45 +691,6 @@ Partial Class FO_PRELIQUIDACION
         Me.Label8.Size = New System.Drawing.Size(57, 13)
         Me.Label8.TabIndex = 16
         Me.Label8.Text = "Operador"
-        '
-        'TB_D_PUNTO_VENTA
-        '
-        Me.TB_D_PUNTO_VENTA.AccessibleDescription = ""
-        Me.TB_D_PUNTO_VENTA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_D_PUNTO_VENTA.Location = New System.Drawing.Point(122, 46)
-        Me.TB_D_PUNTO_VENTA.Name = "TB_D_PUNTO_VENTA"
-        Me.TB_D_PUNTO_VENTA.Size = New System.Drawing.Size(119, 22)
-        Me.TB_D_PUNTO_VENTA.TabIndex = 9
-        Me.TB_D_PUNTO_VENTA.Tag = ""
-        '
-        'TB_D_OPERADOR
-        '
-        Me.TB_D_OPERADOR.AccessibleDescription = ""
-        Me.TB_D_OPERADOR.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_D_OPERADOR.Location = New System.Drawing.Point(26, 103)
-        Me.TB_D_OPERADOR.Name = "TB_D_OPERADOR"
-        Me.TB_D_OPERADOR.Size = New System.Drawing.Size(215, 22)
-        Me.TB_D_OPERADOR.TabIndex = 8
-        Me.TB_D_OPERADOR.Tag = "1"
-        '
-        'TB_K_PRELIQUIDACION
-        '
-        Me.TB_K_PRELIQUIDACION.Enabled = False
-        Me.TB_K_PRELIQUIDACION.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_K_PRELIQUIDACION.Location = New System.Drawing.Point(26, 46)
-        Me.TB_K_PRELIQUIDACION.Name = "TB_K_PRELIQUIDACION"
-        Me.TB_K_PRELIQUIDACION.Size = New System.Drawing.Size(42, 22)
-        Me.TB_K_PRELIQUIDACION.TabIndex = 160
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(29, 28)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(34, 13)
-        Me.Label4.TabIndex = 159
-        Me.Label4.Text = "#PRE"
         '
         'FO_PRELIQUIDACION
         '
@@ -777,14 +762,13 @@ Partial Class FO_PRELIQUIDACION
     Public WithEvents TB_F_ALTA As TextBox
     Public WithEvents TB_F_CAMBIO As TextBox
     Friend WithEvents CH_L_PUNTO_VENTA As CheckBox
-    Public WithEvents TB_K_PUNTO_VENTA As TextBox
     Friend WithEvents LB_ID As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents LB_LECTURA_INICIAL_AUT As Label
     Public WithEvents TB_LECTURA_INICIAL As TextBox
     Friend WithEvents Label8 As Label
-    Public WithEvents TB_D_PUNTO_VENTA As TextBox
-    Public WithEvents TB_D_OPERADOR As TextBox
-    Public WithEvents TB_K_PRELIQUIDACION As TextBox
     Friend WithEvents Label4 As Label
+    Public WithEvents CB_K_PRELIQUIDACION As ComboBox
+    Public WithEvents CB_K_OPERADOR As ComboBox
+    Public WithEvents CB_K_PUNTO_VENTA As ComboBox
+    Public WithEvents TB_K_PUNTO_VENTA As TextBox
 End Class

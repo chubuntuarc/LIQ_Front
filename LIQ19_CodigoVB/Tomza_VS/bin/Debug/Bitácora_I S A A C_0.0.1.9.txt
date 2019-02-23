@@ -1246,3 +1246,161 @@ Notifique a Sistemas.
 (b) Error : La columna 'TANQUE_INICIAL' no pertenece a la tabla .
 
 Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 22/02/2019 04:59:11 p. m.  -Usuario:   -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 22/02/2019 04:59:14 p. m.  -Usuario:   -Mensaje: No es posible <Guardar> la información.
+
+Los datos en amarillo son obligatorios.
+
+Por favor verifique.
+
+-- ======================================================================================================= -
+-- 22/02/2019 05:07:13 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : Referencia a objeto no establecida como instancia de un objeto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 23/02/2019 11:00:20 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : Referencia a objeto no establecida como instancia de un objeto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 23/02/2019 11:01:54 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : Referencia a objeto no establecida como instancia de un objeto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 23/02/2019 11:28:27 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_PRELIQUIDACION_Load]
+(c) Parámetros: 0,0,0, , -1
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 23/02/2019 11:28:29 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_PRELIQUIDACION_Load]
+(c) Parámetros: 0,0,0, , 27
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 23/02/2019 11:28:51 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_PRELIQUIDACION_Load]
+(c) Parámetros: 0,0,0, , 28
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 23/02/2019 11:29:52 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_PRELIQUIDACION_Load]
+(c) Parámetros: 0,0,0, -1
+(d) Error : Could not find stored procedure 'PG_CB_PRELIQUIDACION_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 23/02/2019 11:29:53 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_PRELIQUIDACION_Load]
+(c) Parámetros: 0,0,0, 27
+(d) Error : Could not find stored procedure 'PG_CB_PRELIQUIDACION_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 23/02/2019 11:30:14 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [PG_CB_PRELIQUIDACION_Load]
+(c) Parámetros: 0,0,0, 28
+(d) Error : Could not find stored procedure 'PG_CB_PRELIQUIDACION_Load'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 23/02/2019 12:41:06 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_SK_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 0,0,0,9
+(d) Error : Procedure or function PG_SK_PRELIQUIDACION has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 23/02/2019 12:41:07 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_SK_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 0,0,0,9
+(d) Error : Procedure or function PG_SK_PRELIQUIDACION has too many arguments specified.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 23/02/2019 12:48:07 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : La conversión de la cadena "K_POS: " en el tipo 'Double' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 23/02/2019 12:51:29 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : Referencia a objeto no establecida como instancia de un objeto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 23/02/2019 12:54:08 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : Referencia a objeto no establecida como instancia de un objeto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 23/02/2019 12:54:43 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : Referencia a objeto no establecida como instancia de un objeto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 23/02/2019 12:56:58 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : La cadena de entrada no tiene el formato correcto.
+
+Notifique a Sistemas.

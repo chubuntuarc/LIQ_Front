@@ -23,7 +23,7 @@ Partial Class FO_PUNTO_VENTA
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.TI_RELOJ = New System.Windows.Forms.Timer(Me.components)
         Me.FL_MENU_2 = New System.Windows.Forms.FlowLayoutPanel()
         Me.BT_LISTADO = New System.Windows.Forms.Button()
@@ -100,6 +100,13 @@ Partial Class FO_PUNTO_VENTA
         Me.LB_LECTURA_INICIAL_AUT = New System.Windows.Forms.Label()
         Me.TB_LECTURA_INICIAL_AUT = New System.Windows.Forms.TextBox()
         Me.GB_FICHA = New System.Windows.Forms.GroupBox()
+        Me.CB_AYUDANTE_2 = New System.Windows.Forms.ComboBox()
+        Me.Label40 = New System.Windows.Forms.Label()
+        Me.CB_AYUDANTE_1 = New System.Windows.Forms.ComboBox()
+        Me.Label39 = New System.Windows.Forms.Label()
+        Me.CB_OPERADOR = New System.Windows.Forms.ComboBox()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.GB_ESTACION_CARBURACION = New System.Windows.Forms.GroupBox()
         Me.GB_PORTATIL = New System.Windows.Forms.GroupBox()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.TB_CAPACIDAD_POR = New System.Windows.Forms.TextBox()
@@ -113,7 +120,6 @@ Partial Class FO_PUNTO_VENTA
         Me.TB_MARCA_POR = New System.Windows.Forms.TextBox()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.TB_MATRICULA_POR = New System.Windows.Forms.TextBox()
-        Me.GB_ESTACION_CARBURACION = New System.Windows.Forms.GroupBox()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.TB_TIPO_MEDIDOR_EST = New System.Windows.Forms.TextBox()
         Me.Label28 = New System.Windows.Forms.Label()
@@ -128,12 +134,6 @@ Partial Class FO_PUNTO_VENTA
         Me.TB_LECTURA_FINAL_EST = New System.Windows.Forms.TextBox()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.TB_LECTURA_INICIAL_EST = New System.Windows.Forms.TextBox()
-        Me.CB_OPERADOR = New System.Windows.Forms.ComboBox()
-        Me.Label38 = New System.Windows.Forms.Label()
-        Me.CB_AYUDANTE_1 = New System.Windows.Forms.ComboBox()
-        Me.Label39 = New System.Windows.Forms.Label()
-        Me.CB_AYUDANTE_2 = New System.Windows.Forms.ComboBox()
-        Me.Label40 = New System.Windows.Forms.Label()
         Me.FL_MENU_2.SuspendLayout()
         Me.GB_FILTROS.SuspendLayout()
         Me.GB_LISTADO.SuspendLayout()
@@ -143,8 +143,8 @@ Partial Class FO_PUNTO_VENTA
         Me.FL_MENU_1.SuspendLayout()
         Me.GB_AUTOTANQUE.SuspendLayout()
         Me.GB_FICHA.SuspendLayout()
-        Me.GB_PORTATIL.SuspendLayout()
         Me.GB_ESTACION_CARBURACION.SuspendLayout()
+        Me.GB_PORTATIL.SuspendLayout()
         Me.SuspendLayout()
         '
         'TI_RELOJ
@@ -376,14 +376,14 @@ Partial Class FO_PUNTO_VENTA
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LI_LISTADO.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
         Me.LI_LISTADO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.LI_LISTADO.Location = New System.Drawing.Point(12, 26)
         Me.LI_LISTADO.Margin = New System.Windows.Forms.Padding(12, 10, 12, 10)
@@ -1012,6 +1012,7 @@ Partial Class FO_PUNTO_VENTA
         '
         Me.GB_FICHA.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.GB_FICHA.BackColor = System.Drawing.Color.White
+        Me.GB_FICHA.Controls.Add(Me.GB_PORTATIL)
         Me.GB_FICHA.Controls.Add(Me.CB_AYUDANTE_2)
         Me.GB_FICHA.Controls.Add(Me.Label40)
         Me.GB_FICHA.Controls.Add(Me.CB_AYUDANTE_1)
@@ -1051,6 +1052,87 @@ Partial Class FO_PUNTO_VENTA
         Me.GB_FICHA.TabStop = False
         Me.GB_FICHA.Text = "Ficha"
         '
+        'CB_AYUDANTE_2
+        '
+        Me.CB_AYUDANTE_2.FormattingEnabled = True
+        Me.CB_AYUDANTE_2.Location = New System.Drawing.Point(444, 83)
+        Me.CB_AYUDANTE_2.Name = "CB_AYUDANTE_2"
+        Me.CB_AYUDANTE_2.Size = New System.Drawing.Size(170, 21)
+        Me.CB_AYUDANTE_2.TabIndex = 177
+        '
+        'Label40
+        '
+        Me.Label40.AutoSize = True
+        Me.Label40.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Location = New System.Drawing.Point(447, 69)
+        Me.Label40.Name = "Label40"
+        Me.Label40.Size = New System.Drawing.Size(65, 13)
+        Me.Label40.TabIndex = 176
+        Me.Label40.Text = "Ayudante 2"
+        '
+        'CB_AYUDANTE_1
+        '
+        Me.CB_AYUDANTE_1.FormattingEnabled = True
+        Me.CB_AYUDANTE_1.Location = New System.Drawing.Point(268, 84)
+        Me.CB_AYUDANTE_1.Name = "CB_AYUDANTE_1"
+        Me.CB_AYUDANTE_1.Size = New System.Drawing.Size(170, 21)
+        Me.CB_AYUDANTE_1.TabIndex = 175
+        '
+        'Label39
+        '
+        Me.Label39.AutoSize = True
+        Me.Label39.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(271, 70)
+        Me.Label39.Name = "Label39"
+        Me.Label39.Size = New System.Drawing.Size(65, 13)
+        Me.Label39.TabIndex = 174
+        Me.Label39.Text = "Ayudante 1"
+        '
+        'CB_OPERADOR
+        '
+        Me.CB_OPERADOR.FormattingEnabled = True
+        Me.CB_OPERADOR.Location = New System.Drawing.Point(36, 83)
+        Me.CB_OPERADOR.Name = "CB_OPERADOR"
+        Me.CB_OPERADOR.Size = New System.Drawing.Size(226, 21)
+        Me.CB_OPERADOR.TabIndex = 173
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Location = New System.Drawing.Point(39, 69)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(57, 13)
+        Me.Label38.TabIndex = 172
+        Me.Label38.Text = "Operador"
+        '
+        'GB_ESTACION_CARBURACION
+        '
+        Me.GB_ESTACION_CARBURACION.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.GB_ESTACION_CARBURACION.BackColor = System.Drawing.Color.White
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label27)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_TIPO_MEDIDOR_EST)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label28)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_MEDIDOR_EST)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label29)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_PORCENTAJE_EST)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label30)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_CAPACIDAD_EST)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label31)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_DIRECCION_EST)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label32)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_LECTURA_FINAL_EST)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label33)
+        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_LECTURA_INICIAL_EST)
+        Me.GB_ESTACION_CARBURACION.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.GB_ESTACION_CARBURACION.Location = New System.Drawing.Point(6, 111)
+        Me.GB_ESTACION_CARBURACION.Name = "GB_ESTACION_CARBURACION"
+        Me.GB_ESTACION_CARBURACION.Size = New System.Drawing.Size(946, 221)
+        Me.GB_ESTACION_CARBURACION.TabIndex = 171
+        Me.GB_ESTACION_CARBURACION.TabStop = False
+        Me.GB_ESTACION_CARBURACION.Text = "Detalles Estación de Carburación"
+        Me.GB_ESTACION_CARBURACION.Visible = False
+        '
         'GB_PORTATIL
         '
         Me.GB_PORTATIL.Anchor = System.Windows.Forms.AnchorStyles.None
@@ -1068,7 +1150,7 @@ Partial Class FO_PUNTO_VENTA
         Me.GB_PORTATIL.Controls.Add(Me.Label37)
         Me.GB_PORTATIL.Controls.Add(Me.TB_MATRICULA_POR)
         Me.GB_PORTATIL.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GB_PORTATIL.Location = New System.Drawing.Point(0, 0)
+        Me.GB_PORTATIL.Location = New System.Drawing.Point(6, 111)
         Me.GB_PORTATIL.Name = "GB_PORTATIL"
         Me.GB_PORTATIL.Size = New System.Drawing.Size(946, 221)
         Me.GB_PORTATIL.TabIndex = 172
@@ -1195,34 +1277,6 @@ Partial Class FO_PUNTO_VENTA
         Me.TB_MATRICULA_POR.Size = New System.Drawing.Size(220, 22)
         Me.TB_MATRICULA_POR.TabIndex = 151
         Me.TB_MATRICULA_POR.Tag = ""
-        '
-        'GB_ESTACION_CARBURACION
-        '
-        Me.GB_ESTACION_CARBURACION.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.GB_ESTACION_CARBURACION.BackColor = System.Drawing.Color.White
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.GB_PORTATIL)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label27)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_TIPO_MEDIDOR_EST)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label28)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_MEDIDOR_EST)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label29)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_PORCENTAJE_EST)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label30)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_CAPACIDAD_EST)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label31)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_DIRECCION_EST)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label32)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_LECTURA_FINAL_EST)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.Label33)
-        Me.GB_ESTACION_CARBURACION.Controls.Add(Me.TB_LECTURA_INICIAL_EST)
-        Me.GB_ESTACION_CARBURACION.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GB_ESTACION_CARBURACION.Location = New System.Drawing.Point(6, 111)
-        Me.GB_ESTACION_CARBURACION.Name = "GB_ESTACION_CARBURACION"
-        Me.GB_ESTACION_CARBURACION.Size = New System.Drawing.Size(946, 221)
-        Me.GB_ESTACION_CARBURACION.TabIndex = 171
-        Me.GB_ESTACION_CARBURACION.TabStop = False
-        Me.GB_ESTACION_CARBURACION.Text = "Detalles Estación de Carburación"
-        Me.GB_ESTACION_CARBURACION.Visible = False
         '
         'Label27
         '
@@ -1364,60 +1418,6 @@ Partial Class FO_PUNTO_VENTA
         Me.TB_LECTURA_INICIAL_EST.TabIndex = 151
         Me.TB_LECTURA_INICIAL_EST.Tag = ""
         '
-        'CB_OPERADOR
-        '
-        Me.CB_OPERADOR.FormattingEnabled = True
-        Me.CB_OPERADOR.Location = New System.Drawing.Point(36, 83)
-        Me.CB_OPERADOR.Name = "CB_OPERADOR"
-        Me.CB_OPERADOR.Size = New System.Drawing.Size(226, 21)
-        Me.CB_OPERADOR.TabIndex = 173
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(39, 69)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(57, 13)
-        Me.Label38.TabIndex = 172
-        Me.Label38.Text = "Operador"
-        '
-        'CB_AYUDANTE_1
-        '
-        Me.CB_AYUDANTE_1.FormattingEnabled = True
-        Me.CB_AYUDANTE_1.Location = New System.Drawing.Point(268, 84)
-        Me.CB_AYUDANTE_1.Name = "CB_AYUDANTE_1"
-        Me.CB_AYUDANTE_1.Size = New System.Drawing.Size(170, 21)
-        Me.CB_AYUDANTE_1.TabIndex = 175
-        '
-        'Label39
-        '
-        Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(271, 70)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(65, 13)
-        Me.Label39.TabIndex = 174
-        Me.Label39.Text = "Ayudante 1"
-        '
-        'CB_AYUDANTE_2
-        '
-        Me.CB_AYUDANTE_2.FormattingEnabled = True
-        Me.CB_AYUDANTE_2.Location = New System.Drawing.Point(444, 83)
-        Me.CB_AYUDANTE_2.Name = "CB_AYUDANTE_2"
-        Me.CB_AYUDANTE_2.Size = New System.Drawing.Size(170, 21)
-        Me.CB_AYUDANTE_2.TabIndex = 177
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(447, 69)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(65, 13)
-        Me.Label40.TabIndex = 176
-        Me.Label40.Text = "Ayudante 2"
-        '
         'FO_PUNTO_VENTA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1448,10 +1448,10 @@ Partial Class FO_PUNTO_VENTA
         Me.GB_AUTOTANQUE.PerformLayout()
         Me.GB_FICHA.ResumeLayout(False)
         Me.GB_FICHA.PerformLayout()
-        Me.GB_PORTATIL.ResumeLayout(False)
-        Me.GB_PORTATIL.PerformLayout()
         Me.GB_ESTACION_CARBURACION.ResumeLayout(False)
         Me.GB_ESTACION_CARBURACION.PerformLayout()
+        Me.GB_PORTATIL.ResumeLayout(False)
+        Me.GB_PORTATIL.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
