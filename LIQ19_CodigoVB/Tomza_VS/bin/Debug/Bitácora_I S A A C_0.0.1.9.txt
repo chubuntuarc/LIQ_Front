@@ -1404,3 +1404,673 @@ Notifique a Sistemas.
 (b) Error : La cadena de entrada no tiene el formato correcto.
 
 Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 25/02/2019 11:09:34 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 25/02/2019 11:09:36 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_LI_LOAD
+(b) Error : Al control DataGridView no se puede agregar ninguna fila que no tenga columnas. Las columnas se deben agregar primero.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 25/02/2019 12:34:52 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : La cadena de entrada no tiene el formato correcto.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 25/02/2019 12:35:19 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_CB_LOAD
+(b) Error : La conversión de la cadena "Operador: " en el tipo 'Double' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 25/02/2019 12:57:20 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0,   , 4 , 0 , 0 , 0 , 0 , 0 , 0 ,  ,  
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 25/02/2019 12:57:22 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0,   , 5 , 0 , 0 , 0 , 0 , 0 , 0 ,  ,  
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 25/02/2019 12:57:23 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0,   , 6 , 0 , 0 , 0 , 0 , 0 , 0 ,  ,  
+(d) Error : Incorrect syntax near ','.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/02/2019 10:07:19 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_UP_PRELIQUIDACION]
+(c) Parámetros: 0,0,0,  31 
+(d) Error : Procedure or function 'PG_UP_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/02/2019 12:37:44 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/02/2019 12:42:37 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/02/2019 01:17:36 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 26/02/2019 01:17:45 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/02/2019 01:19:10 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 26/02/2019 01:19:18 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/02/2019 01:20:12 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 26/02/2019 01:23:13 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 27/02/2019 04:41:16 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/02/2019 04:44:10 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/02/2019 04:44:21 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 27/02/2019 04:48:05 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/02/2019 04:48:12 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 27/02/2019 04:48:53 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/02/2019 04:50:27 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/02/2019 04:53:35 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/02/2019 04:56:26 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 27/02/2019 04:56:31 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 05/03/2019 05:21:06 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 05/03/2019 05:21:18 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 05/03/2019 05:21:25 p. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 09:38:21 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/03/2019 09:46:20 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/03/2019 09:47:54 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/03/2019 09:52:58 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "0,0,0,'PRE','PRE',
+            " en el tipo 'Double' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/03/2019 09:53:04 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 09:54:56 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "0,0,0,'PRE','PRE',
+            " en el tipo 'Double' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/03/2019 09:57:40 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/03/2019 09:59:11 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/03/2019 09:59:22 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:01:31 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: PG_BT_GUARDAR_CLICK
+(b) Error : La conversión de la cadena "" en el tipo 'Integer' no es válida.
+
+Notifique a Sistemas.
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:01:38 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:08:36 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:13:54 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_IN_PRELIQUIDACION
+(c) Parámetros:  'PRE' , 'PRE' , 0 , 1 , 1 , 1 , 23 
+(d) Error : Error converting data type varchar to int.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:13:56 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: PG_IN_PRELIQUIDACION
+(c) Parámetros:  'PRE' , 'PRE' , 0 , 1 , 1 , 1 , 23 
+(d) Error : Error converting data type varchar to int.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:13:59 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:15:16 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:22:59 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0,  54 , 4 , 10 , 10 , 20 , 20 , 30 , 30 , 40 , 40 , 50 , 50 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:23:01 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0,  54 , 4 , 10 , 10 , 20 , 20 , 30 , 30 , 40 , 40 , 50 , 50 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:23:02 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0,  54 , 4 , 10 , 10 , 20 , 20 , 30 , 30 , 40 , 40 , 50 , 50 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:23:03 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0,  54 , 4 , 10 , 10 , 20 , 20 , 30 , 30 , 40 , 40 , 50 , 50 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:24:53 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 55 , 4 , 0 , 0 , 100 , 100 , 90 , 90 , 90 , 90 , 10 , 10 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:24:55 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 55 , 5 , 0 , 0 , 100 , 100 , 90 , 90 , 90 , 90 , 20 , 20 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:24:56 a. m.  -Usuario:   -Mensaje: Operación Exitosa [#DETALLE: 55].
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:24:57 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 55 , 6 , 0 , 0 , 100 , 100 , 90 , 90 , 90 , 90 , 30 , 30 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:24:57 a. m.  -Usuario:   -Mensaje: Operación Exitosa [#DETALLE: 55].
+
+-- ======================================================================================================= -
+-- 06/03/2019 10:25:00 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:09:32 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 57 , 4 , 0 , 0 , 1000 , 1000 , 90 , 90 , 85 , 85 , 5 , 5 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:09:37 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 57 , 5 , 0 , 0 , 1000 , 1000 , 90 , 90 , 85 , 85 , 10 , 10 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:09:37 a. m.  -Usuario:   -Mensaje: Operación Exitosa [#DETALLE: 57].
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:09:41 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 57 , 6 , 0 , 0 , 1000 , 1000 , 90 , 90 , 85 , 85 , 15 , 15 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:09:41 a. m.  -Usuario:   -Mensaje: Operación Exitosa [#DETALLE: 57].
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:11:21 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 58 , 4 , 0 , 0 , 100 , 100 , 90 , 90 , 80 , 80 , 5 , 5 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:11:22 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0,  58 , 4 , 0 , 0 , 100 , 100 , 90 , 90 , 80 , 80 , 5 , 5 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:11:25 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 58 , 5 , 0 , 0 , 100 , 100 , 90 , 90 , 80 , 80 , 10 , 10 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:11:27 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0,  58 , 5 , 0 , 0 , 100 , 100 , 90 , 90 , 80 , 80 , 10 , 10 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:11:27 a. m.  -Usuario:   -Mensaje: Operación Exitosa [#DETALLE: 58].
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:11:30 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 58 , 6 , 0 , 0 , 100 , 100 , 90 , 90 , 80 , 80 , 15 , 15 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:11:31 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0,  58 , 6 , 0 , 0 , 100 , 100 , 90 , 90 , 80 , 80 , 15 , 15 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:11:31 a. m.  -Usuario:   -Mensaje: Operación Exitosa [#DETALLE: 58].
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:11:35 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:12:32 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 59 , 4 , 0 , 0 , 100 , 100 , 90 , 90 , 80 , 80 , 2 , 2 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:12:37 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 59 , 5 , 0 , 0 , 100 , 100 , 90 , 90 , 80 , 80 , 4 , 4 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:12:37 a. m.  -Usuario:   -Mensaje: Operación Exitosa [#DETALLE: 59].
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:12:39 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: IN_DETALLE_PRELIQUIDACION
+(c) Parámetros: 0,0,0, 59 , 6 , 0 , 0 , 100 , 100 , 90 , 90 , 80 , 80 , 8 , 8 
+(d) Error : Could not find stored procedure 'IN_DETALLE_PRELIQUIDACION'.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:12:39 a. m.  -Usuario:   -Mensaje: Operación Exitosa [#DETALLE: 59].
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:12:55 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:20:49 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 06/03/2019 11:21:38 a. m.  -Usuario:   -Mensaje: Error de ejecución.
+
+(a) Rutina: FG_SP_EXECUTE_DATATABLE
+(b) Stored Procedure: [dbo].[PG_IN_PRELIQUIDACION]
+(c) Parámetros: 0,0,0
+(d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
+
+¿Desea Reejecutar la Operación?

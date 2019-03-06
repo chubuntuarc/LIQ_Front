@@ -28,8 +28,13 @@
     Public Const CG_SQL_SP_LOG As String = "LOG"
     Public Const CG_SQL_SP_LOG_DESARROLLO As String = "LOG_DESARROLLO"
     Public Const CG_SQL_SP_GRAFICA As String = "GRAFICA"
-
-
-
+    '=========================================================================
+    Public Const CG_NOMBRE_PROYECTO As String = "LIQ19"
+    '=========================================================================
+    Public Const CG_SQL_SERVIDOR As String = "DESKTOP-I0DN4KS\LOCAL"
+    Public Const CG_SQL_BASE_DATOS As String = "LIQ19_Liquidaciones_V9999_R0"
+    Public Const CG_SQL_USUARIO As String = "sa"
+    Public Const CG_SQL_PASSWORD As String = "123456"
+    '=========================================================================
 
 End Class

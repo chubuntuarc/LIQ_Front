@@ -151,3 +151,4 @@ D:\2019.Proyectos\LIQ19_Liquidaciones\LIQ19_VB\Tomza_VS\obj\Debug\LIQ19_Liquidac
 D:\2019.Proyectos\LIQ19_Liquidaciones\LIQ19_VB\Tomza_VS\obj\Debug\LIQ19_Liquidaciones.exe
 D:\2019.Proyectos\LIQ19_Liquidaciones\LIQ19_VB\Tomza_VS\obj\Debug\LIQ19_Liquidaciones.xml
 D:\2019.Proyectos\LIQ19_Liquidaciones\LIQ19_VB\Tomza_VS\obj\Debug\LIQ19_Liquidaciones.pdb
+D:\2019.Proyectos\LIQ19_Liquidaciones\LIQ19_VB\Tomza_VS\obj\Debug\LIQ19_Liquidaciones.FO_PRUEBA.resources

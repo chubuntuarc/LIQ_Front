@@ -25,8 +25,8 @@
     Public Function FM_FI_SQL(ByRef PP_NUEVO As Boolean)
         Dim VP_PARAMETROS = ""
         PP_NUEVO = True
-        If TB_K_PUNTO_VENTA.Text <> "" Then
-            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_K_PUNTO_VENTA, False)
+        If TB_K_PRELIQUIDACION.Text <> "" Then
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_K_PRELIQUIDACION, False)
             PP_NUEVO = False
         End If
 
@@ -78,8 +78,8 @@
     Public Sub PM_CB_INIT()
         Codigo_FI.PG_FI_CONTROL_DATA_SETUP(VM_ID_BASE_DE_DATOS, Me)
         Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_LI_ESTATUS_PRELIQUIDACION, "ESTATUS_PRELIQUIDACION")
+        CB_LI_ESTATUS_PRELIQUIDACION.SelectedIndex = 1
 
-        Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_K_PRELIQUIDACION, "PRELIQUIDACION")
         Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_K_OPERADOR, "OPERADOR")
         Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_K_PUNTO_VENTA, "PUNTO_VENTA")
         Codigo_CB.PG_CB_LOAD_X_ORDEN(VM_ID_BASE_DE_DATOS, Me, CB_UNIDAD_OPERATIVA, "UNIDAD_OPERATIVA")
@@ -112,7 +112,6 @@
 
 
         Codigo_FI.FG_FI_LOAD_X_ID(VM_ID_BASE_DE_DATOS, Me, PP_ID)
-        CB_K_PRELIQUIDACION.Select()
     End Sub
 
     Public Sub PM_FI_CARGAR(ByVal PP_ROW As DataRow)
@@ -120,12 +119,11 @@
         VM_ROW = PP_ROW
 
         If VM_IN_MODO_OPERACION <> Modo_Operacion.Clon Then
-            Codigo_CTRL.PG_CO_DATA_LOAD("", CB_K_PUNTO_VENTA, PP_ROW)
-            Codigo_CTRL.PG_CO_DATA_LOAD("K_PUNTO_VENTA", TB_K_PUNTO_VENTA, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("K_PUNTO_VENTA", CB_K_PUNTO_VENTA, PP_ROW)
+            Codigo_CTRL.PG_CO_DATA_LOAD("K_PRELIQUIDACION", TB_K_PRELIQUIDACION, PP_ROW)
             Codigo_FI.PG_FI_CONTROL_DATA_LOAD(Me, PP_ROW)
         End If
 
-        Codigo_CTRL.PG_CO_DATA_LOAD("", CB_K_PRELIQUIDACION, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("K_OPERADOR", CB_K_OPERADOR, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", CB_UNIDAD_OPERATIVA, PP_ROW)
         Codigo_CTRL.PG_CO_DATA_LOAD("", TB_LECTURA_INICIAL, PP_ROW)
@@ -137,6 +135,27 @@
 
         Codigo_ABC.PG_BT_BUSCAR_DETALLE(VM_ID_BASE_DE_DATOS, Me, LI_DETALLE, "PG_LI_DETALLE_PRELIQUIDACION", VP_PARAMETROS)
 
+
+        Try
+            Dim VP_PARAMETROS_DETALLE As String = "''," + TB_K_PRELIQUIDACION.Text
+
+            Dim VP_DATATABLE As New Data.DataTable
+
+            Codigo_ABC.PG_BT_EJECUTAR_ACCION_TABLA_CLICK(VM_ID_BASE_DE_DATOS, Me, "PG_LI_DETALLE_PRELIQUIDACION", VP_PARAMETROS_DETALLE, VP_DATATABLE) 'SE CREA UNA TABLA CON LOS VALORES DEVUELTOS POR EL SP
+
+            Dim VP_LECTURA_INICIAL As String = Codigo_LI.FG_LI_CELL_READ(VP_DATATABLE, 0, "LECTURA_INICIAL") 'OBTIENE EL VALOR INDICADO
+            Dim VP_PESO_INICIAL As String = Codigo_LI.FG_LI_CELL_READ(VP_DATATABLE, 0, "PESO_INICIAL") 'OBTIENE EL VALOR INDICADO
+            Dim VP_NIVEL_INICIAL As String = Codigo_LI.FG_LI_CELL_READ(VP_DATATABLE, 0, "NIVEL_INICIAL") 'OBTIENE EL VALOR INDICADO
+            Dim VP_CARBURACION_INICIAL As String = Codigo_LI.FG_LI_CELL_READ(VP_DATATABLE, 0, "CARBURACION_INICIAL") 'OBTIENE EL VALOR INDICADO
+
+            TB_LECTURA_INICIAL.Text = VP_LECTURA_INICIAL
+            TB_PESO_INICIAL.Text = VP_PESO_INICIAL
+            TB_NIVEL_INICIAL.Text = VP_NIVEL_INICIAL
+            TB_CARBURACION_INICIAL.Text = VP_CARBURACION_INICIAL
+        Catch ex As Exception
+            MessageBox.Show("Error " + ex.ToString())
+        End Try
+
     End Sub
 
     Private Sub PM_LI_FORMAT(ByRef PP_LI_LISTADO As DataGridView)
@@ -145,11 +164,12 @@
         '            ANCHO_CELDA, ALINEACION, SOLO_LECTURA, Visible, FROZEN, FORMAT..
 
         Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "K_PRELIQUIDACION", "#PRE", GetType(Integer), 50, 2, 0, 1, 1, 0, Color.White, Color.Black, 1)
-        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "D_PRELIQUIDACION", "Preliquidacion", GetType(String), 150, 1, 0, 1, 1, 0, Nothing, Color.LightYellow, 1)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "D_PUNTO_VENTA", "Punto de venta", GetType(String), 150, 1, 0, 1, 1, 0, Nothing, Color.LightYellow, 1)
 
         Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "D_ESTATUS_PRELIQUIDACION", "Estatus", GetType(String), 60, 2, 0, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
 
-        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "D_OPERADOR", "Operador", GetType(String), 150, 1, 0, 1, 0, 0, Color.Orange, Nothing, 1)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "D_OPERADOR", "Operador", GetType(String), 150, 1, 0, 1, 0, 0, Nothing, Nothing, 1)
+        Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_LISTADO, "D_UNIDAD_OPERATIVA", "Unidad operativa", GetType(String), 150, 1, 0, 1, 0, 0, Nothing, Nothing, 1)
 
         Codigo_FRM.PG_FRM_LI_FORMAT_CONTROL_LOAD(PP_LI_LISTADO, 100, 2, 0, 0, 0, 0)
 
@@ -166,10 +186,10 @@
         'Revisar si es insert 0 o update 1
         If VM_TIPO_FICHA = 0 Then
             Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "O_PRODUCTO", "Carga inicial", GetType(String), 60, 2, 1, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
-            Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "O_PRODUCTO", "Carga final", GetType(String), 60, 2, 1, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
+            'Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "O_PRODUCTO", "Carga final", GetType(String), 60, 2, 1, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
         Else
             Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "TANQUE_INICIAL", "Carga inicial", GetType(String), 60, 2, 1, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
-            Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "TANQUE_FINAL", "Carga final", GetType(String), 60, 2, 1, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
+            'Codigo_LI.PG_LI_COLUMN_ADD(PP_LI_DETALLE, "TANQUE_FINAL", "Carga final", GetType(String), 60, 2, 1, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
         End If
 
         Codigo_FRM.PG_FRM_LI_FORMAT_CONTROL_LOAD(PP_LI_DETALLE, 100, 2, 0, 0, 0, 0)
@@ -183,11 +203,12 @@
         VP_ROW = Codigo_LI.FG_LI_MAX_ROW(PP_LISTADO)
 
         Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "K_PRELIQUIDACION")
-        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "D_PRELIQUIDACION")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "D_PUNTO_VENTA")
 
         Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "D_ESTATUS_PRELIQUIDACION")
 
         Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "D_OPERADOR")
+        Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "D_UNIDAD_OPERATIVA")
 
         Codigo_FRM.PG_FRM_LI_DATA_CONTROL_LOAD(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA)
 
@@ -204,10 +225,10 @@
         'Revisar si es insert 0 o update 1
         If VM_TIPO_FICHA = 0 Then
             Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "O_PRODUCTO")
-            Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "O_PRODUCTO")
+            'Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "O_PRODUCTO")
         Else
             Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "TANQUE_INICIAL")
-            Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "TANQUE_FINAL")
+            'Codigo_LI.PG_LI_CELL_WRITE_SECUENCIAL(PP_LISTADO, VP_ROW, VP_COLUMNA, PP_ROW_DATA, "TANQUE_FINAL")
         End If
 
 
@@ -217,67 +238,110 @@
 
     Public Sub PM_GUARDAR_DETALLE_PRELIQUIDACION(ByRef PP_FORMA As Object, ByRef PP_LISTADO As DataGridView)
 
-        'K_PRELIQUIDACION, K_PRODUCTO
-        'LECTURA_INICIAL, LECTURA_FINAL
-        'PESO_INICIAL, PESO_FINAL
-        'NIVEL_INICIAL, NIVEL_FINAL
-        'CARBURACION_INICIAL, CARBURACION_FINAL
-        'TANQUE_INICIAL, TANQUE_FINAL
-
         Try
             Dim VP_CONTA As Integer = 0
-            'If VM_RP_K_VIAJE <> "" Then
-            For Each VP_ROW_DATA As DataGridViewRow In PP_LISTADO.Rows
+            'REGISTRAR PRELIQUIDACION
+            Dim VP_PARAMETROS As String = ""
+
+            Dim VP_D_PRELIQUIDACION As String = "PRE"
+            Dim VP_S_PRELIQUIDACION As String = "PRE"
+            Dim VP_O_PRELIQUIDACION As Integer = 0
+            Dim VP_L_PRELIQUIDACION As Integer = 1
+            Dim VP_K_TIPO_PRLEIQUIDACION As Integer = 1 'ESTO SE DEBE DE CONSEGUIR DE LA FORMA
+            Dim VP_K_ESTATUS_PRELIQUIDACION As Integer = 1
+            Dim VP_K_PUNTO_VENTA As Integer = Integer.Parse(Codigo_CB.FG_CB_ITEM_VALUE(CB_K_PUNTO_VENTA))
+
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_D_PRELIQUIDACION, True)
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_S_PRELIQUIDACION, True)
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_O_PRELIQUIDACION, False)
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_L_PRELIQUIDACION, False)
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_K_TIPO_PRLEIQUIDACION, False)
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_K_ESTATUS_PRELIQUIDACION, False)
+            Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_K_PUNTO_VENTA, False)
+
+            Console.WriteLine("PARAMETROS: " + VP_PARAMETROS)
+
+            Dim VP_CLAVE As String
+            Dim VP_MENSAJE As String
+            Codigo_CON.FG_SQL_EJECUTAR_ACCION(VM_ID_BASE_DE_DATOS, "PG_IN_PRELIQUIDACION", "0,0,0," + VP_PARAMETROS, VP_CLAVE, VP_MENSAJE)
+
+            Dim VP_K_PRELIQUIDACION As Integer = Integer.Parse(VP_CLAVE)
+
+            If VP_MENSAJE = "" Then
+                VP_MENSAJE = "Operación Exitosa [#PRE: " + VP_CLAVE + "]."
+                TB_K_PRELIQUIDACION.Text = VP_CLAVE
+
+                'REGISTRAR DETALLE DE PRELIQUIDACION
+                For Each VP_ROW_DATA As DataGridViewRow In PP_LISTADO.Rows
                     Dim VP_K_TOTALES As String = ""
                     VP_CONTA = VP_ROW_DATA.Index
-                VP_K_TOTALES = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "D_PRODUCTO")
-                If VP_K_TOTALES <> "Totales" Then
-                        Dim VP_PARAMETROS As String = ""
-                    Dim VP_K_PRELIQUIDACION As String = ""
-                    Dim VP_K_PRODUCTO As String = ""
-                    Dim VP_PESO_INICIAL As String = ""
-                    Dim VP_PESO_FINAL As String = ""
-                    Dim VP_NIVEL_INICIAL As String = ""
-                    Dim VP_NIVEL_FINAL As String = ""
-                    Dim VP_CARBURACION_INICIAL As String = ""
-                    Dim VP_CARBURACION_FINAL As String = ""
-                    Dim VP_TANQUE_INICIAL As String = ""
-                    Dim VP_TANQUE_FINAL As String = ""
+                    VP_K_TOTALES = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "D_PRODUCTO")
+                    If VP_K_TOTALES <> "Totales" Then
 
-                    VP_K_PRELIQUIDACION = CB_K_PRELIQUIDACION.SelectedValue
-                    VP_K_PRODUCTO = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "K_PRODUCTO")
-                    VP_PESO_INICIAL = "0"
-                    VP_PESO_FINAL = "0"
-                    VP_NIVEL_INICIAL = "0"
-                    VP_NIVEL_FINAL = "0"
-                    VP_CARBURACION_INICIAL = "0"
-                    VP_CARBURACION_FINAL = "0"
-                    VP_TANQUE_INICIAL = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "TANQUE_INICIAL")
-                    VP_TANQUE_FINAL = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "TANQUE_FINAL")
+                        Dim VP_PARAMETROS_DETALLE As String = ""
+                        Dim VP_K_PRODUCTO As String = ""
+                        Dim VP_LECTURA_INICIAL As String = ""
+                        Dim VP_LECTURA_FINAL As String = ""
+                        Dim VP_PESO_INICIAL As String = ""
+                        Dim VP_PESO_FINAL As String = ""
+                        Dim VP_NIVEL_INICIAL As String = ""
+                        Dim VP_NIVEL_FINAL As String = ""
+                        Dim VP_CARBURACION_INICIAL As String = ""
+                        Dim VP_CARBURACION_FINAL As String = ""
+                        Dim VP_TANQUE_INICIAL As String = ""
+                        Dim VP_TANQUE_FINAL As String = ""
 
-                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_K_PRELIQUIDACION, False)
-                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_K_PRODUCTO, False)
-                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_PESO_INICIAL, False)
-                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_PESO_FINAL, False)
-                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_NIVEL_INICIAL, False)
-                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_NIVEL_FINAL, False)
-                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_CARBURACION_INICIAL, False)
-                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_CARBURACION_FINAL, False)
-                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_TANQUE_INICIAL, False)
-                    Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, VP_TANQUE_FINAL, False)
+                        VP_K_PRELIQUIDACION = TB_K_PRELIQUIDACION.Text
+                        VP_K_PRODUCTO = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "K_PRODUCTO")
+                        VP_LECTURA_INICIAL = TB_LECTURA_INICIAL.Text
+                        VP_LECTURA_FINAL = TB_LECTURA_INICIAL.Text
+                        VP_PESO_INICIAL = TB_PESO_INICIAL.Text
+                        VP_PESO_FINAL = TB_PESO_INICIAL.Text
+                        VP_NIVEL_INICIAL = TB_NIVEL_INICIAL.Text
+                        VP_NIVEL_FINAL = TB_NIVEL_INICIAL.Text
+                        VP_CARBURACION_INICIAL = TB_CARBURACION_INICIAL.Text
+                        VP_CARBURACION_FINAL = TB_CARBURACION_INICIAL.Text
+                        VP_TANQUE_INICIAL = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "O_PRODUCTO")
+                        VP_TANQUE_FINAL = Codigo_LI.FG_LI_CELL_VALUE(PP_LISTADO, VP_CONTA, "O_PRODUCTO")
 
-                    Dim VP_CLAVE As String
-                        Dim VP_MENSAJE As String
-                    Codigo_ABC.PG_BT_EJECUTAR_ACCION_CLICK(VM_ID_BASE_DE_DATOS, PP_FORMA, "IN_DETALLE_PRELIQUIDACION", VP_PARAMETROS, VP_CLAVE, VP_MENSAJE)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_K_PRELIQUIDACION, False)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_K_PRODUCTO, False)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_LECTURA_INICIAL, False)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_LECTURA_FINAL, False)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_PESO_INICIAL, False)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_PESO_FINAL, False)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_NIVEL_INICIAL, False)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_NIVEL_FINAL, False)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_CARBURACION_INICIAL, False)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_CARBURACION_FINAL, False)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_TANQUE_INICIAL, False)
+                        Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_TANQUE_FINAL, False)
 
-                    If VP_MENSAJE = "" Then
+                        Console.WriteLine("#Preliquidacion: " + VP_K_PRELIQUIDACION.ToString())
+                        Console.WriteLine("Producto: " + VP_K_PRODUCTO.ToString())
+                        Console.WriteLine("Lectura inicial: " + VP_LECTURA_INICIAL.ToString())
+                        Console.WriteLine("Peso inicial: " + VP_PESO_INICIAL.ToString())
+                        Console.WriteLine("Nivel inicial: " + VP_NIVEL_INICIAL.ToString())
+                        Console.WriteLine("Carburacion inicial: " + VP_CARBURACION_INICIAL.ToString())
+                        Console.WriteLine("Tanque inicial: " + VP_TANQUE_INICIAL.ToString())
 
+                        Dim VP_CLAVE_DETALLE As String
+                        Dim VP_MENSAJE_DETALLE As String
+
+                        Codigo_CON.FG_SQL_EJECUTAR_ACCION(VM_ID_BASE_DE_DATOS, "PG_IN_DETALLE_PRELIQUIDACION", "0,0,0," + VP_PARAMETROS_DETALLE, VP_CLAVE_DETALLE, VP_MENSAJE_DETALLE)
+
+                        If VP_MENSAJE_DETALLE = "" Then
+                            VP_MENSAJE_DETALLE = "Operación Exitosa [#PRE: " + VP_CLAVE + " #DETALLE: " + VP_CLAVE_DETALLE + "]."
                         Else
-                            Codigo_Message.PG_MENSAJE_AVISO(VP_MENSAJE)
+                            Codigo_Message.PG_MENSAJE_AVISO(VP_MENSAJE_DETALLE)
                         End If
+
                     End If
                 Next
-            'End If
+
+            Else
+                Codigo_Message.PG_MENSAJE_AVISO(VP_MENSAJE)
+            End If
         Catch ex As Exception
             Codigo_Message.PG_MENSAJE_ERROR_VS("PG_BT_GUARDAR_CLICK")
         End Try
@@ -476,22 +540,20 @@
 
 #End Region
 
-#Region "EVENTOS CHANGE VALUE DE LAS PRELIQUIDACIONES"
+#Region "EVENTOS CHANGE VALUE DE LOS PUNTOS DE VENTA"
 
-    Private Sub CB_K_PRELIQUIDACION_SelectedValueChanged(sender As Object, e As EventArgs) Handles CB_K_PRELIQUIDACION.SelectedValueChanged
+    Private Sub CB_K_PUNTO_VENTA_SelectedValueChanged(sender As Object, e As EventArgs) Handles CB_K_PUNTO_VENTA.SelectedValueChanged
 
-        If CB_K_PRELIQUIDACION.SelectedIndex <> -1 Then
-            Dim VP_PARAMETROS = Codigo_CB.FG_CB_ITEM_VALUE(CB_K_PRELIQUIDACION)
+        If CB_K_PUNTO_VENTA.SelectedIndex <> -1 Then
+            Dim VP_PARAMETROS = Codigo_CB.FG_CB_ITEM_VALUE(CB_K_PUNTO_VENTA)
 
             Dim VP_DATATABLE As New Data.DataTable
 
-            Codigo_ABC.PG_BT_EJECUTAR_ACCION_TABLA_CLICK(VM_ID_BASE_DE_DATOS, Me, "PG_SK_PRELIQUIDACION", VP_PARAMETROS, VP_DATATABLE) 'SE CREA UNA TABLA CON LOS VALORES DEVUELTOS POR EL SP
+            Codigo_ABC.PG_BT_EJECUTAR_ACCION_TABLA_CLICK(VM_ID_BASE_DE_DATOS, Me, "PG_SK_PUNTO_VENTA", VP_PARAMETROS, VP_DATATABLE) 'SE CREA UNA TABLA CON LOS VALORES DEVUELTOS POR EL SP
 
-            Dim VP_K_PUNTO_VENTA As Integer = Integer.Parse(Codigo_LI.FG_LI_CELL_READ(VP_DATATABLE, 0, "K_PUNTO_VENTA")) 'OBTIENE EL VALOR INDICADO
             Dim VP_K_OPERADOR As Integer = Integer.Parse(Codigo_LI.FG_LI_CELL_READ(VP_DATATABLE, 0, "K_OPERADOR")) 'OBTIENE EL VALOR INDICADO
             Dim VP_K_UNIDAD_OPERATIVA As Integer = Integer.Parse(Codigo_LI.FG_LI_CELL_READ(VP_DATATABLE, 0, "K_UNIDAD_OPERATIVA")) 'OBTIENE EL VALOR INDICADO
 
-            Codigo_CB.PG_CB_VALUE_LOAD(CB_K_PUNTO_VENTA, VP_K_PUNTO_VENTA) 'ASIGNAR EL VALOR AL CB DE PUNTO DE VENTA
             Codigo_CB.PG_CB_VALUE_LOAD(CB_K_OPERADOR, VP_K_OPERADOR) 'ASIGNAR EL VALOR AL CB DE OPERADOR
             Codigo_CB.PG_CB_VALUE_LOAD(CB_UNIDAD_OPERATIVA, VP_K_UNIDAD_OPERATIVA) 'ASIGNAR EL VALOR AL CB DE UNIDAD OPERATIVA
         End If
