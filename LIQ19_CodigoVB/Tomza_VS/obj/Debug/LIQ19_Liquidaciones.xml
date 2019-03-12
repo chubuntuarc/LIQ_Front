@@ -22,207 +22,122 @@ LIQ19_Liquidaciones
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.addconc_opt">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.ICO_BT_AGREGAR">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.adn_icon">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.ICO_BT_CANCELAR">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.agregar_todos_opt">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.ICO_BT_CLONAR">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.agregar_todos_opt1">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.ICO_BT_EDITAR">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.agregar_uno_opt">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.ICO_BT_ELIMINAR">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.AMORTIZACIONES_opt">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.ICO_BT_EXPORTAR_EXCEL">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.ayer_icon">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.ICO_BT_GUARDAR">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.BARCO">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.ICO_BT_LI_BUSCAR">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.calculopresupesto_opt">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.ICO_BT_LISTADO">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.CANDADO">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.ICO_BT_SALIR">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.check_opt">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_AGATA">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.cilindros">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_AGATA_1_NoSeUsa">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.delconc_opt">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_AGATA2">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.HOMEISSAC">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_Candado">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.hoy_icon">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_Cobranza">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.images">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_Estacionario">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.isaac21">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_Home">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.listado">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_LecturaDefault">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.LOGINDATA">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_LoginData">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.logo_transparente">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_LogoTransparente">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.marcmov_opt">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_pipa_corta">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.php3AiLuq_opt">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_Sitio">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.php4wrREz_opt">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.pipa">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.php4x8pye_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phpAY4uRL_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phpGBF3Nw_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phphcV2Qt_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phplKlxVt_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phpOoaeGl_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phpRpBI6a_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phprXCMe7_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phpT5WEEo_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phpu9QpvR_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phpw0LqMn_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phpwk4k6N_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.phpZDtfC9_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.pipa_corta">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.prec">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.procesar_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.PROGMPRES_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.programar_opt">
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.pipacorta">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
@@ -232,105 +147,10 @@ LIQ19_Liquidaciones
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.reprocesar">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_1add">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_accept">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_autorizar">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_cancel">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_delete">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_edit">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_exit">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_export">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_quitar_todos">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_quitar_uno">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_refresh">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_reproceso">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_search">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.rsz_subir_datos">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.SENDPDF">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.SOLICITD_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.SOLICITUD">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.SOLICITUD1">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
-</member>
-<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.TRASPASO_opt">
-<summary>
-  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-</summary>
+<member name="M:LIQ19_Liquidaciones.Codigo_Mensaje.FG_MENSAJE_DECISION(System.String)">
+ <summary>
+ yes = 1, no= 2, cancel= 3
+ </summary>
 </member>
 <member name="M:LIQ19_Liquidaciones.Codigo_CTRL.PG_CO_DATA_LOAD_GENERICO(System.String,System.Windows.Forms.Control@,System.Data.DataRow,System.String)">
  <summary>
@@ -430,11 +250,6 @@ LIQ19_Liquidaciones
  Recibe un DataTable, indice de row y el nombre de la columna para retornar el valor contenido
  </summary>
 </member>
-<member name="M:LIQ19_Liquidaciones.Codigo_Message.FG_MENSAJE_DECISION(System.String)">
- <summary>
- yes = 1, no= 2, cancel= 3
- </summary>
-</member>
 <member name="M:LIQ19_Liquidaciones.ExtensionMethods.FG_STRING_FORMAT(System.String,System.Int32)">
  <summary>
  1 CONVIERTE LA PRIMERA LETRA DE CADA PALABRA A MAYUSCULA EJ. "el carro verde"--->"El Carro Verde"
@@ -449,386 +264,6 @@ LIQ19_Liquidaciones
  </summary>
 </member>
 <member name="M:LIQ19_Liquidaciones.FO_PUNTO_VENTA.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CUENTA_CONTABLE_UO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CUENTA_CONTABLE.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_FACTURAS_GASTO_VIAJE.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_FACTURA_GASTO_VIAJE_CAPTURA_XML.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_GASTO_VIAJE.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_GASTO_VIAJE_CAPTURA.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PRESUPUESTO_VIAJE.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PROVEEDOR_VIATICO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_RECURSO_VIAJE.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_VIAJE.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="T:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCA">
-<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member>
-<member name="T:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCA.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESASDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
-<member name="T:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCA.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESASRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
-<member name="T:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCA.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESASRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
-<member name="T:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCATableAdapters.PG_RT_SOLICITUD_DE_SERVICIOS_BANCA_DE_EMPRESASTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member>
-<member name="T:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager">
-<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.UpdateUpdatedRows(LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCA,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
-Update rows in top-down order.
-</summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.UpdateInsertedRows(LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCA,System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
-Insert rows in top-down order.
-</summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.UpdateDeletedRows(LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCA,System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
-Delete rows in bottom-up order.
-</summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.UpdateAll(LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCA)">
-<summary>
-Update all changes to the dataset.
-</summary>
-</member>
-<member name="T:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.UpdateOrderOption">
-<summary>
-Update Order Option
-</summary>
-</member>
-<member name="T:LIQ19_Liquidaciones.SOLICITUD_DE_SERVICIO_BANCATableAdapters.TableAdapterManager.SelfReferenceComparer">
-<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_ASISTENTE_CEMEC.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_DATA_N1_X_DI_D0M4_CEMEC.PM_LI_FORMAT(System.Windows.Forms.DataGridView@)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_ASISTENTE_POB.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PERFORMANCE_N3_X_ME.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_ALMACEN.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_AUTORIZACION.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_BANCO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CLASIFICACION_GASTO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CUENTA_BANCO_UO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CUENTA_BANCO_UO_AS.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CUENTA.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_DATA_ACCESO_UO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_ROL_ASIGNACION.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_ZONA.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PROVEEDOR.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_ACTA_INGRESOS.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_FACTURA_CXP.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_FACTURA_CXP_XML.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_INSTRUCCIONES.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_LIBRO_INGRESOS.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_MOVIMIENTO_BANCO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PROGRAMACION_PRESUPUESTO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_TRASPASOS.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_DATA_N1_X_DI_D0M4_FLUP.PM_LI_FORMAT(System.Windows.Forms.DataGridView@)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_DOCUMENTO_D0M4_PRESUPUESTO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_DOCUMENTO_D0M4_TRACKING_X_MES.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_ESTIMACION.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PARAMETRO_DOCUMENTO_D0M4.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_DOCUMENTO_D0M4.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PARAMETRO_SUCURSAL.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PARAMETRO_SUCURSAL_D0M4.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PERFORMANCE_N3_XX_ME.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PERFORMANCE_N3_X_TEMP.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PRECIO_COSTO_PERFIL.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_RAZON_SOCIAL.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_GENERICO_T1.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_FLUJO_FIRMA_X_K_USUARIO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_REGISTRO_DACTILAR.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_MONITOREO_AUTORIZACION_FIRMA.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_PERSONAL_ACCESO_ORGANIZACION.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CONTROL_ANUAL.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CONTROL_ANUAL_RAZON_SOCIAL.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CONTROL_ANUAL_UNIDAD_OPERATIVA.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCIÓN QUE CARGARÁ LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CREDITO_BANCO_AMORTIZACION.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CREDITO_BANCO_ESTADO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CREDITO_BANCO_ESTADO_CUENTA.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_CREDITO_BANCO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.UC_PARAMETRO_POB.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.UC_DOCUMENTO_D0M4_PRESUPUESTO.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.UC_DOCUMENTO_D0M4.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.UC_PARAMETRO_DOCUMENTO_D0M4.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.UC_PRECIO_COSTO_PERFIL.PM_FI_LOAD(System.String)">
- <summary>
- 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
- </summary>
-</member>
-<member name="M:LIQ19_Liquidaciones.FO_UNIDAD_OPERATIVA.PM_FI_LOAD(System.String)">
  <summary>
  'FUNCION QUE CARGARA LA PARTE DE LA FICHA
  </summary>

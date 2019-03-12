@@ -2074,3 +2074,12 @@ Notifique a Sistemas.
 (d) Error : Procedure or function 'PG_IN_PRELIQUIDACION' expects parameter '@PP_D_PRELIQUIDACION', which was not supplied.
 
 ¿Desea Reejecutar la Operación?
+
+-- ======================================================================================================= -
+-- 07/03/2019 12:49:41 p. m.  -Usuario:   -Mensaje: Jesus Arciniega
+
+-- ======================================================================================================= -
+-- 07/03/2019 12:50:28 p. m.  -Usuario:   -Mensaje: Desarrollado por Jesus Arciniega\n dev.jesusarc@gmail.com
+
+-- ======================================================================================================= -
+-- 07/03/2019 12:50:59 p. m.  -Usuario:   -Mensaje: Desarrollado por Jesus Arciniega || dev.jesusarc@gmail.com

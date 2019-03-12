@@ -118,190 +118,79 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="rsz_edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ICO_BT_AGREGAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_ABC\ICO_BT_AGREGAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="isaac21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\isaac21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ICO_BT_CANCELAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_CANCELAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HOMEISSAC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HOMEISSAC1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ICO_BT_CLONAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_ABC\ICO_BT_CLONAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cilindros" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cilindros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ICO_BT_EDITAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_ABC\ICO_BT_EDITAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="prec" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\prec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ICO_BT_ELIMINAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_ABC\ICO_BT_ELIMINAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="logo_transparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo transparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ICO_BT_EXPORTAR_EXCEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_EXPORTAR_EXCEL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="phpT5WEEo_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phpT5WEEo_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ICO_BT_GUARDAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_GUARDAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="reprocesar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\reprocesar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ICO_BT_LISTADO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_LISTADO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rsz_export" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ICO_BT_LI_BUSCAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_LI_BUSCAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rsz_reproceso" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_reproceso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ICO_BT_SALIR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_SALIR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SOLICITUD" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SOLICITUD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_AGATA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIQ19_png\IMG_AGATA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SENDPDF" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SENDPDF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_AGATA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIQ19_png\IMG_AGATA2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="phpOoaeGl_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phpOoaeGl_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_AGATA_1_NoSeUsa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIQ19_png\IMG_AGATA_1_NoSeUsa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="listado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\listado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_Candado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_Candado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rsz_exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_Cobranza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_Cobranza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rsz_search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_Estacionario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_Estacionario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="agregar_todos_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agregar_todos_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SOLICITD_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SOLICITD_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_LecturaDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_LecturaDefault.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SOLICITUD1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SOLICITUD1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_LoginData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_LoginData.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="phpw0LqMn_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phpw0LqMn_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_LogoTransparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_LogoTransparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="check_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\check_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_pipa_corta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagenes\IMG_pipa_corta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ayer_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ayer_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_Sitio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_Sitio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="php4x8pye_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\php4x8pye_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pipa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagenes\pipa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LOGINDATA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LOGINDATA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_autorizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_autorizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="hoy_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hoy_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_quitar_uno" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_quitar_uno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pipa_corta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pipa_corta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phpAY4uRL_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phpAY4uRL_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TRASPASO_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TRASPASO_opt (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phphcV2Qt_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phphcV2Qt_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="agregar_uno_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agregar_uno_opt (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CANDADO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CANDADO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_cancel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_cancel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phpGBF3Nw_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phpGBF3Nw_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="marcmov_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\marcmov_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phpu9QpvR_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phpu9QpvR_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_1add" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_1add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="procesar_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\procesar_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PROGMPRES_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PROGMPRES_opt (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phpRpBI6a_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phpRpBI6a_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pipacorta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagenes\pipacorta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="refineria2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\refineria2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="AMORTIZACIONES_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AMORTIZACIONES_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="calculopresupesto_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calculopresupesto_opt (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phplKlxVt_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phplKlxVt_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="php3AiLuq_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\php3AiLuq_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="programar_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\programar_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phpwk4k6N_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phpwk4k6N_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_quitar_todos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_quitar_todos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="php4wrREz_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\php4wrREz_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="delconc_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\delconc_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phpZDtfC9_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phpZDtfC9_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="addconc_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\addconc_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phprXCMe7_opt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phprXCMe7_opt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="agregar_todos_opt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agregar_todos_opt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BARCO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\BARCO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_subir_datos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_subir_datos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_accept" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_accept.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="adn_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\adn_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\Imagenes\refineria2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

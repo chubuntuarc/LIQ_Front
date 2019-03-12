@@ -133,35 +133,51 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_ABC.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_BT.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_Correo.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_Imprimir.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_Lector.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_PB.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_CB.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_CON.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_CTRL.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_FI.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_FRM.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_LI.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_Message.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_Permiso.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_Tabla.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_XML_V2.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Codigo_XML_V1.vb" />
-    <Compile Include="3_LIQ19_VS\0_Generales\Constantes_Sistema.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Controls\ProgressBarPanel.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Controls\ProgressBarEx.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\ExtensionMethods.vb" />
-    <Compile Include="1_Codigo_VS_v001_20190221\Controls\TabControlEx.vb">
+    <Compile Include="Codigo_VS_v002_201902\Codigo_ABC.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_BT.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_Correo.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_General.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_Imprimir.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_Lector.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_Mensaje.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_PB.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_CB.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_CTRL.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_FI.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_FRM.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_LI.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_Permiso.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_SQL.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_Tabla.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_XML_V2.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Codigo_XML_V1.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Constantes_Sistema.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Controls\ProgressBarPanel.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Controls\ProgressBarEx.vb" />
+    <Compile Include="Codigo_VS_v002_201902\ExtensionMethods.vb" />
+    <Compile Include="Codigo_VS_v002_201902\Controls\TabControlEx.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="1_Codigo_VS_v001_20190221\Variable_Gl.vb" />
-    <Compile Include="3_LIQ19_VS\1_Catalogos\FO_PRUEBA.Designer.vb">
+    <Compile Include="Codigo_VS_v002_201902\Variable_Gl.vb" />
+    <Compile Include="LIQ19_VS\0_Generales\FO_Login.Designer.vb">
+      <DependentUpon>FO_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LIQ19_VS\0_Generales\FO_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIQ19_VS\0_Generales\LIQ19_Codigo.vb" />
+    <Compile Include="LIQ19_VS\0_Generales\LIQ19_Constantes.vb" />
+    <Compile Include="LIQ19_VS\0_Generales\PRINT_MICROSOFT_REPORT.vb" />
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_LIQUIDACION.Designer.vb">
+      <DependentUpon>FO_LIQUIDACION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_LIQUIDACION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_PRUEBA.Designer.vb">
       <DependentUpon>FO_PRUEBA.vb</DependentUpon>
     </Compile>
-    <Compile Include="3_LIQ19_VS\1_Catalogos\FO_PRUEBA.vb">
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_PRUEBA.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Base\Conexion.vb" />
@@ -173,365 +189,28 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="3_LIQ19_VS\1_Catalogos\FO_PRELIQUIDACION.Designer.vb">
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_PRELIQUIDACION.Designer.vb">
       <DependentUpon>FO_PRELIQUIDACION.vb</DependentUpon>
     </Compile>
-    <Compile Include="3_LIQ19_VS\1_Catalogos\FO_PRELIQUIDACION.vb">
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_PRELIQUIDACION.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="3_LIQ19_VS\1_Catalogos\FO_PUNTO_VENTA.Designer.vb">
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_PUNTO_VENTA.Designer.vb">
       <DependentUpon>FO_PUNTO_VENTA.vb</DependentUpon>
     </Compile>
-    <Compile Include="3_LIQ19_VS\1_Catalogos\FO_PUNTO_VENTA.vb">
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_PUNTO_VENTA.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_CUENTA_CONTABLE_UO.Designer.vb">
-      <DependentUpon>FO_CUENTA_CONTABLE_UO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_CUENTA_CONTABLE_UO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_CUENTA_CONTABLE.Designer.vb">
-      <DependentUpon>FO_CUENTA_CONTABLE.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_CUENTA_CONTABLE.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_FACTURAS_GASTO_VIAJE.designer.vb">
-      <DependentUpon>FO_FACTURAS_GASTO_VIAJE.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_FACTURAS_GASTO_VIAJE.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_FACTURA_GASTO_VIAJE_CAPTURA_XML.designer.vb">
-      <DependentUpon>FO_FACTURA_GASTO_VIAJE_CAPTURA_XML.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_FACTURA_GASTO_VIAJE_CAPTURA_XML.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_GASTO_VIAJE.Designer.vb">
-      <DependentUpon>FO_GASTO_VIAJE.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_GASTO_VIAJE.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_GASTO_VIAJE_CAPTURA.designer.vb">
-      <DependentUpon>FO_GASTO_VIAJE_CAPTURA.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_GASTO_VIAJE_CAPTURA.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_PRESUPUESTO_VIAJE.Designer.vb">
-      <DependentUpon>FO_PRESUPUESTO_VIAJE.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_PRESUPUESTO_VIAJE.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_PROVEEDOR_VIATICO.designer.vb">
-      <DependentUpon>FO_PROVEEDOR_VIATICO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_PROVEEDOR_VIATICO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_RECURSO_VIAJE.Designer.vb">
-      <DependentUpon>FO_RECURSO_VIAJE.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_RECURSO_VIAJE.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_VIAJE.designer.vb">
-      <DependentUpon>FO_VIAJE.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_VIAJE.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\OPERACION\REPORTES\SOLICITUD_DE_SERVICIO_BANCA_ds.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>SOLICITUD_DE_SERVICIO_BANCA_ds.xsd</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_ASISTENTE_CEMEC.designer.vb">
-      <DependentUpon>FO_ASISTENTE_CEMEC.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_ASISTENTE_CEMEC.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_DATA_N1_X_DI_D0M4_CEMEC.Designer.vb">
-      <DependentUpon>FO_DATA_N1_X_DI_D0M4_CEMEC.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_DATA_N1_X_DI_D0M4_CEMEC.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_ASISTENTE_POB.Designer.vb">
-      <DependentUpon>FO_ASISTENTE_POB.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_ASISTENTE_POB.vb">
-      <CustomToolNamespace>D0M4_DocMatrix</CustomToolNamespace>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_PERFORMANCE_N3_X_ME.Designer.vb">
-      <DependentUpon>FO_PERFORMANCE_N3_X_ME.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_PERFORMANCE_N3_X_ME.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_PLAN_PRESUPUESTO.Designer.vb">
-      <DependentUpon>FO_PLAN_PRESUPUESTO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_PLAN_PRESUPUESTO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_TRACKING_PLAN_PRESUPUESTO.Designer.vb">
-      <DependentUpon>FO_TRACKING_PLAN_PRESUPUESTO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_TRACKING_PLAN_PRESUPUESTO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_ALMACEN.designer.vb">
-      <DependentUpon>FO_ALMACEN.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_ALMACEN.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_AUTORIZACION.Designer.vb">
-      <DependentUpon>FO_AUTORIZACION.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_AUTORIZACION.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\FO_BANCO.Designer.vb">
-      <DependentUpon>FO_BANCO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\FO_BANCO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PRESUPUESTO\FO_CLASIFICACION_GASTO.designer.vb">
-      <DependentUpon>FO_CLASIFICACION_GASTO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PRESUPUESTO\FO_CLASIFICACION_GASTO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_CUENTA_BANCO_UO.Designer.vb">
-      <DependentUpon>FO_CUENTA_BANCO_UO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_CUENTA_BANCO_UO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_CUENTA_BANCO_UO_AS.Designer.vb">
-      <DependentUpon>FO_CUENTA_BANCO_UO_AS.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_CUENTA_BANCO_UO_AS.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_DATA_ACCESO_UO_AS.Designer.vb">
-      <DependentUpon>FO_DATA_ACCESO_UO_AS.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_DATA_ACCESO_UO_AS.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\FO_CUENTA.Designer.vb">
-      <DependentUpon>FO_CUENTA.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\FO_CUENTA.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_DATA_ACCESO_UO.Designer.vb">
-      <DependentUpon>FO_DATA_ACCESO_UO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_DATA_ACCESO_UO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_ROL_ASIGNACION.Designer.vb">
-      <DependentUpon>FO_ROL_ASIGNACION.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_ROL_ASIGNACION.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_ZONA.designer.vb">
-      <DependentUpon>FO_ZONA.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_ZONA.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_PROVEEDOR.designer.vb">
-      <DependentUpon>FO_PROVEEDOR.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_PROVEEDOR.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_ACTA_INGRESOS.designer.vb">
-      <DependentUpon>FO_ACTA_INGRESOS.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_ACTA_INGRESOS.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_ANTIGUEDAD_SALDOS.Designer.vb">
-      <DependentUpon>FO_ANTIGUEDAD_SALDOS.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_ANTIGUEDAD_SALDOS.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_FACTURA_CXP.designer.vb">
-      <DependentUpon>FO_FACTURA_CXP.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_FACTURA_CXP.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_FACTURA_CXP_XML.designer.vb">
-      <DependentUpon>FO_FACTURA_CXP_XML.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\GASTOS\FO_FACTURA_CXP_XML.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_INSTRUCCIONES.Designer.vb">
-      <DependentUpon>FO_INSTRUCCIONES.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_INSTRUCCIONES.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_LIBRO_INGRESOS.Designer.vb">
-      <DependentUpon>FO_LIBRO_INGRESOS.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_LIBRO_INGRESOS.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_MOVIMIENTO_BANCO.Designer.vb">
-      <DependentUpon>FO_MOVIMIENTO_BANCO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_MOVIMIENTO_BANCO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PRESUPUESTO\FO_ASISTENTE_PRESUPUESTO.Designer.vb">
-      <DependentUpon>FO_ASISTENTE_PRESUPUESTO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PRESUPUESTO\FO_ASISTENTE_PRESUPUESTO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PRESUPUESTO\FO_PLAN_GASTO.Designer.vb">
-      <DependentUpon>FO_PLAN_GASTO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PRESUPUESTO\FO_PLAN_GASTO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PRESUPUESTO\FO_PROGRAMACION_PRESUPUESTO.Designer.vb">
-      <DependentUpon>FO_PROGRAMACION_PRESUPUESTO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PRESUPUESTO\FO_PROGRAMACION_PRESUPUESTO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_TRASPASOS.Designer.vb">
-      <DependentUpon>FO_TRASPASOS.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_TRASPASOS.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_DATA_N1_X_DI_D0M4_FLUP.Designer.vb">
-      <DependentUpon>FO_DATA_N1_X_DI_D0M4_FLUP.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_DATA_N1_X_DI_D0M4_FLUP.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_DOCUMENTO_D0M4_PRESUPUESTO.Designer.vb">
-      <DependentUpon>FO_DOCUMENTO_D0M4_PRESUPUESTO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_DOCUMENTO_D0M4_PRESUPUESTO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_DOCUMENTO_D0M4_TRACKING_X_MES.Designer.vb">
-      <DependentUpon>FO_DOCUMENTO_D0M4_TRACKING_X_MES.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_DOCUMENTO_D0M4_TRACKING_X_MES.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_ESTIMACION.Designer.vb">
-      <DependentUpon>FO_ESTIMACION.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_ESTIMACION.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_PARAMETRO_DOCUMENTO_D0M4.Designer.vb">
-      <DependentUpon>FO_PARAMETRO_DOCUMENTO_D0M4.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_PARAMETRO_DOCUMENTO_D0M4.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_DOCUMENTO_D0M4.Designer.vb">
-      <DependentUpon>FO_DOCUMENTO_D0M4.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_DOCUMENTO_D0M4.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_PARAMETRO_SUCURSAL.Designer.vb">
-      <DependentUpon>FO_PARAMETRO_SUCURSAL.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_PARAMETRO_SUCURSAL.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_PARAMETRO_SUCURSAL_D0M4.Designer.vb">
-      <DependentUpon>FO_PARAMETRO_SUCURSAL_D0M4.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_PARAMETRO_SUCURSAL_D0M4.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_PERFORMANCE_N3_XX_ME.Designer.vb">
-      <DependentUpon>FO_PERFORMANCE_N3_XX_ME.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_PERFORMANCE_N3_XX_ME.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_PERFORMANCE_N3_X_TEMP_OLD.Designer.vb">
-      <DependentUpon>FO_PERFORMANCE_N3_X_TEMP_OLD.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_PERFORMANCE_N3_X_TEMP_OLD.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_PRECIO_COSTO_PERFIL.Designer.vb">
-      <DependentUpon>FO_PRECIO_COSTO_PERFIL.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\PLANEACION\FO_PRECIO_COSTO_PERFIL.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_RAZON_SOCIAL.designer.vb">
-      <DependentUpon>FO_RAZON_SOCIAL.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_RAZON_SOCIAL.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_WIZARD_PRESUPUESTO.Designer.vb">
-      <DependentUpon>FO_WIZARD_PRESUPUESTO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_WIZARD_PRESUPUESTO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_WIZARD.Designer.vb">
-      <DependentUpon>FO_WIZARD.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\FO_WIZARD.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_GENERICO_T1.designer.vb">
-      <DependentUpon>FO_GENERICO_T1.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_GENERICO_T1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="3_LIQ19_VS\0_Generales\FO_BOARD2.Designer.vb">
+    <Compile Include="LIQ19_VS\0_Generales\FO_BOARD2.Designer.vb">
       <DependentUpon>FO_BOARD2.vb</DependentUpon>
     </Compile>
-    <Compile Include="3_LIQ19_VS\0_Generales\FO_BOARD2.vb">
+    <Compile Include="LIQ19_VS\0_Generales\FO_BOARD2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="3_LIQ19_VS\0_Generales\FO_SPLASH3.Designer.vb">
+    <Compile Include="LIQ19_VS\0_Generales\FO_SPLASH3.Designer.vb">
       <DependentUpon>FO_SPLASH3.vb</DependentUpon>
     </Compile>
-    <Compile Include="3_LIQ19_VS\0_Generales\FO_SPLASH3.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="3_LIQ19_VS\0_Generales\LoginISAAC.Designer.vb">
-      <DependentUpon>LoginISAAC.vb</DependentUpon>
-    </Compile>
-    <Compile Include="3_LIQ19_VS\0_Generales\LoginISAAC.vb">
+    <Compile Include="LIQ19_VS\0_Generales\FO_SPLASH3.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -544,187 +223,30 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_FLUJO_FIRMA_X_K_USUARIO.Designer.vb">
-      <DependentUpon>FO_FLUJO_FIRMA_X_K_USUARIO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_FLUJO_FIRMA_X_K_USUARIO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_REGISTRO_DACTILAR.Designer.vb">
-      <DependentUpon>FO_REGISTRO_DACTILAR.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_REGISTRO_DACTILAR.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_HUELLA.Designer.vb">
-      <DependentUpon>FO_HUELLA.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_HUELLA.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_MONITOREO_AUTORIZACION_FIRMA.designer.vb">
-      <DependentUpon>FO_MONITOREO_AUTORIZACION_FIRMA.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_MONITOREO_AUTORIZACION_FIRMA.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_PERSONAL_ACCESO_ORGANIZACION.Designer.vb">
-      <DependentUpon>FO_PERSONAL_ACCESO_ORGANIZACION.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_PERSONAL_ACCESO_ORGANIZACION.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_POLIZA_CHEQUE.Designer.vb">
-      <DependentUpon>FO_POLIZA_CHEQUE.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CONFIGURACION\FO_POLIZA_CHEQUE.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_AMORTIZACION.designer.vb">
-      <DependentUpon>FO_AMORTIZACION.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_AMORTIZACION.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_CONCILIACION.designer.vb">
-      <DependentUpon>FO_CONCILIACION.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_CONCILIACION.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_CONTROL_ANUAL.designer.vb">
-      <DependentUpon>FO_CONTROL_ANUAL.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_CONTROL_ANUAL.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_CONTROL_ANUAL_RAZON_SOCIAL.designer.vb">
-      <DependentUpon>FO_CONTROL_ANUAL_RAZON_SOCIAL.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_CONTROL_ANUAL_RAZON_SOCIAL.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_CONTROL_ANUAL_UNIDAD_OPERATIVA.designer.vb">
-      <DependentUpon>FO_CONTROL_ANUAL_UNIDAD_OPERATIVA.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_CONTROL_ANUAL_UNIDAD_OPERATIVA.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO_AMORTIZACION.designer.vb">
-      <DependentUpon>FO_CREDITO_BANCO_AMORTIZACION.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO_AMORTIZACION.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO_ESTADO.Designer.vb">
-      <DependentUpon>FO_CREDITO_BANCO_ESTADO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO_ESTADO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO_ESTADO_CUENTA.Designer.vb">
-      <DependentUpon>FO_CREDITO_BANCO_ESTADO_CUENTA.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO_ESTADO_CUENTA.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_FLUJO_DIARIO.designer.vb">
-      <DependentUpon>FO_FLUJO_DIARIO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_FLUJO_DIARIO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_GESTION_TESO.Designer.vb">
-      <DependentUpon>FO_GESTION_TESO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_GESTION_TESO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_RESUMEN_FLUJO_DIARIO_X_RZS.Designer.vb">
-      <DependentUpon>FO_RESUMEN_FLUJO_DIARIO_X_RZS.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_RESUMEN_FLUJO_DIARIO_X_RZS.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_RESUMEN_FLUJO_DIARIO_X_UNO.Designer.vb">
-      <DependentUpon>FO_RESUMEN_FLUJO_DIARIO_X_UNO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FLUJO\FO_RESUMEN_FLUJO_DIARIO_X_UNO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\OPERACION\REPORTES\FO_REPORTE_VISUALIZER.Designer.vb">
-      <DependentUpon>FO_REPORTE_VISUALIZER.vb</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
-    <Compile Include="2_PYF18_VS\OPERACION\REPORTES\FO_REPORTE_VISUALIZER.vb">
-      <SubType>Form</SubType>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO.Designer.vb">
-      <DependentUpon>FO_CREDITO_BANCO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="3_LIQ19_VS\0_Generales\Resultado.designer.vb">
+    <Compile Include="LIQ19_VS\0_Generales\Resultado.designer.vb">
       <DependentUpon>Resultado.vb</DependentUpon>
     </Compile>
-    <Compile Include="3_LIQ19_VS\0_Generales\Resultado.vb">
+    <Compile Include="LIQ19_VS\0_Generales\Resultado.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="3_LIQ19_VS\0_Generales\UC_MENU2.Designer.vb">
+    <Compile Include="LIQ19_VS\0_Generales\UC_MENU2.Designer.vb">
       <DependentUpon>UC_MENU2.vb</DependentUpon>
     </Compile>
-    <Compile Include="3_LIQ19_VS\0_Generales\UC_MENU2.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_PARAMETRO_POB.Designer.vb">
-      <DependentUpon>UC_PARAMETRO_POB.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_PARAMETRO_POB.vb">
-      <SubType>UserControl</SubType>
-      <CustomToolNamespace>D0M4_DocMatrix</CustomToolNamespace>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_DOCUMENTO_D0M4_PRESUPUESTO.Designer.vb">
-      <DependentUpon>UC_DOCUMENTO_D0M4_PRESUPUESTO.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_DOCUMENTO_D0M4_PRESUPUESTO.vb">
-      <SubType>UserControl</SubType>
-      <CustomToolNamespace>D0M4_DocMatrix</CustomToolNamespace>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_DOCUMENTO_D0M4.Designer.vb">
-      <DependentUpon>UC_DOCUMENTO_D0M4.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_DOCUMENTO_D0M4.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_PARAMETRO_DOCUMENTO_D0M4.Designer.vb">
-      <DependentUpon>UC_PARAMETRO_DOCUMENTO_D0M4.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_PARAMETRO_DOCUMENTO_D0M4.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_PRECIO_COSTO_PERFIL.Designer.vb">
-      <DependentUpon>UC_PRECIO_COSTO_PERFIL.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_PRECIO_COSTO_PERFIL.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_UNIDAD_OPERATIVA.Designer.vb">
-      <DependentUpon>FO_UNIDAD_OPERATIVA.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\CATALOGOS\FO_UNIDAD_OPERATIVA.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_UNIDAD_OPERATIVA.Designer.vb">
-      <DependentUpon>UC_UNIDAD_OPERATIVA.vb</DependentUpon>
-    </Compile>
-    <Compile Include="2_PYF18_VS\D0M4\USERCONTROL\UC_UNIDAD_OPERATIVA.vb">
+    <Compile Include="LIQ19_VS\0_Generales\UC_MENU2.vb">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="3_LIQ19_VS\1_Catalogos\FO_PRUEBA.resx">
+    <EmbeddedResource Include="LIQ19_VS\0_Generales\FO_Login.resx">
+      <DependentUpon>FO_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LIQ19_VS\0_Generales\Reportes_rdlc\RPT_01_RECIBO_X1.rdlc" />
+    <EmbeddedResource Include="LIQ19_VS\0_Generales\Reportes_rdlc\RPT_01_RECIBO_X2.rdlc" />
+    <EmbeddedResource Include="LIQ19_VS\0_Generales\Reportes_rdlc\RPT_02_ESTADO_CUENTA.rdlc" />
+    <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_LIQUIDACION.resx">
+      <DependentUpon>FO_LIQUIDACION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_PRUEBA.resx">
       <DependentUpon>FO_PRUEBA.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -733,280 +255,23 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="3_LIQ19_VS\1_Catalogos\FO_PRELIQUIDACION.resx">
+    <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_PRELIQUIDACION.resx">
       <DependentUpon>FO_PRELIQUIDACION.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="3_LIQ19_VS\1_Catalogos\FO_PUNTO_VENTA.resx">
+    <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_PUNTO_VENTA.resx">
       <DependentUpon>FO_PUNTO_VENTA.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_CUENTA_CONTABLE_UO.resx">
-      <DependentUpon>FO_CUENTA_CONTABLE_UO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_CUENTA_CONTABLE.resx">
-      <DependentUpon>FO_CUENTA_CONTABLE.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_FACTURAS_GASTO_VIAJE.resx">
-      <DependentUpon>FO_FACTURAS_GASTO_VIAJE.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_FACTURA_GASTO_VIAJE_CAPTURA_XML.resx">
-      <DependentUpon>FO_FACTURA_GASTO_VIAJE_CAPTURA_XML.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_GASTO_VIAJE.resx">
-      <DependentUpon>FO_GASTO_VIAJE.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_GASTO_VIAJE_CAPTURA.resx">
-      <DependentUpon>FO_GASTO_VIAJE_CAPTURA.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_PRESUPUESTO_VIAJE.resx">
-      <DependentUpon>FO_PRESUPUESTO_VIAJE.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_PROVEEDOR_VIATICO.resx">
-      <DependentUpon>FO_PROVEEDOR_VIATICO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_RECURSO_VIAJE.resx">
-      <DependentUpon>FO_RECURSO_VIAJE.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_VIAJE.resx">
-      <DependentUpon>FO_VIAJE.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\OPERACION\REPORTES\Report1.rdlc">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\OPERACION\REPORTES\SOLICITUD_DE_SERVICIO_BANCA_RPT.rdlc" />
-    <EmbeddedResource Include="2_PYF18_VS\PLANEACION\FO_ASISTENTE_CEMEC.resx">
-      <DependentUpon>FO_ASISTENTE_CEMEC.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PLANEACION\FO_DATA_N1_X_DI_D0M4_CEMEC.resx">
-      <DependentUpon>FO_DATA_N1_X_DI_D0M4_CEMEC.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PLANEACION\FO_ASISTENTE_POB.resx">
-      <DependentUpon>FO_ASISTENTE_POB.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PLANEACION\FO_PERFORMANCE_N3_X_ME.resx">
-      <DependentUpon>FO_PERFORMANCE_N3_X_ME.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PLANEACION\FO_PLAN_PRESUPUESTO.resx">
-      <DependentUpon>FO_PLAN_PRESUPUESTO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PLANEACION\FO_TRACKING_PLAN_PRESUPUESTO.resx">
-      <DependentUpon>FO_TRACKING_PLAN_PRESUPUESTO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CATALOGOS\FO_ALMACEN.resx">
-      <DependentUpon>FO_ALMACEN.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_AUTORIZACION.resx">
-      <DependentUpon>FO_AUTORIZACION.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FINANCIAMIENTO\FO_BANCO.resx">
-      <DependentUpon>FO_BANCO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PRESUPUESTO\FO_CLASIFICACION_GASTO.resx">
-      <DependentUpon>FO_CLASIFICACION_GASTO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_CUENTA_BANCO_UO.resx">
-      <DependentUpon>FO_CUENTA_BANCO_UO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_CUENTA_BANCO_UO_AS.resx">
-      <DependentUpon>FO_CUENTA_BANCO_UO_AS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_DATA_ACCESO_UO_AS.resx">
-      <DependentUpon>FO_DATA_ACCESO_UO_AS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FINANCIAMIENTO\FO_CUENTA.resx">
-      <DependentUpon>FO_CUENTA.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_DATA_ACCESO_UO.resx">
-      <DependentUpon>FO_DATA_ACCESO_UO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_ROL_ASIGNACION.resx">
-      <DependentUpon>FO_ROL_ASIGNACION.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CATALOGOS\FO_ZONA.resx">
-      <DependentUpon>FO_ZONA.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_PROVEEDOR.resx">
-      <DependentUpon>FO_PROVEEDOR.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_ACTA_INGRESOS.resx">
-      <DependentUpon>FO_ACTA_INGRESOS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_ANTIGUEDAD_SALDOS.resx">
-      <DependentUpon>FO_ANTIGUEDAD_SALDOS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_FACTURA_CXP.resx">
-      <DependentUpon>FO_FACTURA_CXP.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\GASTOS\FO_FACTURA_CXP_XML.resx">
-      <DependentUpon>FO_FACTURA_CXP_XML.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_INSTRUCCIONES.resx">
-      <DependentUpon>FO_INSTRUCCIONES.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_LIBRO_INGRESOS.resx">
-      <DependentUpon>FO_LIBRO_INGRESOS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_MOVIMIENTO_BANCO.resx">
-      <DependentUpon>FO_MOVIMIENTO_BANCO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PRESUPUESTO\FO_ASISTENTE_PRESUPUESTO.resx">
-      <DependentUpon>FO_ASISTENTE_PRESUPUESTO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PRESUPUESTO\FO_PLAN_GASTO.resx">
-      <DependentUpon>FO_PLAN_GASTO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PRESUPUESTO\FO_PROGRAMACION_PRESUPUESTO.resx">
-      <DependentUpon>FO_PROGRAMACION_PRESUPUESTO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_TRASPASOS.resx">
-      <DependentUpon>FO_TRASPASOS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PLANEACION\FO_DATA_N1_X_DI_D0M4_FLUP.resx">
-      <DependentUpon>FO_DATA_N1_X_DI_D0M4_FLUP.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\FO_DOCUMENTO_D0M4_PRESUPUESTO.resx">
-      <DependentUpon>FO_DOCUMENTO_D0M4_PRESUPUESTO.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\FO_DOCUMENTO_D0M4_TRACKING_X_MES.resx">
-      <DependentUpon>FO_DOCUMENTO_D0M4_TRACKING_X_MES.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\FO_ESTIMACION.resx">
-      <DependentUpon>FO_ESTIMACION.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PLANEACION\FO_PARAMETRO_DOCUMENTO_D0M4.resx">
-      <DependentUpon>FO_PARAMETRO_DOCUMENTO_D0M4.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\FO_DOCUMENTO_D0M4.resx">
-      <DependentUpon>FO_DOCUMENTO_D0M4.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CATALOGOS\FO_PARAMETRO_SUCURSAL.resx">
-      <DependentUpon>FO_PARAMETRO_SUCURSAL.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\FO_PARAMETRO_SUCURSAL_D0M4.resx">
-      <DependentUpon>FO_PARAMETRO_SUCURSAL_D0M4.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\FO_PERFORMANCE_N3_XX_ME.resx">
-      <DependentUpon>FO_PERFORMANCE_N3_XX_ME.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\FO_PERFORMANCE_N3_X_TEMP_OLD.resx">
-      <DependentUpon>FO_PERFORMANCE_N3_X_TEMP_OLD.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\PLANEACION\FO_PRECIO_COSTO_PERFIL.resx">
-      <DependentUpon>FO_PRECIO_COSTO_PERFIL.vb</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CATALOGOS\FO_RAZON_SOCIAL.resx">
-      <DependentUpon>FO_RAZON_SOCIAL.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\FO_WIZARD_PRESUPUESTO.resx">
-      <DependentUpon>FO_WIZARD_PRESUPUESTO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\FO_WIZARD.resx">
-      <DependentUpon>FO_WIZARD.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CATALOGOS\FO_GENERICO_T1.resx">
-      <DependentUpon>FO_GENERICO_T1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="3_LIQ19_VS\0_Generales\FO_BOARD2.resx">
+    <EmbeddedResource Include="LIQ19_VS\0_Generales\FO_BOARD2.resx">
       <DependentUpon>FO_BOARD2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="3_LIQ19_VS\0_Generales\FO_SPLASH3.resx">
+    <EmbeddedResource Include="LIQ19_VS\0_Generales\FO_SPLASH3.resx">
       <DependentUpon>FO_SPLASH3.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="3_LIQ19_VS\0_Generales\LoginISAAC.resx">
-      <DependentUpon>LoginISAAC.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_FLUJO_FIRMA_X_K_USUARIO.resx">
-      <DependentUpon>FO_FLUJO_FIRMA_X_K_USUARIO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_REGISTRO_DACTILAR.resx">
-      <DependentUpon>FO_REGISTRO_DACTILAR.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_HUELLA.resx">
-      <DependentUpon>FO_HUELLA.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_MONITOREO_AUTORIZACION_FIRMA.resx">
-      <DependentUpon>FO_MONITOREO_AUTORIZACION_FIRMA.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_PERSONAL_ACCESO_ORGANIZACION.resx">
-      <DependentUpon>FO_PERSONAL_ACCESO_ORGANIZACION.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CONFIGURACION\FO_POLIZA_CHEQUE.resx">
-      <DependentUpon>FO_POLIZA_CHEQUE.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_AMORTIZACION.resx">
-      <DependentUpon>FO_AMORTIZACION.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_CONCILIACION.resx">
-      <DependentUpon>FO_CONCILIACION.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_CONTROL_ANUAL.resx">
-      <DependentUpon>FO_CONTROL_ANUAL.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_CONTROL_ANUAL_RAZON_SOCIAL.resx">
-      <DependentUpon>FO_CONTROL_ANUAL_RAZON_SOCIAL.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_CONTROL_ANUAL_UNIDAD_OPERATIVA.resx">
-      <DependentUpon>FO_CONTROL_ANUAL_UNIDAD_OPERATIVA.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO_AMORTIZACION.resx">
-      <DependentUpon>FO_CREDITO_BANCO_AMORTIZACION.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO_ESTADO.resx">
-      <DependentUpon>FO_CREDITO_BANCO_ESTADO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO_ESTADO_CUENTA.resx">
-      <DependentUpon>FO_CREDITO_BANCO_ESTADO_CUENTA.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_FLUJO_DIARIO.resx">
-      <DependentUpon>FO_FLUJO_DIARIO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_GESTION_TESO.resx">
-      <DependentUpon>FO_GESTION_TESO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_RESUMEN_FLUJO_DIARIO_X_RZS.resx">
-      <DependentUpon>FO_RESUMEN_FLUJO_DIARIO_X_RZS.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FLUJO\FO_RESUMEN_FLUJO_DIARIO_X_UNO.resx">
-      <DependentUpon>FO_RESUMEN_FLUJO_DIARIO_X_UNO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\OPERACION\REPORTES\FO_REPORTE_VISUALIZER.resx">
-      <DependentUpon>FO_REPORTE_VISUALIZER.vb</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\FINANCIAMIENTO\CREDITOS\FO_CREDITO_BANCO.resx">
-      <DependentUpon>FO_CREDITO_BANCO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="3_LIQ19_VS\0_Generales\Resultado.resx">
+    <EmbeddedResource Include="LIQ19_VS\0_Generales\Resultado.resx">
       <DependentUpon>Resultado.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="3_LIQ19_VS\0_Generales\UC_MENU2.resx">
+    <EmbeddedResource Include="LIQ19_VS\0_Generales\UC_MENU2.resx">
       <DependentUpon>UC_MENU2.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\USERCONTROL\UC_PARAMETRO_POB.resx">
-      <DependentUpon>UC_PARAMETRO_POB.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\USERCONTROL\UC_DOCUMENTO_D0M4_PRESUPUESTO.resx">
-      <DependentUpon>UC_DOCUMENTO_D0M4_PRESUPUESTO.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\USERCONTROL\UC_DOCUMENTO_D0M4.resx">
-      <DependentUpon>UC_DOCUMENTO_D0M4.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\USERCONTROL\UC_PARAMETRO_DOCUMENTO_D0M4.resx">
-      <DependentUpon>UC_PARAMETRO_DOCUMENTO_D0M4.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\USERCONTROL\UC_PRECIO_COSTO_PERFIL.resx">
-      <DependentUpon>UC_PRECIO_COSTO_PERFIL.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\CATALOGOS\FO_UNIDAD_OPERATIVA.resx">
-      <DependentUpon>FO_UNIDAD_OPERATIVA.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2_PYF18_VS\D0M4\USERCONTROL\UC_UNIDAD_OPERATIVA.resx">
-      <DependentUpon>UC_UNIDAD_OPERATIVA.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -1020,6 +285,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <None Include="Resources\IconosEXE\NOTES.ICO_3082" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="Microsoft.Office.Core">
@@ -1051,70 +317,362 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="2_PYF18_VS\OPERACION\REPORTES\SOLICITUD_DE_SERVICIO_BANCA_ds.xsc">
-      <DependentUpon>SOLICITUD_DE_SERVICIO_BANCA_ds.xsd</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="2_PYF18_VS\OPERACION\REPORTES\SOLICITUD_DE_SERVICIO_BANCA_ds.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>SOLICITUD_DE_SERVICIO_BANCA_ds.Designer.vb</LastGenOutput>
-      <SubType>Designer</SubType>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="2_PYF18_VS\OPERACION\REPORTES\SOLICITUD_DE_SERVICIO_BANCA_ds.xss">
-      <DependentUpon>SOLICITUD_DE_SERVICIO_BANCA_ds.xsd</DependentUpon>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="Resources\SOLICITD_opt.png" />
-    <None Include="Resources\SOLICITUD.png" />
-    <None Include="Resources\SOLICITUD1.png" />
-    <None Include="Resources\logo transparente.png" />
-    <None Include="Resources\refineria2.png" />
-    <None Include="Resources\cilindros.png" />
-    <None Include="Resources\pipa_corta.png" />
-    <None Include="Resources\BARCO.png" />
-    <None Include="Resources\HOMEISSAC1.png" />
-    <None Include="Resources\isaac21.png" />
-    <None Include="Resources\programar_opt.png" />
-    <None Include="Resources\check_opt.png" />
-    <None Include="Resources\addconc_opt.png" />
-    <None Include="Resources\delconc_opt.png" />
-    <None Include="Resources\marcmov_opt.png" />
-    <None Include="Resources\PROGMPRES_opt %282%29.png" />
-    <None Include="Resources\CANDADO.png" />
-    <None Include="Resources\LOGINDATA.png" />
-    <None Include="Resources\calculopresupesto_opt %281%29.png" />
-    <None Include="Resources\TRASPASO_opt %281%29.png" />
-    <None Include="Resources\ayer_icon.png" />
-    <None Include="Resources\agregar_uno_opt %281%29.png" />
-    <None Include="Resources\agregar_todos_opt.png" />
-    <None Include="Resources\agregar_todos_opt1.png" />
-    <None Include="Resources\procesar_opt.png" />
-    <None Include="Resources\reprocesar.png" />
-    <None Include="Resources\phpZDtfC9_opt.png" />
-    <None Include="Resources\phpRpBI6a_opt.png" />
-    <None Include="Resources\phpu9QpvR_opt.png" />
-    <None Include="Resources\php4x8pye_opt.png" />
-    <None Include="Resources\phphcV2Qt_opt.png" />
-    <None Include="Resources\phpOoaeGl_opt.png" />
-    <None Include="Resources\phprXCMe7_opt.png" />
-    <None Include="Resources\phpAY4uRL_opt.png" />
-    <None Include="Resources\php4wrREz_opt.png" />
-    <None Include="Resources\phpwk4k6N_opt.png" />
-    <None Include="Resources\phpw0LqMn_opt.png" />
-    <None Include="Resources\phplKlxVt_opt.png" />
-    <None Include="Resources\phpGBF3Nw_opt.png" />
-    <None Include="Resources\php3AiLuq_opt.png" />
-    <None Include="Resources\images.jpg" />
     <Content Include="dinero_logo2_eq8_icon.ico" />
-    <None Include="Resources\adn_icon.png" />
-    <Content Include="Resources\hoy_icon.png" />
-    <None Include="Resources\phpT5WEEo_opt.png" />
-    <None Include="Resources\rsz_quitar_todos.png" />
-    <None Include="Resources\rsz_quitar_uno.png" />
-    <None Include="Resources\rsz_reproceso.png" />
-    <None Include="Resources\rsz_autorizar.png" />
-    <None Include="Resources\rsz_subir_datos.png" />
+    <Content Include="Resources\Generales\IMG_Candado.png" />
+    <Content Include="Resources\Generales\IMG_Cobranza.png" />
+    <Content Include="Resources\Generales\IMG_Estacionario.png" />
+    <Content Include="Resources\Generales\IMG_Home.png" />
+    <Content Include="Resources\Generales\IMG_LecturaDefault.png" />
+    <Content Include="Resources\Generales\IMG_LoginData.png" />
+    <Content Include="Resources\Generales\IMG_LogoTransparente.png" />
+    <Content Include="Resources\Generales\IMG_Sitio.png" />
+    <Content Include="Resources\IconosEXE\0d3cd820a19b9080.png.ico" />
+    <Content Include="Resources\IconosEXE\1a0b4e2e7020f3_Icon.ico" />
+    <Content Include="Resources\IconosEXE\action.ico" />
+    <Content Include="Resources\IconosEXE\ACTIVITL.ICO" />
+    <Content Include="Resources\IconosEXE\ACTIVITS.ICO" />
+    <Content Include="Resources\IconosEXE\AioRemote.ico" />
+    <Content Include="Resources\IconosEXE\ALERT.ICO" />
+    <Content Include="Resources\IconosEXE\APIFile_8.ico" />
+    <Content Include="Resources\IconosEXE\App Explorer %281%29.ico" />
+    <Content Include="Resources\IconosEXE\App Explorer.ico" />
+    <Content Include="Resources\IconosEXE\APPTL.ICO" />
+    <Content Include="Resources\IconosEXE\APPTS.ICO" />
+    <Content Include="Resources\IconosEXE\AssetLibrary.ico" />
+    <Content Include="Resources\IconosEXE\audio.ico" />
+    <Content Include="Resources\IconosEXE\A_Ball_Trans.ico" />
+    <Content Include="Resources\IconosEXE\battery.ico" />
+    <Content Include="Resources\IconosEXE\bing.ico" />
+    <Content Include="Resources\IconosEXE\biometric.ico" />
+    <Content Include="Resources\IconosEXE\bluetooth.ico" />
+    <Content Include="Resources\IconosEXE\CHEVRON.ICO" />
+    <Content Include="Resources\IconosEXE\CNFNOT.ICO" />
+    <Content Include="Resources\IconosEXE\COMPUTER.ICO" />
+    <Content Include="Resources\IconosEXE\CONFLICT.ICO" />
+    <Content Include="Resources\IconosEXE\CONTACTL.ICO" />
+    <Content Include="Resources\IconosEXE\CONTACTS.ICO" />
+    <Content Include="Resources\IconosEXE\ContactSelector.ico" />
+    <Content Include="Resources\IconosEXE\crashdump.ico" />
+    <Content Include="Resources\IconosEXE\Cube.ico" />
+    <Content Include="Resources\IconosEXE\DataSource.ico" />
+    <Content Include="Resources\IconosEXE\DataSourceView.ico" />
+    <Content Include="Resources\IconosEXE\defaulticon.ico" />
+    <Content Include="Resources\IconosEXE\device.ico" />
+    <Content Include="Resources\IconosEXE\DeviceToolbox.ico" />
+    <Content Include="Resources\IconosEXE\diagsession.ico" />
+    <Content Include="Resources\IconosEXE\Dimension.ico" />
+    <Content Include="Resources\IconosEXE\display.ico" />
+    <Content Include="Resources\IconosEXE\DISTLSTL.ICO" />
+    <Content Include="Resources\IconosEXE\DISTLSTS.ICO" />
+    <Content Include="Resources\IconosEXE\DOCL.ICO" />
+    <Content Include="Resources\IconosEXE\DOCS.ICO" />
+    <Content Include="Resources\IconosEXE\Documentos.ico" />
+    <Content Include="Resources\IconosEXE\DocumentRepository.ico" />
+    <Content Include="Resources\IconosEXE\DtsPackage.ico" />
+    <Content Include="Resources\IconosEXE\E2414H.ico" />
+    <Content Include="Resources\IconosEXE\ePrintApps.ico" />
+    <Content Include="Resources\IconosEXE\eprintercenter.ico" />
+    <Content Include="Resources\IconosEXE\EXITEML.ICO" />
+    <Content Include="Resources\IconosEXE\EXITEMS.ICO" />
+    <Content Include="Resources\IconosEXE\favicon.ico" />
+    <Content Include="Resources\IconosEXE\FDFFile_8.ico" />
+    <Content Include="Resources\IconosEXE\folder.ico" />
+    <Content Include="Resources\IconosEXE\FY14PSeries metadata image.ico" />
+    <Content Include="Resources\IconosEXE\Google Docs.ico" />
+    <Content Include="Resources\IconosEXE\Google Profile.ico" />
+    <Content Include="Resources\IconosEXE\graph.ico" />
+    <Content Include="Resources\IconosEXE\gray_customize.ico" />
+    <Content Include="Resources\IconosEXE\GWE.ICO" />
+    <Content Include="Resources\IconosEXE\hardware.ico" />
+    <Content Include="Resources\IconosEXE\HelpSupport.ico" />
+    <Content Include="Resources\IconosEXE\HLC.ico" />
+    <Content Include="Resources\IconosEXE\Hojas de cálculo.ico" />
+    <Content Include="Resources\IconosEXE\HPLJCP3525.ico" />
+    <Content Include="Resources\IconosEXE\HP_Color_LaserJet_CM2320_MFP_Series.ico" />
+    <Content Include="Resources\IconosEXE\HP_Color_LaserJet_Enterprise_M651.ico" />
+    <Content Include="Resources\IconosEXE\HP_Color_LaserJet_Pro_MFP_M277.ico" />
+    <Content Include="Resources\IconosEXE\HP_LaserJet_Enterprise_500_color_MFP_M575_HP_LaserJet_Enterprise_color.ico" />
+    <Content Include="Resources\IconosEXE\HP_LaserJet_Enterprise_700_color_MFP_M775.ico" />
+    <Content Include="Resources\IconosEXE\HP_LaserJet_Pro_M402-M403_n-dne.ico" />
+    <Content Include="Resources\IconosEXE\HP_Officejet_Pro_8600.ico" />
+    <Content Include="Resources\IconosEXE\HP_OfficeJet_Pro_8720.ico" />
+    <Content Include="Resources\IconosEXE\HP_Officejet_Pro_X451dw_Printer.ico" />
+    <Content Include="Resources\IconosEXE\HP_Officejet_Pro_X476dn_MFP.ico" />
+    <Content Include="Resources\IconosEXE\HP_Officejet_Pro_X476dw_MFP.ico" />
+    <Content Include="Resources\IconosEXE\HP_PageWide_Pro_477dw_MFP.ico" />
+    <Content Include="Resources\IconosEXE\Icon.ico" />
+    <Content Include="Resources\IconosEXE\Importpackage.ico" />
+    <Content Include="Resources\IconosEXE\INCOMING.ICO" />
+    <Content Include="Resources\IconosEXE\INDOMAIN.ICO" />
+    <Content Include="Resources\IconosEXE\INFOML.ICO" />
+    <Content Include="Resources\IconosEXE\INFOMS.ICO" />
+    <Content Include="Resources\IconosEXE\ioca.ico" />
+    <Content Include="Resources\IconosEXE\IPML.ICO" />
+    <Content Include="Resources\IconosEXE\IPMS.ICO" />
+    <Content Include="Resources\IconosEXE\irprops.ico" />
+    <Content Include="Resources\IconosEXE\keyboard.ico" />
+    <Content Include="Resources\IconosEXE\laccess0.ico" />
+    <Content Include="Resources\IconosEXE\laccess1.ico" />
+    <Content Include="Resources\IconosEXE\laccessories1.ico" />
+    <Content Include="Resources\IconosEXE\lactivate0.ico" />
+    <Content Include="Resources\IconosEXE\lactivate1.ico" />
+    <Content Include="Resources\IconosEXE\lcommu0.ico" />
+    <Content Include="Resources\IconosEXE\lcommu1.ico" />
+    <Content Include="Resources\IconosEXE\lcss0.ico" />
+    <Content Include="Resources\IconosEXE\lcss1.ico" />
+    <Content Include="Resources\IconosEXE\ldownload1.ico" />
+    <Content Include="Resources\IconosEXE\ldpower0.ico" />
+    <Content Include="Resources\IconosEXE\ldpower1.ico" />
+    <Content Include="Resources\IconosEXE\Lenovo App Explorer %281%29.ico" />
+    <Content Include="Resources\IconosEXE\Lenovo App Explorer.ico" />
+    <Content Include="Resources\IconosEXE\lenovo.ico" />
+    <Content Include="Resources\IconosEXE\lfinger0.ico" />
+    <Content Include="Resources\IconosEXE\lfinger1.ico" />
+    <Content Include="Resources\IconosEXE\lgps0.ico" />
+    <Content Include="Resources\IconosEXE\lgps1.ico" />
+    <Content Include="Resources\IconosEXE\lmedia0.ico" />
+    <Content Include="Resources\IconosEXE\lmedia1.ico" />
+    <Content Include="Resources\IconosEXE\lmsgCntr0.ico" />
+    <Content Include="Resources\IconosEXE\lmsgCntr1.ico" />
+    <Content Include="Resources\IconosEXE\lpassword0.ico" />
+    <Content Include="Resources\IconosEXE\lpassword1.ico" />
+    <Content Include="Resources\IconosEXE\lpower0.ico" />
+    <Content Include="Resources\IconosEXE\lpower1.ico" />
+    <Content Include="Resources\IconosEXE\lprotect0.ico" />
+    <Content Include="Resources\IconosEXE\lprotect1.ico" />
+    <Content Include="Resources\IconosEXE\lrescue0.ico" />
+    <Content Include="Resources\IconosEXE\lrescue1.ico" />
+    <Content Include="Resources\IconosEXE\lsc0.ico" />
+    <Content Include="Resources\IconosEXE\lsc1.ico" />
+    <Content Include="Resources\IconosEXE\ltablet0.ico" />
+    <Content Include="Resources\IconosEXE\ltablet1.ico" />
+    <Content Include="Resources\IconosEXE\ltap0.ico" />
+    <Content Include="Resources\IconosEXE\ltap1.ico" />
+    <Content Include="Resources\IconosEXE\ltoolbox0.ico" />
+    <Content Include="Resources\IconosEXE\ltoolbox1.ico" />
+    <Content Include="Resources\IconosEXE\ltools1.ico" />
+    <Content Include="Resources\IconosEXE\ltsro0.ico" />
+    <Content Include="Resources\IconosEXE\ltsro1.ico" />
+    <Content Include="Resources\IconosEXE\lupdate0.ico" />
+    <Content Include="Resources\IconosEXE\lupdate1.ico" />
+    <Content Include="Resources\IconosEXE\luserguide0.ico" />
+    <Content Include="Resources\IconosEXE\luserguide1.ico" />
+    <Content Include="Resources\IconosEXE\lvwmgr0.ico" />
+    <Content Include="Resources\IconosEXE\lvwmgr1.ico" />
+    <Content Include="Resources\IconosEXE\lwarranty0.ico" />
+    <Content Include="Resources\IconosEXE\lwarranty1.ico" />
+    <Content Include="Resources\IconosEXE\lync.ico" />
+    <Content Include="Resources\IconosEXE\MAIL.ICO" />
+    <Content Include="Resources\IconosEXE\MANUAL.ICO" />
+    <Content Include="Resources\IconosEXE\McAfee.ico" />
+    <Content Include="Resources\IconosEXE\mdf_ndf_dbfiles.ico" />
+    <Content Include="Resources\IconosEXE\messageboxalert.ico" />
+    <Content Include="Resources\IconosEXE\messageboxerror.ico" />
+    <Content Include="Resources\IconosEXE\messageboxinfo.ico" />
+    <Content Include="Resources\IconosEXE\milan.ico" />
+    <Content Include="Resources\IconosEXE\MiningModel.ico" />
+    <Content Include="Resources\IconosEXE\MMSL.ICO" />
+    <Content Include="Resources\IconosEXE\MMSS.ICO" />
+    <Content Include="Resources\IconosEXE\modem.ico" />
+    <Content Include="Resources\IconosEXE\ModifiedTelespace.ico" />
+    <Content Include="Resources\IconosEXE\mouse.ico" />
+    <Content Include="Resources\IconosEXE\MySharePoints.ico" />
+    <Content Include="Resources\IconosEXE\MySite.ico" />
+    <Content Include="Resources\IconosEXE\MYSL.ICO" />
+    <Content Include="Resources\IconosEXE\MySQLConnector.ico" />
+    <Content Include="Resources\IconosEXE\ncpa.ico" />
+    <Content Include="Resources\IconosEXE\NerveCenter.ico" />
+    <Content Include="Resources\IconosEXE\netfol.ico" />
+    <Content Include="Resources\IconosEXE\network.ico" />
+    <Content Include="Resources\IconosEXE\NOTEL.ICO" />
+    <Content Include="Resources\IconosEXE\NOTES.ICO" />
+    <Content Include="Resources\IconosEXE\OFFLINE.ICO" />
+    <Content Include="Resources\IconosEXE\OneDrive.ico" />
+    <Content Include="Resources\IconosEXE\ONLINE.ICO" />
+    <Content Include="Resources\IconosEXE\OnLineBusy.ico" />
+    <Content Include="Resources\IconosEXE\OnLineIdle.ico" />
+    <Content Include="Resources\IconosEXE\OOFL.ICO" />
+    <Content Include="Resources\IconosEXE\OOFS.ICO" />
+    <Content Include="Resources\IconosEXE\OutDomain.ico" />
+    <Content Include="Resources\IconosEXE\OUTGOING.ICO" />
+    <Content Include="Resources\IconosEXE\OutSyncPC.ico" />
+    <Content Include="Resources\IconosEXE\P2417H.ico" />
+    <Content Include="Resources\IconosEXE\PAGE_Contact_ME.ico" />
+    <Content Include="Resources\IconosEXE\PAGE_Contact_PC.ico" />
+    <Content Include="Resources\IconosEXE\PAGE_Contact_SIM.ico" />
+    <Content Include="Resources\IconosEXE\Page_SMS_ME.ico" />
+    <Content Include="Resources\IconosEXE\Page_SMS_Me_Unread.ico" />
+    <Content Include="Resources\IconosEXE\Page_SMS_PC.ico" />
+    <Content Include="Resources\IconosEXE\Page_SMS_SIM.ico" />
+    <Content Include="Resources\IconosEXE\Page_SMS_SIM_Unread.ico" />
+    <Content Include="Resources\IconosEXE\PDFFile_8.ico" />
+    <Content Include="Resources\IconosEXE\PDXFile_8.ico" />
+    <Content Include="Resources\IconosEXE\pen.ico" />
+    <Content Include="Resources\IconosEXE\PersonalContact.ico" />
+    <Content Include="Resources\IconosEXE\pictures.ico" />
+    <Content Include="Resources\IconosEXE\POSTITL.ICO" />
+    <Content Include="Resources\IconosEXE\POSTITS.ICO" />
+    <Content Include="Resources\IconosEXE\POSTL.ICO" />
+    <Content Include="Resources\IconosEXE\POSTS.ICO" />
+    <Content Include="Resources\IconosEXE\Presentaciones.ico" />
+    <Content Include="Resources\IconosEXE\print_pref.ico" />
+    <Content Include="Resources\IconosEXE\print_property.ico" />
+    <Content Include="Resources\IconosEXE\print_queue.ico" />
+    <Content Include="Resources\IconosEXE\prism.ico" />
+    <Content Include="Resources\IconosEXE\privacy_disclosures.ico" />
+    <Content Include="Resources\IconosEXE\ProgressError.ico" />
+    <Content Include="Resources\IconosEXE\ProgressSkip.ico" />
+    <Content Include="Resources\IconosEXE\ProgressSuccess.ico" />
+    <Content Include="Resources\IconosEXE\ProgressWarn.ico" />
+    <Content Include="Resources\IconosEXE\QuickCast0.ico" />
+    <Content Include="Resources\IconosEXE\QuickCast1.ico" />
+    <Content Include="Resources\IconosEXE\QuickControl0.ico" />
+    <Content Include="Resources\IconosEXE\QuickControl1.ico" />
+    <Content Include="Resources\IconosEXE\QuickDisplay0.ico" />
+    <Content Include="Resources\IconosEXE\QuickDisplay1.ico" />
+    <Content Include="Resources\IconosEXE\rainbow.ico" />
+    <Content Include="Resources\IconosEXE\RECL.ICO" />
+    <Content Include="Resources\IconosEXE\RECS.ICO" />
+    <Content Include="Resources\IconosEXE\REMOTEL.ICO" />
+    <Content Include="Resources\IconosEXE\REMOTES.ICO" />
+    <Content Include="Resources\IconosEXE\REPORTL.ICO" />
+    <Content Include="Resources\IconosEXE\REPORTS.ICO" />
+    <Content Include="Resources\IconosEXE\RESENDL.ICO" />
+    <Content Include="Resources\IconosEXE\RESENDS.ICO" />
+    <Content Include="Resources\IconosEXE\REV_14419_Clark_2C.ico" />
+    <Content Include="Resources\IconosEXE\ringtones.ico" />
+    <Content Include="Resources\IconosEXE\Role.ico" />
+    <Content Include="Resources\IconosEXE\RSSITEML.ICO" />
+    <Content Include="Resources\IconosEXE\RSSITEMS.ICO" />
+    <Content Include="Resources\IconosEXE\rusty_KB_icon.ico" />
+    <Content Include="Resources\IconosEXE\SapphireM.ico" />
+    <Content Include="Resources\IconosEXE\scanner.ico" />
+    <Content Include="Resources\IconosEXE\scan_.ico" />
+    <Content Include="Resources\IconosEXE\scan_property.ico" />
+    <Content Include="Resources\IconosEXE\scan_settings.ico" />
+    <Content Include="Resources\IconosEXE\SCDCNCLL.ICO" />
+    <Content Include="Resources\IconosEXE\SCDCNCLS.ICO" />
+    <Content Include="Resources\IconosEXE\SCDREQL.ICO" />
+    <Content Include="Resources\IconosEXE\SCDREQS.ICO" />
+    <Content Include="Resources\IconosEXE\SCDRESNL.ICO" />
+    <Content Include="Resources\IconosEXE\SCDRESNS.ICO" />
+    <Content Include="Resources\IconosEXE\SCDRESPL.ICO" />
+    <Content Include="Resources\IconosEXE\SCDRESPS.ICO" />
+    <Content Include="Resources\IconosEXE\SCDRESTL.ICO" />
+    <Content Include="Resources\IconosEXE\SCDRESTS.ICO" />
+    <Content Include="Resources\IconosEXE\ScriptFile.ico" />
+    <Content Include="Resources\IconosEXE\SC_Reader.ico" />
+    <Content Include="Resources\IconosEXE\SECRECL.ICO" />
+    <Content Include="Resources\IconosEXE\SECRECS.ICO" />
+    <Content Include="Resources\IconosEXE\SecStoreFile.ico" />
+    <Content Include="Resources\IconosEXE\SECURL.ICO" />
+    <Content Include="Resources\IconosEXE\SECURS.ICO" />
+    <Content Include="Resources\IconosEXE\sensor.ico" />
+    <Content Include="Resources\IconosEXE\SessionMember.ico" />
+    <Content Include="Resources\IconosEXE\SessionOwner.ico" />
+    <Content Include="Resources\IconosEXE\settings.ico" />
+    <Content Include="Resources\IconosEXE\SharePointPortalSite.ico" />
+    <Content Include="Resources\IconosEXE\SharePointTeamSite.ico" />
+    <Content Include="Resources\IconosEXE\shareproj.ico" />
+    <Content Include="Resources\IconosEXE\sideshow.ico" />
+    <Content Include="Resources\IconosEXE\SIGNL.ICO" />
+    <Content Include="Resources\IconosEXE\SIGNS.ICO" />
+    <Content Include="Resources\IconosEXE\SMSL.ICO" />
+    <Content Include="Resources\IconosEXE\SMSS.ICO" />
+    <Content Include="Resources\IconosEXE\SpaceSelector.ico" />
+    <Content Include="Resources\IconosEXE\SQLServerHelp.ico" />
+    <Content Include="Resources\IconosEXE\SQLServerResCntr.ico" />
+    <Content Include="Resources\IconosEXE\ssms.ico" />
+    <Content Include="Resources\IconosEXE\StatusAlerts.ico" />
+    <Content Include="Resources\IconosEXE\StatusAway.ico" />
+    <Content Include="Resources\IconosEXE\StatusDoNotDisturb.ico" />
+    <Content Include="Resources\IconosEXE\StatusOnline.ico" />
+    <Content Include="Resources\IconosEXE\SureSupply.ico" />
+    <Content Include="Resources\IconosEXE\sync.ico" />
+    <Content Include="Resources\IconosEXE\system.ico" />
+    <Content Include="Resources\IconosEXE\TASKACCL.ICO" />
+    <Content Include="Resources\IconosEXE\TASKACCS.ICO" />
+    <Content Include="Resources\IconosEXE\TASKDECL.ICO" />
+    <Content Include="Resources\IconosEXE\TASKDECS.ICO" />
+    <Content Include="Resources\IconosEXE\TASKL.ICO" />
+    <Content Include="Resources\IconosEXE\TASKREQL.ICO" />
+    <Content Include="Resources\IconosEXE\TASKREQS.ICO" />
+    <Content Include="Resources\IconosEXE\TASKS.ICO" />
+    <Content Include="Resources\IconosEXE\TextTemplate.ico" />
+    <Content Include="Resources\IconosEXE\TOOLICON.ICO" />
+    <Content Include="Resources\IconosEXE\touch.ico" />
+    <Content Include="Resources\IconosEXE\tracelog.ico" />
+    <Content Include="Resources\IconosEXE\transaction_logfile.ico" />
+    <Content Include="Resources\IconosEXE\UDC.ico" />
+    <Content Include="Resources\IconosEXE\USB#VID_054C&amp;PID_0385#10FA4375421894.ico" />
+    <Content Include="Resources\IconosEXE\V.ico" />
+    <Content Include="Resources\IconosEXE\VSProjectApplication.ico" />
+    <Content Include="Resources\IconosEXE\wmp.ico" />
+    <Content Include="Resources\IconosEXE\WSS.ICO" />
+    <Content Include="Resources\IconosEXE\WSS_DocLib.ico" />
+    <Content Include="Resources\IconosEXE\XDPFile_8.ico" />
+    <Content Include="Resources\IconosEXE\XFDFFile_8.ico" />
+    <Content Include="Resources\IconosEXE\XmlToSchema.ico" />
+    <Content Include="Resources\IconosEXE\ZDYFQFFR.ICO" />
+    <Content Include="Resources\IconosEXE\_06MZF5K.ICO" />
+    <Content Include="Resources\IconosEXE\__TemplateIcon.ico" />
+    <Content Include="Resources\Iconos\BT_ABC\ICO_BT_AGREGAR.png" />
+    <Content Include="Resources\Iconos\BT_ABC\ICO_BT_CLONAR.png" />
+    <Content Include="Resources\Iconos\BT_ABC\ICO_BT_EDITAR.png" />
+    <Content Include="Resources\Iconos\BT_ABC\ICO_BT_ELIMINAR.png" />
+    <Content Include="Resources\Iconos\BT_Toolbar\ICO_BT_CANCELAR.png" />
+    <Content Include="Resources\Iconos\BT_Toolbar\ICO_BT_EXPORTAR_EXCEL.png" />
+    <Content Include="Resources\Iconos\BT_Toolbar\ICO_BT_GUARDAR.png" />
+    <Content Include="Resources\Iconos\BT_Toolbar\ICO_BT_LISTADO.png" />
+    <Content Include="Resources\Iconos\BT_Toolbar\ICO_BT_LI_BUSCAR.png" />
+    <Content Include="Resources\Iconos\BT_Toolbar\ICO_BT_SALIR.png" />
+    <Content Include="Resources\Iconos\ICO_LIQ19\ICO_BT_CONECTAR.png" />
+    <Content Include="Resources\Iconos\ICO_LIQ19\ICO_BT_DESCONECTAR.png" />
+    <Content Include="Resources\Iconos\ICO_LIQ19\ICO_BT_MAIL.png" />
+    <Content Include="Resources\Iconos\ICO_LIQ19\ICO_BT_PAGO.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_addconc_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_AMORTIZACIONES_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_bloquecontrol_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_calculopresupesto_opt %281%29.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_Calendario_01.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_Calendario_02.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_Calendario_03.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_Calendario_04.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_casitagas.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_casitagas_opt %281%29.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_check_opt %281%29.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_check_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_delconc_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_GenerarN_v01.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_marcmov_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_php1XymVG_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_php6merlr_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_phpOOgITL_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_phpRpBI6a_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_phpsmkclA_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_phpTVdVwL_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_phpu9QpvR_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_phpXd2Snt_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_phpZDtfC9_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_prec.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_procesar_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_reprocesar.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_rsz_listado2.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_rsz_refresh.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_rsz_setup.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_SENDPDF.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_SOLICITD_opt.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_SOLICITUD.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_SOLICITUD1.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_TRASPASO_opt %281%29.png" />
+    <Content Include="Resources\Iconos\Pendientes\ICO_BT_TRASPASO_opt.png" />
+    <Content Include="Resources\Imagenes\IMG_pipa_corta.png" />
+    <Content Include="Resources\Imagenes\pipa.png" />
+    <Content Include="Resources\Imagenes\pipacorta.png" />
+    <Content Include="Resources\Imagenes\refineria2.png" />
+    <Content Include="Resources\LIQ19_png\IMG_AGATA.png" />
+    <Content Include="Resources\LIQ19_png\IMG_AGATA2.png" />
+    <Content Include="Resources\LIQ19_png\IMG_AGATA_1_NoSeUsa.png" />
     <Content Include="SqlServerTypes\Loader.cs" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
@@ -1130,19 +688,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="packages.config" />
-    <None Include="Resources\AMORTIZACIONES_opt.png" />
-    <Content Include="Resources\listado.png" />
-    <None Include="Resources\prec.png" />
-    <Content Include="Resources\rsz_1add.png" />
-    <Content Include="Resources\rsz_accept.png" />
-    <Content Include="Resources\rsz_cancel.png" />
-    <Content Include="Resources\rsz_delete.png" />
-    <Content Include="Resources\rsz_edit.png" />
-    <Content Include="Resources\rsz_exit.png" />
-    <Content Include="Resources\rsz_export.png" />
-    <Content Include="Resources\rsz_refresh.png" />
-    <Content Include="Resources\rsz_search.png" />
-    <None Include="Resources\SENDPDF.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
@@ -1153,6 +698,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Prototipos\" />
+    <Folder Include="PYF18_VS\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
