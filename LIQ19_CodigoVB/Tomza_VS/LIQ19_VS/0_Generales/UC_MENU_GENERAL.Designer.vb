@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class UC_MENU2
+Partial Class UC_MENU_GENERAL
     Inherits System.Windows.Forms.UserControl
 
     'UserControl overrides dispose to clean up the component list.
@@ -403,7 +403,7 @@ Partial Class UC_MENU2
         Me.PictureBox5.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TableLayoutPanel1.SetColumnSpan(Me.PictureBox5, 3)
-        Me.PictureBox5.Image = Global.LIQ19_Liquidaciones.My.Resources.Resources.IMG_AGATA
+        Me.PictureBox5.Image = Global.LIQ19_Liquidaciones.My.Resources.Resources.IMG_Menu_Titulo
         Me.PictureBox5.Location = New System.Drawing.Point(3, 3)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(984, 197)
@@ -411,14 +411,14 @@ Partial Class UC_MENU2
         Me.PictureBox5.TabIndex = 9
         Me.PictureBox5.TabStop = False
         '
-        'UC_MENU2
+        'UC_MENU_GENERAL
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.DoubleBuffered = True
         Me.MaximumSize = New System.Drawing.Size(998, 580)
-        Me.Name = "UC_MENU2"
+        Me.Name = "UC_MENU_GENERAL"
         Me.Size = New System.Drawing.Size(990, 576)
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)

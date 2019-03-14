@@ -118,79 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ICO_BT_AGREGAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iconos\BT_ABC\ICO_BT_AGREGAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ICO_BT_CANCELAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_CANCELAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ICO_BT_CLONAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iconos\BT_ABC\ICO_BT_CLONAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ICO_BT_EDITAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iconos\BT_ABC\ICO_BT_EDITAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ICO_BT_ELIMINAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iconos\BT_ABC\ICO_BT_ELIMINAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ICO_BT_EXPORTAR_EXCEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_EXPORTAR_EXCEL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ICO_BT_GUARDAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_GUARDAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ICO_BT_LISTADO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_LISTADO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ICO_BT_LI_BUSCAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_LI_BUSCAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ICO_BT_SALIR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_SALIR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_AGATA" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIQ19_png\IMG_AGATA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_AGATA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIQ19_png\IMG_AGATA2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_AGATA_1_NoSeUsa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LIQ19_png\IMG_AGATA_1_NoSeUsa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_Candado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Generales\IMG_Candado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_Cobranza" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Generales\IMG_Cobranza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_Estacionario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Generales\IMG_Estacionario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Generales\IMG_Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_LecturaDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Generales\IMG_LecturaDefault.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="IMG_LoginData" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Generales\IMG_LoginData.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="IMG_LogoTransparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Generales\IMG_LogoTransparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IMG_pipa_corta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagenes\IMG_pipa_corta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMG_Sitio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Generales\IMG_Sitio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_Cobranza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_Cobranza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_AGATA_1_NoSeUsa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIQ19_png\IMG_AGATA_1_NoSeUsa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_LecturaDefault" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_LecturaDefault.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_Splash_Titulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_Splash_Titulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_BT_AGREGAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_ABC\ICO_BT_AGREGAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_LogoTransparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_LogoTransparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_BT_ELIMINAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_ABC\ICO_BT_ELIMINAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_AGATA2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIQ19_png\IMG_AGATA2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_BT_EDITAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_ABC\ICO_BT_EDITAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refineria2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagenes\refineria2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pipa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagenes\pipa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ICO_BT_GUARDAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_GUARDAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_Sitio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_Sitio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_BT_LISTADO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_LISTADO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="pipacorta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Imagenes\pipacorta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="refineria2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Imagenes\refineria2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="IMG_Home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_Home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_BT_SALIR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_SALIR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_BT_EXPORTAR_EXCEL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_EXPORTAR_EXCEL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_BT_LI_BUSCAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_LI_BUSCAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_AGATA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LIQ19_png\IMG_AGATA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_BT_CANCELAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_Toolbar\ICO_BT_CANCELAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_Estacionario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_Estacionario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ICO_BT_CLONAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iconos\BT_ABC\ICO_BT_CLONAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_Candado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Generales\IMG_Candado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_Splash_Titulo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_Splash_Titulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_Menu_Titulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_Menu_Titulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_Splash_Titulo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_Splash_Titulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

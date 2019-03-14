@@ -1,4 +1,4 @@
-﻿Public Class FO_SPLASH3
+﻿Public Class FO_SPLASH
 
     Dim VM_TIEMPO As Integer = 0
     Dim VM_INCREMENTO As Integer = 1
@@ -16,33 +16,33 @@
         REM ///////////////////////////////////////////////////////////////////// 
         REM /// #0 N/A | #1 PROD | #2 PERF | #3 UAT | #4 CERT | #5 LAB (BRUNO) | #6 UNIT | #7 DESA
 
-        Dim VP_AMBIENTE As String = "#" + LIQ19_Constantes.CG_SYS_AMBIENTE.ToString()
+        Dim VP_AMBIENTE As String = "#" + SYS_SetUp.CG_SYS_AMBIENTE.ToString()
 
-        If LIQ19_Constantes.CG_SYS_AMBIENTE = 1 Then
+        If SYS_SetUp.CG_SYS_AMBIENTE = 1 Then
             VP_AMBIENTE = "PROD"
         End If
 
         REM ///////////////////////////////////////////////////////////////////// 
 
-        If LIQ19_Constantes.CG_SYS_AMBIENTE = 5 Then
+        If SYS_SetUp.CG_SYS_AMBIENTE = 5 Then
             VP_AMBIENTE = "LAB"
         End If
 
         REM ///////////////////////////////////////////////////////////////////// 
 
-        If LIQ19_Constantes.CG_SYS_AMBIENTE = 6 Then
+        If SYS_SetUp.CG_SYS_AMBIENTE = 6 Then
             VP_AMBIENTE = "UNI.HGF"
         End If
 
         REM ///////////////////////////////////////////////////////////////////// 
 
-        If LIQ19_Constantes.CG_SYS_AMBIENTE = 7 Then
+        If SYS_SetUp.CG_SYS_AMBIENTE = 7 Then
             VP_AMBIENTE = "DESA"
         End If
 
         REM ///////////////////////////////////////////////////////////////////// 
 
-        LA_SYS_VERSION.Text = "Entrega @Ambiente=" + VP_AMBIENTE + " | [EXE] " + LIQ19_Constantes.CG_VERSION_EXE + " | [BD] " + LIQ19_Constantes.CG_VERSION_DTB
+        LA_SYS_VERSION.Text = "Entrega @Ambiente=" + VP_AMBIENTE + " | [EXE] " + SYS_SetUp.CG_VERSION_EXE + " | [BD] " + SYS_SetUp.CG_VERSION_DTB
 
         'Call LIQ19_Codigo.PG_TOMZA_SYS_SetUp()
 
@@ -97,7 +97,7 @@
     Private Sub PM_CARGAR_LOGIN()
 
         REM /// #0 N/A | #1 PROD | #2 PERF | #3 UAT | #4 CERT | #5 LAB (BRUNO) | #6 UNIT | #7 DESA
-        If (LIQ19_Constantes.CG_SYS_AMBIENTE = 1) Or (LIQ19_Constantes.CG_SYS_AMBIENTE = 2) Then
+        If (SYS_SetUp.CG_SYS_AMBIENTE = 1) Or (SYS_SetUp.CG_SYS_AMBIENTE = 2) Then
             Dim VP_LOGIN As New FO_Login
             VP_LOGIN.Show()
             Me.Close()

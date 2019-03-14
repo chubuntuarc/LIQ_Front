@@ -5,7 +5,7 @@ Public Class Conexion
 
     'Valores de la conexion.
     Public Shared con As New SqlConnection
-    Public Shared Cadena_conexion As String = "Data Source=" + LIQ19_Constantes.CG_SQL_SERVIDOR + ";Initial Catalog=" + LIQ19_Constantes.CG_SQL_BASE_DATOS + "; Persist Security Info=True;User ID=" + LIQ19_Constantes.CG_SQL_USUARIO + ";Password=" + LIQ19_Constantes.CG_SQL_PASSWORD
+    Public Shared Cadena_conexion As String = "Data Source=" + SYS_SetUp.CG_SQL_SERVIDOR + ";Initial Catalog=" + SYS_SetUp.CG_SQL_BASE_DATOS + "; Persist Security Info=True;User ID=" + SYS_SetUp.CG_SQL_USUARIO + ";Password=" + SYS_SetUp.CG_SQL_PASSWORD
     Public Shared Instruccion As String = ""
     Public Shared Comando_SQL As SqlCommand
     Public Shared SQL_Adapter As SqlDataAdapter

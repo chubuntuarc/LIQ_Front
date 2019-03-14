@@ -2,6 +2,33 @@
 
 Public Class Codigo_SQL
 
+    Public Const CG_SQL_PG_PREFIJO As String = "PG"
+    Public Const CG_SQL_SP_DELETE As String = "DL"
+    Public Const CG_SQL_SP_INSERT As String = "IN"
+    Public Const CG_SQL_SP_UPDATE As String = "UP"
+    Public Const CG_SQL_SP_UPSERTE As String = "IU"
+    Public Const CG_SQL_SP_SEEK As String = "SK"
+    Public Const CG_SQL_SP_LIST As String = "LI"
+    Public Const CG_SQL_SP_REGLA As String = "RN"
+
+    Public Const CG_SQL_EJECUTAR As String = "EXECUTE"
+    Public Const CG_SQL_CB_PREFIJO As String = "CB"
+    Public Const CG_SQL_SP_COMBO_BASICO As String = "TABLA_N1_Load"
+    Public Const CG_SQL_SP_VER As String = "VERSION"
+    Public Const CG_SQL_MASIVO As String = "MASIVO"
+    Public Const CG_SQL_SP_GRAFICA As String = "GRAFICA"
+    Public Const CG_SQL_SP_LOG_DESARROLLO As String = "LOG_DESARROLLO"
+    Public Const CG_SQL_SP_USUARIOS_GRUPO As String = "USUARIO"
+
+    Public Const CG_SQL_SP_DEBUG As String = "0"
+    Public Const CG_SQL_CIRCULAR As String = "PRECIOS"
+
+    Public Const CG_SQL_SP_ICS As String = "ICS"
+    Public Const CG_SQL_SP_LOG As String = "LOG"
+    Public Const CG_SQL_SP_ESTATUS As String = "ESTATUS"
+
+    Public Const CG_SQL_SP_PREFIJO_IN_UP As String = "IN_UP"
+
     Public Shared Function FG_RN_GetDato(ByRef PP_BD_Index As Integer, PP_STORED_PROCEDURE As String, PP_PARAMETROS As String, PP_COLUMNA As String) As String
 
         Codigo_SQL.PG_SQL_PARAMETROS_CONTROL(PP_PARAMETROS)
@@ -42,58 +69,6 @@ Public Class Codigo_SQL
 
 
     Public Shared CL_BD_CONEXION_LISTA As New List(Of CL_BD_CONEXION)
-
-    Public Shared Function PG_BD_CONEXION_List_Init() As List(Of CL_BD_CONEXION)
-
-
-        Dim VP_CONTADOR As Integer = 0
-
-        Try
-            CL_BD_CONEXION_LISTA.Clear()
-
-            REM ////////////////////////////////////////////////////////////////////////////
-            REM /// #0 N/A | #1 PROD | #2 PERF | #3 UAT | #4 CERT | #5 LAB (BRUNO) | #6 UNIT | #7 DESA
-            If LIQ19_Constantes.CG_SYS_AMBIENTE = 7 Then
-                CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("DESA", VP_CONTADOR, "DESKTOP-I0DN4KS\LOCAL", "LIQ19_Liquidaciones_V9999_R0", "sa", "123456", 0))
-                VP_CONTADOR += 1
-            End If
-
-            REM ////////////////////////////////////////////////////////////////////////////
-            REM /// #0 N/A | #1 PROD | #2 PERF | #3 UAT | #4 CERT | #5 LAB (BRUNO) | #6 UNIT | #7 DESA
-            If LIQ19_Constantes.CG_SYS_AMBIENTE = 5 Then
-                CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("LAB", VP_CONTADOR, "DESKTOP-KTP3PGG\SQLEXPRESS", "ADG18_AdministradoraGas_V9999_R0", "sa", "JI-15186#KF", 0))
-                VP_CONTADOR += 1
-
-            End If
-
-            REM ////////////////////////////////////////////////////////////////////////////
-            REM /// #0 N/A | #1 PROD | #2 PERF | #3 UAT | #4 CERT | #5 LAB (BRUNO) | #6 UNIT | #7 DESA
-            If LIQ19_Constantes.CG_SYS_AMBIENTE = 6 Then
-                'CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("UNI#hgf", VP_CONTADOR, "LAPTOP-RGTRQFC1\SQLEXPRESS", "ADG18_AdministradoraGas_V0107_R0", "sa", "151169", 0))
-                'VP_CONTADOR += 1
-                CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("UNI#hgf", VP_CONTADOR, "LAPTOP-RGTRQFC1\SQLEXPRESS", "ADG18_AdministradoraGas_V9999_R0", "sa", "151169", 0))
-                VP_CONTADOR += 1
-
-            End If
-
-            REM ////////////////////////////////////////////////////////////////////////////
-            REM /// #0 N/A | #1 PROD | #2 PERF | #3 UAT | #4 CERT | #5 LAB (BRUNO) | #6 UNIT | #7 DESA
-            If (LIQ19_Constantes.CG_SYS_AMBIENTE = 1 Or LIQ19_Constantes.CG_SYS_AMBIENTE = 2) Then
-                'CG_LISTADO_CONEXION.Add(New CL_BD_CONEXION("PROD/PERF", VP_CONTADOR, "189.206.194.186\SQLEXPRESS", "ADG18_AdministradoraGas_V0015_R0", "sa", "HS+24856-RQ", 0))
-                'VP_CONTADOR += 1
-                CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("PROD/PERF", VP_CONTADOR, "189.206.194.186\SQLEXPRESS", "ADG18_AdministradoraGas_V9999_R0", "sa", "HS+24856-RQ", 0))
-                VP_CONTADOR += 1
-            End If
-
-        Catch ex As ArgumentException
-            Codigo_Mensaje.PG_MENSAJE_ERROR_VS("PG_CONNECTION_INIT")
-        End Try
-
-        Return CL_BD_CONEXION_LISTA
-
-    End Function
-
-
 
     Public Shared Sub PG_BOTON_ACTIVO(ByRef PP_BOTON As Object, ByRef PP_BD_Index As Integer, PP_FO_NOMBRE As String)
 
@@ -193,9 +168,12 @@ Public Class Codigo_SQL
         Dim VG_SQL_BD_PASSWORD As String = ""
         Dim VG_SQL_BD_USER As String = ""
         Dim VP_CADENA_CONEXION As String = ""
+
         Try
-            PG_BD_CONEXION_List_Init()
+            SYS_SetUp.PG_BD_CONEXION_List_Init()
+
             Dim CG_CONEXION_ACTUAL As CL_BD_CONEXION
+
             CG_CONEXION_ACTUAL = CL_BD_CONEXION_LISTA.Where(Function(X) X.GetSQL_BD_ID = PP_BD_Index).FirstOrDefault()
             VG_SQL_BD_SERVER = CG_CONEXION_ACTUAL.GetSQL_BD_SERVER
             VG_SQL_BD_DATABASE = CG_CONEXION_ACTUAL.GetSQL_BD_DATABASE
@@ -235,49 +213,49 @@ Public Class Codigo_SQL
 
     Public Shared Function FG_SP_LIST(ByRef PP_FORMA As Object)
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_LIST, PP_FORMA.VM_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_LIST, PP_FORMA.VM_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_Seek(ByRef PP_FORMA As Object)
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_SEEK, PP_FORMA.VM_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_SEEK, PP_FORMA.VM_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_Insert(ByRef PP_FORMA As Object)
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_INSERT, PP_FORMA.VM_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_INSERT, PP_FORMA.VM_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_Insert_Update(ByRef PP_FORMA As Object)
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_PREFIJO_IN_UP, PP_FORMA.VM_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_PREFIJO_IN_UP, PP_FORMA.VM_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_Update(ByRef PP_FORMA As Object)
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_UPDATE, PP_FORMA.VM_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_UPDATE, PP_FORMA.VM_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_Upsert(ByRef PP_FORMA As Object)
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_UPSERTE, PP_FORMA.VM_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_UPSERTE, PP_FORMA.VM_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_UPDATE_ICS()
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_UPDATE, Constantes_Sistema.CG_SQL_SP_ICS)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_UPDATE, CG_SQL_SP_ICS)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_Delete(ByRef PP_FORMA As Object)
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_DELETE, PP_FORMA.VM_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_DELETE, PP_FORMA.VM_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
@@ -287,7 +265,7 @@ Public Class Codigo_SQL
         'If PP_L_USAR_ORDEN = 1 Then
         '    VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_CB_PREFIJO, Constantes_Sistema.CG_SQL_SP_COMBO)
         'Else
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_CB_PREFIJO, Constantes_Sistema.CG_SQL_SP_COMBO_BASICO)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_CB_PREFIJO, CG_SQL_SP_COMBO_BASICO)
         'End If
 
         Return VP_STORED_PROCEDURE
@@ -296,76 +274,76 @@ Public Class Codigo_SQL
     Public Shared Function FG_SP_VERSION(ByRef PP_FORMA As Object) As String
         Dim VP_STORED_PROCEDURE As String
         Dim VP_NOMBRE_TABLA As String
-        VP_NOMBRE_TABLA = Constantes_Sistema.CG_SQL_SP_VER + "_" + PP_FORMA.VM_NOMBRE_TABLA
+        VP_NOMBRE_TABLA = CG_SQL_SP_VER + "_" + PP_FORMA.VM_NOMBRE_TABLA
 
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_INSERT, VP_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_INSERT, VP_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
     Private Shared Function FG_SP_NOMBRE_Ensamblar(ByVal PP_TIPO As String, ByVal PP_NOMBRE_TABLA As String) As String
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = "[dbo].[" + Constantes_Sistema.CG_SQL_PG_PREFIJO + "_" + PP_TIPO + "_" + PP_NOMBRE_TABLA + "]"
+        VP_STORED_PROCEDURE = "[dbo].[" + CG_SQL_PG_PREFIJO + "_" + PP_TIPO + "_" + PP_NOMBRE_TABLA + "]"
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_Update_VER(ByRef PP_FORMA As Object) As String
         Dim VP_STORED_PROCEDURE As String
         Dim VP_NOMBRE_TABLA As String
-        VP_NOMBRE_TABLA = Constantes_Sistema.CG_SQL_SP_ESTATUS + "_" + PP_FORMA.VM_NOMBRE_TABLA_PADRE
+        VP_NOMBRE_TABLA = CG_SQL_SP_ESTATUS + "_" + PP_FORMA.VM_NOMBRE_TABLA_PADRE
 
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_UPDATE, VP_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_UPDATE, VP_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_LIST_MASIVO(ByRef PP_FORMA As Object) As String
         Dim VP_STORED_PROCEDURE As String
         Dim VP_NOMBRE_SP As String
-        VP_NOMBRE_SP = PP_FORMA.VM_NOMBRE_TABLA + "_" + Constantes_Sistema.CG_SQL_MASIVO
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_LIST, VP_NOMBRE_SP)
+        VP_NOMBRE_SP = PP_FORMA.VM_NOMBRE_TABLA + "_" + CG_SQL_MASIVO
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_LIST, VP_NOMBRE_SP)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_LIST_USUARIOS_GRUPO(ByRef PP_FORMA As Object) As String
         Dim VP_STORED_PROCEDURE As String
         Dim VP_NOMBRE_SP As String
-        VP_NOMBRE_SP = Constantes_Sistema.CG_SQL_SP_USUARIOS_GRUPO + "_" + PP_FORMA.VM_NOMBRE_TABLA
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_LIST, VP_NOMBRE_SP)
+        VP_NOMBRE_SP = CG_SQL_SP_USUARIOS_GRUPO + "_" + PP_FORMA.VM_NOMBRE_TABLA
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_LIST, VP_NOMBRE_SP)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_CIRCULAR(ByRef PP_FORMA As Object) As String
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_LIST, Constantes_Sistema.CG_SQL_CIRCULAR)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_LIST, CG_SQL_CIRCULAR)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_Seek_USER_CORREO(ByRef PP_FORMA As Object) As String
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_SEEK, Constantes_Sistema.CG_SQL_SP_USUARIOS_GRUPO)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_SEEK, CG_SQL_SP_USUARIOS_GRUPO)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_LOG() As String
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_LOG, Constantes_Sistema.CG_SQL_SP_INSERT)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_LOG, CG_SQL_SP_INSERT)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_LOG_DESARROLLO() As String
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_LOG_DESARROLLO, Constantes_Sistema.CG_SQL_SP_INSERT)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_LOG_DESARROLLO, CG_SQL_SP_INSERT)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_GRAFICAR_OBJ(ByRef PP_FORMA As Object) As String
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_GRAFICA, PP_FORMA.VM_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_GRAFICA, PP_FORMA.VM_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
     Public Shared Function FG_SP_GRAFICAR_STR(ByRef PP_NOMBRE_TABLA As String) As String
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(Constantes_Sistema.CG_SQL_SP_GRAFICA, PP_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SP_NOMBRE_Ensamblar(CG_SQL_SP_GRAFICA, PP_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
@@ -582,7 +560,7 @@ Public Class Codigo_SQL
 
     Public Shared Function FG_SP_EXECUTE_DATATABLE(ByVal PP_BD_Index As Integer, ByVal PP_STORED_PROCEDURE As String, ByVal PP_PARAMETROS As String) As DataTable
         Dim VP_SENTENCIA As String
-        VP_SENTENCIA = Constantes_Sistema.CG_SQL_EJECUTAR + " " + PP_STORED_PROCEDURE + " " + PP_PARAMETROS
+        VP_SENTENCIA = CG_SQL_EJECUTAR + " " + PP_STORED_PROCEDURE + " " + PP_PARAMETROS
 
         Dim VP_CONNECTION As String = ""
         VP_CONNECTION = FG_CONNECTION_GET(PP_BD_Index)
@@ -622,7 +600,7 @@ Public Class Codigo_SQL
 
     Public Shared Function FG_SP_BITACORA_WRITE(ByVal PP_BD_Index As Integer, ByVal PP_STORED_PROCEDURE As String, ByVal PP_PARAMETROS As String) As DataTable
         Dim VP_SENTENCIA As String
-        VP_SENTENCIA = Constantes_Sistema.CG_SQL_EJECUTAR + " " + PP_STORED_PROCEDURE + " " + PP_PARAMETROS
+        VP_SENTENCIA = CG_SQL_EJECUTAR + " " + PP_STORED_PROCEDURE + " " + PP_PARAMETROS
 
         Dim VP_COMANDO As String = " PG_IN_BITACORA_SQL "
         Dim VP_PARAMETROS As String = "@xml"
@@ -754,9 +732,9 @@ Public Class Codigo_SQL
     Public Shared Sub PG_SQL_PARAMETROS_CONTROL(ByRef PP_PARAMETROS As String, Optional ByRef PP_K_USUARIO As Integer = 0)
         Dim VP_PARAMETROS_FIJOS As String
         If PP_K_USUARIO = 0 Then
-            VP_PARAMETROS_FIJOS = Constantes_Sistema.CG_SQL_SP_DEBUG + "," + LIQ19_Constantes.CG_SQL_SP_SISTEMA_EXE + "," + VG_USUARIO_ACCION.ToString()
+            VP_PARAMETROS_FIJOS = CG_SQL_SP_DEBUG + "," + SYS_SetUp.CG_SQL_SP_SISTEMA_EXE + "," + VG_USUARIO_ACCION.ToString()
         Else
-            VP_PARAMETROS_FIJOS = Constantes_Sistema.CG_SQL_SP_DEBUG + "," + LIQ19_Constantes.CG_SQL_SP_SISTEMA_EXE + "," + PP_K_USUARIO.ToString()
+            VP_PARAMETROS_FIJOS = CG_SQL_SP_DEBUG + "," + SYS_SetUp.CG_SQL_SP_SISTEMA_EXE + "," + PP_K_USUARIO.ToString()
         End If
 
 

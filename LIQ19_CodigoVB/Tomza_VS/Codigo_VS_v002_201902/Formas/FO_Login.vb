@@ -7,6 +7,7 @@
         InitializeComponent()
         StartPosition = FormStartPosition.CenterScreen
         Text = "Inicio de Sesión"
+        LA_SYS_NOMBRE.Text = SYS_SetUp.CG_SYS_NOMBRE
     End Sub
 
 #End Region
@@ -24,13 +25,11 @@
 
 #Region "SUBS_PM"
 
-
-
     Private Sub PM_SISTEMA_COMPATIBILIDAD()
 
-        Dim VP_SISTEMA_EXE = LIQ19_Constantes.CG_SQL_SP_SISTEMA_EXE
-        Dim VP_VERSION_EXE = LIQ19_Constantes.CG_VERSION_EXE
-        Dim VP_VERSION_DB = LIQ19_Constantes.CG_VERSION_DTB
+        Dim VP_SISTEMA_EXE = SYS_SetUp.CG_SQL_SP_SISTEMA_EXE
+        Dim VP_VERSION_EXE = SYS_SetUp.CG_VERSION_EXE
+        Dim VP_VERSION_DB = SYS_SetUp.CG_VERSION_DTB
 
         Call Codigo_SQL.PG_SISTEMA_COMPATIBILIDAD(Me, VM_BD_Index, VP_SISTEMA_EXE, VP_VERSION_EXE, VP_VERSION_DB)
 
@@ -79,10 +78,10 @@
 
 
         REM /// #0 N/A | #1 PROD | #2 PERF | #3 UAT | #4 CERT | #5 LAB (BRUNO) | #6 UNIT | #7 DESA
-        If LIQ19_Constantes.CG_SYS_AMBIENTE <> 1 And LIQ19_Constantes.CG_SYS_AMBIENTE <> 2 Then
+        If SYS_SetUp.CG_SYS_AMBIENTE <> 1 And SYS_SetUp.CG_SYS_AMBIENTE <> 2 Then
 
-            TB_Login.Text = LIQ19_Constantes.CG_SYS_USR_LOGIN
-            TB_CONTRASENA.Text = LIQ19_Constantes.CG_SYS_USR_PWD
+            TB_Login.Text = SYS_SetUp.CG_SYS_USR_LOGIN
+            TB_CONTRASENA.Text = SYS_SetUp.CG_SYS_USR_PWD
 
             PM_BT_INICIAR_SESION_CLICK(Me)
 
@@ -98,7 +97,7 @@
 
         CB_SERVER.Items.Clear()
 
-        Dim VP_LISTA_CONEXIONES As List(Of CL_BD_CONEXION) = Codigo_SQL.PG_BD_CONEXION_List_Init()
+        Dim VP_LISTA_CONEXIONES As List(Of CL_BD_CONEXION) = SYS_SetUp.PG_BD_CONEXION_List_Init()
 
         Dim VP_OPCION_CB As String
 

@@ -1,4 +1,4 @@
-﻿Public Class Resultado
+﻿Public Class FO_Resultado
     Public VM_TABLA As New DataTable
 #Region "SUBS-INIT"
 

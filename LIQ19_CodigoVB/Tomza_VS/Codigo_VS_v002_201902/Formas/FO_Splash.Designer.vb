@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class FO_SPLASH3
+Partial Class FO_SPLASH
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -55,10 +55,10 @@ Partial Class FO_SPLASH3
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.DimGray
-        Me.Label1.Location = New System.Drawing.Point(877, 583)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Location = New System.Drawing.Point(1316, 911)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(203, 28)
+        Me.Label1.Size = New System.Drawing.Size(304, 44)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "loading"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft
@@ -69,10 +69,10 @@ Partial Class FO_SPLASH3
         Me.LA_SYS_VERSION.BackColor = System.Drawing.Color.Transparent
         Me.LA_SYS_VERSION.Font = New System.Drawing.Font("Consolas", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LA_SYS_VERSION.ForeColor = System.Drawing.Color.DimGray
-        Me.LA_SYS_VERSION.Location = New System.Drawing.Point(3, 585)
-        Me.LA_SYS_VERSION.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.LA_SYS_VERSION.Location = New System.Drawing.Point(4, 914)
+        Me.LA_SYS_VERSION.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LA_SYS_VERSION.Name = "LA_SYS_VERSION"
-        Me.LA_SYS_VERSION.Size = New System.Drawing.Size(866, 28)
+        Me.LA_SYS_VERSION.Size = New System.Drawing.Size(1299, 44)
         Me.LA_SYS_VERSION.TabIndex = 5
         Me.LA_SYS_VERSION.Text = "."
         Me.LA_SYS_VERSION.TextAlign = System.Drawing.ContentAlignment.BottomLeft
@@ -80,12 +80,12 @@ Partial Class FO_SPLASH3
         'PictureBox1
         '
         Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.PictureBox1.BackgroundImage = Global.LIQ19_Liquidaciones.My.Resources.Resources.IMG_AGATA2
+        Me.PictureBox1.BackgroundImage = Global.LIQ19_Liquidaciones.My.Resources.Resources.IMG_Splash_Titulo
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(121, 209)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Location = New System.Drawing.Point(182, 327)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(6)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(848, 155)
+        Me.PictureBox1.Size = New System.Drawing.Size(1272, 242)
         Me.PictureBox1.TabIndex = 24
         Me.PictureBox1.TabStop = False
         '
@@ -93,10 +93,10 @@ Partial Class FO_SPLASH3
         '
         Me.PictureBox6.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.PictureBox6.Image = Global.LIQ19_Liquidaciones.My.Resources.Resources.IMG_Sitio
-        Me.PictureBox6.Location = New System.Drawing.Point(633, 390)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox6.Location = New System.Drawing.Point(950, 609)
+        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(6)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(185, 174)
+        Me.PictureBox6.Size = New System.Drawing.Size(278, 272)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox6.TabIndex = 13
         Me.PictureBox6.TabStop = False
@@ -106,10 +106,10 @@ Partial Class FO_SPLASH3
         Me.PictureBox5.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.PictureBox5.BackgroundImage = Global.LIQ19_Liquidaciones.My.Resources.Resources.IMG_pipa_corta
         Me.PictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox5.Location = New System.Drawing.Point(163, 436)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox5.Location = New System.Drawing.Point(244, 681)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(6)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(219, 111)
+        Me.PictureBox5.Size = New System.Drawing.Size(328, 173)
         Me.PictureBox5.TabIndex = 12
         Me.PictureBox5.TabStop = False
         '
@@ -118,10 +118,10 @@ Partial Class FO_SPLASH3
         Me.PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.PictureBox4.BackgroundImage = Global.LIQ19_Liquidaciones.My.Resources.Resources.IMG_Cobranza
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox4.Location = New System.Drawing.Point(824, 441)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox4.Location = New System.Drawing.Point(1236, 689)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(6)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(95, 111)
+        Me.PictureBox4.Size = New System.Drawing.Size(142, 173)
         Me.PictureBox4.TabIndex = 11
         Me.PictureBox4.TabStop = False
         '
@@ -130,10 +130,10 @@ Partial Class FO_SPLASH3
         Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.PictureBox2.BackgroundImage = Global.LIQ19_Liquidaciones.My.Resources.Resources.IMG_Estacionario
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox2.Location = New System.Drawing.Point(384, 455)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox2.Location = New System.Drawing.Point(576, 711)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(6)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(247, 91)
+        Me.PictureBox2.Size = New System.Drawing.Size(370, 142)
         Me.PictureBox2.TabIndex = 10
         Me.PictureBox2.TabStop = False
         '
@@ -143,21 +143,21 @@ Partial Class FO_SPLASH3
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox3.BackgroundImage = Global.LIQ19_Liquidaciones.My.Resources.Resources.IMG_LogoTransparente
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox3.Location = New System.Drawing.Point(961, 5)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox3.Location = New System.Drawing.Point(1442, 8)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(6)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(111, 86)
+        Me.PictureBox3.Size = New System.Drawing.Size(166, 134)
         Me.PictureBox3.TabIndex = 2
         Me.PictureBox3.TabStop = False
         '
-        'FO_SPLASH3
+        'FO_SPLASH
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.White
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(1084, 615)
+        Me.ClientSize = New System.Drawing.Size(1626, 961)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.PictureBox5)
@@ -168,8 +168,8 @@ Partial Class FO_SPLASH3
         Me.Controls.Add(Me.PictureBox1)
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.Name = "FO_SPLASH3"
+        Me.Margin = New System.Windows.Forms.Padding(6)
+        Me.Name = "FO_SPLASH"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FO_SPLASH3"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

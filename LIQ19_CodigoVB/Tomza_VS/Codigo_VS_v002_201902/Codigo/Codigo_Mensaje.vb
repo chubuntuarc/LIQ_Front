@@ -8,7 +8,7 @@ Public Class Codigo_Mensaje
 
 
     Public Shared Sub PG_MENSAJE_DEBUG(ByVal PP_MENSAJE As String, PP_L_APLICAR_BITACORA As Boolean)
-        If LIQ19_Constantes.CG_SYS_DEBUG Then
+        If SYS_SetUp.CG_SYS_DEBUG Then
             Dim VP_CAPTION As String = Codigo_FRM.FG_TITULO_VENTANA(0, "Debug")
             Dim VP_BOTON As MessageBoxButtons = MessageBoxButtons.OK
             Dim VP_IONO As MessageBoxIcon = MessageBoxIcon.Warning
@@ -76,14 +76,14 @@ Public Class Codigo_Mensaje
 
         VP_RUTA = Application.StartupPath
 
-        VP_RUTA = LIQ19_Constantes.CG_SYS_RUTA_0_LOG + "\"
+        VP_RUTA = SYS_SetUp.CG_SYS_RUTA_0_LOG + "\"
 
         Dim VP_NOMBRE_ARCHIVO As String
         Dim VP_DIRECCION_ARCHIVO As String
 
-        VP_NOMBRE_ARCHIVO = "SYS_LOG_" + LIQ19_Constantes.CG_SYS_NOMBRE
+        VP_NOMBRE_ARCHIVO = "SYS_LOG_" + SYS_SetUp.CG_SYS_NOMBRE
         VP_NOMBRE_ARCHIVO = VP_NOMBRE_ARCHIVO + "_" + Format(Now().Year, "0000") + Format(Now().Month, "00") + Format(Now().Day, "00")
-        VP_NOMBRE_ARCHIVO = VP_NOMBRE_ARCHIVO + "_" + LIQ19_Constantes.CG_VERSION_EXE
+        VP_NOMBRE_ARCHIVO = VP_NOMBRE_ARCHIVO + "_" + SYS_SetUp.CG_VERSION_EXE
 
         VP_DIRECCION_ARCHIVO = VP_RUTA + "\" + VP_NOMBRE_ARCHIVO + ".txt"
 
@@ -118,14 +118,14 @@ Public Class Codigo_Mensaje
 
         VP_RUTA = Application.StartupPath
 
-        VP_RUTA = LIQ19_Constantes.CG_SYS_RUTA_0_LOG + "\"
+        VP_RUTA = SYS_SetUp.CG_SYS_RUTA_0_LOG + "\"
 
         Dim VP_NOMBRE_ARCHIVO As String
         Dim VP_DIRECCION_ARCHIVO As String
 
-        VP_NOMBRE_ARCHIVO = "SYS_LOG_" + LIQ19_Constantes.CG_SYS_SIGLAS
+        VP_NOMBRE_ARCHIVO = "SYS_LOG_" + SYS_SetUp.CG_SYS_SIGLAS
         VP_NOMBRE_ARCHIVO = VP_NOMBRE_ARCHIVO + "_" + Format(Now().Year, "0000") + Format(Now().Month, "00") + Format(Now().Day, "00")
-        VP_NOMBRE_ARCHIVO = VP_NOMBRE_ARCHIVO + "_" + LIQ19_Constantes.CG_VERSION_EXE
+        VP_NOMBRE_ARCHIVO = VP_NOMBRE_ARCHIVO + "_" + SYS_SetUp.CG_VERSION_EXE
 
         VP_DIRECCION_ARCHIVO = VP_RUTA + "\" + VP_NOMBRE_ARCHIVO + ".txt"
 

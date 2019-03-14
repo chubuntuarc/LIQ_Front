@@ -1,4 +1,4 @@
-﻿Public Class FO_BOARD2
+﻿Public Class FO_Escritorio
 #Region "VARIABLES Y CONSTANTES MODULARES"
 
     Public VM_BD_Index As Integer = 0
@@ -35,7 +35,7 @@
         Dim VP_I As Integer = 0
         While VP_I < VP_TABS_CONTADOR And VP_MENU_CURRENT = False
             Dim VP_CONTROL As Control = VP_TABS_COLLECTION.Item(VP_I).Controls(0)
-            If VP_CONTROL.GetType = GetType(UC_MENU2) Then
+            If VP_CONTROL.GetType = GetType(UC_MENU_GENERAL) Then
                 VP_MENU_CURRENT = True
                 TC_MAIN_TABCONTROL.SelectedTab = VP_TABS_COLLECTION.Item(VP_I)
             End If
@@ -45,7 +45,7 @@
         If VP_MENU_CURRENT = False Then
             Codigo_FRM.PG_FRM_BT_INIT(PP_FORMA)
             Codigo_FRM.PG_FRM_INIT_BASIC(PP_FORMA)
-            Dim VP_MENU As New UC_MENU2
+            Dim VP_MENU As New UC_MENU_GENERAL
             PL_PANEL.AutoScroll = True
             PL_PANEL.HorizontalScroll.Visible = True
             PL_PANEL.VerticalScroll.Visible = True
@@ -93,7 +93,7 @@
                     VP_USER_CONTROL.MaximumSize = New Size(Me.Width, Me.Height - 60)
 
 
-                    If VP_USER_CONTROL.GetType = GetType(UC_MENU2) Then
+                    If VP_USER_CONTROL.GetType = GetType(UC_MENU_GENERAL) Then
 
                         VP_USER_CONTROL.Dock = DockStyle.None
                         ' VP_USER_CONTROL.Size = New Size(PL_PANEL.Size.Width * 0.8, PL_PANEL.Size.Height * 0.8)

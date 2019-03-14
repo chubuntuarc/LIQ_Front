@@ -122,12 +122,32 @@ LIQ19_Liquidaciones
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_Menu_Titulo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_pipa_corta">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_Sitio">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_Splash_Titulo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_Splash_Titulo1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LIQ19_Liquidaciones.My.Resources.Resources.IMG_Splash_Titulo2">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

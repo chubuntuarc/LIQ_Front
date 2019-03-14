@@ -216,7 +216,7 @@ Public Class Codigo_ABC
 
 
                 If VP_EXITO Then
-                    Dim VP_BOARD As New FO_BOARD2()
+                    Dim VP_BOARD As New FO_Escritorio()
                     VP_BOARD.PM_FO_SHOW(PP_BD_Index)
                     PP_FORMA.Close()
                     VG_CULTURE_INFO = Codigo_SQL.FG_CULTURE_INFO_GET(PP_BD_Index)

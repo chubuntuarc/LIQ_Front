@@ -1,4 +1,77 @@
-﻿Public Class LIQ19_Codigo
+﻿Imports System.Globalization
+Imports System.Threading
+
+Public Class LIQ19_Codigo
+    'PROCESO PARA INICIALIZAR COMBOS
+    Public Shared Sub PG_CREAR_COMBOS_FILTROS(PP_FORMA As Form, PP_ID_BASE_DE_DATOS As Integer, PP_COMBOS As ArrayList)
+        Codigo_FI.PG_FI_CONTROL_DATA_SETUP(PP_ID_BASE_DE_DATOS, PP_FORMA)
+
+        'GROUPBOX DE LOS FILTROS.
+        Dim VP_GROUP As GroupBox = New GroupBox
+        VP_GROUP.Name = "GB_FILTROS"
+        VP_GROUP.Text = "Filtros"
+        VP_GROUP.Width = 1880
+        VP_GROUP.Height = 80
+        VP_GROUP.Location = New Point(10, 58)
+        PP_FORMA.Controls.Add(VP_GROUP)
+
+        'INPUT PARA BUSCAR.
+        Dim VP_INPUT As TextBox = New TextBox
+        VP_INPUT.Name = "TB_LI_BUSCAR"
+        VP_INPUT.Width = 190
+        VP_INPUT.Location = New Point(10, 32)
+        VP_GROUP.Controls.Add(VP_INPUT)
+
+        'ETIQUETA INPUT BUSCAR
+        Dim VP_LABEL_BUSCAR As Label = New Label
+        VP_LABEL_BUSCAR.Name = "LB_LI_BUSCAR"
+        VP_LABEL_BUSCAR.Location = New Point(10, 15)
+        VP_LABEL_BUSCAR.Text = "Buscar"
+        VP_GROUP.Controls.Add(VP_LABEL_BUSCAR)
+
+        Dim VP_CONTADOR = 210
+        For VP_INDICE As Integer = 0 To PP_COMBOS.Count - 1
+
+            Dim VP_NOMBRE_COMBO = PP_COMBOS(VP_INDICE)
+
+            Dim curCulture As CultureInfo = Thread.CurrentThread.CurrentCulture
+            Dim tInfo As TextInfo = curCulture.TextInfo()
+
+            Dim VP_CONVERSION_TEXTO = tInfo.ToTitleCase(tInfo.ToLower(VP_NOMBRE_COMBO)).ToString() 'CONVIERTE EL TEXTO
+            Dim VP_POSICION As Integer = VP_CONVERSION_TEXTO.IndexOf("_")
+
+            Dim VP_ETIQUETA = ""
+            If VP_POSICION > 0 Then
+                VP_ETIQUETA = VP_CONVERSION_TEXTO.Substring(0, VP_POSICION)
+            Else
+                VP_ETIQUETA = VP_CONVERSION_TEXTO
+            End If
+
+            'CREAR EL COMBOBOX
+            Dim VP_COMBO As ComboBox = New ComboBox
+            VP_COMBO.Name = "CB_LI_" + VP_NOMBRE_COMBO
+            VP_COMBO.Width = 100
+            VP_COMBO.Location = New Point(VP_CONTADOR, 32)
+            VP_COMBO.BringToFront()
+
+            Codigo_CB.PG_CB_LOAD_X_ORDEN(PP_ID_BASE_DE_DATOS, PP_FORMA, VP_COMBO, PP_COMBOS(VP_INDICE))
+
+            'CREAR LA ETIQUETA
+            Dim VP_LABEL As Label = New Label
+            VP_LABEL.Name = "LB_LI_" + VP_ETIQUETA
+            VP_LABEL.Location = New Point(VP_CONTADOR, 15)
+            VP_LABEL.Text = VP_ETIQUETA
+            VP_LABEL.BringToFront()
+
+            'AGREGAR LOS ELEMENTOS AL GROUPBOX DE LA FORMA
+            VP_GROUP.Controls.Add(VP_COMBO)
+            VP_GROUP.Controls.Add(VP_LABEL)
+
+            VP_CONTADOR += 110
+        Next
+
+    End Sub
+
     Public Shared Sub PG_LI_CLEAR(ByRef PP_LISTADO As DataGridView)
         PP_LISTADO.Rows.Clear()
     End Sub
@@ -74,13 +147,13 @@
 
     Public Shared Function FG_SQL_LIST(ByRef PP_FORMA As Object)
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = FG_SQL_BASICO(Constantes_Sistema.CG_SQL_SP_LIST, PP_FORMA.VM_NOMBRE_TABLA)
+        VP_STORED_PROCEDURE = FG_SQL_BASICO(Codigo_SQL.CG_SQL_SP_LIST, PP_FORMA.VM_NOMBRE_TABLA)
         Return VP_STORED_PROCEDURE
     End Function
 
     Private Shared Function FG_SQL_BASICO(ByVal PP_TIPO As String, ByVal PP_NOMBRE_TABLA As String)
         Dim VP_STORED_PROCEDURE As String
-        VP_STORED_PROCEDURE = "[dbo].[" + Constantes_Sistema.CG_SQL_PG_PREFIJO + "_" + PP_TIPO + "_" + PP_NOMBRE_TABLA + "]"
+        VP_STORED_PROCEDURE = "[dbo].[" + Codigo_SQL.CG_SQL_PG_PREFIJO + "_" + PP_TIPO + "_" + PP_NOMBRE_TABLA + "]"
         Return VP_STORED_PROCEDURE
     End Function
 End Class

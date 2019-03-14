@@ -117,9 +117,9 @@ Public Class Codigo_FRM
 
         Codigo_SQL.FG_CONNECTION_GET(PP_BD_Index, VP_SERVER, VP_DB)
 
-        VP_RESULTADO = LIQ19_Constantes.CG_TITULO_VENTANA
+        VP_RESULTADO = SYS_SetUp.CG_TITULO_VENTANA
         VP_RESULTADO = VP_RESULTADO + " @ " + PP_TITULO
-        VP_RESULTADO = VP_RESULTADO + " | Exe " + LIQ19_Constantes.CG_VERSION_EXE + " Bd " + LIQ19_Constantes.CG_VERSION_DTB
+        VP_RESULTADO = VP_RESULTADO + " | Exe " + SYS_SetUp.CG_VERSION_EXE + " Bd " + SYS_SetUp.CG_VERSION_DTB
         VP_RESULTADO = VP_RESULTADO + " | " + VP_SERVER + " -> " + VP_DB + ""
 
         Return VP_RESULTADO
@@ -345,7 +345,7 @@ Public Class Codigo_FRM
 
 
 
-        Codigo_Permiso.PG_CONSULTAR_PERMISOS(PP_BD_Index, PP_FORMA, VG_USUARIO_ACCION)
+        'Codigo_Permiso.PG_CONSULTAR_PERMISOS(PP_BD_Index, PP_FORMA, VG_USUARIO_ACCION)
 
         PG_FRM_CONFIG(PP_FORMA)
 
