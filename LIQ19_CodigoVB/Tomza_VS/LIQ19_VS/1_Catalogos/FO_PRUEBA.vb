@@ -74,6 +74,27 @@
         Codigo_ABC.PG_BT_EXPORTAR_EXCEL_CLICK(LI_LISTADO)
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        PG_GENERAR_FORMA("FO_TEST", "Formula testing")
+    End Sub
+
+    Private Sub PG_GENERAR_FORMA(PP_NOMBRE_FORMA As String, PP_TITULO_FORMA As String)
+        Dim VP_NUEVA_FORMA As Form = New Form()
+        VP_NUEVA_FORMA.Name = PP_NOMBRE_FORMA
+        VP_NUEVA_FORMA.Width = 978
+        VP_NUEVA_FORMA.Height = 591
+        VP_NUEVA_FORMA.BackColor = Color.White
+
+        Dim VP_FLOW_LAYOUT As New FlowLayoutPanel
+        VP_FLOW_LAYOUT.Location = New Point(14, 7)
+        VP_FLOW_LAYOUT.BackColor = Color.White
+        VP_FLOW_LAYOUT.Width = 936
+        VP_FLOW_LAYOUT.Height = 40
+        VP_NUEVA_FORMA.Controls.Add(VP_FLOW_LAYOUT)
+
+        Codigo_FRM.PG_FRM_ABRIR(Me, VP_NUEVA_FORMA, PP_NOMBRE_FORMA, PP_TITULO_FORMA, VG_BD_Index) 'SE CARGA LA FORMA
+    End Sub
+
 #End Region
 
 

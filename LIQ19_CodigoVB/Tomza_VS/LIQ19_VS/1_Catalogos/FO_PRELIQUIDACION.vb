@@ -111,7 +111,6 @@
             LIQ19_Codigo.PG_BT_BUSCAR_DETALLE(VM_ID_BASE_DE_DATOS, Me, LI_DETALLE, "PG_LI_PRODUCTO", VP_PARAMETROS)
         End If
 
-
         Codigo_FI.FG_FI_LOAD_X_ID(VM_ID_BASE_DE_DATOS, Me, PP_ID)
     End Sub
 
@@ -135,7 +134,6 @@
         Dim VP_PARAMETROS As String = "''," + VP_K_PRELIQUIDACION
 
         LIQ19_Codigo.PG_BT_BUSCAR_DETALLE(VM_ID_BASE_DE_DATOS, Me, LI_DETALLE, "PG_LI_DETALLE_PRELIQUIDACION", VP_PARAMETROS)
-
 
         Try
             Dim VP_PARAMETROS_DETALLE As String = "''," + TB_K_PRELIQUIDACION.Text
@@ -258,8 +256,8 @@
 
             Console.WriteLine("PARAMETROS: " + VP_PARAMETROS)
 
-            Dim VP_CLAVE As String
-            Dim VP_MENSAJE As String
+            Dim VP_CLAVE As String = ""
+            Dim VP_MENSAJE As String = ""
             If TB_K_PRELIQUIDACION.Text = "" Then
                 Codigo_SQL.FG_SQL_EJECUTAR_ACCION_int(VM_ID_BASE_DE_DATOS, "PG_IN_PRELIQUIDACION", "0,0,0," + VP_PARAMETROS, VP_CLAVE, VP_MENSAJE)
             End If
@@ -305,8 +303,8 @@
                         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_TANQUE_INICIAL, False)
                         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS_DETALLE, VP_TANQUE_FINAL, False)
 
-                        Dim VP_CLAVE_DETALLE As String
-                        Dim VP_MENSAJE_DETALLE As String
+                        Dim VP_CLAVE_DETALLE As String = ""
+                        Dim VP_MENSAJE_DETALLE As String = ""
 
                         Codigo_SQL.FG_SQL_EJECUTAR_ACCION_int(VM_ID_BASE_DE_DATOS, "PG_IN_DETALLE_PRELIQUIDACION", "0,0,0," + VP_PARAMETROS_DETALLE, VP_CLAVE_DETALLE, VP_MENSAJE_DETALLE)
 
@@ -348,7 +346,6 @@
     End Sub
 
     Public Sub PM_BT_GUARDAR_CLICK(ByRef PP_FORMA As Object, ByRef PP_LISTADO As DataGridView)
-
         Codigo_ABC.PG_BT_GUARDAR_CLICK(VM_ID_BASE_DE_DATOS, PP_FORMA, PP_LISTADO)
     End Sub
 
