@@ -167,12 +167,37 @@
     </Compile>
     <Compile Include="LIQ19_VS\0_Generales\LIQ19_Codigo.vb" />
     <Compile Include="LIQ19_VS\0_Generales\LIQ19_Constantes.vb" />
+    <Compile Include="LIQ19_VS\0_Generales\LIQ19_ExtensionMethods.vb" />
     <Compile Include="LIQ19_VS\0_Generales\PRINT_MICROSOFT_REPORT.vb" />
     <Compile Include="LIQ19_VS\0_Generales\SYS_SetUp.vb" />
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_FICHA_AUTOTANQUE.Designer.vb">
+      <DependentUpon>FO_FICHA_AUTOTANQUE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_FICHA_AUTOTANQUE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_FICHA_ESTACION.Designer.vb">
+      <DependentUpon>FO_FICHA_ESTACION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_FICHA_ESTACION.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LIQ19_VS\1_Catalogos\FO_LIQUIDACION.Designer.vb">
       <DependentUpon>FO_LIQUIDACION.vb</DependentUpon>
     </Compile>
     <Compile Include="LIQ19_VS\1_Catalogos\FO_LIQUIDACION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_OPERADOR.Designer.vb">
+      <DependentUpon>FO_OPERADOR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_OPERADOR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_PRODUCTO.Designer.vb">
+      <DependentUpon>FO_PRODUCTO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_PRODUCTO.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LIQ19_VS\1_Catalogos\FO_PRUEBA.Designer.vb">
@@ -244,8 +269,17 @@
     <EmbeddedResource Include="LIQ19_VS\0_Generales\Reportes_rdlc\RPT_01_RECIBO_X1.rdlc" />
     <EmbeddedResource Include="LIQ19_VS\0_Generales\Reportes_rdlc\RPT_01_RECIBO_X2.rdlc" />
     <EmbeddedResource Include="LIQ19_VS\0_Generales\Reportes_rdlc\RPT_02_ESTADO_CUENTA.rdlc" />
+    <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_FICHA_AUTOTANQUE.resx">
+      <DependentUpon>FO_FICHA_AUTOTANQUE.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_LIQUIDACION.resx">
       <DependentUpon>FO_LIQUIDACION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_OPERADOR.resx">
+      <DependentUpon>FO_OPERADOR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_PRODUCTO.resx">
+      <DependentUpon>FO_PRODUCTO.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_PRUEBA.resx">
       <DependentUpon>FO_PRUEBA.vb</DependentUpon>

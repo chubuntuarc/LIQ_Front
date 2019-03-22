@@ -278,6 +278,32 @@ LIQ19_Liquidaciones
  4 CONVIERTE EN TIPO ORACION  EJ. "el carro verde"--->"El carro verde"
  </summary>
 </member>
+<member name="M:LIQ19_Liquidaciones.LIQ19_Codigo.PG_TB_INIT(System.Windows.Forms.TextBox@,System.Int32,System.Int32)">
+ <summary>
+ Inicializa un objeto en la Ficha aplicando un Formato previamente definido.
+ <para> PP_CONTROL; Nombre del TextBox al que se le aplicará el formato.</para>
+ PP_FORMATO:
+ <para>1. Sólo permite el ingreso de números Enteros | 2. Sólo permite el ingreso de números con punto Decimal</para>
+ 3. Alinear el texto a la izquierda | 4. Alinear el texto al centro | 5. Alinear el texto ala derecha.
+ <para>PP_PRECARGADO; Sólo aplica para el PP_FORMATO 1 y 2</para>
+ 1=  Precarga el TextBox con [0] ó [0.00] por default. Según sea el caso
+ </summary>
+</member>
+<member name="M:LIQ19_Liquidaciones.FO_FICHA_AUTOTANQUE.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:LIQ19_Liquidaciones.FO_OPERADOR.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
+<member name="M:LIQ19_Liquidaciones.FO_PRODUCTO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
 <member name="M:LIQ19_Liquidaciones.FO_PRELIQUIDACION.PM_FI_LOAD(System.String)">
  <summary>
  'FUNCION QUE CARGARA LA PARTE DE LA FICHA

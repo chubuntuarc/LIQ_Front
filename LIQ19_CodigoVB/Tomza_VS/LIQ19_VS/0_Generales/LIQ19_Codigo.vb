@@ -156,4 +156,163 @@ Public Class LIQ19_Codigo
         VP_STORED_PROCEDURE = "[dbo].[" + Codigo_SQL.CG_SQL_PG_PREFIJO + "_" + PP_TIPO + "_" + PP_NOMBRE_TABLA + "]"
         Return VP_STORED_PROCEDURE
     End Function
+
+
+    'AX  //   CODIGO PARA VERIFICAR FECHA CON UN RANGO MAYOR A 50 AÑOS 20190312
+    Public Shared Sub PG_TB_DATE_VALIDATE_80_YYYY(ByRef PP_MENSAJE_VALIDACION As String, ByRef PP_CONTROL As MaskedTextBox)
+        PP_CONTROL.BackColor = Color.White
+        If PP_MENSAJE_VALIDACION = "" And PP_CONTROL.Text <> "  /  /" Then
+            Dim VL_ES_FECHA As Boolean = False
+            Dim VL_FECHA As String() = PP_CONTROL.Text.Split("/")
+
+            Try
+                Dim VP_FECHA As Date = New Date(VL_FECHA(2), VL_FECHA(1), VL_FECHA(0))
+                If IsDate(VP_FECHA) Then
+                    If VP_FECHA < (Now.AddYears(-80)) Then
+                        PP_MENSAJE_VALIDACION = "Se requiere una fecha válida en [" + Right(PP_CONTROL.Name, PP_CONTROL.Name.LongCount - 3) + "]"
+                        PP_CONTROL.BackColor = Color.LightBlue
+                    End If
+                Else
+                    PP_MENSAJE_VALIDACION = "Se requiere una fecha válida en [" + Right(PP_CONTROL.Name, PP_CONTROL.Name.LongCount - 3) + "]"
+                    PP_CONTROL.BackColor = Color.LightBlue
+                End If
+            Catch ex As Exception
+                PP_MENSAJE_VALIDACION = "Se requiere una fecha válida en [" + Right(PP_CONTROL.Name, PP_CONTROL.Name.LongCount - 3) + "]"
+                PP_CONTROL.BackColor = Color.LightBlue
+            End Try
+        ElseIf PP_CONTROL.Text = "  /  /" And Not PP_CONTROL.Name Like "*_LI_*" Then
+            PP_MENSAJE_VALIDACION = "Se requiere una fecha válida en [" + Right(PP_CONTROL.Name, PP_CONTROL.Name.LongCount - 3) + "]"
+        End If
+    End Sub
+
+    'AX  //   CODIGO PARA VERIFICAR EL PARAMETRO CON UN RANGO MAYOR A 50 AÑOS 20190312
+    Public Shared Sub PG_CO_PARAMETRO_80_YYYY(ByRef PP_PARAMETROS As String, ByVal PP_CONTROL As Object, ByVal PP_DELIMITADOR As Boolean)
+        Dim VP_VALOR As String = ""
+
+        If PP_CONTROL.GetType() = GetType(MaskedTextBox) Then
+            Dim VP_STRING_VALIDACION As String = ""
+            PG_TB_DATE_VALIDATE_80_YYYY(VP_STRING_VALIDACION, PP_CONTROL)
+
+            If VP_STRING_VALIDACION = "" And PP_CONTROL.Text <> "  /  /" Then
+                Dim VL_FECHA As String() = PP_CONTROL.Text.Split("/")
+                Dim VL_DIA As String = VL_FECHA(0) : Dim VL_MES As String = VL_FECHA(1) : Dim VL_AÑO As String = VL_FECHA(2)
+                Dim VL_FECHA_SQL As String = VL_AÑO + "-" + VL_MES + "-" + VL_DIA
+                VP_VALOR = VL_FECHA_SQL
+            Else
+                If VP_STRING_VALIDACION <> "" Then
+                    Codigo_Mensaje.PG_MENSAJE_AVISO(VP_STRING_VALIDACION)
+                End If
+                VP_VALOR = "NULL"
+                PP_DELIMITADOR = False
+            End If
+        End If
+
+        If PP_CONTROL.GetType() = GetType(String) Then
+            VP_VALOR = PP_CONTROL
+        End If
+
+        If PP_CONTROL.GetType() = GetType(Integer) Then
+            VP_VALOR = PP_CONTROL.ToString()
+        End If
+
+        If PP_DELIMITADOR Then
+            VP_VALOR = "'" + VP_VALOR + "'"
+        End If
+
+        If PP_PARAMETROS = "" Then
+            PP_PARAMETROS = " " + VP_VALOR + " "
+        Else
+            PP_PARAMETROS = PP_PARAMETROS + ", " + VP_VALOR + " "
+        End If
+
+    End Sub
+
+    'AX  //   CODIGO PARA FORMATEAR LOS TEXTBOX DE LA FICHA  20190222
+    ''' <summary>
+    ''' Inicializa un objeto en la Ficha aplicando un Formato previamente definido.
+    ''' <para> PP_CONTROL; Nombre del TextBox al que se le aplicará el formato.</para>
+    ''' PP_FORMATO:
+    ''' <para>1. Sólo permite el ingreso de números Enteros | 2. Sólo permite el ingreso de números con punto Decimal</para>
+    ''' 3. Alinear el texto a la izquierda | 4. Alinear el texto al centro | 5. Alinear el texto ala derecha.
+    ''' <para>PP_PRECARGADO; Sólo aplica para el PP_FORMATO 1 y 2</para>
+    ''' 1=  Precarga el TextBox con [0] ó [0.00] por default. Según sea el caso
+    ''' </summary>
+    Public Shared Sub PG_TB_INIT(ByRef PP_CONTROL As TextBox, ByVal PP_FORMATO As Integer, Optional ByVal PP_PRECARGADO As Integer = 0)
+        Select Case PP_FORMATO
+            Case 1 'ENTERO
+                PP_CONTROL.TextAlign = HorizontalAlignment.Right
+                If PP_PRECARGADO = 1 Then
+                    PP_CONTROL.Text = Format(PP_CONTROL.Text, "0")
+                End If
+                AddHandler PP_CONTROL.KeyPress, AddressOf PP_CONTROL_KEYPRESS_ENTEROS
+            Case 2 'DECIMAL
+                PP_CONTROL.TextAlign = HorizontalAlignment.Right
+                If PP_PRECARGADO = 1 Then
+                    PP_CONTROL.Text = Format(PP_CONTROL.Text, "0.00")
+                End If
+                AddHandler PP_CONTROL.KeyPress, AddressOf PP_CONTROL_KEYPRESS_DECIMALES
+            Case 3 ' Alinear texto a la izquierda
+                PP_CONTROL.TextAlign = HorizontalAlignment.Left
+            Case 4 ' Alinear texto al centro
+                PP_CONTROL.TextAlign = HorizontalAlignment.Center
+            Case 5 ' Alinear texto a la derecha
+                PP_CONTROL.TextAlign = HorizontalAlignment.Right
+        End Select
+    End Sub
+
+    Private Shared Sub PP_CONTROL_KEYPRESS_DECIMALES(sender As Object, e As KeyPressEventArgs)
+        Dim PP_CONTROL As TextBox = sender
+        PP_CONTROL.PG_TB_SOLO_DECIMALES(e)
+    End Sub
+
+    Private Shared Sub PP_CONTROL_KEYPRESS_ENTEROS(sender As Object, e As KeyPressEventArgs)
+        Dim PP_CONTROL As TextBox = sender
+        PP_CONTROL.PG_TB_SOLO_ENTEROS(e)
+    End Sub
+
+    'JAR // GENERAR UN LISTADO SENCILLO  EN BASE A UN DATATABLE
+    Public Shared Sub NUEVO_LISTADO(PP_DATOS As DataTable, PP_LISTADO As DataGridView, PP_CAMPOS As ArrayList, PP_TITULOS As ArrayList, PP_TIPOS As ArrayList)
+        Codigo_LI.PG_LI_CLEAR(PP_LISTADO)
+        Codigo_LI.PG_LI_FORMAT_SETUP(PP_LISTADO, 8, 17)
+
+        'GENERAR TITULOS
+        For VP_INDICE As Integer = 1 To PP_TITULOS.Count
+
+            Dim VP_CAMPO = PP_CAMPOS(VP_INDICE - 1)
+            Dim VP_TITULO = PP_TITULOS(VP_INDICE - 1)
+            Dim VP_TIPO = PP_TIPOS(VP_INDICE - 1)
+
+            Select Case VP_TIPO
+                Case 1
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, VP_CAMPO, VP_TITULO, GetType(Integer), 50, 2, 0, 1, 1, 0, Color.White, Color.Black, 1)
+                Case 2
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, VP_CAMPO, VP_TITULO, GetType(String), 150, 1, 0, 1, 1, 0, Nothing, Color.LightYellow, 1)
+                Case 3
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, VP_CAMPO, VP_TITULO, GetType(String), 60, 2, 0, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
+                Case 4
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, VP_CAMPO, VP_TITULO, GetType(String), 150, 1, 0, 1, 0, 0, Nothing, Nothing, 1)
+                Case 5
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, VP_CAMPO, VP_TITULO, GetType(String), 60, 2, 0, 1, 0, 0, Color.Orange, Nothing, 1)
+            End Select
+
+        Next
+
+        Codigo_FRM.PG_FRM_LI_FORMAT_CONTROL_LOAD(PP_LISTADO, 100, 2, 0, 0, 0, 0)
+
+        'GENERAR COLUMNAS
+        For VP_INDICE As Integer = 0 To PP_DATOS.Rows.Count - 1
+
+            Dim VP_ROW_DATA As DataRow = PP_DATOS.Rows(VP_INDICE)
+
+            PP_LISTADO.Rows.Insert(VP_INDICE, VP_ROW_DATA(PP_CAMPOS(0)))
+
+            For index As Integer = 1 To PP_CAMPOS.Count - 1
+                PP_LISTADO.Rows(VP_INDICE).Cells(index).Value = VP_ROW_DATA(PP_CAMPOS(index))
+            Next
+
+            Codigo_FRM.PG_FRM_LI_DATA_CONTROL_LOAD(PP_LISTADO, VP_INDICE, PP_CAMPOS.Count, VP_ROW_DATA)
+
+        Next
+
+    End Sub
 End Class
