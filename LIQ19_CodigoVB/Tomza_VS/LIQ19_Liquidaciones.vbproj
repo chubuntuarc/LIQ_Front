@@ -176,10 +176,10 @@
     <Compile Include="LIQ19_VS\1_Catalogos\FO_FICHA_AUTOTANQUE.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LIQ19_VS\1_Catalogos\FO_FICHA_ESTACION.Designer.vb">
-      <DependentUpon>FO_FICHA_ESTACION.vb</DependentUpon>
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_FICHA_ESTACION_CARBURACION.Designer.vb">
+      <DependentUpon>FO_FICHA_ESTACION_CARBURACION.vb</DependentUpon>
     </Compile>
-    <Compile Include="LIQ19_VS\1_Catalogos\FO_FICHA_ESTACION.vb">
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_FICHA_ESTACION_CARBURACION.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LIQ19_VS\1_Catalogos\FO_LIQUIDACION.Designer.vb">
@@ -271,6 +271,9 @@
     <EmbeddedResource Include="LIQ19_VS\0_Generales\Reportes_rdlc\RPT_02_ESTADO_CUENTA.rdlc" />
     <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_FICHA_AUTOTANQUE.resx">
       <DependentUpon>FO_FICHA_AUTOTANQUE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_FICHA_ESTACION_CARBURACION.resx">
+      <DependentUpon>FO_FICHA_ESTACION_CARBURACION.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_LIQUIDACION.resx">
       <DependentUpon>FO_LIQUIDACION.vb</DependentUpon>

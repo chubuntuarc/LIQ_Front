@@ -294,6 +294,11 @@ LIQ19_Liquidaciones
  'FUNCION QUE CARGARA LA PARTE DE LA FICHA
  </summary>
 </member>
+<member name="M:LIQ19_Liquidaciones.FO_FICHA_ESTACION_CARBURACION.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
 <member name="M:LIQ19_Liquidaciones.FO_OPERADOR.PM_FI_LOAD(System.String)">
  <summary>
  'FUNCION QUE CARGARA LA PARTE DE LA FICHA

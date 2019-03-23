@@ -389,3 +389,4 @@ D:\Tomza.TI\JArciniegaR.TI\1.SOL_Soluciones\LIQ19_Liquidaciones\Codigo\CodigoVB\
 D:\Tomza.TI\JArciniegaR.TI\1.SOL_Soluciones\LIQ19_Liquidaciones\Codigo\CodigoVB\LIQ19_Liquidaciones_CodigoVB_v0100_20190321\Tomza_VS\obj\Debug\LIQ19_Liquidaciones.xml
 D:\Tomza.TI\JArciniegaR.TI\1.SOL_Soluciones\LIQ19_Liquidaciones\Codigo\CodigoVB\LIQ19_Liquidaciones_CodigoVB_v0100_20190321\Tomza_VS\obj\Debug\LIQ19_Liquidaciones.pdb
 D:\Tomza.TI\JArciniegaR.TI\1.SOL_Soluciones\LIQ19_Liquidaciones\Codigo\CodigoVB\LIQ19_Liquidaciones_CodigoVB_v0100_20190321\Tomza_VS\obj\Debug\LIQ19_Liquidaciones.FO_PRODUCTO.resources
+D:\Tomza.TI\JArciniegaR.TI\1.SOL_Soluciones\LIQ19_Liquidaciones\Codigo\CodigoVB\LIQ19_Liquidaciones_CodigoVB_v0100_20190321\Tomza_VS\obj\Debug\LIQ19_Liquidaciones.FO_FICHA_ESTACION_CARBURACION.resources
