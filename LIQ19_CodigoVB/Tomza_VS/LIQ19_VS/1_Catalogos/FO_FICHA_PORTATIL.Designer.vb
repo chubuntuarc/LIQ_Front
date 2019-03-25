@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FO_FICHA_ESTACION_CARBURACION
+Partial Class FO_FICHA_PORTATIL
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -23,26 +23,23 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Me.TI_RELOJ = New System.Windows.Forms.Timer(Me.components)
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.GB_FICHA = New System.Windows.Forms.GroupBox()
         Me.TB_K_PUNTO_VENTA = New System.Windows.Forms.TextBox()
         Me.TB_K_PDV = New System.Windows.Forms.TextBox()
         Me.GB_AUTOTANQUE = New System.Windows.Forms.GroupBox()
-        Me.CB_TIPO_MEDIDOR = New System.Windows.Forms.ComboBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.CB_MEDIDOR = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.TB_CAPACIDAD = New System.Windows.Forms.TextBox()
+        Me.CB_MARCA = New System.Windows.Forms.ComboBox()
+        Me.TB_KILOMETRAJE = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.TB_PORCENTAJE = New System.Windows.Forms.TextBox()
+        Me.TB_SERIE = New System.Windows.Forms.TextBox()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TB_DIRECCION = New System.Windows.Forms.TextBox()
+        Me.TB_MODELO = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TB_LECTURA_FINAL = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TB_LECTURA_INICIAL = New System.Windows.Forms.TextBox()
+        Me.TB_MATRICULA = New System.Windows.Forms.TextBox()
         Me.CB_AYUDANTE_2 = New System.Windows.Forms.ComboBox()
         Me.CB_TIPO_PUNTO_VENTA = New System.Windows.Forms.ComboBox()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -93,6 +90,7 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.BT_EDITAR = New System.Windows.Forms.Button()
         Me.BT_CLONAR = New System.Windows.Forms.Button()
         Me.BT_ELIMINAR = New System.Windows.Forms.Button()
+        Me.TI_RELOJ = New System.Windows.Forms.Timer(Me.components)
         Me.GB_FICHA.SuspendLayout()
         Me.GB_AUTOTANQUE.SuspendLayout()
         Me.FL_MENU_2.SuspendLayout()
@@ -103,9 +101,6 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.GB_CONTROL.SuspendLayout()
         Me.FL_MENU_1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'TI_RELOJ
-        '
         '
         'GB_FICHA
         '
@@ -140,7 +135,7 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.GB_FICHA.Location = New System.Drawing.Point(237, 136)
         Me.GB_FICHA.Name = "GB_FICHA"
         Me.GB_FICHA.Size = New System.Drawing.Size(583, 332)
-        Me.GB_FICHA.TabIndex = 56
+        Me.GB_FICHA.TabIndex = 63
         Me.GB_FICHA.TabStop = False
         Me.GB_FICHA.Text = "Ficha"
         '
@@ -167,20 +162,18 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         '
         'GB_AUTOTANQUE
         '
-        Me.GB_AUTOTANQUE.Controls.Add(Me.CB_TIPO_MEDIDOR)
-        Me.GB_AUTOTANQUE.Controls.Add(Me.Label10)
-        Me.GB_AUTOTANQUE.Controls.Add(Me.CB_MEDIDOR)
         Me.GB_AUTOTANQUE.Controls.Add(Me.Label8)
         Me.GB_AUTOTANQUE.Controls.Add(Me.TB_CAPACIDAD)
+        Me.GB_AUTOTANQUE.Controls.Add(Me.CB_MARCA)
+        Me.GB_AUTOTANQUE.Controls.Add(Me.TB_KILOMETRAJE)
         Me.GB_AUTOTANQUE.Controls.Add(Me.Label16)
-        Me.GB_AUTOTANQUE.Controls.Add(Me.TB_PORCENTAJE)
+        Me.GB_AUTOTANQUE.Controls.Add(Me.TB_SERIE)
         Me.GB_AUTOTANQUE.Controls.Add(Me.Label17)
         Me.GB_AUTOTANQUE.Controls.Add(Me.Label7)
-        Me.GB_AUTOTANQUE.Controls.Add(Me.TB_DIRECCION)
+        Me.GB_AUTOTANQUE.Controls.Add(Me.TB_MODELO)
         Me.GB_AUTOTANQUE.Controls.Add(Me.Label4)
-        Me.GB_AUTOTANQUE.Controls.Add(Me.TB_LECTURA_FINAL)
         Me.GB_AUTOTANQUE.Controls.Add(Me.Label3)
-        Me.GB_AUTOTANQUE.Controls.Add(Me.TB_LECTURA_INICIAL)
+        Me.GB_AUTOTANQUE.Controls.Add(Me.TB_MATRICULA)
         Me.GB_AUTOTANQUE.Location = New System.Drawing.Point(25, 108)
         Me.GB_AUTOTANQUE.Name = "GB_AUTOTANQUE"
         Me.GB_AUTOTANQUE.Size = New System.Drawing.Size(526, 166)
@@ -188,52 +181,45 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.GB_AUTOTANQUE.TabStop = False
         Me.GB_AUTOTANQUE.Text = "Detalle Autotanque"
         '
-        'CB_TIPO_MEDIDOR
-        '
-        Me.CB_TIPO_MEDIDOR.FormattingEnabled = True
-        Me.CB_TIPO_MEDIDOR.Location = New System.Drawing.Point(6, 132)
-        Me.CB_TIPO_MEDIDOR.Name = "CB_TIPO_MEDIDOR"
-        Me.CB_TIPO_MEDIDOR.Size = New System.Drawing.Size(158, 21)
-        Me.CB_TIPO_MEDIDOR.TabIndex = 276
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(9, 118)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(69, 13)
-        Me.Label10.TabIndex = 277
-        Me.Label10.Text = "Tipo Medidor"
-        '
-        'CB_MEDIDOR
-        '
-        Me.CB_MEDIDOR.FormattingEnabled = True
-        Me.CB_MEDIDOR.Location = New System.Drawing.Point(352, 86)
-        Me.CB_MEDIDOR.Name = "CB_MEDIDOR"
-        Me.CB_MEDIDOR.Size = New System.Drawing.Size(158, 21)
-        Me.CB_MEDIDOR.TabIndex = 258
-        '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(355, 72)
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(357, 69)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(45, 13)
-        Me.Label8.TabIndex = 259
-        Me.Label8.Text = "Medidor"
+        Me.Label8.Size = New System.Drawing.Size(61, 13)
+        Me.Label8.TabIndex = 280
+        Me.Label8.Text = "Capacidad"
         '
         'TB_CAPACIDAD
         '
         Me.TB_CAPACIDAD.AccessibleDescription = ""
         Me.TB_CAPACIDAD.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TB_CAPACIDAD.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_CAPACIDAD.Location = New System.Drawing.Point(6, 85)
+        Me.TB_CAPACIDAD.Location = New System.Drawing.Point(352, 85)
         Me.TB_CAPACIDAD.Name = "TB_CAPACIDAD"
         Me.TB_CAPACIDAD.Size = New System.Drawing.Size(158, 22)
-        Me.TB_CAPACIDAD.TabIndex = 275
+        Me.TB_CAPACIDAD.TabIndex = 279
         Me.TB_CAPACIDAD.Tag = "1"
+        '
+        'CB_MARCA
+        '
+        Me.CB_MARCA.FormattingEnabled = True
+        Me.CB_MARCA.Location = New System.Drawing.Point(178, 40)
+        Me.CB_MARCA.Name = "CB_MARCA"
+        Me.CB_MARCA.Size = New System.Drawing.Size(158, 21)
+        Me.CB_MARCA.TabIndex = 278
+        '
+        'TB_KILOMETRAJE
+        '
+        Me.TB_KILOMETRAJE.AccessibleDescription = ""
+        Me.TB_KILOMETRAJE.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TB_KILOMETRAJE.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_KILOMETRAJE.Location = New System.Drawing.Point(6, 85)
+        Me.TB_KILOMETRAJE.Name = "TB_KILOMETRAJE"
+        Me.TB_KILOMETRAJE.Size = New System.Drawing.Size(158, 22)
+        Me.TB_KILOMETRAJE.TabIndex = 275
+        Me.TB_KILOMETRAJE.Tag = "1"
         '
         'Label16
         '
@@ -241,20 +227,20 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.Label16.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.Location = New System.Drawing.Point(186, 69)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(61, 13)
+        Me.Label16.Size = New System.Drawing.Size(32, 13)
         Me.Label16.TabIndex = 274
-        Me.Label16.Text = "Porcentaje"
+        Me.Label16.Text = "Serie"
         '
-        'TB_PORCENTAJE
+        'TB_SERIE
         '
-        Me.TB_PORCENTAJE.AccessibleDescription = ""
-        Me.TB_PORCENTAJE.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TB_PORCENTAJE.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_PORCENTAJE.Location = New System.Drawing.Point(181, 85)
-        Me.TB_PORCENTAJE.Name = "TB_PORCENTAJE"
-        Me.TB_PORCENTAJE.Size = New System.Drawing.Size(155, 22)
-        Me.TB_PORCENTAJE.TabIndex = 273
-        Me.TB_PORCENTAJE.Tag = "1"
+        Me.TB_SERIE.AccessibleDescription = ""
+        Me.TB_SERIE.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TB_SERIE.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_SERIE.Location = New System.Drawing.Point(181, 85)
+        Me.TB_SERIE.Name = "TB_SERIE"
+        Me.TB_SERIE.Size = New System.Drawing.Size(155, 22)
+        Me.TB_SERIE.TabIndex = 273
+        Me.TB_SERIE.Tag = "1"
         '
         'Label17
         '
@@ -262,9 +248,9 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.Label17.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(9, 69)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(61, 13)
+        Me.Label17.Size = New System.Drawing.Size(64, 13)
         Me.Label17.TabIndex = 272
-        Me.Label17.Text = "Capacidad"
+        Me.Label17.Text = "Kilometraje"
         '
         'Label7
         '
@@ -272,20 +258,20 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(349, 23)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(55, 13)
+        Me.Label7.Size = New System.Drawing.Size(47, 13)
         Me.Label7.TabIndex = 262
-        Me.Label7.Text = "Dirección"
+        Me.Label7.Text = "Modelo"
         '
-        'TB_DIRECCION
+        'TB_MODELO
         '
-        Me.TB_DIRECCION.AccessibleDescription = ""
-        Me.TB_DIRECCION.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TB_DIRECCION.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_DIRECCION.Location = New System.Drawing.Point(352, 39)
-        Me.TB_DIRECCION.Name = "TB_DIRECCION"
-        Me.TB_DIRECCION.Size = New System.Drawing.Size(158, 22)
-        Me.TB_DIRECCION.TabIndex = 261
-        Me.TB_DIRECCION.Tag = "1"
+        Me.TB_MODELO.AccessibleDescription = ""
+        Me.TB_MODELO.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TB_MODELO.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_MODELO.Location = New System.Drawing.Point(352, 39)
+        Me.TB_MODELO.Name = "TB_MODELO"
+        Me.TB_MODELO.Size = New System.Drawing.Size(158, 22)
+        Me.TB_MODELO.TabIndex = 261
+        Me.TB_MODELO.Tag = "1"
         '
         'Label4
         '
@@ -293,20 +279,9 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(178, 23)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(70, 13)
+        Me.Label4.Size = New System.Drawing.Size(38, 13)
         Me.Label4.TabIndex = 260
-        Me.Label4.Text = "Lectura final"
-        '
-        'TB_LECTURA_FINAL
-        '
-        Me.TB_LECTURA_FINAL.AccessibleDescription = ""
-        Me.TB_LECTURA_FINAL.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TB_LECTURA_FINAL.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_LECTURA_FINAL.Location = New System.Drawing.Point(181, 39)
-        Me.TB_LECTURA_FINAL.Name = "TB_LECTURA_FINAL"
-        Me.TB_LECTURA_FINAL.Size = New System.Drawing.Size(155, 22)
-        Me.TB_LECTURA_FINAL.TabIndex = 259
-        Me.TB_LECTURA_FINAL.Tag = "1"
+        Me.Label4.Text = "Marca"
         '
         'Label3
         '
@@ -314,20 +289,20 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(6, 23)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(77, 13)
+        Me.Label3.Size = New System.Drawing.Size(55, 13)
         Me.Label3.TabIndex = 258
-        Me.Label3.Text = "Lectura inicial"
+        Me.Label3.Text = "Matricula"
         '
-        'TB_LECTURA_INICIAL
+        'TB_MATRICULA
         '
-        Me.TB_LECTURA_INICIAL.AccessibleDescription = ""
-        Me.TB_LECTURA_INICIAL.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TB_LECTURA_INICIAL.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_LECTURA_INICIAL.Location = New System.Drawing.Point(6, 39)
-        Me.TB_LECTURA_INICIAL.Name = "TB_LECTURA_INICIAL"
-        Me.TB_LECTURA_INICIAL.Size = New System.Drawing.Size(159, 22)
-        Me.TB_LECTURA_INICIAL.TabIndex = 257
-        Me.TB_LECTURA_INICIAL.Tag = "1"
+        Me.TB_MATRICULA.AccessibleDescription = ""
+        Me.TB_MATRICULA.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TB_MATRICULA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_MATRICULA.Location = New System.Drawing.Point(6, 39)
+        Me.TB_MATRICULA.Name = "TB_MATRICULA"
+        Me.TB_MATRICULA.Size = New System.Drawing.Size(159, 22)
+        Me.TB_MATRICULA.TabIndex = 257
+        Me.TB_MATRICULA.Tag = "1"
         '
         'CB_AYUDANTE_2
         '
@@ -551,7 +526,7 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.FL_MENU_2.Name = "FL_MENU_2"
         Me.FL_MENU_2.Padding = New System.Windows.Forms.Padding(0, 3, 0, 0)
         Me.FL_MENU_2.Size = New System.Drawing.Size(385, 40)
-        Me.FL_MENU_2.TabIndex = 55
+        Me.FL_MENU_2.TabIndex = 62
         '
         'BT_SALIR
         '
@@ -648,7 +623,7 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.GB_FILTROS.Location = New System.Drawing.Point(14, 55)
         Me.GB_FILTROS.Name = "GB_FILTROS"
         Me.GB_FILTROS.Size = New System.Drawing.Size(1028, 76)
-        Me.GB_FILTROS.TabIndex = 50
+        Me.GB_FILTROS.TabIndex = 57
         Me.GB_FILTROS.TabStop = False
         Me.GB_FILTROS.Text = "Filtros"
         '
@@ -754,7 +729,7 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.GB_LISTADO.Location = New System.Drawing.Point(14, 137)
         Me.GB_LISTADO.Name = "GB_LISTADO"
         Me.GB_LISTADO.Size = New System.Drawing.Size(1028, 406)
-        Me.GB_LISTADO.TabIndex = 51
+        Me.GB_LISTADO.TabIndex = 58
         Me.GB_LISTADO.TabStop = False
         Me.GB_LISTADO.Text = "Listado"
         '
@@ -765,14 +740,14 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LI_LISTADO.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle3
         Me.LI_LISTADO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.LI_LISTADO.Location = New System.Drawing.Point(12, 26)
         Me.LI_LISTADO.Margin = New System.Windows.Forms.Padding(12, 10, 12, 10)
@@ -790,7 +765,7 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.GB_OPERACION.Location = New System.Drawing.Point(14, 545)
         Me.GB_OPERACION.Name = "GB_OPERACION"
         Me.GB_OPERACION.Size = New System.Drawing.Size(582, 52)
-        Me.GB_OPERACION.TabIndex = 52
+        Me.GB_OPERACION.TabIndex = 59
         Me.GB_OPERACION.TabStop = False
         Me.GB_OPERACION.Text = "Operación"
         '
@@ -820,7 +795,7 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.GB_CONTROL.Location = New System.Drawing.Point(603, 545)
         Me.GB_CONTROL.Name = "GB_CONTROL"
         Me.GB_CONTROL.Size = New System.Drawing.Size(440, 52)
-        Me.GB_CONTROL.TabIndex = 53
+        Me.GB_CONTROL.TabIndex = 60
         Me.GB_CONTROL.TabStop = False
         Me.GB_CONTROL.Text = "Control"
         '
@@ -858,7 +833,7 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.FL_MENU_1.Name = "FL_MENU_1"
         Me.FL_MENU_1.Padding = New System.Windows.Forms.Padding(0, 3, 0, 0)
         Me.FL_MENU_1.Size = New System.Drawing.Size(646, 40)
-        Me.FL_MENU_1.TabIndex = 54
+        Me.FL_MENU_1.TabIndex = 61
         '
         'BT_AGREGAR
         '
@@ -921,7 +896,10 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.BT_ELIMINAR.TabIndex = 6
         Me.BT_ELIMINAR.UseVisualStyleBackColor = True
         '
-        'FO_FICHA_ESTACION_CARBURACION
+        'TI_RELOJ
+        '
+        '
+        'FO_FICHA_PORTATIL
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -933,8 +911,8 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
         Me.Controls.Add(Me.GB_OPERACION)
         Me.Controls.Add(Me.GB_CONTROL)
         Me.Controls.Add(Me.FL_MENU_1)
-        Me.Name = "FO_FICHA_ESTACION_CARBURACION"
-        Me.Text = "FO_FICHA_ESTACION"
+        Me.Name = "FO_FICHA_PORTATIL"
+        Me.Text = "FO_FICHA_PORTATIL"
         Me.GB_FICHA.ResumeLayout(False)
         Me.GB_FICHA.PerformLayout()
         Me.GB_AUTOTANQUE.ResumeLayout(False)
@@ -952,21 +930,19 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
 
     End Sub
 
-    Public WithEvents TI_RELOJ As Timer
     Public WithEvents GB_FICHA As GroupBox
     Public WithEvents TB_K_PUNTO_VENTA As TextBox
     Public WithEvents TB_K_PDV As TextBox
     Friend WithEvents GB_AUTOTANQUE As GroupBox
-    Public WithEvents TB_CAPACIDAD As TextBox
+    Public WithEvents TB_KILOMETRAJE As TextBox
     Friend WithEvents Label16 As Label
-    Public WithEvents TB_PORCENTAJE As TextBox
+    Public WithEvents TB_SERIE As TextBox
     Friend WithEvents Label17 As Label
     Friend WithEvents Label7 As Label
-    Public WithEvents TB_DIRECCION As TextBox
+    Public WithEvents TB_MODELO As TextBox
     Friend WithEvents Label4 As Label
-    Public WithEvents TB_LECTURA_FINAL As TextBox
     Friend WithEvents Label3 As Label
-    Public WithEvents TB_LECTURA_INICIAL As TextBox
+    Public WithEvents TB_MATRICULA As TextBox
     Public WithEvents CB_AYUDANTE_2 As ComboBox
     Public WithEvents CB_TIPO_PUNTO_VENTA As ComboBox
     Friend WithEvents Label14 As Label
@@ -1017,8 +993,8 @@ Partial Class FO_FICHA_ESTACION_CARBURACION
     Public WithEvents BT_EDITAR As Button
     Public WithEvents BT_CLONAR As Button
     Public WithEvents BT_ELIMINAR As Button
-    Public WithEvents CB_MEDIDOR As ComboBox
+    Public WithEvents CB_MARCA As ComboBox
     Friend WithEvents Label8 As Label
-    Public WithEvents CB_TIPO_MEDIDOR As ComboBox
-    Friend WithEvents Label10 As Label
+    Public WithEvents TB_CAPACIDAD As TextBox
+    Public WithEvents TI_RELOJ As Timer
 End Class
