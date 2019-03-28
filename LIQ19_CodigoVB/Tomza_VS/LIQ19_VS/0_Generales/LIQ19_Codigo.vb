@@ -278,21 +278,33 @@ Public Class LIQ19_Codigo
         'GENERAR TITULOS
         For VP_INDICE As Integer = 1 To PP_TITULOS.Count
 
-            Dim VP_CAMPO = PP_CAMPOS(VP_INDICE - 1)
-            Dim VP_TITULO = PP_TITULOS(VP_INDICE - 1)
+            Dim Nom_col = PP_CAMPOS(VP_INDICE - 1)
+            Dim Head_Txt = PP_TITULOS(VP_INDICE - 1)
             Dim VP_TIPO = PP_TIPOS(VP_INDICE - 1)
 
             Select Case VP_TIPO
-                Case 1
-                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, VP_CAMPO, VP_TITULO, GetType(Integer), 50, 2, 0, 1, 1, 0, Color.White, Color.Black, 1)
-                Case 2
-                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, VP_CAMPO, VP_TITULO, GetType(String), 150, 1, 0, 1, 1, 0, Nothing, Color.LightYellow, 1)
-                Case 3
-                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, VP_CAMPO, VP_TITULO, GetType(String), 60, 2, 0, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
-                Case 4
-                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, VP_CAMPO, VP_TITULO, GetType(String), 150, 1, 0, 1, 0, 0, Nothing, Nothing, 1)
-                Case 5
-                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, VP_CAMPO, VP_TITULO, GetType(String), 60, 2, 0, 1, 0, 0, Color.Orange, Nothing, 1)
+                Case "K" 'ID
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, ("#" + Head_Txt.ToUpper), GetType(Integer), 80, 2, 0, 1, 1, 0, Color.White, Color.Black, 1)
+                Case "D" 'DESCRIPCION
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 150, 1, 0, 1, 1, 0, Nothing, Color.LightYellow, 1)
+                Case "S" 'SIGLAS
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 60, 2, 0, 1, 0, 0, Color.Orange, Nothing, 1)
+                Case "ESTATUS" 'ESTATUS
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 70, 2, 0, 1, 0, 0, Color.DarkSlateGray, Color.Gainsboro, 1)
+                Case "GENERAL" 'GENERAL
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 150, 1, 0, 1, 0, 0, Nothing, Nothing, 1)
+                Case "CENTRADO" 'CENTRADO
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 60, 2, 0, 1, 0, 0, Nothing, Nothing)
+                Case "CENTRADO LARGO" 'CENTRADO
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 120, 2, 0, 1, 0, 0, Nothing, Nothing)
+                Case "DECIMAL LARGO" 'DECIMAL LARGO
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 100, 1, 0, 1, 0, 0, Nothing, Nothing)
+                Case "LECTURA" 'LECTURAS
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 100, 2, 0, 1, 0, 0, Color.Orange, Nothing, 1)
+                Case "SERIE" 'NO. SERIE
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 125, 2, 0, 1, 0, 0, Nothing, Nothing)
+                Case "PORCENTAJE" 'PORCENTAJE
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, (Head_Txt + " (%)"), GetType(Decimal), 100, 2, 0, 1, 0, 0, Nothing, Color.LightYellow, 0)
             End Select
 
         Next

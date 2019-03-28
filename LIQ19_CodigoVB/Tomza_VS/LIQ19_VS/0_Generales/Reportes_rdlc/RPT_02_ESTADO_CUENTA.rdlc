@@ -43,7 +43,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSEstadoCuentaDB</rd:DataSetName>
-        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\ADG18_Administradora\adg18_codigovb_gitlab\PYF18_Finanzas\DSEstadoCuentaDB.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\LIQ19_Liquidaciones\adg18_codigovb_gitlab\PYF18_Finanzas\DSEstadoCuentaDB.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01A_ESTADO_CUENTA_CLIENTE</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -71,7 +71,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSEstadoCuentaDB</rd:DataSetName>
-        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\ADG18_Administradora\adg18_codigovb_gitlab\PYF18_Finanzas\DSEstadoCuentaDB.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\LIQ19_Liquidaciones\adg18_codigovb_gitlab\PYF18_Finanzas\DSEstadoCuentaDB.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01B_ESTADO_CUENTA_SALDO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -235,7 +235,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSEstadoCuentaDB</rd:DataSetName>
-        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\ADG18_Administradora\adg18_codigovb_gitlab\PYF18_Finanzas\DSEstadoCuentaDB.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\LIQ19_Liquidaciones\adg18_codigovb_gitlab\PYF18_Finanzas\DSEstadoCuentaDB.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01C_ESTADO_CUENTA_RECIBO_CON_ADEUDO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -323,7 +323,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSEstadoCuentaDB</rd:DataSetName>
-        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\ADG18_Administradora\adg18_codigovb_gitlab\PYF18_Finanzas\DSEstadoCuentaDB.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\LIQ19_Liquidaciones\adg18_codigovb_gitlab\PYF18_Finanzas\DSEstadoCuentaDB.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01D_ESTADO_CUENTA_PAGO_RECIBIDO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -427,7 +427,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSEstadoCuentaDB</rd:DataSetName>
-        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\ADG18_Administradora\adg18_codigovb_gitlab\PYF18_Finanzas\DSEstadoCuentaDB.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\LIQ19_Liquidaciones\adg18_codigovb_gitlab\PYF18_Finanzas\DSEstadoCuentaDB.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01E_ESTADO_CUENTA_PAGO_APLICADO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -458,8 +458,8 @@
         </Field>
       </Fields>
       <rd:DataSetInfo>
-        <rd:DataSetName>ADG18_AdministradoraGas_V9999_R0DataSet</rd:DataSetName>
-        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\ADG18_Administradora\adg18_codigovb_gitlab\PYF18_Finanzas\ADG18_AdministradoraGas_V9999_R0DataSet.xsd</rd:SchemaPath>
+        <rd:DataSetName>LIQ19_LiquidacionesGas_V9999_R0DataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\1.Tomza_FEG\TI_TecnologiaInformacion\Workbook\LIQ19_Liquidaciones\adg18_codigovb_gitlab\PYF18_Finanzas\LIQ19_LiquidacionesGas_V9999_R0DataSet.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01B_ESTADO_CUENTA_SALDO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>

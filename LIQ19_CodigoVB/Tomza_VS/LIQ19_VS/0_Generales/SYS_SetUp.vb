@@ -26,11 +26,12 @@
     Public Const CG_SYS_AMBIENTE As Integer = 7
     Public Const CG_SYS_DEBUG As Boolean = False
     ' -------------------------------
-    Public Const CG_VERSION_EXE As String = "V0005D"
-    Public Const CG_VERSION_DTB As String = "V999A"
+    Public Const CG_VERSION_EXE As String = "V0100" 'D
+    Public Const CG_VERSION_DTB As String = "V0006" 'A
     ' -------------------------------
-    Public Const CG_SYS_USR_LOGIN As String = "DPR"
-    Public Const CG_SYS_USR_PWD As String = "PWD033"
+    Public Const CG_SYS_AUTO_LOGIN As Boolean = True
+    Public Const CG_SYS_USR_LOGIN As String = "JAR" 'JAR
+    Public Const CG_SYS_USR_PWD As String = "PWD18" 'PWD18
 
     REM ===========================================================================
 
@@ -38,7 +39,7 @@
 
         Call Codigo_General.PG_CREAR_DIRECTORIO("C:\TOMZA.SYS")
 
-        Call Codigo_General.PG_CREAR_DIRECTORIO("C:\TOMZA.SYS\RHU19.sys")
+        Call Codigo_General.PG_CREAR_DIRECTORIO("C:\TOMZA.SYS\LIQ19.sys")
 
         'Call Codigo_General.PG_CREAR_DIRECTORIO(ADG18_Constantes.CG_SYS_RUTA_0_LOG)​
         'Call Codigo_General.PG_CREAR_DIRECTORIO(ADG18_Constantes.CG_SYS_RUTA_1_RECIBO_PDF)​
@@ -68,7 +69,7 @@
             REM ////////////////////////////////////////////////////////////////////////////
             REM /// #0 N/A | #1 PROD | #2 PERF | #3 UAT | #4 CERT | #5 LAB (BRUNO) | #6 UNIT | #7 DESA
             If SYS_SetUp.CG_SYS_AMBIENTE = 5 Then
-                Codigo_SQL.CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("LAB", VP_CONTADOR, "DESKTOP-KTP3PGG\SQLEXPRESS", "ADG18_AdministradoraGas_V9999_R0", "sa", "JI-15186#KF", 0))
+                Codigo_SQL.CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("LAB", VP_CONTADOR, "DESKTOP-KTP3PGG\SQLEXPRESS", "LIQ19_LiquidacionesGas_V9999_R0", "sa", "JI-15186#KF", 0))
                 VP_CONTADOR += 1
 
             End If
@@ -76,9 +77,9 @@
             REM ////////////////////////////////////////////////////////////////////////////
             REM /// #0 N/A | #1 PROD | #2 PERF | #3 UAT | #4 CERT | #5 LAB (BRUNO) | #6 UNIT | #7 DESA
             If SYS_SetUp.CG_SYS_AMBIENTE = 6 Then
-                'CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("UNI#hgf", VP_CONTADOR, "LAPTOP-RGTRQFC1\SQLEXPRESS", "ADG18_AdministradoraGas_V0107_R0", "sa", "151169", 0))
+                'CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("UNI#hgf", VP_CONTADOR, "LAPTOP-RGTRQFC1\SQLEXPRESS", "LIQ19_LiquidacionesGas_V0107_R0", "sa", "151169", 0))
                 'VP_CONTADOR += 1
-                Codigo_SQL.CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("UNI#hgf", VP_CONTADOR, "LAPTOP-RGTRQFC1\SQLEXPRESS", "ADG18_AdministradoraGas_V9999_R0", "sa", "151169", 0))
+                Codigo_SQL.CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("UNI#hgf", VP_CONTADOR, "LAPTOP-RGTRQFC1\SQLEXPRESS", "LIQ19_Liquidaciones_V9999_R0", "sa", "151169", 0))
                 VP_CONTADOR += 1
 
             End If
@@ -86,9 +87,9 @@
             REM ////////////////////////////////////////////////////////////////////////////
             REM /// #0 N/A | #1 PROD | #2 PERF | #3 UAT | #4 CERT | #5 LAB (BRUNO) | #6 UNIT | #7 DESA
             If (SYS_SetUp.CG_SYS_AMBIENTE = 1 Or SYS_SetUp.CG_SYS_AMBIENTE = 2) Then
-                'CG_LISTADO_CONEXION.Add(New CL_BD_CONEXION("PROD/PERF", VP_CONTADOR, "189.206.194.186\SQLEXPRESS", "ADG18_AdministradoraGas_V0015_R0", "sa", "HS+24856-RQ", 0))
+                'CG_LISTADO_CONEXION.Add(New CL_BD_CONEXION("PROD/PERF", VP_CONTADOR, "189.206.194.186\SQLEXPRESS", "LIQ19_LiquidacionesGas_V0015_R0", "sa", "HS+24856-RQ", 0))
                 'VP_CONTADOR += 1
-                Codigo_SQL.CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("PROD/PERF", VP_CONTADOR, "189.206.194.186\SQLEXPRESS", "ADG18_AdministradoraGas_V9999_R0", "sa", "HS+24856-RQ", 0))
+                Codigo_SQL.CL_BD_CONEXION_LISTA.Add(New CL_BD_CONEXION("PROD/PERF", VP_CONTADOR, "189.206.194.186\SQLEXPRESS", "LIQ19_LiquidacionesGas_V9999_R0", "sa", "HS+24856-RQ", 0))
                 VP_CONTADOR += 1
             End If
 

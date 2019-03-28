@@ -57,7 +57,6 @@
         Codigo_CTRL.PG_CO_PARAMETRO(VP_PARAMETROS, TB_CAPACIDAD, False)
 
         Return VP_PARAMETROS
-
     End Function
 
     Public Function FM_DESC_SELECCIONADO(ByRef PP_LISTADO As DataGridView, ByRef PP_ROW As Integer) As String

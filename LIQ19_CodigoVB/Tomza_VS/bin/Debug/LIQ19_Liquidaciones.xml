@@ -167,11 +167,6 @@ LIQ19_Liquidaciones
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="M:LIQ19_Liquidaciones.Codigo_Mensaje.FG_MENSAJE_DECISION(System.String)">
- <summary>
- yes = 1, no= 2, cancel= 3
- </summary>
-</member>
 <member name="M:LIQ19_Liquidaciones.Codigo_CTRL.PG_CO_DATA_LOAD_GENERICO(System.String,System.Windows.Forms.Control@,System.Data.DataRow,System.String)">
  <summary>
  Si PP_NOMBRE_TABLA viene vacio, tomara el nombre del control, de lo contrario lo construira con el PP_NOMBRE_TABLA 
@@ -268,6 +263,11 @@ LIQ19_Liquidaciones
 <member name="M:LIQ19_Liquidaciones.Codigo_LI.FG_LI_CELL_READ(System.Data.DataTable,System.Int32,System.String)">
  <summary>
  Recibe un DataTable, indice de row y el nombre de la columna para retornar el valor contenido
+ </summary>
+</member>
+<member name="M:LIQ19_Liquidaciones.Codigo_Mensaje.FG_MENSAJE_DECISION(System.String)">
+ <summary>
+ yes = 1, no= 2, cancel= 3
  </summary>
 </member>
 <member name="M:LIQ19_Liquidaciones.ExtensionMethods.FG_STRING_FORMAT(System.String,System.Int32)">

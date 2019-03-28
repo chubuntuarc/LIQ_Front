@@ -23,7 +23,7 @@ Partial Class FO_FICHA_AUTOTANQUE
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.FL_MENU_2 = New System.Windows.Forms.FlowLayoutPanel()
         Me.BT_SALIR = New System.Windows.Forms.Button()
         Me.BT_CANCELAR = New System.Windows.Forms.Button()
@@ -31,6 +31,8 @@ Partial Class FO_FICHA_AUTOTANQUE
         Me.BT_LISTADO = New System.Windows.Forms.Button()
         Me.BT_EXPORTAR_EXCEL = New System.Windows.Forms.Button()
         Me.GB_FILTROS = New System.Windows.Forms.GroupBox()
+        Me.CB_LI_RAZON_SOCIAL = New System.Windows.Forms.ComboBox()
+        Me.CB_LI_ZONA_UO = New System.Windows.Forms.ComboBox()
         Me.CB_LI_UNIDAD_OPERATIVA = New System.Windows.Forms.ComboBox()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.CB_LI_TIPO_PUNTO_VENTA = New System.Windows.Forms.ComboBox()
@@ -54,6 +56,8 @@ Partial Class FO_FICHA_AUTOTANQUE
         Me.BT_ELIMINAR = New System.Windows.Forms.Button()
         Me.TI_RELOJ = New System.Windows.Forms.Timer(Me.components)
         Me.GB_FICHA = New System.Windows.Forms.GroupBox()
+        Me.TB_K_PUNTO_VENTA = New System.Windows.Forms.TextBox()
+        Me.TB_K_PDV = New System.Windows.Forms.TextBox()
         Me.GB_AUTOTANQUE = New System.Windows.Forms.GroupBox()
         Me.TB_CAPACIDAD = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
@@ -94,9 +98,9 @@ Partial Class FO_FICHA_AUTOTANQUE
         Me.TB_F_CAMBIO = New System.Windows.Forms.TextBox()
         Me.CB_UNIDAD_OPERATIVA = New System.Windows.Forms.ComboBox()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.TB_K_PUNTO_VENTA = New System.Windows.Forms.TextBox()
         Me.LB_ID = New System.Windows.Forms.Label()
-        Me.TB_K_PDV = New System.Windows.Forms.TextBox()
+        Me.Label20 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
         Me.FL_MENU_2.SuspendLayout()
         Me.GB_FILTROS.SuspendLayout()
         Me.GB_LISTADO.SuspendLayout()
@@ -205,6 +209,10 @@ Partial Class FO_FICHA_AUTOTANQUE
         Me.GB_FILTROS.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GB_FILTROS.BackColor = System.Drawing.Color.White
+        Me.GB_FILTROS.Controls.Add(Me.Label21)
+        Me.GB_FILTROS.Controls.Add(Me.Label20)
+        Me.GB_FILTROS.Controls.Add(Me.CB_LI_RAZON_SOCIAL)
+        Me.GB_FILTROS.Controls.Add(Me.CB_LI_ZONA_UO)
         Me.GB_FILTROS.Controls.Add(Me.CB_LI_UNIDAD_OPERATIVA)
         Me.GB_FILTROS.Controls.Add(Me.Label19)
         Me.GB_FILTROS.Controls.Add(Me.CB_LI_TIPO_PUNTO_VENTA)
@@ -223,19 +231,35 @@ Partial Class FO_FICHA_AUTOTANQUE
         Me.GB_FILTROS.TabStop = False
         Me.GB_FILTROS.Text = "Filtros"
         '
+        'CB_LI_RAZON_SOCIAL
+        '
+        Me.CB_LI_RAZON_SOCIAL.FormattingEnabled = True
+        Me.CB_LI_RAZON_SOCIAL.Location = New System.Drawing.Point(315, 33)
+        Me.CB_LI_RAZON_SOCIAL.Name = "CB_LI_RAZON_SOCIAL"
+        Me.CB_LI_RAZON_SOCIAL.Size = New System.Drawing.Size(111, 21)
+        Me.CB_LI_RAZON_SOCIAL.TabIndex = 120
+        '
+        'CB_LI_ZONA_UO
+        '
+        Me.CB_LI_ZONA_UO.FormattingEnabled = True
+        Me.CB_LI_ZONA_UO.Location = New System.Drawing.Point(198, 33)
+        Me.CB_LI_ZONA_UO.Name = "CB_LI_ZONA_UO"
+        Me.CB_LI_ZONA_UO.Size = New System.Drawing.Size(111, 21)
+        Me.CB_LI_ZONA_UO.TabIndex = 119
+        '
         'CB_LI_UNIDAD_OPERATIVA
         '
         Me.CB_LI_UNIDAD_OPERATIVA.FormattingEnabled = True
-        Me.CB_LI_UNIDAD_OPERATIVA.Location = New System.Drawing.Point(561, 32)
+        Me.CB_LI_UNIDAD_OPERATIVA.Location = New System.Drawing.Point(432, 32)
         Me.CB_LI_UNIDAD_OPERATIVA.Name = "CB_LI_UNIDAD_OPERATIVA"
-        Me.CB_LI_UNIDAD_OPERATIVA.Size = New System.Drawing.Size(170, 21)
+        Me.CB_LI_UNIDAD_OPERATIVA.Size = New System.Drawing.Size(120, 21)
         Me.CB_LI_UNIDAD_OPERATIVA.TabIndex = 118
         '
         'Label19
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(564, 16)
+        Me.Label19.Location = New System.Drawing.Point(432, 17)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(98, 13)
         Me.Label19.TabIndex = 117
@@ -245,7 +269,7 @@ Partial Class FO_FICHA_AUTOTANQUE
         '
         Me.CB_LI_TIPO_PUNTO_VENTA.Enabled = False
         Me.CB_LI_TIPO_PUNTO_VENTA.FormattingEnabled = True
-        Me.CB_LI_TIPO_PUNTO_VENTA.Location = New System.Drawing.Point(385, 32)
+        Me.CB_LI_TIPO_PUNTO_VENTA.Location = New System.Drawing.Point(678, 32)
         Me.CB_LI_TIPO_PUNTO_VENTA.Name = "CB_LI_TIPO_PUNTO_VENTA"
         Me.CB_LI_TIPO_PUNTO_VENTA.Size = New System.Drawing.Size(170, 21)
         Me.CB_LI_TIPO_PUNTO_VENTA.TabIndex = 116
@@ -254,7 +278,7 @@ Partial Class FO_FICHA_AUTOTANQUE
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(388, 16)
+        Me.Label38.Location = New System.Drawing.Point(681, 16)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(29, 13)
         Me.Label38.TabIndex = 115
@@ -263,9 +287,9 @@ Partial Class FO_FICHA_AUTOTANQUE
         'CB_LI_ESTATUS_PUNTO_VENTA
         '
         Me.CB_LI_ESTATUS_PUNTO_VENTA.FormattingEnabled = True
-        Me.CB_LI_ESTATUS_PUNTO_VENTA.Location = New System.Drawing.Point(204, 32)
+        Me.CB_LI_ESTATUS_PUNTO_VENTA.Location = New System.Drawing.Point(561, 33)
         Me.CB_LI_ESTATUS_PUNTO_VENTA.Name = "CB_LI_ESTATUS_PUNTO_VENTA"
-        Me.CB_LI_ESTATUS_PUNTO_VENTA.Size = New System.Drawing.Size(170, 21)
+        Me.CB_LI_ESTATUS_PUNTO_VENTA.Size = New System.Drawing.Size(111, 21)
         Me.CB_LI_ESTATUS_PUNTO_VENTA.TabIndex = 9
         '
         'BT_LI_BUSCAR
@@ -289,7 +313,7 @@ Partial Class FO_FICHA_AUTOTANQUE
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(207, 16)
+        Me.Label13.Location = New System.Drawing.Point(564, 17)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(44, 13)
         Me.Label13.TabIndex = 8
@@ -336,14 +360,14 @@ Partial Class FO_FICHA_AUTOTANQUE
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.LI_LISTADO.BackgroundColor = System.Drawing.Color.WhiteSmoke
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.Red
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.Red
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black
+        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.LI_LISTADO.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
         Me.LI_LISTADO.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.LI_LISTADO.Location = New System.Drawing.Point(12, 26)
         Me.LI_LISTADO.Margin = New System.Windows.Forms.Padding(12, 10, 12, 10)
@@ -531,6 +555,27 @@ Partial Class FO_FICHA_AUTOTANQUE
         Me.GB_FICHA.TabIndex = 49
         Me.GB_FICHA.TabStop = False
         Me.GB_FICHA.Text = "Ficha"
+        '
+        'TB_K_PUNTO_VENTA
+        '
+        Me.TB_K_PUNTO_VENTA.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TB_K_PUNTO_VENTA.Enabled = False
+        Me.TB_K_PUNTO_VENTA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_K_PUNTO_VENTA.Location = New System.Drawing.Point(25, 33)
+        Me.TB_K_PUNTO_VENTA.Name = "TB_K_PUNTO_VENTA"
+        Me.TB_K_PUNTO_VENTA.Size = New System.Drawing.Size(50, 22)
+        Me.TB_K_PUNTO_VENTA.TabIndex = 0
+        '
+        'TB_K_PDV
+        '
+        Me.TB_K_PDV.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TB_K_PDV.Enabled = False
+        Me.TB_K_PDV.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TB_K_PDV.Location = New System.Drawing.Point(25, 33)
+        Me.TB_K_PDV.Name = "TB_K_PDV"
+        Me.TB_K_PDV.Size = New System.Drawing.Size(31, 22)
+        Me.TB_K_PDV.TabIndex = 257
+        Me.TB_K_PDV.Visible = False
         '
         'GB_AUTOTANQUE
         '
@@ -943,16 +988,6 @@ Partial Class FO_FICHA_AUTOTANQUE
         Me.Label11.TabIndex = 28
         Me.Label11.Text = "Unidad Operativa"
         '
-        'TB_K_PUNTO_VENTA
-        '
-        Me.TB_K_PUNTO_VENTA.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TB_K_PUNTO_VENTA.Enabled = False
-        Me.TB_K_PUNTO_VENTA.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_K_PUNTO_VENTA.Location = New System.Drawing.Point(25, 33)
-        Me.TB_K_PUNTO_VENTA.Name = "TB_K_PUNTO_VENTA"
-        Me.TB_K_PUNTO_VENTA.Size = New System.Drawing.Size(50, 22)
-        Me.TB_K_PUNTO_VENTA.TabIndex = 0
-        '
         'LB_ID
         '
         Me.LB_ID.AutoSize = True
@@ -963,16 +998,25 @@ Partial Class FO_FICHA_AUTOTANQUE
         Me.LB_ID.TabIndex = 19
         Me.LB_ID.Text = "#PDV"
         '
-        'TB_K_PDV
+        'Label20
         '
-        Me.TB_K_PDV.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TB_K_PDV.Enabled = False
-        Me.TB_K_PDV.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_K_PDV.Location = New System.Drawing.Point(25, 33)
-        Me.TB_K_PDV.Name = "TB_K_PDV"
-        Me.TB_K_PDV.Size = New System.Drawing.Size(31, 22)
-        Me.TB_K_PDV.TabIndex = 257
-        Me.TB_K_PDV.Visible = False
+        Me.Label20.AutoSize = True
+        Me.Label20.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(201, 16)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(33, 13)
+        Me.Label20.TabIndex = 121
+        Me.Label20.Text = "Zona"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Location = New System.Drawing.Point(317, 17)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(72, 13)
+        Me.Label21.TabIndex = 122
+        Me.Label21.Text = "Razón Social"
         '
         'FO_FICHA_AUTOTANQUE
         '
@@ -1077,4 +1121,8 @@ Partial Class FO_FICHA_AUTOTANQUE
     Public WithEvents TB_K_PUNTO_VENTA As TextBox
     Friend WithEvents LB_ID As Label
     Public WithEvents TB_K_PDV As TextBox
+    Public WithEvents CB_LI_RAZON_SOCIAL As ComboBox
+    Public WithEvents CB_LI_ZONA_UO As ComboBox
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label20 As Label
 End Class

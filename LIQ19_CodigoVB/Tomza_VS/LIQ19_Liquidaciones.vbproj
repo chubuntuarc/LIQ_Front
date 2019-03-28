@@ -133,38 +133,52 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_ABC.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_BT.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_Correo.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_General.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_Imprimir.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_Lector.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_Mensaje.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_PB.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_CB.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_CTRL.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_FI.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_FRM.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_LI.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_Permiso.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_SQL.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_Tabla.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_XML_V2.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Codigo\Codigo_XML_V1.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Constantes_Sistema.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Controls\ProgressBarPanel.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Controls\ProgressBarEx.vb" />
-    <Compile Include="Codigo_VS_v002_201902\ExtensionMethods.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Controls\TabControlEx.vb">
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_ABC.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_BT.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_CB.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_Correo.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_CTRL.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_FI.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_FRM.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_Imprimir.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_Lector.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_LI.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_Mensaje.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_PB.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_Permiso.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_SP.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_SQL.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo\Codigo_Tabla.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo_General.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo_TOMZA.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo_XML_V1.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Codigo_XML_V2.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Constantes_Sistema.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Controls\ProgressBarEx.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Controls\ProgressBarPanel.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Controls\TabControlEx.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Codigo_VS_v002_201902\Variable_Gl.vb" />
-    <Compile Include="Codigo_VS_v002_201902\Formas\FO_Login.Designer.vb">
-      <DependentUpon>FO_Login.vb</DependentUpon>
+    <Compile Include="Codigo_VS_v003_201903\ExtensionMethods.vb" />
+    <Compile Include="Codigo_VS_v003_201903\Formas\FO_Escritorio.Designer.vb">
+      <DependentUpon>FO_Escritorio.vb</DependentUpon>
     </Compile>
-    <Compile Include="Codigo_VS_v002_201902\Formas\FO_Login.vb">
+    <Compile Include="Codigo_VS_v003_201903\Formas\FO_Escritorio.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Codigo_VS_v003_201903\Formas\FO_Login.Designer.vb">
+      <DependentUpon>FO_Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Codigo_VS_v003_201903\Formas\FO_Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Codigo_VS_v003_201903\Formas\FO_Splash.Designer.vb">
+      <DependentUpon>FO_Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Codigo_VS_v003_201903\Formas\FO_Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Codigo_VS_v003_201903\Variable_Gl.vb" />
     <Compile Include="LIQ19_VS\0_Generales\LIQ19_Codigo.vb" />
     <Compile Include="LIQ19_VS\0_Generales\LIQ19_Constantes.vb" />
     <Compile Include="LIQ19_VS\0_Generales\LIQ19_ExtensionMethods.vb" />
@@ -233,18 +247,6 @@
     <Compile Include="LIQ19_VS\1_Catalogos\FO_PUNTO_VENTA.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Codigo_VS_v002_201902\Formas\FO_Escritorio.Designer.vb">
-      <DependentUpon>FO_Escritorio.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Codigo_VS_v002_201902\Formas\FO_Escritorio.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Codigo_VS_v002_201902\Formas\FO_Splash.Designer.vb">
-      <DependentUpon>FO_Splash.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Codigo_VS_v002_201902\Formas\FO_Splash.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -255,12 +257,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Codigo_VS_v002_201902\Formas\FO_Resultado.designer.vb">
-      <DependentUpon>FO_Resultado.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Codigo_VS_v002_201902\Formas\FO_Resultado.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="LIQ19_VS\0_Generales\UC_MENU_GENERAL.Designer.vb">
       <DependentUpon>UC_MENU_GENERAL.vb</DependentUpon>
     </Compile>
@@ -269,8 +265,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Codigo_VS_v002_201902\Formas\FO_Login.resx">
+    <EmbeddedResource Include="Codigo_VS_v003_201903\Formas\FO_Escritorio.resx">
+      <DependentUpon>FO_Escritorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Codigo_VS_v003_201903\Formas\FO_Login.resx">
       <DependentUpon>FO_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Codigo_VS_v003_201903\Formas\FO_Splash.resx">
+      <DependentUpon>FO_Splash.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LIQ19_VS\0_Generales\Reportes_rdlc\RPT_01_RECIBO_X1.rdlc" />
     <EmbeddedResource Include="LIQ19_VS\0_Generales\Reportes_rdlc\RPT_01_RECIBO_X2.rdlc" />
@@ -307,15 +309,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_PUNTO_VENTA.resx">
       <DependentUpon>FO_PUNTO_VENTA.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Codigo_VS_v002_201902\Formas\FO_Escritorio.resx">
-      <DependentUpon>FO_Escritorio.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Codigo_VS_v002_201902\Formas\FO_Splash.resx">
-      <DependentUpon>FO_Splash.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Codigo_VS_v002_201902\Formas\FO_Resultado.resx">
-      <DependentUpon>FO_Resultado.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LIQ19_VS\0_Generales\UC_MENU_GENERAL.resx">
       <DependentUpon>UC_MENU_GENERAL.vb</DependentUpon>
@@ -748,7 +741,6 @@
   <ItemGroup>
     <Folder Include="bin\" />
     <Folder Include="Prototipos\" />
-    <Folder Include="PYF18_VS\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

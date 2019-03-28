@@ -68,7 +68,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\ADG18_Administradora_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\LIQ19_Liquidaciones_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01B_RECIBO_PDF_PERIODO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -104,7 +104,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\ADG18_Administradora_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\LIQ19_Liquidaciones_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01A_RECIBO_PDF_CLIENTE</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -128,7 +128,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\ADG18_Administradora_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\LIQ19_Liquidaciones_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01C_RECIBO_PDF_RENGLONES</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -172,7 +172,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\ADG18_Administradora_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\LIQ19_Liquidaciones_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01E_RECIBO_PDF_BANCOS</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -216,7 +216,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\ADG18_Administradora_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\LIQ19_Liquidaciones_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01F_RECIBO_PDF_CONTACTO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -236,7 +236,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\ADG18_Administradora_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\LIQ19_Liquidaciones_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01F_RECIBO_PDF_SABIAS_QUE</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -256,7 +256,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\ADG18_Administradora_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\FRANCISCO GITIERREZ\Documents\LIQ19_Liquidaciones_CodigoVB_20181031\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01G_RECIBO_PDF_IMAGEN_MEDIDOR</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -320,7 +320,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\ADG18_Administradora_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\LIQ19_Liquidaciones_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01B_RECIBO_PDF_PERIODO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -356,7 +356,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\ADG18_Administradora_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\LIQ19_Liquidaciones_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01A_RECIBO_PDF_CLIENTE</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -380,7 +380,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\ADG18_Administradora_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\LIQ19_Liquidaciones_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01C_RECIBO_PDF_RENGLONES</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -424,7 +424,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\ADG18_Administradora_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\LIQ19_Liquidaciones_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01E_RECIBO_PDF_BANCOS</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -468,7 +468,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\ADG18_Administradora_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\LIQ19_Liquidaciones_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01F_RECIBO_PDF_CONTACTO</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -488,7 +488,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\ADG18_Administradora_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\LIQ19_Liquidaciones_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01F_RECIBO_PDF_SABIAS_QUE</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -508,7 +508,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\ADG18_Administradora_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\LIQ19_Liquidaciones_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01G_RECIBO_PDF_IMAGEN_MEDIDOR</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -536,7 +536,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\ADG18_Administradora_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\LIQ19_Liquidaciones_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01D_RECIBO_PDF_GRAFICA</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -564,7 +564,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>DSReciboPDF</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\ADG18_Administradora_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Jesus arciniega\Documents\Visual Studio 2017\ProyectosVisual\LIQ19_Liquidaciones_CodigoVB_20181210_FEG\PYF18_Finanzas\DSReciboPDF.xsd</rd:SchemaPath>
         <rd:TableName>PG_RP_01D_RECIBO_PDF_GRAFICA</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
