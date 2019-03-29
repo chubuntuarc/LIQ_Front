@@ -297,6 +297,10 @@ Public Class LIQ19_Codigo
                     Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 60, 2, 0, 1, 0, 0, Nothing, Nothing)
                 Case "CENTRADO LARGO" 'CENTRADO
                     Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 120, 2, 0, 1, 0, 0, Nothing, Nothing)
+                Case "IZQUIERDA" 'DECIMAL LARGO
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 70, 1, 0, 1, 0, 0, Nothing, Nothing)
+                Case "IZQUIERDA LARGO" 'DECIMAL LARGO
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 120, 1, 0, 1, 0, 0, Nothing, Nothing)
                 Case "DECIMAL LARGO" 'DECIMAL LARGO
                     Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 100, 1, 0, 1, 0, 0, Nothing, Nothing)
                 Case "LECTURA" 'LECTURAS
@@ -305,6 +309,12 @@ Public Class LIQ19_Codigo
                     Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(String), 125, 2, 0, 1, 0, 0, Nothing, Nothing)
                 Case "PORCENTAJE" 'PORCENTAJE
                     Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, (Head_Txt + " (%)"), GetType(Decimal), 100, 2, 0, 1, 0, 0, Nothing, Color.LightYellow, 0)
+                Case "PRECIO" 'PRECIO
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, (Head_Txt + " ($)"), GetType(Decimal), 60, 3, 0, 1, 0, 1, Nothing, Color.LightYellow, 0)
+                Case "FECHA" 'FECHA
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(DateTime), 80, 2, 0, 1, 0, 0)
+                Case "FECHA BOLD" 'FECHA
+                    Codigo_LI.PG_LI_COLUMN_ADD(PP_LISTADO, Nom_col, Head_Txt, GetType(DateTime), 100, 2, 0, 1, 0, 0, Nothing, Nothing, 1)
             End Select
 
         Next

@@ -26,10 +26,8 @@ Partial Class FO_OPERADOR
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.CB_LI_ESTATUS_OPERADOR = New System.Windows.Forms.ComboBox()
         Me.GB_FILTROS = New System.Windows.Forms.GroupBox()
-        Me.CB_LI_SEXO = New System.Windows.Forms.ComboBox()
-        Me.Label39 = New System.Windows.Forms.Label()
-        Me.CB_LI_ESTADO_CIVIL = New System.Windows.Forms.ComboBox()
-        Me.Label38 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label14 = New System.Windows.Forms.Label()
         Me.TB_LI_F_INICIAL = New System.Windows.Forms.MaskedTextBox()
         Me.TB_LI_F_FINAL = New System.Windows.Forms.MaskedTextBox()
         Me.Label15 = New System.Windows.Forms.Label()
@@ -58,6 +56,7 @@ Partial Class FO_OPERADOR
         Me.BT_CLONAR = New System.Windows.Forms.Button()
         Me.BT_ELIMINAR = New System.Windows.Forms.Button()
         Me.GB_FICHA = New System.Windows.Forms.GroupBox()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
         Me.TB_ESTADO = New System.Windows.Forms.TextBox()
         Me.Label36 = New System.Windows.Forms.Label()
@@ -94,7 +93,6 @@ Partial Class FO_OPERADOR
         Me.TB_CORREO = New System.Windows.Forms.TextBox()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.TB_CALLE = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
         Me.TB_F_NACIMIENTO = New System.Windows.Forms.MaskedTextBox()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
@@ -144,10 +142,8 @@ Partial Class FO_OPERADOR
         Me.GB_FILTROS.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GB_FILTROS.BackColor = System.Drawing.Color.White
-        Me.GB_FILTROS.Controls.Add(Me.CB_LI_SEXO)
-        Me.GB_FILTROS.Controls.Add(Me.Label39)
-        Me.GB_FILTROS.Controls.Add(Me.CB_LI_ESTADO_CIVIL)
-        Me.GB_FILTROS.Controls.Add(Me.Label38)
+        Me.GB_FILTROS.Controls.Add(Me.Label12)
+        Me.GB_FILTROS.Controls.Add(Me.Label14)
         Me.GB_FILTROS.Controls.Add(Me.TB_LI_F_INICIAL)
         Me.GB_FILTROS.Controls.Add(Me.TB_LI_F_FINAL)
         Me.GB_FILTROS.Controls.Add(Me.Label15)
@@ -166,41 +162,25 @@ Partial Class FO_OPERADOR
         Me.GB_FILTROS.TabStop = False
         Me.GB_FILTROS.Text = "Filtros"
         '
-        'CB_LI_SEXO
+        'Label12
         '
-        Me.CB_LI_SEXO.FormattingEnabled = True
-        Me.CB_LI_SEXO.Location = New System.Drawing.Point(718, 33)
-        Me.CB_LI_SEXO.Name = "CB_LI_SEXO"
-        Me.CB_LI_SEXO.Size = New System.Drawing.Size(118, 21)
-        Me.CB_LI_SEXO.TabIndex = 118
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Segoe UI", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(399, 57)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(57, 11)
+        Me.Label12.TabIndex = 117
+        Me.Label12.Text = " [dd/mm/aaaa]"
         '
-        'Label39
+        'Label14
         '
-        Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(721, 17)
-        Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(31, 13)
-        Me.Label39.TabIndex = 117
-        Me.Label39.Text = "Sexo"
-        '
-        'CB_LI_ESTADO_CIVIL
-        '
-        Me.CB_LI_ESTADO_CIVIL.FormattingEnabled = True
-        Me.CB_LI_ESTADO_CIVIL.Location = New System.Drawing.Point(591, 32)
-        Me.CB_LI_ESTADO_CIVIL.Name = "CB_LI_ESTADO_CIVIL"
-        Me.CB_LI_ESTADO_CIVIL.Size = New System.Drawing.Size(117, 21)
-        Me.CB_LI_ESTADO_CIVIL.TabIndex = 116
-        '
-        'Label38
-        '
-        Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label38.Location = New System.Drawing.Point(594, 16)
-        Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(66, 13)
-        Me.Label38.TabIndex = 115
-        Me.Label38.Text = "Estado Civil"
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Segoe UI", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(504, 57)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(57, 11)
+        Me.Label14.TabIndex = 116
+        Me.Label14.Text = " [dd/mm/aaaa]"
         '
         'TB_LI_F_INICIAL
         '
@@ -226,9 +206,9 @@ Partial Class FO_OPERADOR
         Me.Label15.Font = New System.Drawing.Font("Segoe UI", 6.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.Location = New System.Drawing.Point(497, 19)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(85, 12)
+        Me.Label15.Size = New System.Drawing.Size(59, 12)
         Me.Label15.TabIndex = 112
-        Me.Label15.Text = "Final [dd/mm/aaaa]"
+        Me.Label15.Text = "Vigencia Final"
         '
         'Label16
         '
@@ -236,9 +216,9 @@ Partial Class FO_OPERADOR
         Me.Label16.Font = New System.Drawing.Font("Segoe UI", 6.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.Location = New System.Drawing.Point(389, 19)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(89, 12)
+        Me.Label16.Size = New System.Drawing.Size(63, 12)
         Me.Label16.TabIndex = 111
-        Me.Label16.Text = "Inicial [dd/mm/aaaa]"
+        Me.Label16.Text = "Vigencia Inicial"
         '
         'BT_LI_BUSCAR
         '
@@ -563,6 +543,7 @@ Partial Class FO_OPERADOR
         '
         Me.GB_FICHA.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.GB_FICHA.BackColor = System.Drawing.Color.White
+        Me.GB_FICHA.Controls.Add(Me.Label10)
         Me.GB_FICHA.Controls.Add(Me.Label40)
         Me.GB_FICHA.Controls.Add(Me.TB_ESTADO)
         Me.GB_FICHA.Controls.Add(Me.Label36)
@@ -599,7 +580,6 @@ Partial Class FO_OPERADOR
         Me.GB_FICHA.Controls.Add(Me.TB_CORREO)
         Me.GB_FICHA.Controls.Add(Me.Label21)
         Me.GB_FICHA.Controls.Add(Me.TB_CALLE)
-        Me.GB_FICHA.Controls.Add(Me.Label10)
         Me.GB_FICHA.Controls.Add(Me.TB_F_NACIMIENTO)
         Me.GB_FICHA.Controls.Add(Me.Label20)
         Me.GB_FICHA.Controls.Add(Me.Label18)
@@ -627,12 +607,22 @@ Partial Class FO_OPERADOR
         Me.GB_FICHA.Controls.Add(Me.TB_C_CHOFER)
         Me.GB_FICHA.Controls.Add(Me.TB_RFC)
         Me.GB_FICHA.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.GB_FICHA.Location = New System.Drawing.Point(212, 167)
+        Me.GB_FICHA.Location = New System.Drawing.Point(237, 101)
         Me.GB_FICHA.Name = "GB_FICHA"
         Me.GB_FICHA.Size = New System.Drawing.Size(583, 402)
-        Me.GB_FICHA.TabIndex = 41
+        Me.GB_FICHA.TabIndex = 42
         Me.GB_FICHA.TabStop = False
         Me.GB_FICHA.Text = "Ficha"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 6.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(488, 143)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(65, 12)
+        Me.Label10.TabIndex = 251
+        Me.Label10.Text = "[dd/mm/aaaa]"
         '
         'Label40
         '
@@ -661,7 +651,7 @@ Partial Class FO_OPERADOR
         '
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Segoe UI", 6.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.Location = New System.Drawing.Point(157, 284)
+        Me.Label36.Location = New System.Drawing.Point(308, 284)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(65, 12)
         Me.Label36.TabIndex = 211
@@ -669,7 +659,7 @@ Partial Class FO_OPERADOR
         '
         'TB_F_VIGENCIA_LICENCIA
         '
-        Me.TB_F_VIGENCIA_LICENCIA.Location = New System.Drawing.Point(156, 258)
+        Me.TB_F_VIGENCIA_LICENCIA.Location = New System.Drawing.Point(299, 263)
         Me.TB_F_VIGENCIA_LICENCIA.Mask = "00/00/0000"
         Me.TB_F_VIGENCIA_LICENCIA.Name = "TB_F_VIGENCIA_LICENCIA"
         Me.TB_F_VIGENCIA_LICENCIA.Size = New System.Drawing.Size(85, 20)
@@ -681,7 +671,7 @@ Partial Class FO_OPERADOR
         '
         Me.Label37.AutoSize = True
         Me.Label37.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label37.Location = New System.Drawing.Point(154, 242)
+        Me.Label37.Location = New System.Drawing.Point(297, 247)
         Me.Label37.Name = "Label37"
         Me.Label37.Size = New System.Drawing.Size(103, 13)
         Me.Label37.TabIndex = 210
@@ -691,7 +681,7 @@ Partial Class FO_OPERADOR
         '
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label35.Location = New System.Drawing.Point(29, 240)
+        Me.Label35.Location = New System.Drawing.Point(29, 245)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(54, 13)
         Me.Label35.TabIndex = 208
@@ -702,9 +692,9 @@ Partial Class FO_OPERADOR
         Me.TB_NUMERO_LICENCIA_OPERADOR.AccessibleDescription = ""
         Me.TB_NUMERO_LICENCIA_OPERADOR.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TB_NUMERO_LICENCIA_OPERADOR.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_NUMERO_LICENCIA_OPERADOR.Location = New System.Drawing.Point(25, 256)
+        Me.TB_NUMERO_LICENCIA_OPERADOR.Location = New System.Drawing.Point(25, 261)
         Me.TB_NUMERO_LICENCIA_OPERADOR.Name = "TB_NUMERO_LICENCIA_OPERADOR"
-        Me.TB_NUMERO_LICENCIA_OPERADOR.Size = New System.Drawing.Size(120, 22)
+        Me.TB_NUMERO_LICENCIA_OPERADOR.Size = New System.Drawing.Size(268, 22)
         Me.TB_NUMERO_LICENCIA_OPERADOR.TabIndex = 200
         Me.TB_NUMERO_LICENCIA_OPERADOR.Tag = ""
         '
@@ -755,9 +745,9 @@ Partial Class FO_OPERADOR
         Me.TB_TELEFONO.AccessibleDescription = ""
         Me.TB_TELEFONO.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TB_TELEFONO.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_TELEFONO.Location = New System.Drawing.Point(344, 213)
+        Me.TB_TELEFONO.Location = New System.Drawing.Point(314, 213)
         Me.TB_TELEFONO.Name = "TB_TELEFONO"
-        Me.TB_TELEFONO.Size = New System.Drawing.Size(120, 22)
+        Me.TB_TELEFONO.Size = New System.Drawing.Size(150, 22)
         Me.TB_TELEFONO.TabIndex = 180
         Me.TB_TELEFONO.Tag = "1"
         '
@@ -766,7 +756,7 @@ Partial Class FO_OPERADOR
         Me.TB_NSS.AccessibleDescription = ""
         Me.TB_NSS.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TB_NSS.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_NSS.Location = New System.Drawing.Point(314, 115)
+        Me.TB_NSS.Location = New System.Drawing.Point(314, 120)
         Me.TB_NSS.Name = "TB_NSS"
         Me.TB_NSS.Size = New System.Drawing.Size(150, 22)
         Me.TB_NSS.TabIndex = 90
@@ -885,7 +875,7 @@ Partial Class FO_OPERADOR
         '
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label26.Location = New System.Drawing.Point(341, 241)
+        Me.Label26.Location = New System.Drawing.Point(484, 246)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(24, 13)
         Me.Label26.TabIndex = 185
@@ -895,7 +885,7 @@ Partial Class FO_OPERADOR
         '
         Me.TB_SALARIO_DIARIO_INTEGRADO.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TB_SALARIO_DIARIO_INTEGRADO.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_SALARIO_DIARIO_INTEGRADO.Location = New System.Drawing.Point(344, 256)
+        Me.TB_SALARIO_DIARIO_INTEGRADO.Location = New System.Drawing.Point(487, 261)
         Me.TB_SALARIO_DIARIO_INTEGRADO.MaxLength = 100
         Me.TB_SALARIO_DIARIO_INTEGRADO.Name = "TB_SALARIO_DIARIO_INTEGRADO"
         Me.TB_SALARIO_DIARIO_INTEGRADO.Size = New System.Drawing.Size(75, 22)
@@ -906,7 +896,7 @@ Partial Class FO_OPERADOR
         '
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label25.Location = New System.Drawing.Point(257, 241)
+        Me.Label25.Location = New System.Drawing.Point(400, 246)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(76, 13)
         Me.Label25.TabIndex = 183
@@ -916,7 +906,7 @@ Partial Class FO_OPERADOR
         '
         Me.TB_SALARIO_DIARIO.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TB_SALARIO_DIARIO.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_SALARIO_DIARIO.Location = New System.Drawing.Point(260, 256)
+        Me.TB_SALARIO_DIARIO.Location = New System.Drawing.Point(403, 261)
         Me.TB_SALARIO_DIARIO.MaxLength = 100
         Me.TB_SALARIO_DIARIO.Name = "TB_SALARIO_DIARIO"
         Me.TB_SALARIO_DIARIO.Size = New System.Drawing.Size(75, 22)
@@ -940,7 +930,7 @@ Partial Class FO_OPERADOR
         Me.TB_MUNICIPIO.Location = New System.Drawing.Point(25, 213)
         Me.TB_MUNICIPIO.MaxLength = 16
         Me.TB_MUNICIPIO.Name = "TB_MUNICIPIO"
-        Me.TB_MUNICIPIO.Size = New System.Drawing.Size(150, 22)
+        Me.TB_MUNICIPIO.Size = New System.Drawing.Size(272, 22)
         Me.TB_MUNICIPIO.TabIndex = 160
         Me.TB_MUNICIPIO.Tag = ""
         '
@@ -1007,19 +997,9 @@ Partial Class FO_OPERADOR
         Me.TB_CALLE.TabIndex = 110
         Me.TB_CALLE.Tag = ""
         '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 6.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(475, 141)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(65, 12)
-        Me.Label10.TabIndex = 174
-        Me.Label10.Text = "[dd/mm/aaaa]"
-        '
         'TB_F_NACIMIENTO
         '
-        Me.TB_F_NACIMIENTO.Location = New System.Drawing.Point(477, 115)
+        Me.TB_F_NACIMIENTO.Location = New System.Drawing.Point(477, 120)
         Me.TB_F_NACIMIENTO.Mask = "00/00/0000"
         Me.TB_F_NACIMIENTO.Name = "TB_F_NACIMIENTO"
         Me.TB_F_NACIMIENTO.Size = New System.Drawing.Size(85, 20)
@@ -1031,7 +1011,7 @@ Partial Class FO_OPERADOR
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.Location = New System.Drawing.Point(477, 99)
+        Me.Label20.Location = New System.Drawing.Point(477, 104)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(74, 13)
         Me.Label20.TabIndex = 172
@@ -1041,7 +1021,7 @@ Partial Class FO_OPERADOR
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Segoe UI", 6.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(476, 239)
+        Me.Label18.Location = New System.Drawing.Point(488, 236)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(65, 12)
         Me.Label18.TabIndex = 171
@@ -1071,7 +1051,7 @@ Partial Class FO_OPERADOR
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(489, 156)
+        Me.Label19.Location = New System.Drawing.Point(477, 156)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(20, 13)
         Me.Label19.TabIndex = 47
@@ -1082,9 +1062,9 @@ Partial Class FO_OPERADOR
         Me.TB_CP.AccessibleDescription = ""
         Me.TB_CP.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TB_CP.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_CP.Location = New System.Drawing.Point(487, 172)
+        Me.TB_CP.Location = New System.Drawing.Point(477, 172)
         Me.TB_CP.Name = "TB_CP"
-        Me.TB_CP.Size = New System.Drawing.Size(75, 22)
+        Me.TB_CP.Size = New System.Drawing.Size(85, 22)
         Me.TB_CP.TabIndex = 150
         Me.TB_CP.Tag = ""
         '
@@ -1188,7 +1168,7 @@ Partial Class FO_OPERADOR
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(317, 98)
+        Me.Label4.Location = New System.Drawing.Point(317, 103)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(29, 13)
         Me.Label4.TabIndex = 28
@@ -1218,7 +1198,7 @@ Partial Class FO_OPERADOR
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(28, 100)
+        Me.Label3.Location = New System.Drawing.Point(28, 105)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(35, 13)
         Me.Label3.TabIndex = 12
@@ -1238,7 +1218,7 @@ Partial Class FO_OPERADOR
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(185, 98)
+        Me.Label8.Location = New System.Drawing.Point(185, 103)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(27, 13)
         Me.Label8.TabIndex = 16
@@ -1249,7 +1229,7 @@ Partial Class FO_OPERADOR
         Me.TB_CURP.AccessibleDescription = ""
         Me.TB_CURP.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TB_CURP.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_CURP.Location = New System.Drawing.Point(25, 115)
+        Me.TB_CURP.Location = New System.Drawing.Point(25, 120)
         Me.TB_CURP.Name = "TB_CURP"
         Me.TB_CURP.Size = New System.Drawing.Size(150, 22)
         Me.TB_CURP.TabIndex = 70
@@ -1269,7 +1249,7 @@ Partial Class FO_OPERADOR
         Me.TB_RFC.AccessibleDescription = ""
         Me.TB_RFC.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TB_RFC.Font = New System.Drawing.Font("Segoe UI", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TB_RFC.Location = New System.Drawing.Point(185, 115)
+        Me.TB_RFC.Location = New System.Drawing.Point(185, 120)
         Me.TB_RFC.Name = "TB_RFC"
         Me.TB_RFC.Size = New System.Drawing.Size(120, 22)
         Me.TB_RFC.TabIndex = 80
@@ -1334,10 +1314,8 @@ Partial Class FO_OPERADOR
     Friend WithEvents TB_LI_F_FINAL As MaskedTextBox
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
-    Public WithEvents CB_LI_SEXO As ComboBox
-    Friend WithEvents Label39 As Label
-    Public WithEvents CB_LI_ESTADO_CIVIL As ComboBox
-    Friend WithEvents Label38 As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label14 As Label
     Public WithEvents GB_FICHA As GroupBox
     Friend WithEvents Label40 As Label
     Public WithEvents TB_ESTADO As TextBox
@@ -1375,7 +1353,6 @@ Partial Class FO_OPERADOR
     Public WithEvents TB_CORREO As TextBox
     Friend WithEvents Label21 As Label
     Public WithEvents TB_CALLE As TextBox
-    Friend WithEvents Label10 As Label
     Friend WithEvents TB_F_NACIMIENTO As MaskedTextBox
     Friend WithEvents Label20 As Label
     Friend WithEvents Label18 As Label
@@ -1402,4 +1379,5 @@ Partial Class FO_OPERADOR
     Public WithEvents TB_CURP As TextBox
     Public WithEvents TB_C_CHOFER As TextBox
     Public WithEvents TB_RFC As TextBox
+    Friend WithEvents Label10 As Label
 End Class
