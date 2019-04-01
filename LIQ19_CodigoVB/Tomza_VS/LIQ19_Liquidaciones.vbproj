@@ -230,6 +230,12 @@
     <Compile Include="Base\Listado.vb" />
     <Compile Include="Base\Mensaje.vb" />
     <Compile Include="Base\Movimiento.vb" />
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_RUTA_REPARTO.Designer.vb">
+      <DependentUpon>FO_RUTA_REPARTO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LIQ19_VS\1_Catalogos\FO_RUTA_REPARTO.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -297,6 +303,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_PRUEBA.resx">
       <DependentUpon>FO_PRUEBA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LIQ19_VS\1_Catalogos\FO_RUTA_REPARTO.resx">
+      <DependentUpon>FO_RUTA_REPARTO.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -314,6 +314,11 @@ LIQ19_Liquidaciones
  'FUNCION QUE CARGARA LA PARTE DE LA FICHA
  </summary>
 </member>
+<member name="M:LIQ19_Liquidaciones.FO_RUTA_REPARTO.PM_FI_LOAD(System.String)">
+ <summary>
+ 'FUNCION QUE CARGARA LA PARTE DE LA FICHA
+ </summary>
+</member>
 <member name="M:LIQ19_Liquidaciones.FO_PRELIQUIDACION.PM_FI_LOAD(System.String)">
  <summary>
  'FUNCION QUE CARGARA LA PARTE DE LA FICHA
